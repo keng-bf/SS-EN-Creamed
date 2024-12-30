@@ -1,0 +1,132 @@
+{
+	"Fonts": [
+		{
+			"name": 		"font",
+			"sprite": 		"default",
+			"map": 			"ABCDEFGHIJKLMNOPQRSTUVWXYZ!.1234567890:",
+			"separation": 	0,
+		},
+		{
+			"name":			"smallfont",
+			"sprite":		"default",
+			"map":			"ABCDEFGHIJKLMNOPQRSTUVWXYZ.!1234567890-:",
+			"separation":	0,
+		},
+		{
+			"name":			"creditsfont",
+			"sprite":		"default",
+			"map":			" ABCDEFGHIJKLMNOPQRSTUVWXYZ.!,abcdefghijklmnopqrstuvwxyz0123456789@#$%^&*(){}[]|:;'/`",
+			"separation":	0,
+		},
+		{
+			"name":			"collectfont",
+			"sprite":		"default",
+			"map":			"0123456789",
+			"separation":	0,
+		},
+		{
+			"name":			"candlefont",
+			"sprite":		"default",
+			"map":			"0123456789",
+			"separation":	0,
+		},
+		{
+			"name":			"rankcombofont",
+			"sprite":		"default",
+			"map":			"0123456789",
+			"separation":	0,
+		},
+		{
+			"name":			"bubblefont",
+			"sprite":		"default",
+			"map":			"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+			"separation":	0,
+		},
+		{
+			"name":			"timerfont",
+			"sprite":		"default",
+			"map":			"1234567890",
+			"separation":	6,
+			"nonprop":		"true",
+		},
+		{
+			"name":			"combofont",
+			"sprite":		"default",
+			"map":			"1234567890",
+			"separation":	2,
+		},
+		{
+			"name":			"lapfont",
+			"sprite":		"default",
+			"map":			"1234567890",
+			"separation":	2,
+			"xoff":			24,
+			"yoff":			38,
+		},
+		{
+			"name":			"dialogfont",
+			"sprite":		"default",
+			"map":			"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz,.!?:;`'/-_+=1234567890@#$%^&*()[]",
+			"separation":	2,
+			"xoff":			64,
+			"yoff":			64,
+		},
+		{
+			"name":			"buttonfont",
+			"sprite":		"default",
+			"map":			"ABCDEFGHIJKLMNOPQRSTUVWXYZ$%&*()/",
+			"separation":	0,
+			"xoff":			16,
+			"yoff":			16,
+		},
+		{
+			"name":			"promptfont",
+			"sprite":		"default",
+			"map":			"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.:!0123456789?'\"ÁÉÍÓÚáéíóú_-[]▼()&#风雨廊桥전태양*яиБжидГзвбнль",
+			"separation":	0,
+			"xoff":			16,
+			"yoff":			16,
+		},
+		{
+			"name":			"npcfont",
+			"sprite":		"default",
+			"map":			"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!,.:0123456789'?-",
+			"separation":	2,
+		},
+		{
+			"name":			"keyDrawFont",
+			"sprite":		"default",
+			"map":			"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+=-*'`,./\\[];",
+			"separation":	0,
+			"xoff":			28,
+			"yoff":			0,
+		},
+	],
+	"Keys": [
+		{
+			"name": "keys_EN",
+			"map": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+		},
+	],
+	"Sprites": [{
+		"spr_newpause_border": "evil",
+		
+		"spr_entrycard_bg": "default",
+		"spr_entrycard_title": "default",
+		"spr_asset_entryway1": "default",
+		"spr_asset_entryway2": "default",
+		"spr_asset_entryway3": "default",
+		"spr_asset_entryway4": "default",
+		"spr_asset_entryway5": "default",
+		"spr_asset_entryway6": "default",
+		
+		"spr_cottoncard_bg": "default",
+		"spr_cottoncard_title": "default",
+		
+		"spr_minescard_bg": "default",
+		"spr_minescard_title": "default",
+		
+		"spr_molassescard_bg": "default",
+		"spr_molassescard_title": "default",
+	}]
+}

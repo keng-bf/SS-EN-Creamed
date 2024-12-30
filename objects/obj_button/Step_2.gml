@@ -1,0 +1,2 @@
+logicOutput = currentState == States.normal;
+
