@@ -103,8 +103,8 @@
   "optionsFile": "options.json",
   "packageId": "",
   "parent": {
-    "name": "DiscordRPC",
-    "path": "folders/Extensions/DiscordRPC.yy",
+    "name": "NekoPresence",
+    "path": "folders/Extensions/NekoPresence.yy",
   },
   "productId": "",
   "sourcedir": "",

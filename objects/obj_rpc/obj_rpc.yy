@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "DiscordRPC",
-    "path": "folders/Extensions/DiscordRPC.yy",
+    "name": "NekoPresence",
+    "path": "folders/Extensions/NekoPresence.yy",
   },
   "parentObjectId": null,
   "persistent": true,
