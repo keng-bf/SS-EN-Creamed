@@ -117,8 +117,8 @@
   "optionsFile": "options.json",
   "packageId": "",
   "parent": {
-    "name": "Extensions",
-    "path": "folders/Extensions.yy",
+    "name": "Gameframe",
+    "path": "folders/Extensions/Gameframe.yy",
   },
   "productId": "",
   "sourcedir": "",

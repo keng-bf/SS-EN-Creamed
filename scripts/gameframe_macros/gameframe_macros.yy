@@ -6,6 +6,6 @@
   "isDnD": false,
   "parent": {
     "name": "Gameframe",
-    "path": "folders/Scripts/Systems/Gameframe.yy",
+    "path": "folders/Extensions/Gameframe.yy",
   },
 }

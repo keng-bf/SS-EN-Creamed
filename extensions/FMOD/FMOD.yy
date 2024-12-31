@@ -2336,8 +2336,8 @@
   "optionsFile": "options.json",
   "packageId": "",
   "parent": {
-    "name": "Extensions",
-    "path": "folders/Fmod/Extensions.yy",
+    "name": "Fmod",
+    "path": "folders/Extensions/Fmod.yy",
   },
   "productId": "",
   "sourcedir": "",

@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "DiscordRPC",
+    "path": "folders/Extensions/DiscordRPC.yy",
   },
   "parentObjectId": null,
   "persistent": true,
