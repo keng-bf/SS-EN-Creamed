@@ -109,7 +109,7 @@
 		},
 	],
 	"Sprites": [{
-		"spr_newpause_border": "evil",
+		"spr_newpause_border": "default",
 		
 		"spr_entrycard_bg": "default",
 		"spr_entrycard_title": "default",

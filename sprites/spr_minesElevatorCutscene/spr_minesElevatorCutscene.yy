@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b46882a-c6b4-4068-85cc-81999ea2776c",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fcd80ae2-c02f-4290-93b4-8dadfb3fe993",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"edfa3f90-4128-4ee1-9025-e33375d8b6f0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"340b056b-1e8e-4b8a-9bb5-d504294a98f1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"35d13d71-e515-4175-9c46-287afa2d050b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"87a80471-3151-41ac-ad84-5bd73cfec109",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 600,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6dc1d995-36f3-4acd-80e4-da0fec02b260","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9ba66490-63f7-4c08-a217-86a4fce600e2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5b46882a-c6b4-4068-85cc-81999ea2776c","path":"sprites/spr_minesElevatorCutscene/spr_minesElevatorCutscene.yy",},},},"Disabled":false,"id":"9a449191-4088-4c9f-8cd1-976611cfdf50","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fcd80ae2-c02f-4290-93b4-8dadfb3fe993","path":"sprites/spr_minesElevatorCutscene/spr_minesElevatorCutscene.yy",},},},"Disabled":false,"id":"3129b448-89cc-4682-b7f9-5393ffe0c604","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"edfa3f90-4128-4ee1-9025-e33375d8b6f0","path":"sprites/spr_minesElevatorCutscene/spr_minesElevatorCutscene.yy",},},},"Disabled":false,"id":"a8d0a1e9-d84a-4b90-9d9a-dd2303726e74","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"340b056b-1e8e-4b8a-9bb5-d504294a98f1","path":"sprites/spr_minesElevatorCutscene/spr_minesElevatorCutscene.yy",},},},"Disabled":false,"id":"59ff0988-24cb-46f0-8b19-12cf27742ca6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"35d13d71-e515-4175-9c46-287afa2d050b","path":"sprites/spr_minesElevatorCutscene/spr_minesElevatorCutscene.yy",},},},"Disabled":false,"id":"f194cf32-b6a2-4ef6-82ee-a3472799c98a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"87a80471-3151-41ac-ad84-5bd73cfec109","path":"sprites/spr_minesElevatorCutscene/spr_minesElevatorCutscene.yy",},},},"Disabled":false,"id":"f2d080bd-ed1b-4aa5-826a-5327847190e0","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

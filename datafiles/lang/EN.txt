@@ -18,6 +18,30 @@
 #
 # Animated sprites, fonts, and keys should utilize 
 # sprite strips with no additional padding or offsets.
+
+# -------------
+# GAMEPAD ICONS
+# -------------
+# [kU] Up
+# [kL] Left
+# [kR] Right
+# [kD] Down
+# [kF] Forward
+# [kB] Backwards
+# [kG] Grab
+# [kM] Mach
+# [kJ] Jump
+# [kT] Taunt
+# [kGP] Groundpound
+# [kSJ] Superjump
+# [kFWD] Forwards
+# [kBCK] Backwards
+# -------------
+# DIALOG PROFILES
+# -------------
+# [pNPC] Ice Pop / NPC dialog
+# [pPrompt] Tutorial Prompts
+
 #-----------------------#
 "langFolder" : "EN"
 
@@ -39,14 +63,14 @@
 # Tutorial Dialogue
 "icepop_tut_1" : "Ho ho! Hello there, kiddo, I'm your Ice-Pop! I'm here to teach you some new things you should know! Before that though, I just want you to try making it through this room real quick. No sweat, right?"
 "icepop_tut_2" : "Usually, there's little candy creatures in these things, but I put my annoying grandchildren in them instead! Make sure to grab 'em if ya see 'em."
-"icepop_tut_3" : "Those pesky jawbreakers in the way? Not to worry! Your Super Jump can smash right through those tough blocks! You can also adjust yourself slightly left or right while going up."
-"icepop_tut_4" : "Tally Ho! My egg of a son, Ice Pop, won't tell you this, but I, Grandpa Cone, will. A lass like yourself can hover in the air with your grab move. Pressing it twice will do a cool roll attack!"
-"icepop_tut_5" : "With enough speed from your mach run, you can slide through jawbreakers! Go ahead kiddo, try it out!"
-"icepop_tut_6" : "If you press jump while you're scootin' up a wall, you'll be able to kick off of it and move freely! While in the air, you can press down to fall faster, or cancel it back into your mach run with a grab."
-"icepop_tut_7" : "While you're doing a wallkick, you'll automatically break through any weaker blocks. Go get 'em sport!"
+"icepop_tut_3" : "Those pesky jawbreakers in the way? Not to worry! Your Super Jump [kSJ] can smash right through those tough blocks! You can also adjust yourself slightly left or right while going up."
+"icepop_tut_4" : "Tally Ho! My egg of a son, Ice Pop, won't tell you this, but I, Grandpa Cone, will. A lass like yourself can hover in the air with [kG]. Pressing it twice will do a cool roll attack!"
+"icepop_tut_5" : "With enough speed from your Mach Run, you can press [kD] to slide through jawbreakers! Go ahead kiddo, try it out!"
+"icepop_tut_6" : "If you press [kJ] while you're scootin' up a wall, you'll be able to wallkick off of it and move freely! This can break weaker blocks. When you land, this will boost you forward if you keep [kM] held!"
+"icepop_tut_7" : "While you're doing a wallkick, press [kD] to quickly fall down! Go get 'em sport!"
 "icepop_tut_8" : "Oh, I just remembered! If you ever see /1 Rudy, go and say hi to him for me! He's got keys for all the locked doors around here, I'm sure he'll letcha in if you ask nicely. I know how much you youngsters love collecting trinkets and such..."
 "icepop_tut_9" : "That big gummy guy over there is /1 Harry. If you smack him, the door you came in from will open again! Once that happens, you had better scoot your way back quickly. If you're fast enough, you can pay a visit to /2 Polka and go 'round again, /3 ya silly sprat!"
-
+"icepop_tut_10" : "During a wallkick, press [kG] while midair to cancel it into a Mach Run! You can use this to break Jawbreaker blocks!"
 
 
 # Painter's Demo Dialogue
@@ -122,7 +146,7 @@
 
 # Judgement Hint Prompt
 
-"demo_judgement_hint" : "The Painter is in the Frog Room, you should go and see him."
+"demo_judgement_hint" : "The Painter is waiting for you in The Frog's room..."
 
 #-----------------------#
 # Level Names
@@ -158,7 +182,7 @@
 "task_ct_clock_room"             : "What Time Won't Tell"
 "task_ct_clock_room_desc"        : "Find the clock room in Cottontown"
 "task_ct_all_witches"            : "Witch Hunt"
-"task_ct_all_witches_desc"       : "Kill every Cottonwitch in Cottontown"
+"task_ct_all_witches_desc"       : "Kill every [iCw] [#ef91da]Cottonwitch[c_white] in Cottontown"
 "task_ct_few_cotton_blocks"      : "Thanks, I'll Pass"
 "task_ct_few_cotton_blocks_desc" : "Drill into just 10 or fewer cotton blocks\nbefore the escape in Cottontown"
 
@@ -168,7 +192,7 @@
 "task_sm_minecart_nohit"         : "Mined The Gap"
 "task_sm_minecart_nohit_desc"    : "Avoid getting hit or falling off the track on the Minecart in Sugarshack Mines"
 "task_sm_slug"                   : "Whack-A-Slug"
-"task_sm_slug_desc"              : "Kill at least 5 airborne sluggies\nin Sugarshack Mines"
+"task_sm_slug_desc"              : "Kill at least 5 airborne [iSl] [#ed2c48]sluggies[c_white] in Sugarshack Mines"
 
 # Molasses Swamp
 "task_ms_all_geyser"             : "On The Rocks"
@@ -292,8 +316,7 @@
 #-----------------------#
 
 # NOTE: Basically all of these go to scribble draw commands.
-# Maybe we should sanitize these for square brackets?
-# Nahhhhh...
+
 
 # Character Name.
 "prompt_PZ" : "Pizzelle"
@@ -307,6 +330,12 @@
 "prompt_dash"       : "Dash"
 "prompt_crouch"     : "Crouch"
 "prompt_pullback"   : "Pull Back"
+"prompt_test" 		: "[kL][kD][kU] Testing [kL][kL]"
+
+"prompt_werecotton" : "[kJ][kJ] Double Jump [kG] Dig"
+"prompt_minecart" : "[kJ] Jump [kD] Crouch"
+"prompt_fling" : "[kL][kD][kR] Pull Back"
+"prompt_fireass" : "[kG] Dash"
 
 # Tutorial prompt.
 "prompt_lap_unlockall" : "All Lap 2 portals unlocked!"
@@ -337,6 +366,10 @@
 # Singular and plural versions of the same word.
 "prompt_secret_singular" : "Secret"
 "prompt_secret_plural"   : "Secrets"
+
+# Painter Mixtape prompts.
+"prompt_mixtape_nosoundtest" : "This would be more useful with all /1 INK..."
+"prompt_mixtape_soundtest" : "You have new tunes to listen to!"
 
 # Miscellaneous Prompt
 "prompt_guilttrip" : "What did he do to you...?"
@@ -446,11 +479,11 @@
 "opt_ctrl_keyboard"              : "KEYBOARD"
 "opt_ctrl_controller"            : "CONTROLLER"
 "opt_ctrl_bindings"              : "BINDINGS"
-"opt_ctrl_keyboardsuperjump"     : "KEYBOARD SUPERJUMP"
-"opt_ctrl_keyboardgroundpound"   : "KEYBOARD GROUNDPOUND"
+"opt_ctrl_keyboardsuperjump"     : "DIR. SUPERJUMP"
+"opt_ctrl_keyboardgroundpound"   : "DIR. GROUNDPOUND"
 "opt_ctrl_deadzones"             : "DEADZONES"
-"opt_ctrl_controllersuperjump"   : "CONTROLLER SUPERJUMP"
-"opt_ctrl_controllergroundpound" : "CONTROLLER GROUNDPOUND"
+"opt_ctrl_controllersuperjump"   : "DIR. SUPERJUMP"
+"opt_ctrl_controllergroundpound" : "DIR. GROUNDPOUND"
 
 # Deadzone Setup Submenu
 "opt_ctrl_dz_gen"        : "GENERAL"
@@ -487,6 +520,18 @@
 "opt_keyconfig_superjump"    : "superjump"
 "opt_keyconfig_groundpound"  : "groundpound"
 "opt_keyconfig_start"        : "start"
+
+"opt_keyconfig_menuup"		 : "menu up"
+"opt_keyconfig_menudown"	 : "menu down"
+"opt_keyconfig_menuleft"	 : "menu left"
+"opt_keyconfig_menuright"	 : "menu right"
+"opt_keyconfig_menuconfirm"	 : "confirm"
+"opt_keyconfig_menuback"	 : "exit"
+"opt_keyconfig_menudelete"	 : "delete"
+
+"opt_keyconfig_cancel"		 : "CANCEL"
+"opt_keyconfig_deny"		 : "EXIT WITHOUT SAVING"
+"opt_keyconfig_save"		 : "SAVE CHANGES"
 
 # Keyconfig Controller Input Names
 "opt_keyconfig_upc"          : "upc"
