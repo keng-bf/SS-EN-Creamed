@@ -1,6 +1,6 @@
 var old_selection;
 
-scr_getinput();
+scr_getinput_menu();
 old_selection = optionSelection;
 optionSelection += (key_right2 + key_left2);
 optionSelection = clamp(optionSelection, 0, 1);

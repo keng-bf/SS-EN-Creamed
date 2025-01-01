@@ -6,22 +6,22 @@ function scr_setTransfoTip(argument0)
         case States.cottondrill:
         case States.cottonroll:
         case States.cottondig:
-            global.TransfoPrompt = string("{0}{1}[spr_promptfont] {2} {3}{4}{5}{6}{7}[spr_promptfont] {8}", get_control_sprite("jump"), get_control_sprite("jump"), lang_get("prompt_doublejump"), get_control_sprite("slap"), get_control_sprite("up"), get_control_sprite("down"), get_control_sprite("left"), get_control_sprite("right"), lang_get("prompt_dash"));
+            global.TransfoPrompt = "prompt_werecotton";
             break;
         
         case States.minecart:
         case States.minecart_bump:
         case States.minecart_launched:
-            global.TransfoPrompt = string("{0}[spr_promptfont] {1} {2}[spr_promptfont] {3}", get_control_sprite("jump"), lang_get("prompt_jump"), get_control_sprite("down"), lang_get("prompt_crouch"));
+            global.TransfoPrompt = "prompt_minecart";
             break;
         
         case States.fling:
-            global.TransfoPrompt = string("{0}{1}{2}{3}[spr_promptfont] {4}", get_control_sprite("up"), get_control_sprite("down"), get_control_sprite("left"), get_control_sprite("right"), lang_get("prompt_pullback"));
+            global.TransfoPrompt = "prompt_fling";
             break;
         
         case States.fireass:
         case States.fireassdash:
-            global.TransfoPrompt = string("{0}[spr_promptfont] {1}", get_control_sprite("slap"), lang_get("prompt_dash"));
+            global.TransfoPrompt = "prompt_fireass";
             break;
         
         default:
@@ -91,4 +91,3 @@ function scr_transformationCheck(argument0)
     
     return transfo;
 }
-

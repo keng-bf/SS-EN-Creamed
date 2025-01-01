@@ -17,7 +17,7 @@ gotoLevel = function(argument0)
     {
         image_index = 0;
         
-        if (1 && global.InternalLevelName != "tutorial")
+        if isDemo && global.InternalLevelName != "tutorial"
         {
             sprite_index = spr_enterpainting;
             event_play_oneshot("event:/SFX/general/enterpainting");

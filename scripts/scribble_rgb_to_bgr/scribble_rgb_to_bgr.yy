@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Miscellaneous",
-    "path": "folders/Extensions/Scribble/Miscellaneous.yy",
+    "name": "Legacy",
+    "path": "folders/Extensions/Scribble/Legacy.yy",
   },
 }

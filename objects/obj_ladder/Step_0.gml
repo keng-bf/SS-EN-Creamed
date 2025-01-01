@@ -8,7 +8,7 @@ if (place_meeting(x, y - 16, obj_parent_player))
     {
         collide = place_meeting(x, y + 1, obj_ladder) && !place_meeting_collision(other.x + (other.sprite_width / 2), round(y + 5), Exclude.MOVINGANDPLATFORMS);
         
-        if ((collide && key_down && !key_up) && (grounded && (state == States.crouch || state == States.freefallland)))
+        if ((collide && key_down && !key_up) && !inputLadderBuffer && (grounded && (state == States.crouch || state == States.freefallland)))
         {
             hsp = 0;
             vsp = 0;
@@ -22,4 +22,3 @@ if (place_meeting(x, y - 16, obj_parent_player))
         }
     }
 }
-

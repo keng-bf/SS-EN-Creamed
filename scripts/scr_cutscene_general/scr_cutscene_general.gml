@@ -36,18 +36,18 @@ function cutscene_create_instance(argument0, argument1, argument2)
     cutscene_event_end();
 }
 
-function cutscene_do_func(argument0)
+function cutscene_do_func(func)
 {
-    script_execute(argument0);
+    func();
     cutscene_event_end();
 }
 
-function cutscene_with_actor(argument0, argument1)
+function cutscene_with_actor(actor, func)
 {
     cutscene_event_end();
     
-    with (cutscene_get_actor(argument0))
-        return script_execute(argument1);
+    with (cutscene_get_actor(actor))
+        return func();
 }
 
 function cutscene_do_dialog(argument0, argument1 = false)

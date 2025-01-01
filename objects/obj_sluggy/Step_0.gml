@@ -5,7 +5,7 @@ canGetScared = grounded && state != States.titlescreen && state != States.burrow
 enemyAttack_TriggerEvent();
 burrowTimer = max(burrowTimer - 1, 0);
 
-if (state == States.titlescreen && sprite_index == spr_sluggy_jump && vsp <= 0)
+if (state == States.titlescreen && sprite_index == spr_sluggy_jump)
 {
     canBreakBlocks = true;
     doRedAfterImage = true;

@@ -57,9 +57,9 @@ function state_player_superslam()
         }
     }
     
-    if (vsp > 0)
+    if (sprite_index == spr_piledriver && vsp > 0)
         freeFallSmash++;
-    else if (vsp < 0)
+    else
         freeFallSmash = -14;
     
     machTwo = 0;

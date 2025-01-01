@@ -4,7 +4,6 @@ function scr_confecti_taunt()
     
     image_speed = 0;
     sprite_index = spr_taunt;
-    drawxscale = image_xscale;
     
     if (obj_parent_player.state != States.taunt)
     {

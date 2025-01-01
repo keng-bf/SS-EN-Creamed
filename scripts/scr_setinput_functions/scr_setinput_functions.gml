@@ -2,8 +2,16 @@ function p1Vibration(argument0, argument1)
 {
     with (obj_inputController)
     {
-        vibration1 = argument0 / 100;
-        vibrationDecay1 = argument1;
+        if (global.controllerVibration)
+        {
+            vibration1 = argument0 / 100;
+            vibrationDecay1 = argument1;
+        }
+        else
+        {
+            vibration1 = 0;
+            vibrationDecay1 = 0;
+        }
     }
     
     gamepad_set_vibration(global.PlayerInputDevice, obj_inputController.vibration1, obj_inputController.vibration1);
@@ -15,15 +23,32 @@ function scr_initinput()
 
 function scr_resetinput()
 {
+    var deadzoneSettings, i, set;
+    
+    deadzoneSettings = [];
+    deadzoneSettings[Deadzones.Master] = ["deadzoneMaster", 0.4];
+    deadzoneSettings[Deadzones.Vertical] = ["deadzoneVertical", 0.5];
+    deadzoneSettings[Deadzones.Horizontal] = ["deadzoneHorizontal", 0.5];
+    deadzoneSettings[Deadzones.Press] = ["deadzonePress", 0.5];
+    deadzoneSettings[Deadzones.SJump] = ["deadzoneSJump", 0.8];
+    deadzoneSettings[Deadzones.Crouch] = ["deadzoneCrouch", 0.65];
     ini_open("optionData.ini");
     ini_section_delete("Control");
+    
+    for (i = 0; i < array_length(deadzoneSettings); i++)
+    {
+        set = deadzoneSettings[i];
+        ini_write_real("Settings", set[0], set[1]);
+        global.deadzones[i] = set[1];
+    }
+    
     ini_close();
     scr_input_create();
 }
 
 function scr_input_create()
 {
-    var stickarr, i;
+    var stickarr, i, s;
     
     if (!variable_global_exists("input_map"))
         global.input_map = ds_map_create();
@@ -32,9 +57,17 @@ function scr_input_create()
     {
         global.stickpressed = ds_map_create();
         stickarr = [gp_axislh, gp_axislv, gp_axisrh, gp_axisrv];
+        stickarr = array_concat(stickarr, stickarr);
         
         for (i = 0; i < array_length(stickarr); i++)
-            ds_map_set(global.stickpressed, string(stickarr[i]), false);
+        {
+            s = string(stickarr[i]);
+            
+            if (i >= ((array_length(stickarr) / 2) - 1))
+                s += "_inv";
+            
+            ds_map_set(global.stickpressed, s, false);
+        }
     }
     
     ini_open("optionData.ini");
@@ -51,6 +84,13 @@ function scr_input_create()
     scr_input_ini_read("groundpound", false, []);
     scr_input_ini_read("start", false, [27]);
     scr_input_ini_read("special", false, [86]);
+    scr_input_ini_read("menuup", false, [38]);
+    scr_input_ini_read("menudown", false, [40]);
+    scr_input_ini_read("menuleft", false, [37]);
+    scr_input_ini_read("menuright", false, [39]);
+    scr_input_ini_read("menuconfirm", false, [90, 32]);
+    scr_input_ini_read("menuback", false, [88]);
+    scr_input_ini_read("menudelete", false, [67]);
     scr_input_ini_read("upC", true, [gp_padu, gp_axislv], true, true);
     scr_input_ini_read("downC", true, [gp_padd, gp_axislv], true, false);
     scr_input_ini_read("leftC", true, [gp_padl, gp_axislh], true, true);
@@ -59,11 +99,18 @@ function scr_input_create()
     scr_input_ini_read("slapC", true, [gp_face3], true);
     scr_input_ini_read("tauntC", true, [gp_face4], true);
     scr_input_ini_read("shootC", true, [gp_face2], true);
-    scr_input_ini_read("attackC", true, [gp_shoulderr, gp_shoulderrb], 1);
+    scr_input_ini_read("attackC", true, [gp_shoulderr, gp_shoulderrb], true);
     scr_input_ini_read("superjumpC", true, [], true);
     scr_input_ini_read("groundpoundC", true, [], true);
     scr_input_ini_read("startC", true, [gp_start], true);
     scr_input_ini_read("specialC", true, [gp_shoulderlb], true);
+    scr_input_ini_read("menuupC", true, [gp_padu, gp_axislv], true, true);
+    scr_input_ini_read("menudownC", true, [gp_padd, gp_axislv], true, false);
+    scr_input_ini_read("menuleftC", true, [gp_padl, gp_axislh], true, true);
+    scr_input_ini_read("menurightC", true, [gp_padr, gp_axislh], true, false);
+    scr_input_ini_read("menuconfirmC", true, [gp_face1], true);
+    scr_input_ini_read("menubackC", true, [gp_face3, gp_face2], true);
+    scr_input_ini_read("menudeleteC", true, [gp_face4], true);
     ini_close();
 }
 
@@ -188,23 +235,35 @@ function scr_input_stickpressed(argument0)
     var s;
     
     s = string(argument0);
-    return ds_map_find_value(global.stickpressed, s);
+    return ds_map_find_value(global.stickpressed, s) == StickPressed.Pressed;
 }
 
 function scr_input_stickpressed_update(argument0 = global.PlayerInputDevice, argument1 = global.deadzones[Deadzones.Master])
 {
-    var sticks, i, s, val, pressed;
+    var sticks, i, s, inv, val, pressState;
     
     sticks = [gp_axislh, gp_axislv, gp_axisrh, gp_axisrv];
+    sticks = array_concat(sticks, sticks);
     
     for (i = 0; i < array_length(sticks); i++)
     {
         s = string(sticks[i]);
-        val = gamepad_axis_value(argument0, sticks[i]);
-        pressed = ds_map_find_value(global.stickpressed, s);
+        inv = false;
         
-        if (pressed && val < argument1 && val > -argument1)
-            ds_map_set(global.stickpressed, s, false);
+        if (i >= ((array_length(sticks) / 2) - 1))
+        {
+            s += "_inv";
+            inv = true;
+        }
+        
+        val = gamepad_axis_value(argument0, sticks[i]);
+        pressState = ds_map_find_value(global.stickpressed, s);
+        
+        if (pressState == StickPressed.Pressed && !((!inv && val >= argument1) || (inv && val <= -argument1)))
+            ds_map_set(global.stickpressed, s, StickPressed.Released);
+        
+        if (pressState == StickPressed.JustPressed)
+            ds_map_set(global.stickpressed, s, StickPressed.Pressed);
     }
 }
 
@@ -329,18 +388,23 @@ function Input(argument0, argument1, argument2, argument3 = 0, argument4 = false
     
     static checkpressedC = function(argument0)
     {
-        var i, dz;
+        var i, stickstr, dz;
         
         for (i = 0; i < gpLen; i++)
         {
             if (scr_gpinput_isaxis(gpInputs[i]))
             {
+                stickstr = string(gpInputs[i]);
+                
+                if (gpAxisInvert)
+                    stickstr += "_inv";
+                
                 dz = scr_checkdeadzone(gpInputs[i], name, argument0);
                 
-                if (!scr_input_stickpressed(gpInputs[i]) && ((!gpAxisInvert && gamepad_axis_value(global.PlayerInputDevice, gpInputs[i]) >= dz) || (gpAxisInvert && gamepad_axis_value(global.PlayerInputDevice, gpInputs[i]) <= -dz)))
+                if (!scr_input_stickpressed(stickstr) && ((!gpAxisInvert && gamepad_axis_value(global.PlayerInputDevice, gpInputs[i]) >= dz) || (gpAxisInvert && gamepad_axis_value(global.PlayerInputDevice, gpInputs[i]) <= -dz)))
                 {
                     pressed = true;
-                    ds_map_set(global.stickpressed, string(gpInputs[i]), true);
+                    ds_map_set(global.stickpressed, stickstr, StickPressed.JustPressed);
                     exit;
                 }
             }
@@ -372,15 +436,20 @@ function Input(argument0, argument1, argument2, argument3 = 0, argument4 = false
     
     static checkreleasedC = function(argument0)
     {
-        var i, dz;
+        var i, stickstr, dz;
         
         for (i = 0; i < gpLen; i++)
         {
             if (scr_gpinput_isaxis(gpInputs[i]))
             {
+                stickstr = string(gpInputs[i]);
+                
+                if (gpAxisInvert)
+                    stickstr += "_inv";
+                
                 dz = scr_checkdeadzone(gpInputs[i], name, argument0);
                 
-                if ((!gpAxisInvert && !scr_input_stickpressed(gpInputs[i]) && gamepad_axis_value(global.PlayerInputDevice, gpInputs[i]) <= dz) || (gpAxisInvert && gamepad_axis_value(global.PlayerInputDevice, gpInputs[i]) >= -dz))
+                if ((!gpAxisInvert && !scr_input_stickpressed(stickstr) && gamepad_axis_value(global.PlayerInputDevice, gpInputs[i]) <= dz) || (gpAxisInvert && gamepad_axis_value(global.PlayerInputDevice, gpInputs[i]) >= -dz))
                 {
                     released = true;
                     exit;
@@ -416,4 +485,3 @@ function Input(argument0, argument1, argument2, argument3 = 0, argument4 = false
     keyLen = 0;
     gpLen = 0;
 }
-

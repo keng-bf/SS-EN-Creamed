@@ -103,10 +103,10 @@ function init_option()
     global.soundVolume = ini_read_real("Settings", "soundvol", 1);
     global.masterVolume = ini_read_real("Settings", "mastervol", 1);
     global.speakerOption = ini_read_real("Settings", "speaker", 1);
-    global.option_sjump_key = ini_read_real("Settings", "sjumpkey", 0);
-    global.option_sjump_gp = ini_read_real("Settings", "sjumpgp", 0);
-    global.option_groundpound_key = ini_read_real("Settings", "groundpoundkey", 0);
-    global.option_groundpound_gp = ini_read_real("Settings", "groundpoundgp", 0);
+    global.option_sjump_key = ini_read_real("Settings", "dsjumpkey", 1);
+    global.option_sjump_gp = ini_read_real("Settings", "dsjumpgp", 1);
+    global.option_groundpound_key = ini_read_real("Settings", "dgroundpoundkey", 1);
+    global.option_groundpound_gp = ini_read_real("Settings", "dgroundpoundgp", 1);
     global.option_speedrun_timer = ini_read_real("Settings", "timerspeedrun", 0);
     global.option_timer_type = ini_read_real("Settings", "timertype", 2);
     global.option_livesplit_enabled = ini_read_real("Settings", "livesplit", 0);

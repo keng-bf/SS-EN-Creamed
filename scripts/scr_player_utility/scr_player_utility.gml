@@ -113,7 +113,7 @@ function do_grab(argument0 = state)
     if (argument0 != state)
         exit;
     
-    if (inputBufferSlap > 0 && !key_down)
+    if (inputBufferSlap > 0)
     {
         inputBufferSlap = 0;
         

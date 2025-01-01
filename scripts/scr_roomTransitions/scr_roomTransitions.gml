@@ -103,7 +103,7 @@ function scr_roomStart_SetPosition_player(argument0 = obj_player1)
         
         if (!global.CompletedLevel)
         {
-            if (1 && room != hub_demohallway)
+            if isDemo && room != hub_demohallway
                 _cutscene = cutscene_create([cutscene_backtohub_prestart, cutscene_backtohub_start, cutscene_backtohub_en_out, cutscene_backtohub_middle, cutscene_backtohub_end]);
             else
                 _cutscene = cutscene_create([cutscene_backtohub_prestart, cutscene_backtohub_start, cutscene_backtohub_middle, cutscene_backtohub_end]);
@@ -410,7 +410,7 @@ function cutscene_backtohub_start()
         hsp = 0;
         vsp = 0;
         
-        if (1 && room != hub_demohallway)
+        if isDemo && room != hub_demohallway
         {
             scale = 0;
             sprite_index = spr_player_PZ_geyser;

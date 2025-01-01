@@ -8,11 +8,11 @@
 variable_global_set("sh_help", function(args) {
 	if (array_length(args) > 1) {
 		// Display specific help for an individual function
-		var helpFunction = args[1];
-		if (array_contains(allFunctions, helpFunction)) {
-			if (variable_struct_exists(functionData, helpFunction)) {
-				var metadata = functionData[$ helpFunction];
-				var output = helpFunction;
+		var help_function = args[1];
+		if (_array_contains(allFunctions, help_function)) {
+			if (variable_struct_exists(functionData, help_function)) {
+				var metadata = functionData[$ help_function];
+				var output = help_function;
 				if (variable_struct_exists(metadata, "arguments")) {
 					for (var i = 0; i < array_length(metadata.arguments); i++) {
 						output += " " + metadata.arguments[i];
@@ -24,39 +24,39 @@ variable_global_set("sh_help", function(args) {
 				output += "\n";
 				if (variable_struct_exists(metadata, "argumentDescriptions")) {
 					for (var i = 0; i < array_length(metadata.argumentDescriptions); i++) {
-						var argName = metadata.arguments[i];
+						var arg_name = metadata.arguments[i];
 						var desc = metadata.argumentDescriptions[i];
-						output += argName +  " - " + desc + "\n";
+						output += arg_name +  " - " + desc + "\n";
 					}
 				}
 				return output;
 			} else {
-				return helpFunction + "\nNo additional information present";
+				return help_function + "\nNo additional information present.";
 			}
 		} else {
-			return "No command [" + helpFunction + "] exists.";
+			return "No command [" + help_function + "] exists.";
 		}
 	} else {
 		// Show a listing of all available functions
 		var output = "List of available commands:\n";
-		var hiddenCount = 0;
+		var hidden_count = 0;
 		for (var i = 0; i < array_length(availableFunctions); i++) {
-			var functionName = availableFunctions[i];
+			var function_name = availableFunctions[i];
 			// #32 : don't display hidden functions in the function list
 			var hidden = false;
-			var metadata = functionData[$ functionName];
+			var metadata = functionData[$ function_name];
 			if (!is_undefined(metadata)) {
 				if (variable_struct_exists(metadata, "hidden")) {
 					hidden = metadata.hidden;
-					hiddenCount += 1;
+					hidden_count++;
 				}
 			}
 			if (!hidden) {
 				var terminator = "";
-				if ((i - hiddenCount) % 2 == 0) {
-					var paddingWidth = (width/2) - (anchorMargin + string_width(functionName));
-					var spaceCount = paddingWidth/string_width(" ");
-					repeat (spaceCount) {
+				if ((i - hidden_count) % 2 == 0) {
+					var padding_width = (width/2) - (anchorMargin + string_width(function_name));
+					var space_count = padding_width/string_width(" ");
+					repeat (space_count) {
 						terminator += " ";
 					}
 				} else {
@@ -72,9 +72,9 @@ variable_global_set("meta_help", function() {
 	return {
 		arguments: ["<command name>"],
 		suggestions: [ availableFunctions ],
-		description: "display available commands",
+		description: "Display available commands.",
 		argumentDescriptions: [
-			"optional name of a command to display detailed help information for."
+			"Optional name of a command to display detailed help information for."
 		]
 	}
 });
@@ -83,15 +83,15 @@ variable_global_set("meta_help", function() {
  * Clear the console
  */
 variable_global_set("sh_clear", function(args) {
-	if (array_length(args) > 1 && args[1] == "all") {
+	if (array_length(args) > 1 && string_lower(args[1]) == "all") {
 		array_resize(output, 0);
 		array_resize(history, 0);
 		return "";
 	} else {
 		array_push(output, ">" + consoleString);
 		draw_set_font(consoleFont);
-		var _newLinesCount = floor(visibleHeight / string_height(prompt));
-		repeat(_newLinesCount) {
+		var new_lines_count = floor(visibleHeight / string_height(prompt));
+		repeat(new_lines_count) {
 			array_push(output, "\n");
 		}
 		return "";
@@ -103,7 +103,7 @@ variable_global_set("meta_clear", function() {
 		suggestions: [
 			["all"]
 		],
-		description: "clear the console window",
+		description: "Clear the console window.",
 		argumentDescriptions: [
 			"If provided, previous console output and command history will be deleted."
 		]
@@ -118,7 +118,7 @@ variable_global_set("sh_shell_set_width", function(args) {
 		if (string_digits(args[1]) != "") {
 			width = real(string_digits(args[1]));
 		} else {
-			return "Invalid argument: " + args[1];
+			return "Invalid argument: " + args[1] + ".";
 		}
 	} else {
 		return "No argument provided.";
@@ -126,7 +126,7 @@ variable_global_set("sh_shell_set_width", function(args) {
 });
 variable_global_set("meta_shell_set_width", function() {
 	return {
-		description: "set the width of the console window",
+		description: "Set the width of the console window.",
 		arguments: ["width"],
 		argumentDescriptions: [
 			"The desired width of the console, in pixels."
@@ -142,7 +142,7 @@ variable_global_set("sh_shell_set_height", function(args) {
 		if (string_digits(args[1]) != "") {
 			height = real(string_digits(args[1]));
 		} else {
-			return "Invalid argument: " + args[1];
+			return "Invalid argument: " + args[1] + ".";
 		}
 	} else {
 		return "No argument provided.";
@@ -150,7 +150,7 @@ variable_global_set("sh_shell_set_height", function(args) {
 });
 variable_global_set("meta_shell_set_height", function() {
 	return {
-		description: "set the height of the console window",
+		description: "Set the height of the console window.",
 		arguments: ["height"],
 		argumentDescriptions: [
 			"The desired height of the console, in pixels."
@@ -163,11 +163,11 @@ variable_global_set("meta_shell_set_height", function() {
  */
 variable_global_set("sh_shell_set_anchor_v", function(args) {
 	if (array_length(args) > 1) {
-		var newAnchor = args[1];
-		if (newAnchor == "top" || newAnchor == "middle" || newAnchor == "bottom") {
-			screenAnchorPointV = newAnchor;
+		var new_anchor = string_lower(args[1]);
+		if (new_anchor == "top" || new_anchor == "middle" || new_anchor == "bottom") {
+			screenAnchorPointV = new_anchor;
 		} else {
-			return "Invalid anchor point.\nPossible values: [top, middle, bottom]";
+			return "Invalid anchor point.\nPossible values: [top, middle, bottom].";
 		}
 	} else {
 		return "No argument provided.";
@@ -175,7 +175,7 @@ variable_global_set("sh_shell_set_anchor_v", function(args) {
 });
 variable_global_set("meta_shell_set_anchor_v", function() {
 	return {
-		description: "set the vertical anchor point of the console window",
+		description: "Set the vertical anchor point of the console window.",
 		arguments: ["anchor"],
 		suggestions: [
 			["top", "middle", "bottom"]
@@ -191,11 +191,11 @@ variable_global_set("meta_shell_set_anchor_v", function() {
  */
 variable_global_set("sh_shell_set_anchor_h", function(args) {
 	if (array_length(args) > 1) {
-		var newAnchor = args[1];
-		if (newAnchor == "left" || newAnchor == "center" || newAnchor == "right") {
-			screenAnchorPointH = newAnchor;
+		var new_anchor = string_lower(args[1]);
+		if (new_anchor == "left" || new_anchor == "center" || new_anchor == "right") {
+			screenAnchorPointH = new_anchor;
 		} else {
-			return "Invalid anchor point.\nPossible values: [left, center, right]";
+			return "Invalid anchor point.\nPossible values: [left, center, right].";
 		}
 	} else {
 		return "No argument provided.";
@@ -203,7 +203,7 @@ variable_global_set("sh_shell_set_anchor_h", function(args) {
 });
 variable_global_set("meta_shell_set_anchor_h", function() {
 	return {
-		description: "set the horizontal anchor point of the console window",
+		description: "Set the horizontal anchor point of the console window.",
 		arguments: ["anchor"],
 		suggestions: [
 			["left", "center", "right"]

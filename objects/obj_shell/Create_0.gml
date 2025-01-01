@@ -1,5 +1,6 @@
 // feather disable all
 // feather ignore all
+depth = -9999
 isOpen = false;
 isAutocompleteOpen = false;
 
@@ -110,22 +111,22 @@ function _close_autocomplete() {
 availableFunctions = [];
 allFunctions = [];
 functionData = {};
-var globalVariables = variable_instance_get_names(global);
+var global_variables = variable_instance_get_names(global);
 // Fetch the metadata first so we can utilize it in the available function storage
-for (var i = 0; i < array_length(globalVariables); i++) {
+for (var i = 0; i < array_length(global_variables); i++) {
 	// Only looking for variables that start with meta_
-	if (string_pos("meta_", string_lower(globalVariables[i])) == 1) {
+	if (string_pos("meta_", string_lower(global_variables[i])) == 1) {
 		// Strip off the meta_ when we store them in our data struct
-		var name = string_delete(string_lower(globalVariables[i]), 1, 5);
-		functionData[$ name] = variable_instance_get(global, globalVariables[i])();
+		var name = string_delete(string_lower(global_variables[i]), 1, 5);
+		functionData[$ name] = variable_instance_get(global, global_variables[i])();
 	}
 }
 // Then fetch all the functions themselves
-for (var i = 0; i < array_length(globalVariables); i++) {
+for (var i = 0; i < array_length(global_variables); i++) {
 	// Only looking for variables that start with sh_
-	if (string_pos("sh_", string_lower(globalVariables[i])) == 1) {
+	if (string_pos("sh_", string_lower(global_variables[i])) == 1) {
 		// Strip off the sh_ when we store them in our array
-		var name = string_delete(string_lower(globalVariables[i]), 1, 3);
+		var name = string_delete(string_lower(global_variables[i]), 1, 3);
 		// #32 : don't display hidden functions in the autocomplete
 		var hidden = false;
 		var metadata = functionData[$ name];
@@ -150,51 +151,51 @@ function _update_filtered_suggestions() {
 	autocompleteMaxWidth = 0;
 	suggestionIndex = 0;
 	activeMouseArgType = undefined;
-	var inputString = string(consoleString);
-	inputArray = self._input_string_split(inputString);
+	var input_string = string(consoleString);
+	inputArray = self._input_string_split(input_string);
 	
 	// Return if we have nothing to parse
-	if (string_length(inputString) == 0 || array_length(inputArray) == 0) { return; }
+	if (string_length(input_string) <= 0 || array_length(inputArray) <= 0) { return; }
 	
 	// Set font for string_width calculation
 	draw_set_font(consoleFont);
 	
 	// Parse through functions
-	var spaceCount = array_length(inputArray) - 1;
-	if (spaceCount == 0) {
+	var space_count = array_length(inputArray) - 1;
+	if (space_count == 0) {
 		for (var i = 0; i < array_length(availableFunctions); i++) {
-			if (string_pos(inputString, availableFunctions[i]) == 1 && inputString != availableFunctions[i]) {
+			if (string_pos(input_string, availableFunctions[i]) == 1 && input_string != availableFunctions[i]) {
 				array_push(filteredSuggestions, availableFunctions[i]);
 				autocompleteMaxWidth = max(autocompleteMaxWidth, string_width(availableFunctions[i]));
 			}
 		}
 	} else {
 		// Parse through argument suggestions
-		var functionName = inputArray[0];
-		var argumentIndex = spaceCount - 1;
-		var dataExists = variable_struct_exists(functionData, functionName);
-		var noExtraSpace = (string_char_at(inputString, string_last_pos(" ", inputString) - 1) != " ");
-		if (dataExists && noExtraSpace && spaceCount <= array_length(inputArray)) {
-			var suggestionData = functionData[$ inputArray[0]][$ "suggestions"];
-			var argumentSuggestions = [];
-			if (argumentIndex < array_length(suggestionData)) {
-				if (is_array(suggestionData[argumentIndex])) {
+		var function_name = inputArray[0];
+		var argument_index = space_count - 1;
+		var data_exists = variable_struct_exists(functionData, function_name);
+		var no_extra_space = (string_char_at(input_string, string_last_pos(" ", input_string) - 1) != " ");
+		if (data_exists && no_extra_space && space_count <= array_length(inputArray)) {
+			var suggestion_data = functionData[$ inputArray[0]][$ "suggestions"];
+			var argument_suggestions = [];
+			if (argument_index < array_length(suggestion_data)) {
+				if (is_array(suggestion_data[argument_index])) {
 					// Suggestion data is a static array
-					argumentSuggestions = suggestionData[argumentIndex];
-				} else if (is_method(suggestionData[argumentIndex])) {
+					argument_suggestions = suggestion_data[argument_index];
+				} else if (is_method(suggestion_data[argument_index])) {
 					// #18: Suggestion data is a dynamic function that returns an array
-					argumentSuggestions = suggestionData[argumentIndex]();
-				} else if (is_int64(suggestionData[argumentIndex])) {
+					argument_suggestions = suggestion_data[argument_index]();
+				} else if (is_int64(suggestion_data[argument_index])) {
 					// int64 is the datatype of enum values, we can hopefully assume this means
 					// our argument suggestion is a mouseArgumentType
-					activeMouseArgType = suggestionData[argumentIndex];
+					activeMouseArgType = suggestion_data[argument_index];
 				}
-				var currentArgument = inputArray[array_length(inputArray) - 1];
-				for (var i = 0; i < array_length(argumentSuggestions); i++) {
-					var prefixMatch = string_pos(string_lower(currentArgument), string_lower(argumentSuggestions[i])) == 1;
-					if (string_last_pos(" ", inputString) == string_length(inputString) || prefixMatch) {
-						array_push(filteredSuggestions, argumentSuggestions[i]);
-						autocompleteMaxWidth = max(autocompleteMaxWidth, string_width(argumentSuggestions[i]));
+				var current_argument = inputArray[array_length(inputArray) - 1];
+				for (var i = 0; i < array_length(argument_suggestions); i++) {
+					var prefix_match = string_pos(current_argument, string_lower(argument_suggestions[i])) == 1;
+					if (string_last_pos(" ", input_string) == string_length(input_string) || prefix_match) {
+						array_push(filteredSuggestions, argument_suggestions[i]);
+						autocompleteMaxWidth = max(autocompleteMaxWidth, string_width(argument_suggestions[i]));
 					}
 				}
 			}
@@ -207,7 +208,7 @@ function _update_filtered_suggestions() {
 // Find the prefix string that the list of suggestions has in common
 // used to update the consoleString when user is tab-completing
 function _find_common_prefix() {
-	if (array_length(filteredSuggestions) == 0) {
+	if (array_length(filteredSuggestions) <= 0) {
 		return "";
 	}
 	
@@ -215,9 +216,9 @@ function _find_common_prefix() {
 	var last = string(filteredSuggestions[array_length(filteredSuggestions) - 1]);
 		
 	var result = "";
-	var spaceCount = string_count(" ", consoleString);
-	if (spaceCount > 0) {
-		for (var i = 0; i < spaceCount; i++) {
+	var space_count = string_count(" ", consoleString);
+	if (space_count > 0) {
+		for (var i = 0; i < space_count; i++) {
 			result += inputArray[i] + " ";
 		}
 	}
@@ -287,25 +288,25 @@ function _shell_properties_hash() {
 
 // Recalculates origin, mainly for changing themes and intializing
 function _recalculate_shell_properties() {
-	var screenCenterX = display_get_gui_width() / 2;
-	var screenCenterY = display_get_gui_height() / 2;
+	var screen_center_x = display_get_gui_width() / 2;
+	var screen_center_y = display_get_gui_height() / 2;
 	draw_set_font(consoleFont);
-	var emHeight = string_height("M");
+	var em_height = string_height("M");
 	
 	// Clamp size of shell to available screen dimensions
-	var maxWidth = display_get_gui_width() - (anchorMargin * 2);
-	var maxHeight = display_get_gui_height() - (anchorMargin * 2);
-	width = clamp(width, 50, maxWidth);
-	height = clamp(height, emHeight, maxHeight);
+	var max_width = display_get_gui_width() - (anchorMargin * 2);
+	var max_height = display_get_gui_height() - (anchorMargin * 2);
+	width = clamp(width, 50, max_width);
+	height = clamp(height, em_height, max_height);
 	
-	var halfWidth = width / 2;
-	var halfHeight = height / 2;
+	var half_width = width / 2;
+	var half_height = height / 2;
 	switch (screenAnchorPointH) {
 		case "left":
 			shellOriginX = anchorMargin - 1;
 			break;
 		case "center":
-			shellOriginX = screenCenterX - halfWidth - 1;
+			shellOriginX = screen_center_x - half_width - 1;
 			break;
 		case "right":
 			shellOriginX = display_get_gui_width() - width - anchorMargin - 1;
@@ -317,7 +318,7 @@ function _recalculate_shell_properties() {
 			shellOriginY = anchorMargin - 1;
 			break;
 		case "middle":
-			shellOriginY = screenCenterY - halfHeight - 1;
+			shellOriginY = screen_center_y - half_height - 1;
 			break;
 		case "bottom":
 			shellOriginY = display_get_gui_height() - height - anchorMargin - 1;
@@ -346,9 +347,9 @@ function _calculate_scroll_from_suggestion_index() {
 }
 
 function _confirm_current_suggestion() {
-	var spaceCount = string_count(" ", consoleString);
+	var space_count = string_count(" ", consoleString);
 	consoleString = "";
-	for (var i = 0; i < spaceCount; i++) {
+	for (var i = 0; i < space_count; i++) {
 		consoleString += inputArray[i] + " ";
 	}
 	consoleString += filteredSuggestions[suggestionIndex] + " ";
@@ -402,32 +403,32 @@ function _update_positions() {
 }
 
 function _save_history() {
-	var truncatedHistory = [];
-	var truncatedOutput = [];
+	var truncated_history = [];
+	var truncated_output = [];
 	
-	array_copy(truncatedHistory, 0, history, max(0, array_length(history) - savedHistoryMaxSize),
+	array_copy(truncated_history, 0, history, max(0, array_length(history) - savedHistoryMaxSize),
 		min(array_length(history), savedHistoryMaxSize));
 	
-	array_copy(truncatedOutput, 0, output, max(0, array_length(output) - savedHistoryMaxSize), 
+	array_copy(truncated_output, 0, output, max(0, array_length(output) - savedHistoryMaxSize), 
 		min(array_length(output), savedHistoryMaxSize));
 
-	var toSave = {
-		history: truncatedHistory,
-		output: truncatedOutput
+	var to_save = {
+		history: truncated_history,
+		output: truncated_output
 	}
-	var openFile = file_text_open_write(savedHistoryFilePath);
-	file_text_write_string(openFile, json_stringify(toSave));
-	file_text_close(openFile);
+	var open_file = file_text_open_write(savedHistoryFilePath);
+	file_text_write_string(open_file, json_stringify(to_save));
+	file_text_close(open_file);
 }
 
 function _load_history() {
-	var saveDataFile = file_find_first(savedHistoryFilePath, fa_directory);
-	if (saveDataFile != "") {
-		var openFile = file_text_open_read(savedHistoryFilePath);
-		var tempData = json_parse(file_text_read_string(openFile));
-		file_text_close(openFile);
-		history = tempData.history;
-		output = tempData.output;
+	var save_data_file = file_find_first(savedHistoryFilePath, fa_directory);
+	if (save_data_file != "") {
+		var open_file = file_text_open_read(savedHistoryFilePath);
+		var temp_data = json_parse(file_text_read_string(open_file));
+		file_text_close(open_file);
+		history = temp_data.history;
+		output = temp_data.output;
 		historyPos = array_length(history);
 	}
 }
@@ -441,42 +442,55 @@ function _input_string_split(_input) {
 	var splits = []; //array to hold all splits
 	var str2 = ""; //var to hold the current split we're working on building
 
-	var inQuotes = false;
+	var in_quotes = false;
 	
 	for (var i = 1; i < (string_length(_input) + 1); i++) {
-	    var currStr = string_char_at(_input, i);
+	    var curr_str = string_char_at(_input, i);
 		// Ignore spaces as a delimiter if we are currently inside of quotes
-		if (!inQuotes) {
-			if (currStr == "\"") {
-				inQuotes = true;
+		if (!in_quotes) {
+			if (curr_str == "\"") {
+				in_quotes = true;
 				continue;
 			}
-		    if (currStr == " ") {
+		    if (curr_str == " ") {
 				if (str2 != "") { // Make sure we don't include the space
 			        splits[slot] = str2; //add this split to the array of all splits
 			        slot++;
 				}
 		        str2 = "";
 		    } else {
-		        str2 = str2 + currStr;
+		        str2 = str2 + curr_str;
 		        splits[slot] = str2;
 		    }
 		} else {
-			if (currStr == "\"") {
-				inQuotes = false;
+			if (curr_str == "\"") {
+				in_quotes = false;
 				splits[slot] = str2;
 				continue;
 			}
-		    str2 = str2 + currStr;
+		    str2 = str2 + curr_str;
 		}
 	}
 	// If we ended on our delimiter character, include an empty string as the final split
 	// If we ended without closing a quote, include what's been written in quotes so far as a complete argument
-	if (str2 == "" || inQuotes) {
+	if (str2 == "" || in_quotes) {
 		splits[slot] = str2;
 	}
 
 	return splits;
+}
+
+function _array_contains(array, value)
+{
+    var i;
+    
+    for (i = 0; i < array_length(array); i++)
+    {
+        if (array[i] == value)
+            return true;
+    }
+    
+    return false;
 }
 
 /// @param value

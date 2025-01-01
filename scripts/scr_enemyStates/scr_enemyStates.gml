@@ -234,10 +234,10 @@ function state_enemyWaiting_Box()
     }
 }
 
-function scr_enemyThrowDefault(argument0, argument1, argument2, argument3)
+function scr_enemyThrowDefault(sprite, frame, animspd, func)
 {
-    image_speed = argument2;
-    sprite_index = argument0;
+    image_speed = animspd;
+    sprite_index = sprite;
     enemyAttackTimer = enemyAttackTimerMax;
     
     if (isFlyingEnemy)
@@ -250,10 +250,10 @@ function scr_enemyThrowDefault(argument0, argument1, argument2, argument3)
     
     scr_conveyorBeltKinematics();
     
-    if (!hasAttacked && sprite_animation_end(sprite_index, image_index, argument1))
+    if (!hasAttacked && sprite_animation_end(sprite_index, image_index, frame))
     {
         event_play_oneshot("event:/SFX/enemies/projectile", x, y);
-        script_execute(argument3);
+        func();
         hasAttacked = true;
     }
     

@@ -28,7 +28,8 @@ switch (state)
         if (!playedSound && !awoken)
         {
             playedSound = true;
-            event_play_oneshot("event:/SFX/enemies/guardian");
+            fmod_quick3D(sndWake);
+            fmod_studio_event_instance_start(sndWake);
         }
         
         awoken = true;
@@ -36,7 +37,6 @@ switch (state)
         
         if (sprite_animation_end())
         {
-            trace("Guardian : Chase Start");
             sprite_index = spr_aim;
             image_index = 0;
             chaseActive = true;

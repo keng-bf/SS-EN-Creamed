@@ -194,11 +194,11 @@ switch (optionMenu)
             }
         }), new option_normal("opt_ctrl_keyboardsuperjump", onOffToggle, function(argument0)
         {
-            quick_write_option("Settings", "sjumpkey", argument0);
+            quick_write_option("Settings", "dsjumpkey", argument0);
             global.option_sjump_key = argument0;
         }, global.option_sjump_key), new option_normal("opt_ctrl_keyboardgroundpound", onOffToggle, function(argument0)
         {
-            quick_write_option("Settings", "groundpoundkey", argument0);
+            quick_write_option("Settings", "dgroundpoundkey", argument0);
             global.option_groundpound_key = argument0;
         }, global.option_groundpound_key)];
         break;
@@ -221,11 +221,11 @@ switch (optionMenu)
             option_goto(OptionMenu.Deadzones);
         }), new option_normal("opt_ctrl_controllersuperjump", onOffToggle, function(argument0)
         {
-            quick_write_option("Settings", "sjumpgp", argument0);
+            quick_write_option("Settings", "dsjumpgp", argument0);
             global.option_sjump_gp = argument0;
         }, global.option_sjump_gp), new option_normal("opt_ctrl_controllergroundpound", onOffToggle, function(argument0)
         {
-            quick_write_option("Settings", "groundpoundgp", argument0);
+            quick_write_option("Settings", "dgroundpoundgp", argument0);
             global.option_groundpound_gp = argument0;
         }, global.option_groundpound_gp)];
         break;
@@ -281,7 +281,4 @@ switch (optionMenu)
         }, round(global.deadzones[Deadzones.Crouch] * 100))];
         break;
 }
-
-trace("New Options");
-trace(options);
 

@@ -33,6 +33,15 @@ function scr_getDialogIcon(argument0, argument1 = "c_white", argument2 = "c_blac
         case "RUDY":
             spr = "spr_icon_dialog";
             ind = "4";
+            break;     
+        case "SLUGGY":
+            spr = "spr_icon_dialog";
+            ind = "5";
+            break;
+        
+        case "COTTONWITCH":
+            spr = "spr_icon_dialog";
+            ind = "6";
             break;
     }
     

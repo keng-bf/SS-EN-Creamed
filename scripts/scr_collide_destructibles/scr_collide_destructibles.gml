@@ -1,14 +1,14 @@
 global.instancelist = ds_list_create();
 
-function check_and_destroy(argument0, argument1, argument2, argument3 = -4)
+function check_and_destroy(x1, y1, obj, checkfunc = -4)
 {
     var _result, _num, i;
     
-    if (!place_meeting(argument0, argument1, argument2))
+    if (!place_meeting(x1, y1, obj))
         return false;
     
     _result = false;
-    _num = instance_place_list(argument0, argument1, argument2, global.instancelist, false);
+    _num = instance_place_list(x1, y1, obj, global.instancelist, false);
     
     if (_num > 0)
     {
@@ -16,7 +16,7 @@ function check_and_destroy(argument0, argument1, argument2, argument3 = -4)
         {
             with (ds_list_find_value(global.instancelist, i))
             {
-                if (argument3 == -4 || script_execute(argument3, other.id, id))
+                if (checkfunc == -4 || checkfunc(other.id, id))
                 {
                     DestroyedBy = other.id;
                     event_user(0);

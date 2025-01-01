@@ -6,6 +6,7 @@ secretArray = (a != -4) ? a.layerArray : [];
 if (state != States.comingoutdoor)
     image_blend = c_white;
 
+inputLadderBuffer = max(inputLadderBuffer - 1, 0);
 wetTimer = approach(wetTimer, 0, 3);
 
 if (wetTimer > 0 && wetTimerEffect-- <= 0)
@@ -54,7 +55,7 @@ else if (abs(conveyor_hsp) <= 0)
 if (!hasSeenProgressionPrompt && (room == hub_demohallway || room == hub_paintstudio) && !instance_exists(obj_fadeoutTransition))
 {
     hasSeenProgressionPrompt = true;
-    scr_queueToolTipPrompt(string("[spr_promptfont] {0}", lang_get("demo_judgement_hint")), -4);
+    scr_queueToolTipPrompt(lang_get("demo_judgement_hint"));
 }
 
 if (room == rm_mainmenu || room == rm_introVideo || room == rm_startupLogo || room == rm_disclaimer)

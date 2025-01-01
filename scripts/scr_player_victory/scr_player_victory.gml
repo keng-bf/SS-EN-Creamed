@@ -47,7 +47,7 @@ function state_player_victory()
     
     if (place_meeting(x, y, obj_startGate))
     {
-        if (1 && global.InternalLevelName != "tutorial")
+        if isDemo && global.InternalLevelName != "tutorial"
             sprite_index = spr_enterpainting;
         else
             sprite_index = spr_entergate;

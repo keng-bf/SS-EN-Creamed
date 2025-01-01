@@ -108,6 +108,9 @@ addRoomMusic(steamy_1, "event:/music/w1/cottontown", "event:/music/w1/cottontown
         
         case steamy_8:
             event_state = 1;
+            break;     
+        case steamy_sideroom:
+            event_state = 2;
             break;
     }
     

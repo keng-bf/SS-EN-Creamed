@@ -14,8 +14,8 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
         
         with (obj_hudManager)
         {
-            _string = string("[spr_promptfont]{0}", lang_get("prompt_secret_found", [lang_get(ordinals[secret_number]), global.secretfound]));
-            time = scr_queueToolTipPrompt(_string, -4, 300);
+            _string = string("{0}", lang_get("prompt_secret_found", [lang_get(ordinals[secret_number]), global.secretfound]));
+            time = scr_queueToolTipPrompt(_string, 300);
             showtext = 1;
             scr_queueTVAnimation(global.TvSprPlayer_Secret, time);
         }

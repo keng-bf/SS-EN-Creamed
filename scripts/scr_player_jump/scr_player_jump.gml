@@ -176,7 +176,7 @@ function state_player_jump()
     
     do_taunt(States.jump);
     
-    if (scr_checkgroundpound() && !grounded)
+    if (scr_checkgroundpound() && !key_slap2 && !grounded)
     {
         image_index = 0;
         sprite_index = spr_groundPoundstart;

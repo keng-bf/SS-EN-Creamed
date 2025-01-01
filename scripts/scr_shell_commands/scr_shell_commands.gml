@@ -431,7 +431,7 @@ function meta_instance_create()
     {
         description: "Spawn a new object.",
         arguments: ["<object_id>", "<x>", "<y>"],
-        suggestions: [global.ObjectNameList, mouseArgumentType.guiX, mouseArgumentType.guiY],
+        suggestions: [global.ObjectNameList, mouseArgumentType.worldX, mouseArgumentType.worldY],
         argumentDescriptions: ["The object to spawn", "The X spawn coordinate", "The Y spawn coordinate"]
     };
 }

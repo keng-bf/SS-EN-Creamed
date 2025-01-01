@@ -265,7 +265,9 @@ function state_player_normal()
                 stepEffectBuffer = 12;
         }
     }
-    
+	
+    do_grab(States.normal);
+    do_taunt(States.normal);
     if (key_attack && grounded && !scr_solid(x + xscale, y, true))
     {
         switch (global.playerCharacter)
@@ -280,9 +282,6 @@ function state_player_normal()
                 break;
         }
     }
-    
-    do_grab(States.normal);
-    do_taunt(States.normal);
     
     if (prevSpriteIndex != sprite_index && sprite_index == spr_idle && state == States.normal)
         image_index = 0;

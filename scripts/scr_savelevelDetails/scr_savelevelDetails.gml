@@ -66,7 +66,7 @@ function scr_savelevelDetails(argument0 = true)
         if (!ini_read_real("Misc", "lapunlockall", false) && level_sec <= 90)
         {
             ini_write_real("Misc", "lapunlockall", true);
-            scr_queueToolTipPrompt(string("[spr_promptfont]{0}", lang_get("prompt_lap_unlockall")));
+            scr_queueToolTipPrompt(lang_get("prompt_lap_unlockall"));
         }
     }
     

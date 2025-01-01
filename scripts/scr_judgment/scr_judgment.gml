@@ -84,7 +84,6 @@ function add_judgment(argument0, argument1)
     }
     
     array_push(j.properties.dialog, lang_get("judgmentinfo_ending"));
-    trace(string("Added judgment {0} with dialog: {1}", argument0, json_stringify(j.properties.dialog)));
     ds_map_set(global.judgment_map, argument0, j);
     return j;
 }

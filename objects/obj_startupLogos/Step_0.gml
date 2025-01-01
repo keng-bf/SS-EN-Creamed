@@ -1,4 +1,4 @@
-scr_getinput();
+scr_getinput_menu();
 
 if ((logoChangeBuffer-- < 0 || key_jump || key_start2) && logoIndex < array_length(logoArray))
 {

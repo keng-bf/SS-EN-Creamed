@@ -17,7 +17,7 @@ function state_player_wallkick()
     if (place_meeting_collision(x + sign(movespeed), y) && !place_meeting(x + sign(movespeed), y, obj_destructibles))
         movespeed = 0;
     
-    if (!grounded && key_down)
+    if (!grounded && (key_down || sprite_index == spr_wallJumpFastFall || sprite_index == spr_wallJumpFastFallIntro))
     {
         vsp = max(vsp, 14);
         

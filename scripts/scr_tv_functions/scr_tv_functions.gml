@@ -21,35 +21,13 @@ function scr_queueTVAnimation(argument0, argument1 = 150)
     }
 }
 
-function scr_queueToolTipPrompt(argument0 = "", argument1 = argument0, argument2 = string_length(argument0) * 15)
+function scr_queueToolTipPrompt(argument0 = "", argument1 = 220)
 {
-    var type;
-    
-    argument2 = clamp(argument2, 60, 450);
-    type = 0;
-    
-    if (argument1 == -4)
-        type = 1;
-    else if (argument1 == -1)
-        type = 2;
-    
     with (obj_hudManager)
     {
-        if (type != 2)
-        {
-            if (!ds_list_find_index(global.SaveRoom, argument1) || type == 1)
-            {
-                global.TooltipPrompt = argument0;
-                HUDObject_tooltipPrompts.promptTimer = argument2;
-                ds_list_add(global.SaveRoom, argument1);
-            }
-        }
-        else
-        {
-            global.TooltipPrompt = argument0;
-            HUDObject_tooltipPrompts.promptTimer = 2;
-        }
+        global.TooltipPrompt = argument0;
+        HUDObject_tooltipPrompts.promptTimer = argument1;
     }
     
-    return argument2;
+    return argument1;
 }

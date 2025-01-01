@@ -27,6 +27,7 @@ awoken = false;
 playedSound = false;
 sndMoving = fmod_createEventInstance("event:/SFX/enemies/guardianMove");
 sndSob = fmod_createEventInstance("event:/SFX/enemies/guardianOffended");
+sndWake = fmod_createEventInstance("event:/SFX/enemies/guardian");
 alarm[0] = 1;
 image_speed = 0;
 depth = 0;

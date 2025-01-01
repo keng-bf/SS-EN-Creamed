@@ -512,7 +512,7 @@ function lang_get(argument0, argument1 = undefined)
         }
     }
     
-    return lang_transform_string(content);
+    return content;
 }
 
 function lang_group_replace(argument0, argument1 = ["{", "}"], argument2 = global.lang_values)

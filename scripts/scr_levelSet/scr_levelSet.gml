@@ -40,6 +40,7 @@ function scr_levelSet()
     instance_destroy(obj_devilboy);
     instance_destroy(obj_lap2visual);
     instance_destroy(obj_minesgem);
+	instance_destroy(obj_collect_giver);
     global.CafeDrawer = -4;
     global.cutsceneManager = -4;
     
@@ -133,7 +134,7 @@ function scr_levelSet()
     }
     
     ini_open(global.SaveFileName);
-    pre_check = ini_read_string("Game", "Judgment", "none") == "none" && is_hub() && global.InternalLevelName == "none" && scr_check_completion();
+    pre_check = ini_read_string("Game", "Judgment", "none") == "none" && scr_check_completion();
     ini_close();
     
     with (obj_parent_player)

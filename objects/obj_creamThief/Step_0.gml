@@ -132,7 +132,7 @@ if (hsp != 0)
     }
 }
 
-if (instance_exists(obj_techdiff) && sprite_index != spr_creamthief_victory && sprite_index != spr_creamthief_grab && sprite_index != spr_creamthief_lose)
+if ((instance_exists(obj_fadeoutTransition) || instance_exists(obj_techdiff)) && sprite_index != spr_creamthief_victory && sprite_index != spr_creamthief_grab && sprite_index != spr_creamthief_lose)
 {
     sprite_index = spr_creamthief_idle;
     

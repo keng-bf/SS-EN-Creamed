@@ -386,7 +386,7 @@ function scr_get_chef_tasks(argument0, argument1 = true)
                     }
                 }
                 
-                return obj_achievementTracker.cottonBlocksUsed < 10 && global.panic;
+                return obj_achievementTracker.cottonBlocksUsed <= 10 && global.panic;
             });
             break;
         

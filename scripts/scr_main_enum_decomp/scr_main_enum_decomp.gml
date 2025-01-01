@@ -293,3 +293,12 @@ enum Deadzones
 	SJump,
 	Crouch
 }
+
+enum StickPressed
+{
+	Released,
+	JustPressed,
+	Pressed
+}
+
+#macro isDemo 1

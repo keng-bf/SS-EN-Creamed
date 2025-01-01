@@ -1,3 +1,76 @@
+global.scribble_saved_profile = "[pPrompt]";
+
+function scribble_quick_button(argument0)
+{
+    return string("[c_white]{0}{1}", get_control_sprite(argument0), global.scribble_saved_profile);
+}
+
+scribble_add_macro("kL", function()
+{
+    return scribble_quick_button("left");
+});
+scribble_add_macro("kU", function()
+{
+    return scribble_quick_button("up");
+});
+scribble_add_macro("kD", function()
+{
+    return scribble_quick_button("down");
+});
+scribble_add_macro("kR", function()
+{
+    return scribble_quick_button("right");
+});
+scribble_add_macro("kJ", function()
+{
+    return scribble_quick_button("jump");
+});
+scribble_add_macro("kG", function()
+{
+    return scribble_quick_button("slap");
+});
+scribble_add_macro("kM", function()
+{
+    return scribble_quick_button("attack");
+});
+scribble_add_macro("kT", function()
+{
+    return scribble_quick_button("taunt");
+});
+scribble_add_macro("kSJ", function()
+{
+    return scribble_quick_button("dialogSJ");
+});
+scribble_add_macro("kGP", function()
+{
+    return scribble_quick_button("dialogGP");
+});
+scribble_add_macro("kFWD", function()
+{
+    return scribble_quick_button("forward");
+});
+scribble_add_macro("kBCK", function()
+{
+    return scribble_quick_button("backward");
+});
+scribble_add_macro("pNPC", function()
+{
+    global.scribble_saved_profile = "[pNPC]";
+    return "[spr_npc_font][c_black]";
+});
+scribble_add_macro("pPrompt", function()
+{
+    global.scribble_saved_profile = "[pPrompt]";
+    return "[spr_promptfont][c_white]";
+});
+scribble_add_macro("iSl", function()
+{
+    return scr_getDialogIcon("SLUGGY", "c_white", "c_white");
+});
+scribble_add_macro("iCw", function()
+{
+    return scr_getDialogIcon("COTTONWITCH", "c_white", "c_white");
+});
 global.allTexturePages = ["Default", "Player", "Baddies", "HUD", "Backgrounds", "Unused", "Devs", "Entryway", "Cottontown", "Mines", "Molasses", "Hub", "Structure", "Cafe", "Fudgetop", "Sucrose", "geyserwaves", "effectsGroup", "titleGroup", "testingGroup"];
 global.MainMenuRefresh = false;
 randomize();

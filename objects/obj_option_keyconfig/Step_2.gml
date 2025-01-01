@@ -1,6 +1,47 @@
-var i, input, inp, p, optional, in, inpArr, gpinput;
+var device_is_gamepad, input_is_valid, i, input, inp, p, optional, in, inpArr, gpinput;
 
-scr_getinput();
+scr_getinput_menu();
+device_is_gamepad = global.PlayerInputDevice >= 0;
+
+if (exiting)
+{
+    if (key_slap2 || key_start2)
+    {
+        exiting = false;
+        exit;
+    }
+    
+    if (key_jump)
+    {
+        switch (select2)
+        {
+            case 0:
+                exiting = false;
+                exit;
+            
+            case 1:
+                restore_inputs();
+            
+            case 2:
+                with (obj_option_keyconfig)
+                    instance_destroy();
+                
+                event_play_oneshot("event:/SFX/ui/confirm");
+                exit;
+        }
+    }
+    
+    select2 += (key_down2 - key_up2);
+    
+    if (select2 < 0)
+        select2 = 2;
+    else if (select2 > 2)
+        select2 = 0;
+    
+    exit;
+}
+
+input_is_valid = number_in_range(selected, 0, array_length(inputs) - 1);
 
 if (selected == -2)
 {
@@ -11,7 +52,7 @@ if (selected == -2)
             input = inputs[i];
             input.name = string_concat(input.name, "C");
             input.isGP = true;
-            input.update();
+            input.create();
         }
     }
     
@@ -37,7 +78,7 @@ else if (!reading)
     else if (-key_left2)
         selected = -1;
     
-    if (key_jump && selected >= 0)
+    if (key_jump && input_is_valid && gamepad == device_is_gamepad)
     {
         if (array_length(inputs[selected].currentInputs) < 9)
             reading = true;
@@ -45,16 +86,25 @@ else if (!reading)
     
     if (!reading && ((key_jump && selected == -1) || key_slap2 || key_start2))
     {
-        with (obj_option_keyconfig)
-            instance_destroy();
-        
-        event_play_oneshot("event:/SFX/ui/confirm");
-        exit;
+        if (!prompt_changes)
+        {
+            with (obj_option_keyconfig)
+                instance_destroy();
+            
+            event_play_oneshot("event:/SFX/ui/confirm");
+            exit;
+        }
+        else
+        {
+            selected = -1;
+            select2 = 0;
+            exiting = true;
+        }
     }
     
     if (key_taunt2)
     {
-        if (selected != -1)
+        if (input_is_valid && gamepad == device_is_gamepad)
         {
             inp = inputs[selected].parentInput;
             
@@ -64,9 +114,9 @@ else if (!reading)
                 inp.keyInputs = [];
             
             input_save(inp);
+            prompt_changes = true;
+            inputs[selected].update();
         }
-        
-        inputs[selected].update();
     }
     
     if (keyboard_check_pressed(vk_f1))
@@ -75,6 +125,8 @@ else if (!reading)
         
         for (i = 0; i < array_length(inputs); i++)
             inputs[i].update();
+        
+        prompt_changes = true;
     }
     
     for (i = 0; i < array_length(inputs); i++)
@@ -93,6 +145,12 @@ else if (!reading)
 }
 else
 {
+    if (!input_is_valid)
+    {
+        reading = false;
+        exit;
+    }
+    
     inp = inputs[selected].parentInput;
     inpArr = [];
     
@@ -115,6 +173,7 @@ else
                 input_save(inp);
             }
             
+            prompt_changes = true;
             inputs[selected].update();
         }
     }
@@ -148,6 +207,7 @@ else
                 input_save(inp);
             }
             
+            prompt_changes = true;
             inputs[selected].update();
         }
     }

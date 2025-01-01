@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Fonts",
-    "path": "folders/Extensions/Scribble/Fonts.yy",
+    "name": "Legacy",
+    "path": "folders/Extensions/Scribble/Legacy.yy",
   },
 }

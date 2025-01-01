@@ -48,9 +48,9 @@ draw_set_alpha(hudAlpha);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_sprite(spr_exit_exhib, 0, 16, 32);
-scribble(get_control_sprite("slap")).align(0, 2).blend(16777215, hudAlpha).draw(110, 70);
-scribble(get_control_sprite("taunt")).align(0, 2).blend(16777215, hudAlpha).draw(120, 460);
-scribble(get_control_sprite("start")).align(2, 1).blend(16777215, hudAlpha).draw(615, 470);
+draw_control_sprite("menuback", 126, 60);
+draw_control_sprite("menudelete", 136, 444);
+draw_control_sprite("start", 600, 470);
 draw_set_alpha(image_alpha);
 draw_self();
 

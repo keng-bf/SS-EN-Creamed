@@ -14,5 +14,5 @@ canCollide = function(argument0 = obj_parent_player)
     }
 };
 
-image_speed = 0.25;
+image_speed = 0.05;
 

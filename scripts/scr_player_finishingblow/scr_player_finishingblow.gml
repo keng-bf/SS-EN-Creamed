@@ -37,6 +37,15 @@ function state_player_finishingblow()
         camera_shake_add(5, 20);
         scr_finishingBlow(baddieGrabbedID, id);
         baddieGrabbedID = -4;
+        
+        if (!instance_exists(obj_instakillHitbox))
+        {
+            with (instance_create(x, y, obj_instakillHitbox))
+            {
+                playerID = other.id;
+                targetState = States.finishingblow;
+            }
+        }
     }
     
     afterimage_timer = max(afterimage_timer - 1, 0);
@@ -52,4 +61,3 @@ function state_player_finishingblow()
     image_speed = 0.4;
     landAnim = false;
 }
-

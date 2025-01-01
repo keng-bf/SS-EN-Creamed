@@ -13,6 +13,7 @@ previousCharacter = global.playerCharacter;
 targetElevatorRoom = mineshaft_1;
 mach3Roll = 0;
 mach3RollMax = 30;
+inputLadderBuffer = 0;
 roomName = room_get_name(room);
 breakdanceBuffer = 0;
 breakdanceSpeed = 0;

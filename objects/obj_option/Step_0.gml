@@ -1,7 +1,7 @@
 var v_move, h_move, h_move2, j, i, _total_options, selOption, selID, _option;
 
 if (!(instance_exists(obj_option_keyconfig) || instance_exists(obj_langSpriteLoader)))
-    scr_getinput();
+    scr_getinput_menu();
 else
     scr_input_varinit();
 

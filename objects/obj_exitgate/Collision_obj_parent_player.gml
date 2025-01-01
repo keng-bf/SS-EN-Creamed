@@ -30,7 +30,7 @@ if (global.panic)
                 xscale = 1;
                 image_index = 0;
             }
-            
+            instance_destroy(obj_minesgem);
             if (!instance_exists(obj_endlevelfade))
             {
                 with (instance_create(x, y, obj_endlevelfade))

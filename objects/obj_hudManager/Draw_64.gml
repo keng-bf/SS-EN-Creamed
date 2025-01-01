@@ -118,6 +118,6 @@ if (!(is_hub() || is_tutorial() || !scr_roomcheck() || room == mineshaft_elevato
 
 if (!global.gamePauseState)
 {
-    scribble(string("[wave]{0}", global.TooltipPrompt)).blend(16777215, HUDObject_tooltipPrompts.image_alpha).align(1, 1).draw(HUDObject_tooltipPrompts.x, HUDObject_tooltipPrompts.y);
+    scribble(string("[wave][pPrompt]{0}", global.TooltipPrompt)).blend(16777215, HUDObject_tooltipPrompts.image_alpha).align(1, 1).draw(HUDObject_tooltipPrompts.x, HUDObject_tooltipPrompts.y);
     draw_set_alpha(1);
 }

@@ -1,4 +1,4 @@
-var coneballtimesup, timer_coneball, target_player, do_transition, target_x, target_y, target_direction, _setVSP, target_combo_time, meter_fill_width;
+var coneballtimesup, _fall, timer_coneball, target_player, do_transition, target_x, target_y, target_direction, _setVSP, target_combo_time, meter_fill_width;
 
 coneballtimesup = spr_bartimer_showtime;
 coneballtimesup = spr_bartimer_blotchspotshowtime;
@@ -15,15 +15,16 @@ with (HUDObject_tooltipPrompts)
         image_alpha = approach(image_alpha, 0, 0.05);
     }
     
-    if (!get_panic() || is_tutorial())
-        y = approach(y, 500, 2);
-    else if (other.HUDObject_timer.targetEscapeTime > 0)
-        y = approach(y, 425, 0.5);
-    
+    _fall = false;
     timer_coneball = other.HUDObject_timer.elm_coneBall;
     
     if (timer_coneball.sprite_index == coneballtimesup && timer_coneball.image_index >= (timer_coneball.sprite_image_number - 1))
-        y = approach(y, 500, 0.5);
+        _fall = true;
+    
+    if (!get_panic() || is_tutorial() || _fall)
+        y = approach(y, 500, 2);
+    else if (other.HUDObject_timer.targetEscapeTime > 0)
+        y = approach(y, 425, 0.5);
 }
 
 if (is_hub() || !scr_roomcheck() || room == mineshaft_elevator)

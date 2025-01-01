@@ -121,7 +121,7 @@ function state_player_mach3()
         }
     }
     
-    if (key_down && !place_meeting(x, y, obj_dashpad))
+    if (key_down && !key_slap2 && !place_meeting(x, y, obj_dashpad))
     {
         mach3Roll = mach3RollMax;
         flash = false;

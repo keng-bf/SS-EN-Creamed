@@ -73,7 +73,7 @@ for (s = 0; s < array_length(secrets_collected_visual); s++)
     _shk = secrets_shake[s];
     _ind = s + (secrets_collected_visual[s] * 3);
     draw_sprite_ext(spr_rank_ink, _ind, irandom_range(_xx - _shk, _xx + _shk), irandom_range(_yy - _shk, _yy + _shk), secrets_scale[s], secrets_scale[s], 0, c_white, 1);
-    secrets_scale[s] = approach(secrets_scale[s], 1, 0.1);
+    secrets_scale[s] = approach(secrets_scale[s], 1, 0.25);
     secrets_shake[s] = approach(secrets_shake[s], 0, 0.1);
 }
 

@@ -72,6 +72,7 @@ function state_player_ladder()
             }
         }
         
+		inputLadderBuffer = 5;
         vsp = 0;
     }
     
@@ -85,6 +86,7 @@ function state_player_ladder()
         jumpAnim = true;
         state = States.jump;
         vsp = -9;
+		inputLadderBuffer = 20;
     }
     
     if (key_down && scr_solid_player(x, y + 1))

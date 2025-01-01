@@ -1,6 +1,6 @@
 var _cant_pause, key_move, _uid, _note, entry, mapentry, i;
 
-scr_getinput();
+scr_getinput_menu();
 
 if (!global.gamePauseState && !instance_exists(obj_fadeoutTransition) && !instance_exists(obj_endlevelfade) && !instance_exists(obj_techdiff))
 {

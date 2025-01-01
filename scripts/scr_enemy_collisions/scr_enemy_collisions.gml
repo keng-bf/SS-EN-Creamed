@@ -90,6 +90,7 @@ function scr_baddieCollisionBox(argument0 = mask_index)
     baddieOnEscapeRosetteCollisions();
     baddieOnBaddieCollisions();
     baddieOnSwingCollisions();
+	baddieOnInstakillHitboxCollisions();
     mask_index = old_mask;
 }
 
@@ -169,9 +170,6 @@ function baddieOnPlayerCollisions()
                 instance_create(x, y, obj_slapstar);
                 instance_create(x, y, obj_baddieGibs);
             }
-            
-            with (player_object)
-                machPunchAnim = true;
             
             exit;
         }
@@ -369,3 +367,13 @@ function baddieOnSwingCollisions()
     }
 }
 
+function baddieOnInstakillHitboxCollisions()
+{
+    var player_object;
+    
+    if (baddieInvincibilityBuffer > 0 || invincibleBaddie || state == States.stun || !place_meeting(x, y, obj_instakillHitbox))
+        exit;
+    
+    player_object = instance_place(x, y, obj_instakillHitbox).playerID;
+    scr_instakillEnemy(id, player_object);
+}

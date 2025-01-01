@@ -28,8 +28,6 @@ function cutscene_judgment_init()
 
 function cutscene_judgment_playermove()
 {
-    trace("started judgment cutscene");
-    
     with (cutscene_get_actor("PLAYER"))
     {
         if (place_meeting_collision(x + 32, y + 1))
@@ -165,7 +163,6 @@ function cutscene_mindpalacedoor_prestart()
             visible = true;
         
         ds_queue_clear(Cutscene);
-        trace("Seen door rise cutscene");
     }
     
     cutscene_event_end();

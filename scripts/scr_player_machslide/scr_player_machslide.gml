@@ -81,6 +81,7 @@ function state_player_machslide()
         xscale *= -1;
         movespeed = 8;
         state = States.mach2;
+		sprite_index = spr_mach2;
         instance_create(x, y, obj_jumpdust);
     }
     

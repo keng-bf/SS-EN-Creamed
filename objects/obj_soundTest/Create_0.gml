@@ -4,7 +4,7 @@ pauseStatus = false;
 specialToggle = false;
 musicPlaying = false;
 
-defineMusic = function(argument0, argument1, argument2 = false) constructor
+defineMusic = function(argument0, argument1, argument2 = "") constructor
 {
     static add = function()
     {
@@ -19,7 +19,8 @@ defineMusic = function(argument0, argument1, argument2 = false) constructor
         eventInstance = fmod_createEventInstance(eventPath);
     
     songDescription = argument1;
-    hasSpecial = argument2;
+    hasSpecial = argument2 != "";
+    specialText = argument2;
     return add();
 };
 
@@ -32,18 +33,19 @@ new defineMusic("event:/music/Soundtest/pause", "Earth. - CableChords");
 new defineMusic("event:/music/Soundtest/tutorial", "Family Friendly - PaperKitty");
 new defineMusic("event:/music/Soundtest/harry", "Arkoudaphobia - Stewart Keller");
 new defineMusic("event:/music/Soundtest/entrywayPZ", "Down To Noise - RodMod");
-new defineMusic("event:/music/Soundtest/entrywayPZ_secret", "A Construction Secret - Various");
-new defineMusic("event:/music/Soundtest/cottontownA", "Steamy Cotton Candy - RodMod", true);
-new defineMusic("event:/music/Soundtest/cottontownB", "Around The Gateau's Gears - RodMod", true);
-new defineMusic("event:/music/Soundtest/cottontown_secret", "A Steamy Secret - Various");
-new defineMusic("event:/music/Soundtest/minesA", "Mineshaft Depths - RodMod", true);
-new defineMusic("event:/music/Soundtest/minesB", "Cobalt Catastrophe - RodMod", true);
-new defineMusic("event:/music/Soundtest/mines_secret", "A Dusty Secret - Various");
-new defineMusic("event:/music/Soundtest/molassesA", "Lost Chocolate - CableChords, RodMod", true);
-new defineMusic("event:/music/Soundtest/molassesB", "Found Chocolate - CableChords", true);
-new defineMusic("event:/music/Soundtest/molasses_secret", "A Sticky Secret - Various");
+new defineMusic("event:/music/Soundtest/entrywayPZ_secret", "there's a secret inside my breakfast? - Various");
+new defineMusic("event:/music/Soundtest/cottontownA", "Steamy Cotton Candy - RodMod", "Werecotton Mix");
+new defineMusic("event:/music/Soundtest/cottontownB", "Around The Gateau's Gears - RodMod", "Werecotton Mix");
+new defineMusic("event:/music/Soundtest/cottontown_secret", "Lookie! You've found a steamy surprise. - Various");
+new defineMusic("event:/music/Soundtest/minesA", "Mineshaft Depths - RodMod", "Minecart Mix");
+new defineMusic("event:/music/Soundtest/minesB", "Cobalt Catastrophe - RodMod", "Minecart Mix");
+new defineMusic("event:/music/Soundtest/mines_secret", "a jawbreaking secret. - Various");
+new defineMusic("event:/music/Soundtest/molassesA", "Lost Chocolate - CableChords, RodMod", "Focus Mix");
+new defineMusic("event:/music/Soundtest/molassesB", "Found Chocolate - CableChords", "Focus Mix");
+new defineMusic("event:/music/Soundtest/molasses_secret", "man's lost secret. - Various");
 new defineMusic("event:/music/Soundtest/glucosegetaway", "Sugar Rush - RodMod, CableChords, The8Bitdrummer");
 new defineMusic("event:/music/Soundtest/sweetrelease", "Sweet Release of Death - RodMod");
+new defineMusic("event:/music/Soundtest/rank", "Results! - PaperKitty", "AWFUL Mix");
 new defineMusic("event:/music/Soundtest/credits", "Toodle-oo! - PaperKitty");
 ini_open(global.SaveFileName);
 
@@ -52,12 +54,12 @@ if (ini_read_string("Game", "Judgment", "none") != "none")
 
 if (ini_read_string("Treasure", "mindpalace", "0") != "0")
 {
-    new defineMusic("event:/music/Soundtest/painterMixtape", "Painter's Mixtape - Stewart Keller", true);
+    new defineMusic("event:/music/Soundtest/painterMixtape", "Painter's Mixtape - Stewart Keller", "OST Version");
     new defineMusic("event:/music/Soundtest/spiresamba", "Samba de Spire - PaperKitty");
     new defineMusic("event:/music/Soundtest/mountainA", "Aw, Fudge! (Bonus) - Pteracotta");
     new defineMusic("event:/music/Soundtest/mountainB", "Fudge It All! (Bonus) - RodMod");
-    new defineMusic("event:/music/Soundtest/mountain_secret", "A Mountain Secret (Bonus) - Various");
-    new defineMusic("event:/music/Soundtest/runthedog", "Run the Dog (Bonus) - PaperKitty", true);
+    new defineMusic("event:/music/Soundtest/mountain_secret", "what the fudge? it's a secret! (Bonus) - Various");
+    new defineMusic("event:/music/Soundtest/runthedog", "Run the Dog (Bonus) - PaperKitty", "Marshmallow Mix");
     new defineMusic("event:/music/Soundtest/sugarcubehailstorm", "Sugarcube Hailstorm (Bonus) - PaperKitty");
     new defineMusic("event:/music/Soundtest/painterBoss", "Painter's Theme (Bonus) - CableChords");
     new defineMusic("event:/music/Soundtest/stinky", "What's that Smell? (Bonus) - PaperKitty");

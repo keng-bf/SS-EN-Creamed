@@ -16,7 +16,7 @@ if (!isOpen) {
 		self.open();
 	}
 } else {
-	var prevConsoleString = consoleString;
+	var prev_console_string = consoleString;
 	
 	if (metaDeleted && keyboard_check_released(vk_backspace)) {
 		metaDeleted = false;
@@ -44,10 +44,10 @@ if (!isOpen) {
 		targetScrollPosition = maxScrollPosition;
 	} else if (self._key_combo_pressed([metaKey], ord("K"))) {
 		// bash-style "kill" (aka delete all characters following cursor)
-		var leftSide = string_copy(consoleString, 0, cursorPos - 1);
-		var rightSide = string_copy(consoleString, cursorPos, string_length(consoleString) - cursorPos + 1);
-		killedString = rightSide;
-		consoleString = leftSide;
+		var left_side = string_copy(consoleString, 0, cursorPos - 1);
+		var right_side = string_copy(consoleString, cursorPos, string_length(consoleString) - cursorPos + 1);
+		killedString = right_side;
+		consoleString = left_side;
 		cursorPos = string_length(consoleString) + 1;
 		targetScrollPosition = maxScrollPosition;
 	} else if (self._key_combo_pressed([metaKey], ord("Y"))) {
@@ -64,42 +64,42 @@ if (!isOpen) {
 		targetScrollPosition = maxScrollPosition;
 	} else if (self._key_combo_pressed([metaKey], vk_backspace) || (metaKey == vk_control && ord(keyboard_string) == 127)) {
 		// delete characters from the cursor position to the preceding space or start of the line
-		var precedingSpaceIndex = 1;
+		var preceding_space_index = 1;
 		// don't want to check for space at or before the cursor position, so start 2 back
 		for (var i = cursorPos - 2; i > 1; i--) {
 			if (string_char_at(consoleString, i) == " ") {
-				precedingSpaceIndex = i;
+				preceding_space_index = i;
 				break;
 			}
 		}
-		consoleString = string_delete(consoleString, precedingSpaceIndex, cursorPos - precedingSpaceIndex);
-		cursorPos = precedingSpaceIndex;
+		consoleString = string_delete(consoleString, preceding_space_index, cursorPos - preceding_space_index);
+		cursorPos = preceding_space_index;
 		targetScrollPosition = maxScrollPosition;
 		keyboard_string = "";
 		metaDeleted = true;
 	} else if (self._key_combo_pressed([metaKey], vk_left)) {
 		// jump left to the preceding word
-		var precedingSpaceIndex = 1;
+		var preceding_space_index = 1;
 		// don't want to check for space at or before the cursor position, so start 2 back
 		for (var i = cursorPos - 2; i > 1; i--) {
 			if (string_char_at(consoleString, i) == " ") {
-				precedingSpaceIndex = i;
+				preceding_space_index = i;
 				break;
 			}
 		}
-		cursorPos = precedingSpaceIndex;
+		cursorPos = preceding_space_index;
 		targetScrollPosition = maxScrollPosition;
 		metaMovedLeft = true;
 	} else if (self._key_combo_pressed([metaKey], vk_right)) {
-		var nextSpaceIndex = string_length(consoleString) + 1;
+		var next_space_index = string_length(consoleString) + 1;
 		// jump right to the following word
 		for (var i = cursorPos + 2; i <= string_length(consoleString) + 1; i++) {
 			if (string_char_at(consoleString, i) == " ") {
-				nextSpaceIndex = i;
+				next_space_index = i;
 				break;
 			}
 		}
-		cursorPos = nextSpaceIndex;
+		cursorPos = next_space_index;
 		targetScrollPosition = maxScrollPosition;
 		metaMovedRight = true;
 	} else if (self._keyboard_check_delay(vk_backspace)) {
@@ -121,16 +121,16 @@ if (!isOpen) {
 			if (cursorPos == string_length(consoleString) + 1 &&
 				array_length(filteredSuggestions) != 0) {
 				var suggestion = filteredSuggestions[suggestionIndex];
-				var consoleWords = self._input_string_split(consoleString);
-				var currentWordLength = string_length(consoleWords[array_length(consoleWords) - 1]);
-				consoleString += string_copy(suggestion, currentWordLength + 1, string_length(suggestion) - currentWordLength);
+				var console_words = self._input_string_split(consoleString);
+				var current_word_length = string_length(console_words[array_length(console_words) - 1]);
+				consoleString += string_copy(suggestion, current_word_length + 1, string_length(suggestion) - current_word_length);
 				cursorPos = string_length(consoleString) + 1;
 			} else {
 				cursorPos = min(string_length(consoleString) + 1, cursorPos + 1);
 			}
 			targetScrollPosition = maxScrollPosition;
 		}
-	} else if (self._key_combo_pressed(historyUpModifiers, historyUpKey) && !isAutocompleteOpen) {
+	} else if (self._key_combo_pressed(historyUpModifiers, historyUpKey)) {
 		if (historyPos == array_length(history)) {
 			savedConsoleString = consoleString;
 		}
@@ -140,7 +140,7 @@ if (!isOpen) {
 			cursorPos = string_length(consoleString) + 1;
 		}
 		targetScrollPosition = maxScrollPosition;
-	} else if (self._key_combo_pressed(historyDownModifiers, historyDownKey) && !isAutocompleteOpen) {
+	} else if (self._key_combo_pressed(historyDownModifiers, historyDownKey)) {
 		if (historyPos < array_length(history)) {
 			historyPos = min(array_length(history), historyPos + 1);
 			if (historyPos == array_length(history)) {
@@ -152,45 +152,53 @@ if (!isOpen) {
 		}
 		targetScrollPosition = maxScrollPosition;
 	} else if (keyboard_check_pressed(vk_enter)) {
-		if (string_trim(consoleString) != "") {
-			if (isAutocompleteOpen) {
-				self._confirm_current_suggestion();
-			} else {
-				var args = self._input_string_split(consoleString);
-				if (array_length(args) > 0) {
-					var metadata = functionData[$ args[0]];
-					if (!is_undefined(metadata)) {
-						var deferred = false;
-						if (variable_struct_exists(metadata, "deferred")) {
-							deferred = metadata.deferred;
-						}
-						if (deferred) {
-							ds_queue_enqueue(deferredQueue, args);
-							array_push(history, consoleString);
-							array_push(output, ">" + consoleString);
-							array_push(output, "Execution deferred until shell is closed.");
-							self._update_positions();
-						} else {
-							_execute_script(args);
-						}
-					} else {
-						_execute_script(args);
-					}
-				} else {
-					array_push(output, ">");
-					consoleString = "";
-					savedConsoleString = "";
-					cursorPos = 1;
-				}
-			}
-		} else {
-			array_push(output, ">");
-			consoleString = "";
-			savedConsoleString = "";
-			cursorPos = 1;
+        if (isAutocompleteOpen)
+        {
+            _confirm_current_suggestion();
+        }
+        else
+        {
+            var args = _input_string_split(consoleString);
+            
+            if (array_length(args) > 0)
+            {
+                var metadata = variable_struct_get(functionData, array_get(args, 0));
+                
+                if (!is_undefined(metadata))
+                {
+                    var deferred = false;
+                    
+                    if (variable_struct_exists(metadata, "deferred"))
+                        deferred = metadata.deferred;
+                    
+                    if (deferred)
+                    {
+                        ds_queue_enqueue(deferredQueue, args);
+                        array_push(history, consoleString);
+                        array_push(output, ">" + consoleString);
+                        array_push(output, "Execution deferred until shell is closed.");
+                        _update_positions();
+                    }
+                    else
+                    {
+                        _execute_script(args);
+                    }
+                }
+                else
+                {
+                    _execute_script(args);
+                }
+            }
+            else
+            {
+                array_push(output, ">");
+                consoleString = "";
+                savedConsoleString = "";
+                cursorPos = 1;
+            }
 		}
 		commandSubmitted = true;
-	} else if (self._key_combo_pressed(cycleSuggestionsModifiers, cycleSuggestionsKey) || keyboard_check_pressed(vk_down)) {
+	} else if (self._key_combo_pressed(cycleSuggestionsModifiers, cycleSuggestionsKey)) {
 		if (array_length(filteredSuggestions) != 0) {
 			// Auto-complete up to the common prefix of our suggestions
 			var uncompleted = consoleString;
@@ -204,7 +212,7 @@ if (!isOpen) {
 				}
 			}
 		}
-	} else if (self._key_combo_pressed(cycleSuggestionsReverseModifiers, cycleSuggestionsReverseKey) || keyboard_check_pressed(vk_up)) {
+	} else if (self._key_combo_pressed(cycleSuggestionsReverseModifiers, cycleSuggestionsReverseKey)) {
 		if (array_length(filteredSuggestions) != 0) {
 			suggestionIndex = (suggestionIndex + array_length(filteredSuggestions) - 1) % array_length(filteredSuggestions);
 			if (isAutocompleteOpen) {
@@ -257,14 +265,14 @@ if (!isOpen) {
 	}
 	
 	// Updating scrolling
-	var lerpValue = (scrollSmoothness == 0) ? 1 : self._remap(scrollSmoothness, 1, 0, 0.08, 0.4);
-	scrollPosition = lerp(scrollPosition, targetScrollPosition, lerpValue);
+	var lerp_value = (scrollSmoothness == 0) ? 1 : self._remap(scrollSmoothness, 1, 0, 0.08, 0.4);
+	scrollPosition = lerp(scrollPosition, targetScrollPosition, lerp_value);
 	scrollPosition = clamp(scrollPosition, 0, maxScrollPosition)
 	if (scrollPosition == 0 || scrollPosition == maxScrollPosition) {
 		targetScrollPosition = clamp(targetScrollPosition, 0, maxScrollPosition);
 	}
 	
-	if (consoleString != prevConsoleString) {
+	if (consoleString != prev_console_string) {
 		// If the text at the prompt has changed, update the list of possible
 		// autocomplete suggestions
 		self._update_filtered_suggestions();
@@ -288,16 +296,16 @@ if (!is_undefined(activeMouseArgType)) {
 	} else if (activeMouseArgType == mouseArgumentType.guiY) {
 		activeMouseArgValue = device_mouse_y_to_gui(0);
 	} else if (activeMouseArgType == mouseArgumentType.instanceId) {
-		var instAtCursor = instance_position(mouse_x, mouse_y, all);
-		if (instAtCursor != noone) {
-			activeMouseArgValue = instAtCursor;
+		var inst_at_cursor = instance_position(mouse_x, mouse_y, all);
+		if (inst_at_cursor != noone) {
+			activeMouseArgValue = inst_at_cursor;
 		} else {
 			activeMouseArgValue = "";
 		}
 	} else if (activeMouseArgType == mouseArgumentType.objectId) {
-		var instAtCursor = instance_position(mouse_x, mouse_y, all);
-		if (instAtCursor != noone) {
-			activeMouseArgValue = instAtCursor.object_index;
+		var inst_at_cursor = instance_position(mouse_x, mouse_y, all);
+		if (inst_at_cursor != noone) {
+			activeMouseArgValue = inst_at_cursor.object_index;
 		} else {
 			activeMouseArgValue = "";
 		}

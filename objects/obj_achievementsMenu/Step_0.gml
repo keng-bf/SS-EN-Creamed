@@ -1,6 +1,6 @@
 var v_move, h_move, h_move2, oldV, oldH, maxH, maxV, vf, vInterval;
 
-scr_getinput();
+scr_getinput_menu();
 v_move = key_down2 - key_up2;
 h_move = key_left2 + key_right2;
 h_move2 = key_left + key_right;

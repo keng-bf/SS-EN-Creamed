@@ -1,4 +1,4 @@
-var _cutscene;
+var _cutscene, arrow_condition;
 
 with (obj_parent_player)
 {
@@ -21,5 +21,6 @@ with (obj_parent_player)
     }
 }
 
+arrow_condition = place_meeting(x, y, obj_parent_player) && obj_parent_player.state == States.normal && obj_parent_player.grounded;
+manage_up_arrow(arrow_condition);
 y += vsp;
-

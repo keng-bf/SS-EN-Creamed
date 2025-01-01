@@ -26,17 +26,48 @@ function scr_input_varinit()
     stickpressed = false;
 }
 
+function scr_getinput_menu()
+{
+    if (global.shellactivate)
+        exit;
+    
+    key_up = input_check("menuup");
+    key_up2 = input_check_pressed("menuup");
+    key_right = input_check("menuright");
+    key_right2 = input_check_pressed("menuright");
+    key_left = -input_check("menuleft");
+    key_left2 = -input_check_pressed("menuleft");
+    key_down = input_check("menudown");
+    key_down_release = input_check_released("menudown");
+    key_down2 = input_check_pressed("menudown");
+    key_jump2 = input_check("menuconfirm");
+    key_jump = input_check_pressed("menuconfirm");
+    key_jump_release = input_check_released("menuconfirm");
+    key_slap = input_check("menuback");
+    key_slap2 = input_check_pressed("menuback");
+    key_taunt = input_check("menudelete");
+    key_taunt2 = input_check_pressed("menudelete");
+    key_attack = false;
+    key_attack2 = false;
+    key_shoot = false;
+    key_shoot2 = false;
+    key_start = input_check("start");
+    key_start2 = input_check_pressed("start");
+    key_special = false;
+    key_special2 = false;
+    key_escape = key_start;
+    key_superjump = input_check("superjump");
+    key_groundpound = input_check("groundpound");
+    return true;
+}
+
 function scr_getinput()
 {
-    var _dvc;
-    
     scr_input_varinit();
     
     if (global.shellactivate)
         exit;
     
-    _dvc = global.PlayerInputDevice;
-    gamepad_set_axis_deadzone(_dvc, 0.4);
     key_up = input_check("up");
     key_up2 = input_check_pressed("up");
     key_right = input_check("right");
@@ -62,8 +93,8 @@ function scr_getinput()
     key_special = input_check("special");
     key_special2 = input_check_pressed("special");
     key_escape = input_check("start");
-    key_superjump = (input_get("superjump").held && global.option_sjump_key) || (input_get("superjumpC").held && global.option_sjump_gp);
-    key_groundpound = (input_get("groundpound").held && global.option_groundpound_key) || (input_get("groundpoundC").held && global.option_groundpound_gp);
+    key_superjump = input_check("superjump");
+    key_groundpound = input_check("groundpound");
     return true;
 }
 

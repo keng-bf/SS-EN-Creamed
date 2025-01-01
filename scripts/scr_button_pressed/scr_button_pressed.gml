@@ -1,6 +1,6 @@
 function scr_button_pressed(argument0)
 {
-    if (keyboard_check_pressed(vk_anykey) || input_get("jump").pressed)
+    if ((keyboard_check_pressed(vk_anykey) || input_get("jump").pressed) && !keyboard_check_pressed(vk_f1))
     {
         return -1;
     }

@@ -189,7 +189,7 @@ function kinematics_movingPlatforms(obj, platform_id, collisions = true) {
 /// @param {any*} y The y position to check.
 /// @param {real} [max_units] The max amount of pixels to check.
 /// @returns {real}
-function slope_check_up(x_pos, y_pos, max_units = 3) {
+function slope_check_up(x_pos, y_pos, max_units = 2) {
 	// Move up slope
 	for (var i = max_units; i > 0; --i) {
 		var _check = true;
@@ -212,7 +212,7 @@ function slope_check_up(x_pos, y_pos, max_units = 3) {
 /// @param {any*} y The y position to check.
 /// @param {real} [max_units] The max amount of pixels to check.
 /// @returns {real}
-function slope_check_down(x_pos, y_pos, max_units = 3) {
+function slope_check_down(x_pos, y_pos, max_units = 2) {
 	// Move down slope
 	for (var i = 1; i < max_units + 1; ++i) {
 		var _check = true;

@@ -43,30 +43,10 @@ function state_player_mach2()
     
     if (grounded)
     {
-        if (!machPunchAnim && sprite_index != mach_sprite && sprite_index != spr_mach3player)
+        if (sprite_index != mach_sprite && sprite_index != spr_mach3player)
         {
             if (sprite_index != spr_rollgetup)
                 sprite_index = mach_sprite;
-        }
-        
-        if (machPunchAnim)
-        {
-            if (!punch && sprite_index != spr_machpunch1)
-            {
-                sprite_index = spr_machpunch1;
-                image_index = 0;
-            }
-            else if (punch && sprite_index != spr_machpunch2)
-            {
-                sprite_index = spr_machpunch2;
-                image_index = 0;
-            }
-            
-            if (sprite_animation_end())
-            {
-                punch = !punch;
-                machPunchAnim = false;
-            }
         }
     }
     
@@ -131,7 +111,7 @@ function state_player_mach2()
         }
     }
     
-    if (key_down && !place_meeting(x, y, obj_dashpad))
+    if (key_down && !key_slap2 && !place_meeting(x, y, obj_dashpad))
     {
         flash = false;
         state = States.machroll;
@@ -232,4 +212,3 @@ function state_player_mach2()
         floatyGrab = 18;
     }
 }
-

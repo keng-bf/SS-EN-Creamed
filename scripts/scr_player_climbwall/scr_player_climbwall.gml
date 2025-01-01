@@ -4,7 +4,7 @@ function state_player_climbwall()
     
     floatyGrab = 0;
     conveyorHsp = 0;
-    hsp = xscale;
+    hsp = xscale * movespeed;;
     
     if (windingAnim < 200)
         windingAnim++;

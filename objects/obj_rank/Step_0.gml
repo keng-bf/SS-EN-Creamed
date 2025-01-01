@@ -1,6 +1,6 @@
 var i, _collect_sfx;
 
-scr_getinput();
+scr_getinput_menu();
 
 if (event > 0 && (sprite_index == spr_rankP || sprite_index == spr_rankPend))
 {

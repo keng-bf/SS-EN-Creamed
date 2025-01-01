@@ -1,1 +1,1 @@
-kill_sounds([sndMoving, sndSob]);
+kill_sounds([sndMoving, sndSob, sndWake]);

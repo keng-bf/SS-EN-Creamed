@@ -54,10 +54,10 @@ function scr_checksuperjump()
 {
     var disabled;
     
-    disabled = !global.option_sjump_gp;
+    disabled = global.option_sjump_gp;
     
     if (global.PlayerInputDevice < 0)
-        disabled = !global.option_sjump_key;
+        disabled = global.option_sjump_key;
     
     return (disabled && key_up) || key_superjump;
 }
@@ -66,10 +66,10 @@ function scr_checkgroundpound()
 {
     var disabled;
     
-    disabled = !global.option_groundpound_gp;
+    disabled = global.option_groundpound_gp;
     
     if (global.PlayerInputDevice < 0)
-        disabled = !global.option_groundpound_key;
+        disabled = global.option_groundpound_key;
     
     return (disabled && key_down2) || key_groundpound;
 }
@@ -108,10 +108,10 @@ function scr_input_init_sprites()
     scr_input_icon_add([32783], spr_key_controller, 3);
     scr_input_icon_add([32778], spr_key_controller, 17);
     scr_input_icon_add([32777], spr_key_controller, 16);
-    scr_input_icon_add([32773], spr_key_controller, 12);
-    scr_input_icon_add([32775], spr_key_controller, 14);
-    scr_input_icon_add([32774], spr_key_controller, 13);
-    scr_input_icon_add([32776], spr_key_controller, 15);
+    scr_input_icon_add([32775], spr_key_controller, 12);
+    scr_input_icon_add([32776], spr_key_controller, 13);
+    scr_input_icon_add([32773], spr_key_controller, 14);
+    scr_input_icon_add([32774], spr_key_controller, 15);
 }
 
 function scr_input_icon_add(argument0, argument1, argument2)
@@ -181,15 +181,55 @@ function scr_input_get_icon(argument0, argument1 = false)
     return argument1 ? result : result[0];
 }
 
-function get_control_sprite(argument0)
+function get_control_sprite(argument0, argument1 = false)
 {
-    var icon, str;
+    var _controller, _enabled, icon, str;
+    
+    _controller = global.PlayerInputDevice >= 0;
+    
+    switch (argument0)
+    {
+        case "forward":
+            argument0 = (obj_parent_player.xscale == -1) ? "left" : "right";
+            break;
+        
+        case "backward":
+            argument0 = (obj_parent_player.xscale == 1) ? "left" : "right";
+            break;
+        
+        case "dialogSJ":
+            _enabled = _controller ? global.option_sjump_gp : global.option_sjump_key;
+            argument0 = _enabled ? "superjump" : "up";
+            break;
+        
+        case "dialogGP":
+            _enabled = _controller ? global.option_groundpound_gp : global.option_groundpound_key;
+            argument0 = _enabled ? "groundpound" : "down";
+            break;
+    }
     
     icon = scr_input_get_icon(argument0);
+    
+    if (argument1)
+        return icon;
+    
     str = string("[{0}]", sprite_get_name(icon[0]) + ", " + string(floor(icon[1])));
     
     if (icon[0] == spr_key_empty)
         str += string("[spr_keyDrawFont]{0}", scr_keyname(icon[2]));
     
     return str;
+}
+
+function draw_control_sprite(argument0, argument1, argument2)
+{
+    var icon, base;
+    
+    icon = get_control_sprite(argument0, true);
+    base = scribble(string("[{0}, {1}]", sprite_get_name(icon[0]), floor(icon[1]))).align(1, 1).blend(draw_get_color(), draw_get_alpha()).draw(argument1, argument2);
+    
+    if (icon[0] == spr_key_empty)
+        scribble(string_copy(scr_keyname(icon[2]), 1, 3)).starting_format(font_get_name(global.keyDrawFont), 0).align(1, 1).blend(draw_get_color(), draw_get_alpha()).draw(argument1 + 16, argument2);
+    
+    return base;
 }

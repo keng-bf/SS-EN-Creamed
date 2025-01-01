@@ -4,7 +4,12 @@ if (!loaded)
     exit;
 
 if (!blockedInputs)
-    scr_getinput();
+{
+    scr_getinput_menu();
+    
+    if (keyboard_check_pressed(vk_f1))
+        scr_resetinput();
+}
 
 flashbuffer = min(flashbuffer - 1, 0);
 
@@ -151,6 +156,12 @@ if (abletomove && !blockedInputs && !activated)
             fileSelectHeightRatio[selectedFile] = 1;
             ds_queue_clear(saves_queue);
         }
+        else if (key_start2)
+        {
+            blockedInputs = true;
+            instance_create(0, 0, obj_option);
+            exit;
+        }
         else if (key_slap2)
         {
             blockedInputs = true;
@@ -164,12 +175,6 @@ if (abletomove && !blockedInputs && !activated)
             {
                 selectedFile: selectedFile
             });
-            exit;
-        }
-        else if (key_start2)
-        {
-            blockedInputs = true;
-            instance_create(0, 0, obj_option);
             exit;
         }
     }

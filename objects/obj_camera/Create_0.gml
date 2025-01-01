@@ -37,7 +37,6 @@ rankbubblesurface = -4;
 bubblescale = 0;
 global.CameraViewWidth = camera_get_view_width(view_camera[0]);
 global.CameraViewHeight = camera_get_view_height(view_camera[0]);
-window_set_size(960, 540);
 global.MaxEscapeTime = 0;
 pizzaindex = 0;
 cameraXOffset = 0;
