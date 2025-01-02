@@ -1,1 +1,1 @@
-text = lang_get("icepop_tut_3");
+text = lang_get("icepop_tut_6");

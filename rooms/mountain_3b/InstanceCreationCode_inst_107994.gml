@@ -1,1 +1,1 @@
-hookStopID = 107995;
+targetRoom = mountain_4;

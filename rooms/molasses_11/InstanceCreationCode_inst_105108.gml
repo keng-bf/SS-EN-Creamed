@@ -1,1 +1,1 @@
-targetRoom = molasses_12;
+targetRoom = molasses_10;
