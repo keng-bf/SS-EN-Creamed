@@ -52,8 +52,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cottontown Secret",
+    "path": "folders/Sprites/Collectables/Cottontown Secret.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

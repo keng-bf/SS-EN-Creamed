@@ -67,8 +67,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Banancer",
+    "path": "folders/Sprites/Enemies/Banancer.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

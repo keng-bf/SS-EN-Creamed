@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Big Gnome Studios Logo",
+    "path": "folders/Sprites/Graphics/Big Gnome Studios Logo.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Dead",
+    "path": "folders/Sprites/Level Elements/Candysonas/Dead.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

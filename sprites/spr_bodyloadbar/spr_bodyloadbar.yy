@@ -55,8 +55,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Loading Screen",
+    "path": "folders/Sprites/Graphics/Loading Screen.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

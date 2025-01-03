@@ -57,8 +57,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Candy",
+    "path": "folders/Sprites/Level Elements/Confecti/Candy.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

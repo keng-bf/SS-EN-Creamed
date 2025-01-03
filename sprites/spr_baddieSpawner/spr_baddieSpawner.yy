@@ -6,7 +6,7 @@
   "bbox_left": 16,
   "bbox_right": 79,
   "bbox_top": 37,
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
@@ -61,8 +61,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Baddie Spawner",
+    "path": "folders/Sprites/Level Elements/Baddie Spawner.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -61,8 +61,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Escape Timer",
+    "path": "folders/Sprites/HUD/Escape Timer.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

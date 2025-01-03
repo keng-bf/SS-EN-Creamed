@@ -58,8 +58,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Marshmallow Bulldog",
+    "path": "folders/Sprites/Enemies/Marshmallow Bulldog.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

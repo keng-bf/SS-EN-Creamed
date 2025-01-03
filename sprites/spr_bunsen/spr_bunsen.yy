@@ -6,7 +6,7 @@
   "bbox_left": 31,
   "bbox_right": 66,
   "bbox_top": 22,
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
@@ -56,8 +56,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Bunsen Burner",
+    "path": "folders/Sprites/Level Elements/Bunsen Burner.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

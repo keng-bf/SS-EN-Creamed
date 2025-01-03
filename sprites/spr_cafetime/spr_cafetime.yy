@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cafe Timer",
+    "path": "folders/Sprites/HUD/Cafe Timer.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

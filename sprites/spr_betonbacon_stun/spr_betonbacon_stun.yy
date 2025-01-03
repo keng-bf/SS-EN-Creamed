@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Baconator",
+    "path": "folders/Sprites/Enemies/Baconator.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

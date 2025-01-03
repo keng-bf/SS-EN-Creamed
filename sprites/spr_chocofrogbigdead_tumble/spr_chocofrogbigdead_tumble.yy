@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Chocolate Frog",
+    "path": "folders/Sprites/Level Elements/Chocolate Frog.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

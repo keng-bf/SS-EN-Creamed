@@ -61,8 +61,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Escape Collectables",
+    "path": "folders/Sprites/Collectables/Escape Collectables.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

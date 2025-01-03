@@ -6,7 +6,7 @@
   "bbox_left": 16,
   "bbox_right": 79,
   "bbox_top": 56,
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 5,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Button",
+    "path": "folders/Sprites/Level Elements/Button.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

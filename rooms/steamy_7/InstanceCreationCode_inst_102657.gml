@@ -1,6 +1,6 @@
 condition = function()
 {
-    return ds_list_find_index(global.SaveRoom, 102649) != -1;
+    return ds_list_find_index(global.SaveRoom, inst_102649) != -1;
 };
 
 output = function()

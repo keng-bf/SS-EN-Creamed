@@ -6,8 +6,8 @@
   "bbox_left": 35,
   "bbox_right": 162,
   "bbox_top": 42,
-  "bboxMode": 0,
-  "collisionKind": 4,
+  "bboxMode": 2,
+  "collisionKind": 2,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Blotchsplotch",
+    "path": "folders/Sprites/Enemies/Blotchsplotch.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

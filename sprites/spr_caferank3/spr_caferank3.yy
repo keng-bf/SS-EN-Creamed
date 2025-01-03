@@ -49,8 +49,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cafe Ranks",
+    "path": "folders/Sprites/Graphics/Cafe Ranks.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
