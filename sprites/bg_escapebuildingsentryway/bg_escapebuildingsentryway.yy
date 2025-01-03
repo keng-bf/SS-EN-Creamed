@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Crunchy Construction",
+    "path": "folders/Sprites/Backgrounds/Crunchy Construction.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

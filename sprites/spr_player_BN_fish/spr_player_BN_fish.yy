@@ -53,8 +53,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Bo Noise",
+    "path": "folders/Sprites/Player/Bo Noise.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

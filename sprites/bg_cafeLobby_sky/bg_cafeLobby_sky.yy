@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Chocoa Cafe",
+    "path": "folders/Sprites/Backgrounds/Chocoa Cafe.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

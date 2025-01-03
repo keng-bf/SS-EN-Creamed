@@ -60,8 +60,8 @@
   },
   "origin": 4,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Pizzelle",
+    "path": "folders/Sprites/Player/Pizzelle.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

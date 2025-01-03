@@ -51,8 +51,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Lapping Decor",
+    "path": "folders/Sprites/Backgrounds/Lapping Decor.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

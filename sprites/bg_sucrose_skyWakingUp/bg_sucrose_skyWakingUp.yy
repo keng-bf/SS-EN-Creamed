@@ -74,8 +74,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Sucrose Snowstorm",
+    "path": "folders/Sprites/Backgrounds/Sucrose Snowstorm.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Masks",
+    "path": "folders/Sprites/Player/Masks.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

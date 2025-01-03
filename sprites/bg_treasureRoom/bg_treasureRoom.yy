@@ -74,8 +74,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Treasure Room",
+    "path": "folders/Sprites/Backgrounds/Treasure Room.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

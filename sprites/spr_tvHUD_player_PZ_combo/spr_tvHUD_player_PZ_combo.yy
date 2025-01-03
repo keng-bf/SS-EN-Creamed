@@ -125,8 +125,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Pizzelle",
+    "path": "folders/Sprites/HUD/TV/Pizzelle.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

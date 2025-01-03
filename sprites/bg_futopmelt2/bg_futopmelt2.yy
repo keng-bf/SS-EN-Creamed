@@ -56,8 +56,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Mt. Fudgetop",
+    "path": "folders/Sprites/Backgrounds/Mt. Fudgetop.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

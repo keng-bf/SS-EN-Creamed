@@ -59,8 +59,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Combo",
+    "path": "folders/Sprites/HUD/Combo.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

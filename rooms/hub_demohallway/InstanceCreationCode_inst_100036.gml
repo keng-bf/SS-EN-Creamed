@@ -10,4 +10,3 @@ info =
     titleInfo: [spr_entrycard_title, UnknownTitlecard.Zero, UnknownTitlecard.Five, UnknownTitlecard.Six, 672, 160],
     titlecardSong: "event:/music/w1/entryway_titlecard"
 };
-

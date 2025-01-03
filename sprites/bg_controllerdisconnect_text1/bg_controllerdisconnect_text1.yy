@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Controller Disconnected",
+    "path": "folders/Sprites/Graphics/Controller Disconnected.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
