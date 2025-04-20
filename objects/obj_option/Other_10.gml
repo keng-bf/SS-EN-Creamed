@@ -25,7 +25,10 @@ switch (optionMenu)
 		}).add_icon(spr_newpause_icons, 8), new option_button("opt_controls", function()
 		{
 			option_goto(OptionMenu.Controls)
-		}).add_icon(spr_newpause_icons, 7)]
+		}).add_icon(spr_newpause_icons, 7), new option_button("opt_modification", function()
+		{
+			option_goto(OptionMenu.Modification)
+		}).add_icon(spr_newpause_icons, 10)]
 		
 		if (room == rm_mainmenu)
 		{
@@ -185,10 +188,35 @@ switch (optionMenu)
 		}
 		
 		break
+		
+	case OptionMenu.Modification:
+		backMenu = OptionMenu.Base
+		backOption = 4
+		alignCenter = false
+		/*var modification_options = ["opt_off", "opt_game_timer_type_level", "opt_game_timer_type_save", "opt_game_timer_type_both"]
+		options = [toMainPage, new option_normal("opt_game_vibrate", onOffToggle, function(arg0)
+		{
+			quick_write_option("Settings", "vibration", arg0)
+			global.controllerVibration = arg0
+		}, global.controllerVibration), new option_normal("opt_game_screenshake", onOffToggle, function(arg0)
+		{
+			quick_write_option("Settings", "screenshake", arg0)
+			global.ScreenShake = arg0
+		}, global.ScreenShake), new option_normal("opt_game_timer_type", timer_options, function(arg0)
+		{
+			quick_write_option("Settings", "opt_timerType", arg0)
+			global.option_timer_type = arg0
+		}, global.option_timer_type), new option_normal("opt_game_timerspeedrun", onOffToggle, function(arg0)
+		{
+			quick_write_option("Settings", "timerspeedrun", arg0)
+			global.option_speedrun_timer = arg0
+		}, global.option_speedrun_timer)]*/
+		
+		break
 	
 	case OptionMenu.Language:
 		backMenu = OptionMenu.Base
-		backOption = 4
+		backOption = 5
 		alignCenter = false
 		break
 	

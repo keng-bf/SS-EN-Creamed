@@ -478,6 +478,7 @@
 "opt_game"          : "GAME"
 "opt_controls"      : "CONTROLS"
 "opt_language" 	    : "LANGUAGE"
+"opt_modification" 	    : "MODIFICATION"
 "opt_back"          : "BACK"
 "opt_on"            : "ON"
 "opt_off"           : "OFF"

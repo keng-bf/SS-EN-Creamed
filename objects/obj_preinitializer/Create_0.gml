@@ -132,6 +132,7 @@ enum OptionMenu
 	Window,
 	Game,
 	Language,
+	Modification,
 	Controls,
 	Keyboard,
 	Gamepad,

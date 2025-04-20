@@ -4,6 +4,7 @@ optionBG[OptionMenu.Video] = 2
 optionBG[OptionMenu.Window] = 2
 optionBG[OptionMenu.Game] = 3
 optionBG[OptionMenu.Language] = 5
+optionBG[OptionMenu.Modification] = 6
 optionBG[OptionMenu.Controls] = 4
 optionBG[OptionMenu.Keyboard] = 4
 optionBG[OptionMenu.Gamepad] = 4
@@ -31,7 +32,7 @@ options = []
 optionSelected = 0
 alignCenter = true
 scr_input_varinit()
-bg_alpha = [1, 0, 0, 0, 0, 0, 0]
+bg_alpha = [1, 0, 0, 0, 0, 0, 0, 0]
 inputBuffer = 1
 activeSFX = -4
 optionMenu = OptionMenu.Base

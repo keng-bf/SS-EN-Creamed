@@ -480,6 +480,7 @@
 "opt_game"         : "JUEGO"
 "opt_controls"     : "CONTROLES"
 "opt_language"	   : "LENGUAJE"
+"opt_modification" 	    : "MODIFICACIÓN"
 "opt_back"         : "ATRÁS"
 "opt_on"           : "SÍ"
 "opt_off"          : "NO"

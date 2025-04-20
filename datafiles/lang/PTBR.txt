@@ -479,6 +479,7 @@
 "opt_game"          : "JOGO"
 "opt_controls"      : "CONTROLES"
 "opt_language" 	    : "IDIOMA"
+"opt_modification" 	    : "MODIFICAÇÃO"
 "opt_back"          : "VOLTAR"
 "opt_on"            : "LIGADO"
 "opt_off"           : "DESLIG."
