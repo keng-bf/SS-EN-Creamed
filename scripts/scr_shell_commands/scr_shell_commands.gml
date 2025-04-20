@@ -335,6 +335,7 @@ function toggle_debugView(arg0)
 		dbg_watch(ref_create(obj_player1, "state"), "Player State")
 		dbg_watch(ref_create(obj_player1, "stateName"), "Player State Name")
 		dbg_watch(ref_create(obj_player1, "baddieGrabbedID"), "baddieGrabbedID")
+		dbg_watch(ref_create(global, "GLOBAL_FUN"), "Fun Value")
 	}
 	else
 	{

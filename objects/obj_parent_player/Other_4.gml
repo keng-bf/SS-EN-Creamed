@@ -30,3 +30,6 @@ with (obj_spookey)
 }
 
 roomName = room_get_name(room)
+
+if (global.option_speedrun_timer)
+	global.GLOBAL_FUN = 0
