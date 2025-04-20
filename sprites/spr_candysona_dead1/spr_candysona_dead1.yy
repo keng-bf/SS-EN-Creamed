@@ -6,21 +6,21 @@
   "bbox_left": 16,
   "bbox_right": 79,
   "bbox_top": 32,
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"274b3e80-2891-4dbf-a0d9-a7ee4f399ff4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3ad7ca7e-3f67-426a-9ca6-431f27a586dd",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1a5363cc-3893-4823-a531-6b83867bf850","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"78fa16f0-60ef-4e8b-a33c-c5f859badea4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Dead",
-    "path": "folders/Sprites/Level Elements/Candysonas/Dead.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"274b3e80-2891-4dbf-a0d9-a7ee4f399ff4","path":"sprites/spr_candysona_dead1/spr_candysona_dead1.yy",},},},"Disabled":false,"id":"8270ee15-56f2-46a1-b14a-84b60bfc7e63","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3ad7ca7e-3f67-426a-9ca6-431f27a586dd","path":"sprites/spr_candysona_dead1/spr_candysona_dead1.yy",},},},"Disabled":false,"id":"a2cb5790-1bb7-480a-b5db-c99dd14a791f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

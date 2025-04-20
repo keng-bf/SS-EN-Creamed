@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8229c813-90b3-457e-bf13-71afcda907a1",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"00bdda51-1f00-447f-b986-77d15340a5e1",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"02a9ddeb-6429-470e-86bc-f15a197dacdd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d5fbcf3-01fc-466c-b025-318988d194c2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d303afe9-9238-4373-a3c5-b775a8089920",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"208d4260-53df-47ca-8749-94487d967fec",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 150,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c08029ac-e746-4f7b-bc50-95f8ed38c2cc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b6883d76-6669-47fe-b369-8f37af7f1c8b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8229c813-90b3-457e-bf13-71afcda907a1","path":"sprites/spr_player_PZ_groundPound/spr_player_PZ_groundPound.yy",},},},"Disabled":false,"id":"7ce17ba7-f591-4a2d-ad0f-7f9c5ec30a4e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"00bdda51-1f00-447f-b986-77d15340a5e1","path":"sprites/spr_player_PZ_groundPound/spr_player_PZ_groundPound.yy",},},},"Disabled":false,"id":"916e86f2-2755-4036-aabd-b489c2f44290","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"02a9ddeb-6429-470e-86bc-f15a197dacdd","path":"sprites/spr_player_PZ_groundPound/spr_player_PZ_groundPound.yy",},},},"Disabled":false,"id":"5a072c16-7014-4d91-a4cd-f18a82fe0494","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4d5fbcf3-01fc-466c-b025-318988d194c2","path":"sprites/spr_player_PZ_groundPound/spr_player_PZ_groundPound.yy",},},},"Disabled":false,"id":"dbdb5399-f32f-48c0-9b1a-b355ad76e9fe","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d303afe9-9238-4373-a3c5-b775a8089920","path":"sprites/spr_player_PZ_groundPound/spr_player_PZ_groundPound.yy",},},},"Disabled":false,"id":"db3449c7-f02e-45d5-b3cd-caa3fd9d49d5","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"208d4260-53df-47ca-8749-94487d967fec","path":"sprites/spr_player_PZ_groundPound/spr_player_PZ_groundPound.yy",},},},"Disabled":false,"id":"c8192655-e0ee-4825-8994-5926598ef0cd","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

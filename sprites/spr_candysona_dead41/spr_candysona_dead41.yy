@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"60d0a5e3-d153-428c-8d9a-aacb67cb17f4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e293972d-a4f1-483d-ab30-11320a460f4e",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"41f9efcf-3081-45b6-b5e9-53871664c497","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3e5046e9-fbdb-4446-a00f-9a0cab9a7fcb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Dead",
-    "path": "folders/Sprites/Level Elements/Candysonas/Dead.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"60d0a5e3-d153-428c-8d9a-aacb67cb17f4","path":"sprites/spr_candysona_dead41/spr_candysona_dead41.yy",},},},"Disabled":false,"id":"4bd9b257-b054-41bc-8c00-8db1123a106e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e293972d-a4f1-483d-ab30-11320a460f4e","path":"sprites/spr_candysona_dead41/spr_candysona_dead41.yy",},},},"Disabled":false,"id":"40dd243e-36d1-4da8-9af5-0e817829bbda","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

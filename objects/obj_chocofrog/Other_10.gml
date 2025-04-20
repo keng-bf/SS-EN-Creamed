@@ -1,2 +1,2 @@
-p1Vibration(5, 5);
-instance_destroy();
+p1Vibration(5, 5)
+instance_destroy()

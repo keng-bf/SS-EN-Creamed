@@ -1,2 +1,2 @@
-event_inherited();
-enemyAttack_TriggerEvent();
+event_inherited()
+enemyAttack_TriggerEvent()

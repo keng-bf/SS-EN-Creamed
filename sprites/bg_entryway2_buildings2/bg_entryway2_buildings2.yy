@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"67ab2a94-0cb5-4814-84b7-c1c653e6c954",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f7f8e934-827e-4163-8af5-00f13e323772",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 900,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9477e812-a482-40e0-a1ef-8a0ed2744364","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e31ee0df-f9f2-40fa-9933-a590a90d1417","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Crunchy Construction",
-    "path": "folders/Sprites/Backgrounds/Crunchy Construction.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"67ab2a94-0cb5-4814-84b7-c1c653e6c954","path":"sprites/bg_entryway2_buildings2/bg_entryway2_buildings2.yy",},},},"Disabled":false,"id":"c11374b6-0deb-4931-ac7d-38666dc54c8c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f7f8e934-827e-4163-8af5-00f13e323772","path":"sprites/bg_entryway2_buildings2/bg_entryway2_buildings2.yy",},},},"Disabled":false,"id":"11731293-9da4-44fb-bed6-7721d15c3ab5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

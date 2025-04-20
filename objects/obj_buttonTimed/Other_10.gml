@@ -1,2 +1,2 @@
-event_inherited();
-countdownCounter = timerDelay * room_speed;
+event_inherited()
+countdownCounter = timerDelay * room_speed

@@ -24,8 +24,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"stopFadeBackIn","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false;","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"layerArray","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"[\"Tiles_Secret\", \"Tiles_Secret1\", \"Tiles_Secret2\", \"Tiles_Secret3\"];","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"stopFadeBackIn","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"layerArray","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"[\"Tiles_Secret\", \"Tiles_Secret1\", \"Tiles_Secret2\", \"Tiles_Secret3\"]","varType":4,},
   ],
   "solid": false,
   "spriteId": {

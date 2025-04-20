@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c1642d81-9024-49d9-8ce5-c5f0c695dce3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c10fc19f-732c-42f5-a954-0b69c506951c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 700,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"efbc4b69-7860-4604-bf41-ab4452283e8a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"353dd0cb-66c1-4519-9ffe-8affa9d970ff","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sucrose Snowstorm",
-    "path": "folders/Sprites/Backgrounds/Sucrose Snowstorm.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c1642d81-9024-49d9-8ce5-c5f0c695dce3","path":"sprites/bg_sucrosebgDebrisSleep/bg_sucrosebgDebrisSleep.yy",},},},"Disabled":false,"id":"ed297d64-d23d-4f78-9f2f-0284542e1751","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c10fc19f-732c-42f5-a954-0b69c506951c","path":"sprites/bg_sucrosebgDebrisSleep/bg_sucrosebgDebrisSleep.yy",},},},"Disabled":false,"id":"950a5fe8-313c-4580-a9dd-fb52eb12517b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -1,1 +1,1 @@
-instance_create(x, y, obj_bombExplosion);
+instance_create(x, y, obj_bombExplosion)

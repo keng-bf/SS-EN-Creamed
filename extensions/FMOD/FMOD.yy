@@ -15,10 +15,10 @@
   "author": "",
   "classname": "Fmod_iOS",
   "copyToTargets": 3035426153142681806,
-  "date": "2024-12-29T17:13:22.2936297-08:00",
+  "date": "2025-04-19T16:54:11.4755746-07:00",
   "description": "",
   "exportToGame": true,
-  "extensionVersion": "1.0.1",
+  "extensionVersion": "1.0.3",
   "files": [
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"YYFMOD.ext","constants":[],"copyToTargets":2458965418019127502,"filename":"YYFMOD.ext","final":"","functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"fmod_channel_set_frequency","argCount":0,"args":[
@@ -2336,8 +2336,8 @@
   "optionsFile": "options.json",
   "packageId": "",
   "parent": {
-    "name": "FMOD",
-    "path": "folders/Extensions/FMOD.yy",
+    "name": "Extensions",
+    "path": "folders/Fmod/Extensions.yy",
   },
   "productId": "",
   "sourcedir": "",

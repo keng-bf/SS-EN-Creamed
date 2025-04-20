@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c60333a-21db-46fb-a7b1-a4a4b12e5f95",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1619831f-6baf-4ea9-a655-70d7d1bf6ab2",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 116,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1bdd8634-0d19-4737-a911-58780721fce0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6c4e8211-51d6-4e59-8f83-e18774925812","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Builder Bears",
-    "path": "folders/Sprites/Decor/Crunchy Construction/Builder Bears.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3c60333a-21db-46fb-a7b1-a4a4b12e5f95","path":"sprites/spr_builderBear_sarah_idle/spr_builderBear_sarah_idle.yy",},},},"Disabled":false,"id":"21446b53-47cb-4bcf-8763-5acf92092df4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1619831f-6baf-4ea9-a655-70d7d1bf6ab2","path":"sprites/spr_builderBear_sarah_idle/spr_builderBear_sarah_idle.yy",},},},"Disabled":false,"id":"7fa92023-25f1-4af5-9459-e5262a36906e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

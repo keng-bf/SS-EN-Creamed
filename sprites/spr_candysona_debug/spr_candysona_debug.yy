@@ -6,21 +6,21 @@
   "bbox_left": 32,
   "bbox_right": 95,
   "bbox_top": 30,
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0ecc739a-3a74-4da6-85f3-144f93cb27f2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"798292cd-f963-437f-891e-75774415d5cf",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"04c1f24c-2f78-4d56-8ba4-6340e093c616","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fa4a10d4-142e-4741-aaa8-e7a2282d39c0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Candysonas",
-    "path": "folders/Sprites/Level Elements/Candysonas.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0ecc739a-3a74-4da6-85f3-144f93cb27f2","path":"sprites/spr_candysona_debug/spr_candysona_debug.yy",},},},"Disabled":false,"id":"60dcfe5b-3806-42ad-a30c-7aa6d970f2b2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"798292cd-f963-437f-891e-75774415d5cf","path":"sprites/spr_candysona_debug/spr_candysona_debug.yy",},},},"Disabled":false,"id":"15ba7063-5389-4a36-b571-c7e6aeccfdd4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b528c0e9-df07-4583-9a97-a864e37fc103",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1c003920-96ba-4e43-adf8-16c65da37f5c",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"468f9e26-5865-413a-9c0c-30d5d567ce81",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e8df3e5e-ff5f-4bc8-8c2e-8d814c778886",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c380d533-0094-48b5-9d2f-8461d65ec670",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3bc9ab71-3233-4c94-8e37-30258852f10b",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b224c2fe-a113-493e-bb7b-94e2b6aa390e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d3b6cb0f-3f38-447d-bb34-83ace581cf77","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Baconator",
-    "path": "folders/Sprites/Enemies/Baconator.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b528c0e9-df07-4583-9a97-a864e37fc103","path":"sprites/spr_betonbacon_stun/spr_betonbacon_stun.yy",},},},"Disabled":false,"id":"120dfbd3-bdd1-4380-979a-c214958ede74","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1c003920-96ba-4e43-adf8-16c65da37f5c","path":"sprites/spr_betonbacon_stun/spr_betonbacon_stun.yy",},},},"Disabled":false,"id":"bfb4e4e7-6b24-40e0-ba71-d27d3d01986d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"468f9e26-5865-413a-9c0c-30d5d567ce81","path":"sprites/spr_betonbacon_stun/spr_betonbacon_stun.yy",},},},"Disabled":false,"id":"c187b025-bc59-4a9c-8202-da417c1c2cfb","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e8df3e5e-ff5f-4bc8-8c2e-8d814c778886","path":"sprites/spr_betonbacon_stun/spr_betonbacon_stun.yy",},},},"Disabled":false,"id":"a746ad0d-8717-4f9a-b1c6-9c4d7c7b9e88","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c380d533-0094-48b5-9d2f-8461d65ec670","path":"sprites/spr_betonbacon_stun/spr_betonbacon_stun.yy",},},},"Disabled":false,"id":"d4be0c8f-2ddc-4163-8bec-aa71066f8c7e","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3bc9ab71-3233-4c94-8e37-30258852f10b","path":"sprites/spr_betonbacon_stun/spr_betonbacon_stun.yy",},},},"Disabled":false,"id":"b4b6e511-8da6-41e9-a23b-4f20f869a68d","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

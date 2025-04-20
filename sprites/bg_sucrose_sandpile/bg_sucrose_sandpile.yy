@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"36183473-8b97-4201-a603-ffca885bd004",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1bcc3204-7076-48b7-b713-3f6ed7d6b4ac",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 566,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8db36b72-d5e7-40e0-910d-af78791da24a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9127aa9c-cf7d-4ef5-8715-0bac8e3dbf04","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sucrose Snowstorm",
-    "path": "folders/Sprites/Backgrounds/Sucrose Snowstorm.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"36183473-8b97-4201-a603-ffca885bd004","path":"sprites/bg_sucrose_sandpile/bg_sucrose_sandpile.yy",},},},"Disabled":false,"id":"8eed92a8-24d7-4eba-820d-1f6e00b2aea1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1bcc3204-7076-48b7-b713-3f6ed7d6b4ac","path":"sprites/bg_sucrose_sandpile/bg_sucrose_sandpile.yy",},},},"Disabled":false,"id":"2b0a955b-60fc-4f9d-a82b-c48f97910be6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

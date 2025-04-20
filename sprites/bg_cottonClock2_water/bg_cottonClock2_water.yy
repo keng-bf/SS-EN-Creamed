@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"222c4b84-fbad-46d5-8168-fd2236d6fcf8",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"089e2d91-2a6a-4463-b3cd-657f1412208e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2d7e0789-5c75-4b77-8af1-54a334e16be1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"458a53f8-c4d3-47f2-9e7c-352e72e7d315",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92fb55c2-2cfc-4893-bd4c-d519dcc4b5ad",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"173e895f-05e1-40fe-bba4-1e682341a6a9",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 556,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0199c2d3-b55e-4ed0-8a0b-cce4abfb0ff1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e94bfdfd-73a0-4c90-b6c3-fb88f36f76c5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Cottontown",
-    "path": "folders/Sprites/Backgrounds/Cottontown.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"222c4b84-fbad-46d5-8168-fd2236d6fcf8","path":"sprites/bg_cottonClock2_water/bg_cottonClock2_water.yy",},},},"Disabled":false,"id":"caac8c6c-e02a-478f-b7e2-dca98f104fe2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"089e2d91-2a6a-4463-b3cd-657f1412208e","path":"sprites/bg_cottonClock2_water/bg_cottonClock2_water.yy",},},},"Disabled":false,"id":"5fb7aa5e-f1e5-42ae-93e0-4457bdcd631a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2d7e0789-5c75-4b77-8af1-54a334e16be1","path":"sprites/bg_cottonClock2_water/bg_cottonClock2_water.yy",},},},"Disabled":false,"id":"f47763e5-e3f4-4e59-8ac4-aa82726d8eee","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"458a53f8-c4d3-47f2-9e7c-352e72e7d315","path":"sprites/bg_cottonClock2_water/bg_cottonClock2_water.yy",},},},"Disabled":false,"id":"9b6b1eba-8739-408d-a2d0-c500339bc3d1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"92fb55c2-2cfc-4893-bd4c-d519dcc4b5ad","path":"sprites/bg_cottonClock2_water/bg_cottonClock2_water.yy",},},},"Disabled":false,"id":"6b677743-ca4e-419b-b8ca-6fa822e8d7dd","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"173e895f-05e1-40fe-bba4-1e682341a6a9","path":"sprites/bg_cottonClock2_water/bg_cottonClock2_water.yy",},},},"Disabled":false,"id":"5c35da86-53cf-4b64-890b-753586902c04","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

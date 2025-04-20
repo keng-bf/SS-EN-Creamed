@@ -1,2 +1,2 @@
 if (DoorUnlock)
-    event_inherited();
+	event_inherited()

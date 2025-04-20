@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6c7ee9e-663c-41cd-8b17-4578567ce57b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ef29cce5-fee3-4bf4-9b78-80ea07a769ca",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5bb84e10-644a-4dcc-a18f-253ac0e93993",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"53cf5e1c-b07b-4281-abe7-38184e92364c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4bdf2e76-1736-473e-bb4e-bfe2537bbf2e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe839319-0633-4f39-bf14-13d769f0ee31",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d57e68a9-ff41-40b1-ae4b-970ec5c5a8c2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9147d2d6-678b-4665-a558-da016bb89b01","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b6c7ee9e-663c-41cd-8b17-4578567ce57b","path":"sprites/spr_swedstun/spr_swedstun.yy",},},},"Disabled":false,"id":"ac543f24-2090-4375-9581-46c8a899efa7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ef29cce5-fee3-4bf4-9b78-80ea07a769ca","path":"sprites/spr_swedstun/spr_swedstun.yy",},},},"Disabled":false,"id":"39efc57a-d72d-46d0-bdb4-0a035f77963d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5bb84e10-644a-4dcc-a18f-253ac0e93993","path":"sprites/spr_swedstun/spr_swedstun.yy",},},},"Disabled":false,"id":"50fe917d-e5f6-4ab4-9a4f-b654d6561e3b","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"53cf5e1c-b07b-4281-abe7-38184e92364c","path":"sprites/spr_swedstun/spr_swedstun.yy",},},},"Disabled":false,"id":"a2ab1b34-c9f2-46c4-b121-f0ae137ba98a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4bdf2e76-1736-473e-bb4e-bfe2537bbf2e","path":"sprites/spr_swedstun/spr_swedstun.yy",},},},"Disabled":false,"id":"3026b3cd-a81f-4d05-a60a-454ecaf86305","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fe839319-0633-4f39-bf14-13d769f0ee31","path":"sprites/spr_swedstun/spr_swedstun.yy",},},},"Disabled":false,"id":"72b6e1a7-eb39-4d84-a9fd-4f6b449d7361","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

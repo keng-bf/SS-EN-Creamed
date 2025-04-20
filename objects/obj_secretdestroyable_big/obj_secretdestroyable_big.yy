@@ -30,9 +30,9 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"tiles","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"[\"Tiles_1\", \"Tiles_2\", \"Tiles_3\", \"Tiles_4\", \"Tiles_Foreground1\", \"Tiles_Foreground2\"];","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"debrisSprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_bigdebris;","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"smokeColor","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"[ #9E5402, #A85808 ];","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"tiles","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"[\"Tiles_1\", \"Tiles_2\", \"Tiles_3\", \"Tiles_4\", \"Tiles_Foreground1\", \"Tiles_Foreground2\"]","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"debrisSprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_bigdebris","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"smokeColor","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"[ #9E5402, #A85808 ]","varType":4,},
   ],
   "solid": false,
   "spriteId": {

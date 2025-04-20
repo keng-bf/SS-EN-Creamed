@@ -1,1 +1,1 @@
-startDying = true;
+startDying = true

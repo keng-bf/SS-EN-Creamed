@@ -1,1 +1,1 @@
-vertical = !vertical;
+vertical = !vertical

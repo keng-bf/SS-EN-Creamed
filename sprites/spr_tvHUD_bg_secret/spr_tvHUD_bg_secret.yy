@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9425aa6c-b078-41b3-bfdd-628b20bd1d5f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"347d1d37-62d2-4324-ae57-dcbead76718c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 107,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3a31a2f4-cb21-48bf-88af-3b8cb6feaf98","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"52bf4d66-bb10-4ad2-afc0-b5db1e5e2705","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Backgrounds",
-    "path": "folders/Sprites/HUD/TV/Backgrounds.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9425aa6c-b078-41b3-bfdd-628b20bd1d5f","path":"sprites/spr_tvHUD_bg_secret/spr_tvHUD_bg_secret.yy",},},},"Disabled":false,"id":"4c5034c5-345d-4cf7-b8a1-50f68a37db51","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"347d1d37-62d2-4324-ae57-dcbead76718c","path":"sprites/spr_tvHUD_bg_secret/spr_tvHUD_bg_secret.yy",},},},"Disabled":false,"id":"aa355d02-9638-4115-ac45-4cb3cbc3b585","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eebf785c-4d9e-4a51-a300-0e5d6402903b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f2da0518-edea-4c08-bac4-6eff9daec290",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 960,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8bef2f71-83d8-4bf5-8063-268fed0aa363","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b2cf6df3-2363-4daa-9b87-1f3c45f55c82","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sugarshack Mines",
-    "path": "folders/Sprites/Backgrounds/Sugarshack Mines.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eebf785c-4d9e-4a51-a300-0e5d6402903b","path":"sprites/bg_minesPillar/bg_minesPillar.yy",},},},"Disabled":false,"id":"020faecb-eec5-4f18-836c-3b5b1c3ceb27","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f2da0518-edea-4c08-bac4-6eff9daec290","path":"sprites/bg_minesPillar/bg_minesPillar.yy",},},},"Disabled":false,"id":"a80ff551-e16b-4a70-937d-837de238a8cb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9b4c0165-4cf6-45e4-9e57-aa0ddcf16f0d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"664221cf-d8c9-45b2-b91d-cbf0a88f504c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8d7e18d2-8894-43bf-8954-30a708353ccb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"be5b0345-a3c3-4581-80b9-8d8f304f4d86","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Crunchy Construction",
-    "path": "folders/Sprites/Backgrounds/Crunchy Construction.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9b4c0165-4cf6-45e4-9e57-aa0ddcf16f0d","path":"sprites/bg_entryway1_fgBuildings_escape/bg_entryway1_fgBuildings_escape.yy",},},},"Disabled":false,"id":"9d915b4f-e6e2-4603-a9ab-be9e2abb8184","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"664221cf-d8c9-45b2-b91d-cbf0a88f504c","path":"sprites/bg_entryway1_fgBuildings_escape/bg_entryway1_fgBuildings_escape.yy",},},},"Disabled":false,"id":"7e43f8a8-50db-4fd3-be71-54f6d349c70f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

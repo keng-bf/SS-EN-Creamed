@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b49202c-743b-4118-a82e-cc0578889444",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0b3fe687-9926-46ca-9e2e-03e2b1d5e697",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3aacb3a1-db30-46eb-8275-804c1c53c9a1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2a357b92-ae90-4ad0-a2c0-0d99b79d7dd1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1ea89989-eacb-4bc0-96c8-67f2d86681e2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d9d2fb1f-a26a-4edc-b371-b8f3ee8ec2b6",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 115,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0b35928e-819e-4a8c-9ea4-2ee9e91738d0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ece9cb7b-a930-4c02-b386-fa37fd2f5319","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Banancer",
-    "path": "folders/Sprites/Enemies/Banancer.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1b49202c-743b-4118-a82e-cc0578889444","path":"sprites/spr_banana_stun/spr_banana_stun.yy",},},},"Disabled":false,"id":"4dd61287-878b-4321-9a6d-b57823033a36","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0b3fe687-9926-46ca-9e2e-03e2b1d5e697","path":"sprites/spr_banana_stun/spr_banana_stun.yy",},},},"Disabled":false,"id":"225b8e4a-8ea1-4e57-be10-95d61986f6e7","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3aacb3a1-db30-46eb-8275-804c1c53c9a1","path":"sprites/spr_banana_stun/spr_banana_stun.yy",},},},"Disabled":false,"id":"60c894d4-c8a6-4dcd-86a0-d680a021c812","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2a357b92-ae90-4ad0-a2c0-0d99b79d7dd1","path":"sprites/spr_banana_stun/spr_banana_stun.yy",},},},"Disabled":false,"id":"bc5b4804-b39f-448c-8b3b-9dd9118a5f78","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1ea89989-eacb-4bc0-96c8-67f2d86681e2","path":"sprites/spr_banana_stun/spr_banana_stun.yy",},},},"Disabled":false,"id":"7a9a1950-25ee-441c-85b4-4019d421deca","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d9d2fb1f-a26a-4edc-b371-b8f3ee8ec2b6","path":"sprites/spr_banana_stun/spr_banana_stun.yy",},},},"Disabled":false,"id":"48175487-130d-4a6e-993a-f5bc7a6422f5","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

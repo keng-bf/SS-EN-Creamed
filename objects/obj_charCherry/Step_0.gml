@@ -1,7 +1,6 @@
-baddieCollisionBoxEnabled = state != States.charcherryrun;
+baddieCollisionBoxEnabled = state != PlayerState.charcherryrun
 
-if (state == States.frozen)
-    state = States.charcherryrun;
+if (state == PlayerState.frozen)
+	state = PlayerState.charcherryrun
 
-event_inherited();
-
+event_inherited()

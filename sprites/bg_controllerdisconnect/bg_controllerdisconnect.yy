@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b5bb7ed2-0927-48e8-ba07-c9a64cfc3aaf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fc129a6e-4659-493a-a92f-bfea43b98fe2",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 450,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"93122c83-133e-483d-98f7-4e5cbad99a0c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ad599513-6353-4492-aa42-58d4aff07c87","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Controller Disconnected",
-    "path": "folders/Sprites/Graphics/Controller Disconnected.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b5bb7ed2-0927-48e8-ba07-c9a64cfc3aaf","path":"sprites/bg_controllerdisconnect/bg_controllerdisconnect.yy",},},},"Disabled":false,"id":"f5bf6c04-0a46-400a-8acf-f09403ada707","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fc129a6e-4659-493a-a92f-bfea43b98fe2","path":"sprites/bg_controllerdisconnect/bg_controllerdisconnect.yy",},},},"Disabled":false,"id":"f1e97eba-21f6-4115-9b9a-476a88d3cacf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

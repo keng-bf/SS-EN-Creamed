@@ -1,2 +1,2 @@
-bump = !bump;
-alarm[0] = 10;
+bump = !bump
+alarm[0] = 10

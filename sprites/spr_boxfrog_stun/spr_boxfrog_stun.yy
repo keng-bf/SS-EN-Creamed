@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bafd0a17-070c-4129-abc5-fc5d90c7b59d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eda72702-9368-4457-928f-b6c61836aada",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b3a712dd-a6c7-4f97-8abf-f822549e977d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"86d0ccd3-9600-45ba-b0e1-e29a28678042",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"be448256-28b5-45e1-8ff7-d15712f0f9a3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d2188359-b7f8-448a-ba23-1f478fddbbdd",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 96,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4aead32f-e9e6-45e9-92a7-cf6e01c3a693","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3044f6fc-e7b5-45cc-b396-de2bba258d65","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Boxfrog",
-    "path": "folders/Sprites/Enemies/Boxfrog.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bafd0a17-070c-4129-abc5-fc5d90c7b59d","path":"sprites/spr_boxfrog_stun/spr_boxfrog_stun.yy",},},},"Disabled":false,"id":"598964ad-915d-4c3a-b730-adc0722d4203","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eda72702-9368-4457-928f-b6c61836aada","path":"sprites/spr_boxfrog_stun/spr_boxfrog_stun.yy",},},},"Disabled":false,"id":"0f152008-8b68-4190-a468-2a755b8c3781","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b3a712dd-a6c7-4f97-8abf-f822549e977d","path":"sprites/spr_boxfrog_stun/spr_boxfrog_stun.yy",},},},"Disabled":false,"id":"c9599b3b-5100-4bb2-ae53-5380aa71b4d0","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"86d0ccd3-9600-45ba-b0e1-e29a28678042","path":"sprites/spr_boxfrog_stun/spr_boxfrog_stun.yy",},},},"Disabled":false,"id":"157aecce-59a5-4fa2-89c2-3236fd5aa369","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"be448256-28b5-45e1-8ff7-d15712f0f9a3","path":"sprites/spr_boxfrog_stun/spr_boxfrog_stun.yy",},},},"Disabled":false,"id":"8503d676-c2dc-4d97-9132-14ebe3301d98","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d2188359-b7f8-448a-ba23-1f478fddbbdd","path":"sprites/spr_boxfrog_stun/spr_boxfrog_stun.yy",},},},"Disabled":false,"id":"d9a4cf81-7975-484e-a34b-35cbde27c866","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

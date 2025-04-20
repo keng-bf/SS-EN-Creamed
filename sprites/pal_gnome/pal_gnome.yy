@@ -6,21 +6,21 @@
   "bbox_left": 0,
   "bbox_right": 99,
   "bbox_top": 0,
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 4,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e4187335-a66c-4c24-851f-e2a992a24f0a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"71dbc86b-f52d-4f19-baed-a7c04973961a",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 2,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8f8a31ca-8849-4232-811e-078215bdc0df","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"19fc1749-97f9-4bf3-9bd7-8c8ce4bca17e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Palettes",
-    "path": "folders/Sprites/Palettes.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e4187335-a66c-4c24-851f-e2a992a24f0a","path":"sprites/pal_gnome/pal_gnome.yy",},},},"Disabled":false,"id":"dc4408a3-0d09-43c1-a54e-c06bd749938e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"71dbc86b-f52d-4f19-baed-a7c04973961a","path":"sprites/pal_gnome/pal_gnome.yy",},},},"Disabled":false,"id":"da0998c0-3958-463e-9089-e266e01880a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

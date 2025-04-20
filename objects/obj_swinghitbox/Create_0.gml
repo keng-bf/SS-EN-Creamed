@@ -1,2 +1,2 @@
-alarm[0] = 5;
-mach = false;
+alarm[0] = 5
+mach = false

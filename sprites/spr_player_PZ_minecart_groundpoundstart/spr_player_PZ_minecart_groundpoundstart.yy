@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fdfd0e65-9aa8-4afd-9ddd-932bd8196581",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f0c66606-e2b8-47c8-b28e-4e239dd19036",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"457e83ec-fd5d-4b72-b9b9-4216e3d7d8fe",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d887b82c-0404-4f33-9ab0-a00b97dae006",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f38f127b-cb67-4250-9b23-fc77371d6a53",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7af9d962-f48a-4237-9c3f-be82574c115a",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 160,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cb20b1de-985f-4546-9239-cdd66dc8d543","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"34b29755-08b6-4cf1-abe6-afc159c7c03d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fdfd0e65-9aa8-4afd-9ddd-932bd8196581","path":"sprites/spr_player_PZ_minecart_groundpoundstart/spr_player_PZ_minecart_groundpoundstart.yy",},},},"Disabled":false,"id":"d31fae32-4681-4cf3-98aa-e9be9674e653","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f0c66606-e2b8-47c8-b28e-4e239dd19036","path":"sprites/spr_player_PZ_minecart_groundpoundstart/spr_player_PZ_minecart_groundpoundstart.yy",},},},"Disabled":false,"id":"c1532958-1f95-444a-b4f2-32aef21d4a29","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"457e83ec-fd5d-4b72-b9b9-4216e3d7d8fe","path":"sprites/spr_player_PZ_minecart_groundpoundstart/spr_player_PZ_minecart_groundpoundstart.yy",},},},"Disabled":false,"id":"c3a18e42-0397-4c32-8f77-6a25f6fb2943","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d887b82c-0404-4f33-9ab0-a00b97dae006","path":"sprites/spr_player_PZ_minecart_groundpoundstart/spr_player_PZ_minecart_groundpoundstart.yy",},},},"Disabled":false,"id":"a364c9ea-95fc-4999-8594-59c1541727f1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f38f127b-cb67-4250-9b23-fc77371d6a53","path":"sprites/spr_player_PZ_minecart_groundpoundstart/spr_player_PZ_minecart_groundpoundstart.yy",},},},"Disabled":false,"id":"bad5fe27-abea-4083-9911-3f735a7ab826","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7af9d962-f48a-4237-9c3f-be82574c115a","path":"sprites/spr_player_PZ_minecart_groundpoundstart/spr_player_PZ_minecart_groundpoundstart.yy",},},},"Disabled":false,"id":"99f26e61-a60d-4fb9-8726-d35b3613f0cd","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -1,1 +1,1 @@
-scr_enemySounds_release();
+scr_enemySounds_release()

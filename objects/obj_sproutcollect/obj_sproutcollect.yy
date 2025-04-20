@@ -32,7 +32,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"creatorID","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"NULL_gem_collectible\";","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"creatorID","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"NULL_gem_collectible\"","varType":4,},
   ],
   "solid": false,
   "spriteId": {

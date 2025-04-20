@@ -1,2 +1,2 @@
-hsp = image_xscale * 1;
-x += hsp;
+hsp = image_xscale * 1
+x += hsp

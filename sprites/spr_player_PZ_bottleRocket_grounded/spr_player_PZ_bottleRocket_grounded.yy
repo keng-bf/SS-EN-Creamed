@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6415f5eb-7aa2-4699-a764-a4b798f4adeb",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"521caa4a-3b27-46af-af31-5c1a71b7fb66",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ebfc5d67-2bfd-48dd-8f8d-f5fd447f9184",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e3e1059f-4e9b-49fc-a5f5-34ea0f10210f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0e197637-f3d2-4eb8-8a67-81711113cafb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fc0a676e-37f1-400b-bd3f-48991f16a4bc",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 200,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8331c1df-0373-4f55-b466-f87a84aaf2f8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"028637bf-3b87-4ad5-919e-aed21f71cad4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6415f5eb-7aa2-4699-a764-a4b798f4adeb","path":"sprites/spr_player_PZ_bottleRocket_grounded/spr_player_PZ_bottleRocket_grounded.yy",},},},"Disabled":false,"id":"fc848335-6b05-4646-a746-2257d071b557","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"521caa4a-3b27-46af-af31-5c1a71b7fb66","path":"sprites/spr_player_PZ_bottleRocket_grounded/spr_player_PZ_bottleRocket_grounded.yy",},},},"Disabled":false,"id":"18474812-dfba-4c73-85e2-044d7b018abb","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ebfc5d67-2bfd-48dd-8f8d-f5fd447f9184","path":"sprites/spr_player_PZ_bottleRocket_grounded/spr_player_PZ_bottleRocket_grounded.yy",},},},"Disabled":false,"id":"fba0504c-79ef-4ef3-a32a-fb8f9dad3ec9","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e3e1059f-4e9b-49fc-a5f5-34ea0f10210f","path":"sprites/spr_player_PZ_bottleRocket_grounded/spr_player_PZ_bottleRocket_grounded.yy",},},},"Disabled":false,"id":"ee616a2b-24a9-4304-8eef-d6dcddeb2cab","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0e197637-f3d2-4eb8-8a67-81711113cafb","path":"sprites/spr_player_PZ_bottleRocket_grounded/spr_player_PZ_bottleRocket_grounded.yy",},},},"Disabled":false,"id":"077949c1-9629-4e8c-b562-79adf9bdec2c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fc0a676e-37f1-400b-bd3f-48991f16a4bc","path":"sprites/spr_player_PZ_bottleRocket_grounded/spr_player_PZ_bottleRocket_grounded.yy",},},},"Disabled":false,"id":"2a342117-88cc-4d33-b58c-eb1102ad37aa","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

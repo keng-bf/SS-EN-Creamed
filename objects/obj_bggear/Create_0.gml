@@ -1,2 +1,2 @@
-rotationVariable = 2;
-rotationSpeed = 1;
+rotationVariable = 2
+rotationSpeed = 1

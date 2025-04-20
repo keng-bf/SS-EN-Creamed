@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6151d63-1381-4f44-bc07-e43074fa7f22",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d1a10e6a-08d3-4b84-aec1-55b4ce7c90a2",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 175,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5ca95c73-2e36-4f4f-8f78-9629865b8c73","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8b003e1e-544d-4c35-8bad-e4e43a8df68e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Score Counter",
-    "path": "folders/Sprites/HUD/Score Counter.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b6151d63-1381-4f44-bc07-e43074fa7f22","path":"sprites/spr_branktopping/spr_branktopping.yy",},},},"Disabled":false,"id":"aabfa915-9d9b-479e-bb25-1b4bbcb5053d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d1a10e6a-08d3-4b84-aec1-55b4ce7c90a2","path":"sprites/spr_branktopping/spr_branktopping.yy",},},},"Disabled":false,"id":"869b74c6-4fca-452e-a0ef-34377fc1d78d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

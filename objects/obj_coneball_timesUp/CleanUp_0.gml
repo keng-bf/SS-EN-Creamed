@@ -1,1 +1,1 @@
-kill_sounds(mySoundArray);
+kill_sounds(mySoundArray)

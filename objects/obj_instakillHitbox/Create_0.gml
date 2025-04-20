@@ -1,3 +1,3 @@
-playerID = -4;
-targetState = undefined;
-alarm[0] = 2;
+playerID = -4
+targetState = undefined
+alarm[0] = 2

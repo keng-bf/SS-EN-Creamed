@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"209228d8-7c90-4e86-a44c-aa0e536877bd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"69983601-8c55-4cb3-aa79-c69224c9ae22",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 668,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"16626bbc-f672-4489-a81a-1a066d0cd081","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ac7287b4-fe9f-4f41-bcd0-e78b29319919","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sugarshack Mines",
-    "path": "folders/Sprites/Backgrounds/Sugarshack Mines.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"209228d8-7c90-4e86-a44c-aa0e536877bd","path":"sprites/bg_minecaverns3_escape/bg_minecaverns3_escape.yy",},},},"Disabled":false,"id":"997efd95-c4d6-4f1f-8bba-4c97be0fbadb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"69983601-8c55-4cb3-aa79-c69224c9ae22","path":"sprites/bg_minecaverns3_escape/bg_minecaverns3_escape.yy",},},},"Disabled":false,"id":"6fb5a04e-e10c-4bd1-a096-a71b80853c23","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

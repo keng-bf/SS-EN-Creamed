@@ -1,2 +1,2 @@
-collectSecretList = ds_list_create();
-depth = 10;
+collectSecretList = ds_list_create()
+depth = 10

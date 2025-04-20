@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c9db32c5-6222-42fc-bfbf-f02f4f495d50",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"50d5c90d-15fc-4179-8210-e54dcecb4379",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 684,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"86df9be7-5128-49e5-bc1d-2981c991b4df","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"69532099-3e91-4918-b0ad-d644b0beda79","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Mt. Fudgetop",
-    "path": "folders/Sprites/Backgrounds/Mt. Fudgetop.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c9db32c5-6222-42fc-bfbf-f02f4f495d50","path":"sprites/bg_fudgetop_mountainbackescape/bg_fudgetop_mountainbackescape.yy",},},},"Disabled":false,"id":"7de26abc-0265-4b0b-b276-638011958c59","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"50d5c90d-15fc-4179-8210-e54dcecb4379","path":"sprites/bg_fudgetop_mountainbackescape/bg_fudgetop_mountainbackescape.yy",},},},"Disabled":false,"id":"73a07d5a-d9a5-4fad-8e66-2f303dda2212","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

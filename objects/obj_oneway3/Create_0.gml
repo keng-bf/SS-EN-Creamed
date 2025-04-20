@@ -1,3 +1,3 @@
-event_inherited();
-onewayDeathSprite = spr_tomatoowdead;
-onewayRank = 3;
+event_inherited()
+onewayDeathSprite = spr_tomatoowdead
+onewayRank = 3

@@ -13,18 +13,18 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a258385f-0b75-465a-9af5-050d5335b0c2",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fc9de3ce-b5bf-4f18-ac11-33e197a6ba54",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d36b6180-8e08-44bc-af97-c4f7d395b8fe",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5ddc5d8c-5bc0-437a-9838-2f333bb03b42",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cdbc5200-cebb-4680-a66b-28b2aa873e10",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"31142ec3-1428-4d22-8e12-3ebbe04f28e0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1817526a-f834-45fe-add2-c693247e733b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92b63700-a953-4d30-8d1a-52811b3441da",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7771bf0a-0635-484a-9c72-13b94ffb1c34",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eaf79c4c-b6a4-47ef-b64a-df058e9ebb01",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4c2b7312-cad5-4873-a187-be2f1f8e1115","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"25169755-2e2e-47e6-b8c8-62e2d9cc67c4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -52,8 +52,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -81,11 +81,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a258385f-0b75-465a-9af5-050d5335b0c2","path":"sprites/spr_player_PZ_gotTreasure/spr_player_PZ_gotTreasure.yy",},},},"Disabled":false,"id":"9847f0af-e697-47e8-95cf-dbc4867f4865","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fc9de3ce-b5bf-4f18-ac11-33e197a6ba54","path":"sprites/spr_player_PZ_gotTreasure/spr_player_PZ_gotTreasure.yy",},},},"Disabled":false,"id":"8741c36b-327e-4a32-846e-f2cd95f31ad5","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d36b6180-8e08-44bc-af97-c4f7d395b8fe","path":"sprites/spr_player_PZ_gotTreasure/spr_player_PZ_gotTreasure.yy",},},},"Disabled":false,"id":"0a621289-fd57-46dd-9e84-e0b88a5d3f86","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5ddc5d8c-5bc0-437a-9838-2f333bb03b42","path":"sprites/spr_player_PZ_gotTreasure/spr_player_PZ_gotTreasure.yy",},},},"Disabled":false,"id":"7614a1a9-4f11-4dc2-ae18-59edc957d28e","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cdbc5200-cebb-4680-a66b-28b2aa873e10","path":"sprites/spr_player_PZ_gotTreasure/spr_player_PZ_gotTreasure.yy",},},},"Disabled":false,"id":"ebfa5039-4e02-4bdf-8f62-4d8d4ac0a9b8","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"31142ec3-1428-4d22-8e12-3ebbe04f28e0","path":"sprites/spr_player_PZ_gotTreasure/spr_player_PZ_gotTreasure.yy",},},},"Disabled":false,"id":"2acc8b43-9aea-4cf9-aee9-4005021811fe","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1817526a-f834-45fe-add2-c693247e733b","path":"sprites/spr_player_PZ_gotTreasure/spr_player_PZ_gotTreasure.yy",},},},"Disabled":false,"id":"3f06e18f-255e-4409-94fb-9b5d3b494442","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"92b63700-a953-4d30-8d1a-52811b3441da","path":"sprites/spr_player_PZ_gotTreasure/spr_player_PZ_gotTreasure.yy",},},},"Disabled":false,"id":"416538a1-44b1-4778-b96d-7d82d7161a31","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7771bf0a-0635-484a-9c72-13b94ffb1c34","path":"sprites/spr_player_PZ_gotTreasure/spr_player_PZ_gotTreasure.yy",},},},"Disabled":false,"id":"d1110d82-b1d4-4f1d-b623-28f876cf4084","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eaf79c4c-b6a4-47ef-b64a-df058e9ebb01","path":"sprites/spr_player_PZ_gotTreasure/spr_player_PZ_gotTreasure.yy",},},},"Disabled":false,"id":"66e6cd08-c172-4d72-b44b-6e58771e44aa","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

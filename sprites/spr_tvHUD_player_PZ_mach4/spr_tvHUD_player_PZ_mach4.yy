@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"feb93ec6-9240-4a71-b2d7-5264ea4bbf43",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"850e1fed-fbc7-44ea-9e4b-5185aed113a2",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a41dc177-96b4-4957-81fc-188aabf7585b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"46271845-788f-4fc1-8ea9-100c8a524df1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5891245f-9346-45ea-81f2-93fc3d045c14",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf574f77-e8b3-4c59-a8be-96ecaee87b32",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 268,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"578d9ab5-a392-444e-af09-1e49dec1bfef","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bd758f82-61e0-48c5-9dea-6936b01751ab","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/HUD/TV/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"feb93ec6-9240-4a71-b2d7-5264ea4bbf43","path":"sprites/spr_tvHUD_player_PZ_mach4/spr_tvHUD_player_PZ_mach4.yy",},},},"Disabled":false,"id":"10e983eb-bac2-438c-b77a-5e437bd0d346","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"850e1fed-fbc7-44ea-9e4b-5185aed113a2","path":"sprites/spr_tvHUD_player_PZ_mach4/spr_tvHUD_player_PZ_mach4.yy",},},},"Disabled":false,"id":"9a8dd7e4-8651-46f6-bb2c-2076fef45a7c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a41dc177-96b4-4957-81fc-188aabf7585b","path":"sprites/spr_tvHUD_player_PZ_mach4/spr_tvHUD_player_PZ_mach4.yy",},},},"Disabled":false,"id":"a5eec53b-5f33-4f8c-8f38-2b233365e059","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"46271845-788f-4fc1-8ea9-100c8a524df1","path":"sprites/spr_tvHUD_player_PZ_mach4/spr_tvHUD_player_PZ_mach4.yy",},},},"Disabled":false,"id":"6e6bd81b-69ad-40a3-8aa3-b6739a621dbb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5891245f-9346-45ea-81f2-93fc3d045c14","path":"sprites/spr_tvHUD_player_PZ_mach4/spr_tvHUD_player_PZ_mach4.yy",},},},"Disabled":false,"id":"6697d754-78db-404b-8187-5787015039e8","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cf574f77-e8b3-4c59-a8be-96ecaee87b32","path":"sprites/spr_tvHUD_player_PZ_mach4/spr_tvHUD_player_PZ_mach4.yy",},},},"Disabled":false,"id":"da75a1f4-95b2-4926-9bf6-c5594a282f8e","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d5757a29-9fc6-466f-8127-12223da77c4f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8f3e9d50-e7f9-47f7-8eaf-4fe011ad245e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2839d611-7417-4706-bb6f-4426461ee607",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9f5778e4-9c14-4a0f-a29c-0a20a79a2b5a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"472caad1-74d1-4792-b06c-57408930fadb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a5ee2e9f-9ddc-426a-8f34-e48fdd137348",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 700,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"306fa62e-0a04-47b1-8b84-90db300b7d05","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d0668e54-ec1a-4091-adab-b0a85e63ae8c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sugarshack Mines",
-    "path": "folders/Sprites/Backgrounds/Sugarshack Mines.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d5757a29-9fc6-466f-8127-12223da77c4f","path":"sprites/bg_mines2_escape/bg_mines2_escape.yy",},},},"Disabled":false,"id":"df7e4594-2942-4140-901d-fb7aab5c4284","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8f3e9d50-e7f9-47f7-8eaf-4fe011ad245e","path":"sprites/bg_mines2_escape/bg_mines2_escape.yy",},},},"Disabled":false,"id":"24617f26-d9c3-4f06-98f6-6f5edda54559","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2839d611-7417-4706-bb6f-4426461ee607","path":"sprites/bg_mines2_escape/bg_mines2_escape.yy",},},},"Disabled":false,"id":"ad84e991-31c7-44d1-ad4c-d94e9e053162","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9f5778e4-9c14-4a0f-a29c-0a20a79a2b5a","path":"sprites/bg_mines2_escape/bg_mines2_escape.yy",},},},"Disabled":false,"id":"3e872db3-6621-4f91-9b0a-32ad1704a6d4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"472caad1-74d1-4792-b06c-57408930fadb","path":"sprites/bg_mines2_escape/bg_mines2_escape.yy",},},},"Disabled":false,"id":"331cc308-4d1f-451c-964a-487f8aaefe4d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a5ee2e9f-9ddc-426a-8f34-e48fdd137348","path":"sprites/bg_mines2_escape/bg_mines2_escape.yy",},},},"Disabled":false,"id":"9ff8c538-af7e-4bf8-a590-06b704f78683","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

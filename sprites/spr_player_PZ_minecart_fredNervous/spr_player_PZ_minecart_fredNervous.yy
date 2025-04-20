@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2a132cad-88fd-43b0-bf9f-4b05ed305b58",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7e61966f-e86e-4aa6-89ae-41e75794ad3f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"717b4420-635c-4b8f-9678-8e602d741529",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"645a3bf0-5b89-44d6-a269-9e330c230160",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c9908fe2-1a0e-456e-9225-e886f4ff7046",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7977bf8f-8a6e-4e83-8613-815bd14d0b84",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 160,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"48d808e0-47c2-4dc5-87a4-59973989265d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8ac5e828-45e2-45ee-893a-5d6b33ed9752","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2a132cad-88fd-43b0-bf9f-4b05ed305b58","path":"sprites/spr_player_PZ_minecart_fredNervous/spr_player_PZ_minecart_fredNervous.yy",},},},"Disabled":false,"id":"abceaec5-d977-45f5-8985-d2b1fb922203","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7e61966f-e86e-4aa6-89ae-41e75794ad3f","path":"sprites/spr_player_PZ_minecart_fredNervous/spr_player_PZ_minecart_fredNervous.yy",},},},"Disabled":false,"id":"20f7f324-ae9b-4696-8e58-5f5286175e21","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"717b4420-635c-4b8f-9678-8e602d741529","path":"sprites/spr_player_PZ_minecart_fredNervous/spr_player_PZ_minecart_fredNervous.yy",},},},"Disabled":false,"id":"ffe5eff0-a920-45ed-bcd6-f9c861c27974","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"645a3bf0-5b89-44d6-a269-9e330c230160","path":"sprites/spr_player_PZ_minecart_fredNervous/spr_player_PZ_minecart_fredNervous.yy",},},},"Disabled":false,"id":"18a84b69-4eb3-454f-8435-c5e34ef30e65","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c9908fe2-1a0e-456e-9225-e886f4ff7046","path":"sprites/spr_player_PZ_minecart_fredNervous/spr_player_PZ_minecart_fredNervous.yy",},},},"Disabled":false,"id":"645c4072-ba47-4b1d-9cbf-79a0a3717095","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7977bf8f-8a6e-4e83-8613-815bd14d0b84","path":"sprites/spr_player_PZ_minecart_fredNervous/spr_player_PZ_minecart_fredNervous.yy",},},},"Disabled":false,"id":"29e1509c-794a-4c19-9d0e-290d7bd49097","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

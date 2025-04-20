@@ -105,7 +105,7 @@ function gameframe_init() {
 	gameframe_is_ready = true;
 	gameframe_has_native_extension = gameframe_check_native_extension();
 	gameframe_double_click_time = (gameframe_has_native_extension ? gameframe_get_double_click_time() : 500);
-	global.gameframe_double_click_time = 500; //Ok Sugary Spire devs, pop off
+	global.gameframe_double_click_time = 500;
 	gameframe_init_native();
 	gameframe_tools_rect_get_window_rect(gameframe_restoreRect_hx);
 	gameframe_button_add_defaults();

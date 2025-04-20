@@ -13,18 +13,18 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c0622c21-e168-46f5-8c80-31430793ce1a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0aa38e1e-bfca-43d1-8c6a-dc964cf12a2f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ad25e5e7-acbb-42ad-a9f0-a2e7de7fbadd",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fd3ea691-4964-4b90-8d4e-7e5b0c6ba021",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9a56b716-a4e2-49ce-a80c-daf3bed98dda",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f8ec9493-fd43-49a9-89f4-8df870eb47b3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c459e0a1-a29d-4441-a0bd-27ce577e44ed",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"340cc4c3-37bd-4af6-98a4-18a23e4cd2b1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"99ef549f-b962-4710-8389-2e3c55c47ab2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4e3ad3dc-3266-4474-b50f-f7eb62677f71",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3f7abd28-e166-4736-964a-50646bfc4565","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b54f2148-6e27-4d31-b327-9ecb86ea69fd","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -52,8 +52,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Debris",
-    "path": "folders/Sprites/Effects/Debris.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -81,11 +81,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c0622c21-e168-46f5-8c80-31430793ce1a","path":"sprites/spr_bigdebris_hard/spr_bigdebris_hard.yy",},},},"Disabled":false,"id":"1823e448-e53f-47a5-acea-e889a15466c6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0aa38e1e-bfca-43d1-8c6a-dc964cf12a2f","path":"sprites/spr_bigdebris_hard/spr_bigdebris_hard.yy",},},},"Disabled":false,"id":"cee1df10-c2b0-4787-956d-e0b367d502bf","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ad25e5e7-acbb-42ad-a9f0-a2e7de7fbadd","path":"sprites/spr_bigdebris_hard/spr_bigdebris_hard.yy",},},},"Disabled":false,"id":"586f1e4d-5bf4-4d0d-86ca-7ad88844ca4a","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fd3ea691-4964-4b90-8d4e-7e5b0c6ba021","path":"sprites/spr_bigdebris_hard/spr_bigdebris_hard.yy",},},},"Disabled":false,"id":"85d8787c-0ff6-4c4c-af18-82a8bdfca051","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9a56b716-a4e2-49ce-a80c-daf3bed98dda","path":"sprites/spr_bigdebris_hard/spr_bigdebris_hard.yy",},},},"Disabled":false,"id":"4fb010f0-dc6c-46b1-ae6d-f72d03041e14","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f8ec9493-fd43-49a9-89f4-8df870eb47b3","path":"sprites/spr_bigdebris_hard/spr_bigdebris_hard.yy",},},},"Disabled":false,"id":"d8769ad6-f292-4f54-88b0-40bb0ea5352f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c459e0a1-a29d-4441-a0bd-27ce577e44ed","path":"sprites/spr_bigdebris_hard/spr_bigdebris_hard.yy",},},},"Disabled":false,"id":"01659747-38d5-4a6f-81c1-68d7a6cd6c65","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"340cc4c3-37bd-4af6-98a4-18a23e4cd2b1","path":"sprites/spr_bigdebris_hard/spr_bigdebris_hard.yy",},},},"Disabled":false,"id":"b7fe90bd-6b44-45c8-8bbc-fa5c2c13f65e","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"99ef549f-b962-4710-8389-2e3c55c47ab2","path":"sprites/spr_bigdebris_hard/spr_bigdebris_hard.yy",},},},"Disabled":false,"id":"c2d4846b-26ec-41b3-8c5f-196d1b0b33a6","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4e3ad3dc-3266-4474-b50f-f7eb62677f71","path":"sprites/spr_bigdebris_hard/spr_bigdebris_hard.yy",},},},"Disabled":false,"id":"cb0d9101-79b9-4dec-b0ce-b4f572988774","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

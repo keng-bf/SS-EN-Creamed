@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"41ecc0c5-cad2-4373-a334-3d878aee99c0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ac741641-883d-4068-8648-4d0a296f7eca",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d5b584d1-b763-413f-8755-fa6ac16cff05",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0193c77c-dbcb-4b6a-ac19-87b7e61c563a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"61ed8606-7f76-41ab-aacf-8479f712ab14",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c811bd4-d8b4-4090-8108-91e7d2b2ab45",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 104,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a9b721d0-bdba-4d60-989c-72a4beb692e5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"501790f9-b872-4e52-92de-962de73877ba","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"41ecc0c5-cad2-4373-a334-3d878aee99c0","path":"sprites/spr_player_PZ_werecotton_doubleJump_fall/spr_player_PZ_werecotton_doubleJump_fall.yy",},},},"Disabled":false,"id":"5d41cf74-eacb-4ebc-a9e0-2dc48f18fc46","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ac741641-883d-4068-8648-4d0a296f7eca","path":"sprites/spr_player_PZ_werecotton_doubleJump_fall/spr_player_PZ_werecotton_doubleJump_fall.yy",},},},"Disabled":false,"id":"55be924b-3255-460e-a424-5a9f29abfa7d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d5b584d1-b763-413f-8755-fa6ac16cff05","path":"sprites/spr_player_PZ_werecotton_doubleJump_fall/spr_player_PZ_werecotton_doubleJump_fall.yy",},},},"Disabled":false,"id":"27f8263e-1928-4e43-8052-d0d61475d031","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0193c77c-dbcb-4b6a-ac19-87b7e61c563a","path":"sprites/spr_player_PZ_werecotton_doubleJump_fall/spr_player_PZ_werecotton_doubleJump_fall.yy",},},},"Disabled":false,"id":"dae40262-3f7c-4e84-b63e-2462fcbf7d06","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"61ed8606-7f76-41ab-aacf-8479f712ab14","path":"sprites/spr_player_PZ_werecotton_doubleJump_fall/spr_player_PZ_werecotton_doubleJump_fall.yy",},},},"Disabled":false,"id":"0b904fe5-c474-4a07-a3b6-c06073c4ffc1","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3c811bd4-d8b4-4090-8108-91e7d2b2ab45","path":"sprites/spr_player_PZ_werecotton_doubleJump_fall/spr_player_PZ_werecotton_doubleJump_fall.yy",},},},"Disabled":false,"id":"49ff23a1-e9e5-406b-a353-33868b3d533d","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

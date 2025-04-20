@@ -1,1 +1,1 @@
-ds_map_clear(ActorMap);
+ds_map_clear(ActorMap)

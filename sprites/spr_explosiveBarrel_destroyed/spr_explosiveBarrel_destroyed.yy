@@ -6,21 +6,21 @@
   "bbox_left": 32,
   "bbox_right": 64,
   "bbox_top": 32,
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2cbaccd1-2335-464e-ba96-8b360b17a717",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b8b1f8a8-f58d-4361-ba92-e8fc60fba67f",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 96,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ec4457f0-a9bb-484f-8165-dd5c5d8cf194","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"032acbf6-b2e1-4e75-a7cb-06d4753cf4dc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2cbaccd1-2335-464e-ba96-8b360b17a717","path":"sprites/spr_explosiveBarrel_destroyed/spr_explosiveBarrel_destroyed.yy",},},},"Disabled":false,"id":"46f2d68c-89c2-4742-83f1-4fe1e234a8a8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b8b1f8a8-f58d-4361-ba92-e8fc60fba67f","path":"sprites/spr_explosiveBarrel_destroyed/spr_explosiveBarrel_destroyed.yy",},},},"Disabled":false,"id":"e3b9702d-ca86-43f6-a5d3-fbf276a80c7a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

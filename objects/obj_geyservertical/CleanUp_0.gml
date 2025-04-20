@@ -1,1 +1,1 @@
-kill_sounds([sound, ambianceSND]);
+kill_sounds([sound, ambianceSND])

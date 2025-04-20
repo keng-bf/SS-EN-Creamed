@@ -1,1 +1,1 @@
-targetRoom = hub_soundTest;
+targetRoom = hub_soundTest

@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1ceebe94-4b74-42d0-922d-e4c760b90b48",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7e66cb6b-bc79-4d34-93b2-6b6fe336ff9c",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"94c1a316-9592-4de3-905a-d45f0ff53a56",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c8c54e1-25f4-40fd-b174-6093d68e58e3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7ce7bf4e-6006-4730-b42e-167321a2ef1b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d23f278a-25ba-4008-ad1e-d1be5d903e1e",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"402a1a48-3554-4f1e-b6b6-468c2d22f865","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"375351d4-8adb-48d7-b418-98b47bc8ae6b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Small",
-    "path": "folders/Sprites/Level Elements/Chocolate Frog/Small.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1ceebe94-4b74-42d0-922d-e4c760b90b48","path":"sprites/spr_chocofrogsmall/spr_chocofrogsmall.yy",},},},"Disabled":false,"id":"bc88c05c-94f4-4583-b6dc-645d258e73cd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7e66cb6b-bc79-4d34-93b2-6b6fe336ff9c","path":"sprites/spr_chocofrogsmall/spr_chocofrogsmall.yy",},},},"Disabled":false,"id":"aaa1d788-e114-4a3b-8c23-10c1856d8081","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"94c1a316-9592-4de3-905a-d45f0ff53a56","path":"sprites/spr_chocofrogsmall/spr_chocofrogsmall.yy",},},},"Disabled":false,"id":"c8c77d3e-c340-4c2a-bd3e-62b79cb43206","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6c8c54e1-25f4-40fd-b174-6093d68e58e3","path":"sprites/spr_chocofrogsmall/spr_chocofrogsmall.yy",},},},"Disabled":false,"id":"1dd3a835-57af-40a9-a87f-5d4096fabd81","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7ce7bf4e-6006-4730-b42e-167321a2ef1b","path":"sprites/spr_chocofrogsmall/spr_chocofrogsmall.yy",},},},"Disabled":false,"id":"6a77ecf0-bbcd-482a-b64a-a9c92413ad8d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d23f278a-25ba-4008-ad1e-d1be5d903e1e","path":"sprites/spr_chocofrogsmall/spr_chocofrogsmall.yy",},},},"Disabled":false,"id":"0ca49c28-c022-44f1-ac73-70b5b9114a0e","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

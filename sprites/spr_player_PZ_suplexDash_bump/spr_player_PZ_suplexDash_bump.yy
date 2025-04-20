@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c37dac6-d76f-47ad-ba4c-075accf1c2ad",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9bebcf7c-c862-44ba-8066-7a08846244fe",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d659d059-00f4-427e-bb3d-e30d41cd3642",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f3425d29-a209-4ccb-b30a-f67f710333a1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cec71d7e-11ab-467f-ba32-e669c2a65479",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ef05f2e8-166f-4518-a9fa-e93260622f1a",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4b42c07e-bcba-4c33-b3f4-22e657b13ca9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0fbdfad1-580c-4ff6-bd25-40e8e25b0ee6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6c37dac6-d76f-47ad-ba4c-075accf1c2ad","path":"sprites/spr_player_PZ_suplexDash_bump/spr_player_PZ_suplexDash_bump.yy",},},},"Disabled":false,"id":"25eb79fd-b6c1-47c7-ac82-a489ff5be373","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9bebcf7c-c862-44ba-8066-7a08846244fe","path":"sprites/spr_player_PZ_suplexDash_bump/spr_player_PZ_suplexDash_bump.yy",},},},"Disabled":false,"id":"26f02618-344b-4959-98b0-164a87a4e787","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d659d059-00f4-427e-bb3d-e30d41cd3642","path":"sprites/spr_player_PZ_suplexDash_bump/spr_player_PZ_suplexDash_bump.yy",},},},"Disabled":false,"id":"c199e98d-242c-434a-b678-cf2608d8f8ff","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f3425d29-a209-4ccb-b30a-f67f710333a1","path":"sprites/spr_player_PZ_suplexDash_bump/spr_player_PZ_suplexDash_bump.yy",},},},"Disabled":false,"id":"c0a5d670-3747-4cac-9c92-2fe5ec7b4966","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cec71d7e-11ab-467f-ba32-e669c2a65479","path":"sprites/spr_player_PZ_suplexDash_bump/spr_player_PZ_suplexDash_bump.yy",},},},"Disabled":false,"id":"88b9b985-d61b-40fa-962a-6624e32fe6bb","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ef05f2e8-166f-4518-a9fa-e93260622f1a","path":"sprites/spr_player_PZ_suplexDash_bump/spr_player_PZ_suplexDash_bump.yy",},},},"Disabled":false,"id":"c65e43ca-0954-4d16-9061-f879d382693e","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

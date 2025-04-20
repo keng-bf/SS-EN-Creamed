@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a2c4d467-f47c-4103-be9c-bdbc65a18893",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"293c3a20-d5ed-4789-b06e-3be5a0ac3919",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 116,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"83ee1451-7826-4c38-9025-8076be953d4e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"216dae64-0c22-4f64-8262-1c90521d5afb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Builder Bears",
-    "path": "folders/Sprites/Decor/Crunchy Construction/Builder Bears.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a2c4d467-f47c-4103-be9c-bdbc65a18893","path":"sprites/spr_builderBear_sarah_taunt/spr_builderBear_sarah_taunt.yy",},},},"Disabled":false,"id":"7f33d29b-1bd0-489e-9b5e-de3327ca6297","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"293c3a20-d5ed-4789-b06e-3be5a0ac3919","path":"sprites/spr_builderBear_sarah_taunt/spr_builderBear_sarah_taunt.yy",},},},"Disabled":false,"id":"aa01d928-d573-4e84-a7db-9d142761440a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

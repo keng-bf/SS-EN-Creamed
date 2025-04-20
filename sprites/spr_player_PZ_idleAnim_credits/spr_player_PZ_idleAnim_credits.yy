@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"847b89b7-9c2f-4611-82a8-4099cebe3afc",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e210ad03-8e71-4122-975b-ddb75943b3d4",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f0376d8f-5f0b-4b59-b28d-ca1bd7ea24d5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"986a6a4d-203a-4582-b2e1-f5ad4977573a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"06f2bf96-dd38-4dbc-bc66-c51a18a10af0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fedffed9-68cc-49d4-aec5-29da3e74846c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"be8006ff-46cc-45bd-8e77-a614173ccc90","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5a9bc9f2-0d04-4cb3-9a11-8b7be68b3c89","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"847b89b7-9c2f-4611-82a8-4099cebe3afc","path":"sprites/spr_player_PZ_idleAnim_credits/spr_player_PZ_idleAnim_credits.yy",},},},"Disabled":false,"id":"d0f6383b-c80e-4d34-adbc-0d14b715edfc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e210ad03-8e71-4122-975b-ddb75943b3d4","path":"sprites/spr_player_PZ_idleAnim_credits/spr_player_PZ_idleAnim_credits.yy",},},},"Disabled":false,"id":"ff2fa56b-b57d-47ff-bd9a-39e5f38196d5","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f0376d8f-5f0b-4b59-b28d-ca1bd7ea24d5","path":"sprites/spr_player_PZ_idleAnim_credits/spr_player_PZ_idleAnim_credits.yy",},},},"Disabled":false,"id":"768472ce-b223-4377-a391-5425d334067a","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"986a6a4d-203a-4582-b2e1-f5ad4977573a","path":"sprites/spr_player_PZ_idleAnim_credits/spr_player_PZ_idleAnim_credits.yy",},},},"Disabled":false,"id":"30c35e8e-e954-4960-9b2d-a32c62a65dd6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"06f2bf96-dd38-4dbc-bc66-c51a18a10af0","path":"sprites/spr_player_PZ_idleAnim_credits/spr_player_PZ_idleAnim_credits.yy",},},},"Disabled":false,"id":"362aaa2c-53fe-473e-9d74-ae7ccfe11696","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fedffed9-68cc-49d4-aec5-29da3e74846c","path":"sprites/spr_player_PZ_idleAnim_credits/spr_player_PZ_idleAnim_credits.yy",},},},"Disabled":false,"id":"08eb918e-17d8-4688-8abe-986c8f6de5a0","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

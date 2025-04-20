@@ -1,2 +1,2 @@
-geyserGoDown = true;
-geysertimer = 150;
+geyserGoDown = true
+geysertimer = 150

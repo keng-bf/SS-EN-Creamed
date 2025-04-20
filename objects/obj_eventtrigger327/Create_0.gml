@@ -1,1 +1,1 @@
-room_goto_fixed(rm_missing);
+room_goto_fixed(rm_missing)

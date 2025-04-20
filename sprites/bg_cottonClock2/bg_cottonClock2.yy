@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3fafc095-c526-4534-b637-f995bf4afcaf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c541a96-bf85-4cab-9316-dce6393f2f64",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 556,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4e40db0c-72ae-4904-b061-a5a6b48bbdf4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"50dec78a-2e6c-47a7-9495-d3be01644fbc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Cottontown",
-    "path": "folders/Sprites/Backgrounds/Cottontown.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3fafc095-c526-4534-b637-f995bf4afcaf","path":"sprites/bg_cottonClock2/bg_cottonClock2.yy",},},},"Disabled":false,"id":"f14731de-8ce5-4697-96e4-1c1634aeb6af","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6c541a96-bf85-4cab-9316-dce6393f2f64","path":"sprites/bg_cottonClock2/bg_cottonClock2.yy",},},},"Disabled":false,"id":"a7f0833a-81bb-461a-9ce6-d93c74769d74","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

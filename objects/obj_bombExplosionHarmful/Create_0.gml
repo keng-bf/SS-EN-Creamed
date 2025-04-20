@@ -1,2 +1,2 @@
-event_inherited();
-frog = false;
+event_inherited()
+frog = false

@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8a26cede-d15b-44da-b7af-584c3538d386",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"060eb32c-58df-4d60-a91a-5b15363d569e",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 116,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3954fe4a-1730-4669-b36b-0a9f62497e63","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fda6ee56-5b77-42ef-8abc-b2bbbbdcfc6a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Builder Bears",
-    "path": "folders/Sprites/Decor/Crunchy Construction/Builder Bears.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8a26cede-d15b-44da-b7af-584c3538d386","path":"sprites/spr_builderBear_sarah_panic/spr_builderBear_sarah_panic.yy",},},},"Disabled":false,"id":"6ea6e895-6947-4860-8c71-8ecb9cf5538f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"060eb32c-58df-4d60-a91a-5b15363d569e","path":"sprites/spr_builderBear_sarah_panic/spr_builderBear_sarah_panic.yy",},},},"Disabled":false,"id":"3a296510-bc8d-46d0-aefe-e62443c76c82","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

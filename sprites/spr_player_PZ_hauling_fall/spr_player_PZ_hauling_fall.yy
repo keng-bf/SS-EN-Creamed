@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"52fbfb1c-6781-4273-af77-7b81ad3df242",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4a594c9e-25f3-4267-bcbe-70f93ab13016",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4881c988-51b7-403f-9250-bc5ffddc03be",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"763df443-219d-44e6-b8e2-dbcd06c5dcc8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"740a4093-d1da-481a-9460-71ce11c092fc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"64b978ec-96c4-4ef3-97a6-b7a46e83ac6e",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4b72f420-63d5-49cf-b9f0-e647992b4f74","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b02879cb-0024-4f3b-ba58-4242149669ce","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"52fbfb1c-6781-4273-af77-7b81ad3df242","path":"sprites/spr_player_PZ_hauling_fall/spr_player_PZ_hauling_fall.yy",},},},"Disabled":false,"id":"612ba680-5668-49e3-9f17-312a37cf1ec5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4a594c9e-25f3-4267-bcbe-70f93ab13016","path":"sprites/spr_player_PZ_hauling_fall/spr_player_PZ_hauling_fall.yy",},},},"Disabled":false,"id":"283952b6-037e-41c3-96c3-dadb8bffd1a4","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4881c988-51b7-403f-9250-bc5ffddc03be","path":"sprites/spr_player_PZ_hauling_fall/spr_player_PZ_hauling_fall.yy",},},},"Disabled":false,"id":"a3e3b2cb-85fe-4f00-b4b8-374d4b1763a1","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"763df443-219d-44e6-b8e2-dbcd06c5dcc8","path":"sprites/spr_player_PZ_hauling_fall/spr_player_PZ_hauling_fall.yy",},},},"Disabled":false,"id":"52b9b937-d6aa-4491-b488-dcbb70238b42","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"740a4093-d1da-481a-9460-71ce11c092fc","path":"sprites/spr_player_PZ_hauling_fall/spr_player_PZ_hauling_fall.yy",},},},"Disabled":false,"id":"dd08478f-ab1e-422a-9ac1-508b6af27c1b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"64b978ec-96c4-4ef3-97a6-b7a46e83ac6e","path":"sprites/spr_player_PZ_hauling_fall/spr_player_PZ_hauling_fall.yy",},},},"Disabled":false,"id":"2cfb4831-c6fe-4671-a738-9192d697ac36","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

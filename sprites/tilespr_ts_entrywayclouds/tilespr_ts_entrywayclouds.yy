@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ec544640-3f1d-4b82-a733-c81016a95d2d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eb8ad4b3-b630-4465-a803-5dcfe32d9f8d",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 1152,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d86d5e92-66f0-471f-829d-1b2cde40d24b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dfdafba2-b986-42ea-89c8-33f7b7decede","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Tilesets",
-    "path": "folders/Sprites/Tilesets.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ec544640-3f1d-4b82-a733-c81016a95d2d","path":"sprites/tilespr_ts_entrywayclouds/tilespr_ts_entrywayclouds.yy",},},},"Disabled":false,"id":"a6c83db1-0faf-4be3-b0a8-0154ae4bd93e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eb8ad4b3-b630-4465-a803-5dcfe32d9f8d","path":"sprites/tilespr_ts_entrywayclouds/tilespr_ts_entrywayclouds.yy",},},},"Disabled":false,"id":"53498c3d-d6b2-4e9e-8a44-fdc73603a2b5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},

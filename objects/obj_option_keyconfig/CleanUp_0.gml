@@ -1,1 +1,1 @@
-scr_setTransfoTip(global.TransfoState);
+scr_setTransfoTip(global.TransfoState)

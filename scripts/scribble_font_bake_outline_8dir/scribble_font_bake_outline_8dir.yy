@@ -6,6 +6,6 @@
   "isDnD": false,
   "parent": {
     "name": "Legacy",
-    "path": "folders/Extensions/Scribble/Legacy.yy",
+    "path": "folders/Scribble/Legacy.yy",
   },
 }

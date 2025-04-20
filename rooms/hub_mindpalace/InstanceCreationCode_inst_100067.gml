@@ -1,1 +1,1 @@
-targetRoom = hub_mindvault;
+targetRoom = hub_mindvault

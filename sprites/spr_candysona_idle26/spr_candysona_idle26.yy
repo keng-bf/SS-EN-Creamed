@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"102ba4ed-70ac-4b9c-b6da-bc19467ef19f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ae3abef1-0ff6-4bc6-a33e-cc5ee277a831",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"166f354b-0452-4fa5-8281-1b351fbbc082",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f56877c0-216d-4f09-8813-f44ebf214ec2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e1643a10-549e-4417-ae97-e7a541331c3e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d236cff7-e94b-4e41-ab75-6451b22a1f0b",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"946fbcbd-5815-474c-961e-5d0911679d99","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"26c8aa9f-47a8-4647-b6be-6730d968ea6d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Idle",
-    "path": "folders/Sprites/Level Elements/Candysonas/Idle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"102ba4ed-70ac-4b9c-b6da-bc19467ef19f","path":"sprites/spr_candysona_idle26/spr_candysona_idle26.yy",},},},"Disabled":false,"id":"d04fca79-1c57-4ff6-8d9c-bf8037b287ec","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ae3abef1-0ff6-4bc6-a33e-cc5ee277a831","path":"sprites/spr_candysona_idle26/spr_candysona_idle26.yy",},},},"Disabled":false,"id":"8ce0d66e-971d-442b-8250-231c4819fb73","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"166f354b-0452-4fa5-8281-1b351fbbc082","path":"sprites/spr_candysona_idle26/spr_candysona_idle26.yy",},},},"Disabled":false,"id":"0c871142-7897-4de2-93a0-2f0237c8766d","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f56877c0-216d-4f09-8813-f44ebf214ec2","path":"sprites/spr_candysona_idle26/spr_candysona_idle26.yy",},},},"Disabled":false,"id":"28fa85db-0fd5-466b-ac8b-bcf0e97fb959","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e1643a10-549e-4417-ae97-e7a541331c3e","path":"sprites/spr_candysona_idle26/spr_candysona_idle26.yy",},},},"Disabled":false,"id":"961a1139-e5b8-48b9-91fb-b5ed570ae09c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d236cff7-e94b-4e41-ab75-6451b22a1f0b","path":"sprites/spr_candysona_idle26/spr_candysona_idle26.yy",},},},"Disabled":false,"id":"39fa6752-7f69-4ba8-a998-1a8fae3f7a0f","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

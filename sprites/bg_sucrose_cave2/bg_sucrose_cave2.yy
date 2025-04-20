@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0e67cc69-ca24-437f-a893-32a3e6b40ad0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2c52796d-e3c1-4861-9359-fea84500e861",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5c28b601-b2a2-4cbf-bb31-b0d0347ed5cc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"370a3add-b55d-498d-be8d-b87b3f530a53",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cedb3f16-c690-464d-8f9b-d855e5939d3e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0b56242d-68a6-47f8-a406-1c8ffdc6faed",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9d7eeb87-5830-4ff1-a2a7-058f95594806","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"76279811-469b-4e5e-81f8-5c56b38dc761","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sucrose Snowstorm",
-    "path": "folders/Sprites/Backgrounds/Sucrose Snowstorm.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0e67cc69-ca24-437f-a893-32a3e6b40ad0","path":"sprites/bg_sucrose_cave2/bg_sucrose_cave2.yy",},},},"Disabled":false,"id":"a646f315-8fc7-4a14-8fc2-57bb62016c20","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2c52796d-e3c1-4861-9359-fea84500e861","path":"sprites/bg_sucrose_cave2/bg_sucrose_cave2.yy",},},},"Disabled":false,"id":"43ae8dfe-6358-4065-a14d-5dfa7c4a03b9","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5c28b601-b2a2-4cbf-bb31-b0d0347ed5cc","path":"sprites/bg_sucrose_cave2/bg_sucrose_cave2.yy",},},},"Disabled":false,"id":"8511bc9b-2857-4cf0-b2e2-582832594cd0","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"370a3add-b55d-498d-be8d-b87b3f530a53","path":"sprites/bg_sucrose_cave2/bg_sucrose_cave2.yy",},},},"Disabled":false,"id":"0334b3bb-4141-491a-bb07-3adb8b6543cf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cedb3f16-c690-464d-8f9b-d855e5939d3e","path":"sprites/bg_sucrose_cave2/bg_sucrose_cave2.yy",},},},"Disabled":false,"id":"6e647c6e-c795-41c9-b84d-64fd7a8aa05b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0b56242d-68a6-47f8-a406-1c8ffdc6faed","path":"sprites/bg_sucrose_cave2/bg_sucrose_cave2.yy",},},},"Disabled":false,"id":"5d30e0d7-cead-4c3f-a62e-bede914bfb59","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

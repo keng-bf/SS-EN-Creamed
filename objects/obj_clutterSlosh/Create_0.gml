@@ -1,2 +1,2 @@
-baddieID = -4;
-event_inherited();
+baddieID = -4
+event_inherited()

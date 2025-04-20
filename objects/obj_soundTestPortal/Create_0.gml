@@ -1,31 +1,29 @@
-var level_array, i, j, check;
+event_inherited()
+secretActivated = true
+ini_open(global.SaveFileName)
+var level_array = ["entryway", "steamy", "mineshaft", "molasses"]
 
-event_inherited();
-secretActivated = true;
-ini_open(global.SaveFileName);
-level_array = ["entryway", "steamy", "mineshaft", "molasses"];
-
-for (i = 0; i < array_length(level_array); i++)
+for (var i = 0; i < array_length(level_array); i++)
 {
-    for (j = 0; j < 3; j++)
-    {
-        check = ini_read_real("Secret", level_array[i] + string(j + 1), 0) ? true : false;
-        
-        if (!check)
-        {
-            secretActivated = false;
-            break;
-        }
-    }
+	for (var j = 0; j < 3; j++)
+	{
+		var check = ini_read_real("Secret", level_array[i] + string(j + 1), 0) ? true : false
+		
+		if (!check)
+		{
+			secretActivated = false
+			break
+		}
+	}
 }
 
 if (ini_read_string("Game", "Judgment", "none") == "none")
-    secretActivated = false;
+	secretActivated = false
 
 if (secretActivated && ini_read_string("Treasure", "mindpalace", "0") == "1" && !ini_read_real("Game", "mixtape_prompt", false))
 {
-    scr_queueToolTipPrompt(lang_get("prompt_mixtape_soundtest"));
-    ini_write_real("Game", "mixtape_prompt", true);
+	scr_queueToolTipPrompt(lang_get("prompt_mixtape_soundtest"))
+	ini_write_real("Game", "mixtape_prompt", true)
 }
 
-ini_close();
+ini_close()

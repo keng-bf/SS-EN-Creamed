@@ -13,15 +13,15 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f1b9ae4f-12a6-48ad-95e0-808cece5d4b4",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ba542eb2-b7b3-43ea-b9d9-1584352af56e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"25cd4d5e-3e63-4fbf-8c20-9b7b420e959a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ee6f08ad-c4ec-4bcf-89da-11b078480a95",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 383,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ffda2e4a-2719-4e5d-a95d-04d172f07195","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e9eb0057-0b5c-4b62-b71c-d76a498e89c4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -49,8 +49,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Painter (Brain)",
-    "path": "folders/Sprites/NPCs/Painter (Brain).yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -78,8 +78,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f1b9ae4f-12a6-48ad-95e0-808cece5d4b4","path":"sprites/spr_brainpainterhandflick/spr_brainpainterhandflick.yy",},},},"Disabled":false,"id":"f97532f6-c43f-4dac-ae57-a42355431d61","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ba542eb2-b7b3-43ea-b9d9-1584352af56e","path":"sprites/spr_brainpainterhandflick/spr_brainpainterhandflick.yy",},},},"Disabled":false,"id":"b2301b71-aba9-4e1d-bc31-63c7d04b389a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"25cd4d5e-3e63-4fbf-8c20-9b7b420e959a","path":"sprites/spr_brainpainterhandflick/spr_brainpainterhandflick.yy",},},},"Disabled":false,"id":"9f1950e4-849e-4694-ba9a-121d4b7ba264","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ee6f08ad-c4ec-4bcf-89da-11b078480a95","path":"sprites/spr_brainpainterhandflick/spr_brainpainterhandflick.yy",},},},"Disabled":false,"id":"60a098b1-af8a-47f4-aea5-d4ad582b18f7","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

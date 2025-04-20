@@ -1,11 +1,10 @@
-if (countdownCounter > 0 && currentState == States.normal)
+if (countdownCounter > 0 && currentState == PlayerState.normal)
 {
-    countdownCounter--;
-    
-    if (countdownCounter <= 0)
-    {
-        currentState = States.run;
-        sprite_index = spr_Reverting;
-    }
+	countdownCounter--
+	
+	if (countdownCounter <= 0)
+	{
+		currentState = PlayerState.run
+		sprite_index = spr_Reverting
+	}
 }
-

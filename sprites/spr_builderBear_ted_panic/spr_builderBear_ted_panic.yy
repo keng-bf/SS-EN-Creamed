@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"73a4eab2-96fa-409d-8974-215b897bc1e5",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7bb65346-0ee0-4173-8b51-106c5718a412",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3865980a-58d9-45de-ac90-45368b29c56c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e4fc9cda-0749-440c-8153-b6841d40de2a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"895f7c37-cf8a-4176-9fb4-7e4988e48ed9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"153e4ff2-38fa-4ff0-a329-cb3200bc8676",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 116,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"98628895-df62-4ee2-b696-962f7a59d32f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"77067785-3052-471e-950d-e29254a6168f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Builder Bears",
-    "path": "folders/Sprites/Decor/Crunchy Construction/Builder Bears.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"73a4eab2-96fa-409d-8974-215b897bc1e5","path":"sprites/spr_builderBear_ted_panic/spr_builderBear_ted_panic.yy",},},},"Disabled":false,"id":"ada3a792-9e9e-4a67-ada5-43cf40ed7a0f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7bb65346-0ee0-4173-8b51-106c5718a412","path":"sprites/spr_builderBear_ted_panic/spr_builderBear_ted_panic.yy",},},},"Disabled":false,"id":"79a2f1a9-cf8c-488c-a4aa-ca6e3f782cf9","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3865980a-58d9-45de-ac90-45368b29c56c","path":"sprites/spr_builderBear_ted_panic/spr_builderBear_ted_panic.yy",},},},"Disabled":false,"id":"5a8fb987-da24-41c4-b2ae-f654ef784944","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e4fc9cda-0749-440c-8153-b6841d40de2a","path":"sprites/spr_builderBear_ted_panic/spr_builderBear_ted_panic.yy",},},},"Disabled":false,"id":"8a8b1133-d845-4438-8a3d-e2d662bbfed2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"895f7c37-cf8a-4176-9fb4-7e4988e48ed9","path":"sprites/spr_builderBear_ted_panic/spr_builderBear_ted_panic.yy",},},},"Disabled":false,"id":"780fa71d-69ee-4b27-a0e7-290b2c14a09e","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"153e4ff2-38fa-4ff0-a329-cb3200bc8676","path":"sprites/spr_builderBear_ted_panic/spr_builderBear_ted_panic.yy",},},},"Disabled":false,"id":"edef81f2-a0e3-4c10-884d-9f97c51c3804","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

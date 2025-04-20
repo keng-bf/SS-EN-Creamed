@@ -16,8 +16,8 @@
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
   ],
   "parent": {
-    "name": "Technical",
-    "path": "folders/Rooms/Technical.yy",
+    "name": "Rooms",
+    "path": "folders/Rooms.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1020090a-126d-4c8a-9c48-76734a4ce2a0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf3ea955-e4fe-43ce-b1af-f664f6da0398",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d9ca69b9-e17f-4584-94a8-5d07b533e65e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fa33e38c-5e86-4e96-ab34-a858e88acafa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f47b9a58-96a0-4f08-8bde-5092e8b9b1ac",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e243bd16-817e-4a5c-a456-9fe28f3b9994",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 512,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"61c420c9-1f69-480c-972b-23c7da2cba93","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"58e657ff-ffce-47df-8d61-77a31c951862","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Painter (Brain)",
-    "path": "folders/Sprites/NPCs/Painter (Brain).yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1020090a-126d-4c8a-9c48-76734a4ce2a0","path":"sprites/spr_brainpainteridle/spr_brainpainteridle.yy",},},},"Disabled":false,"id":"100737f7-668b-4d67-92a4-ea7a0bf40ea9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cf3ea955-e4fe-43ce-b1af-f664f6da0398","path":"sprites/spr_brainpainteridle/spr_brainpainteridle.yy",},},},"Disabled":false,"id":"764fe8a9-49fc-4c38-9099-6b51dcf8b55c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d9ca69b9-e17f-4584-94a8-5d07b533e65e","path":"sprites/spr_brainpainteridle/spr_brainpainteridle.yy",},},},"Disabled":false,"id":"a6801e0c-840a-4419-a62b-220e33127193","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fa33e38c-5e86-4e96-ab34-a858e88acafa","path":"sprites/spr_brainpainteridle/spr_brainpainteridle.yy",},},},"Disabled":false,"id":"a3e1a11e-d994-46f7-9935-173aedb44e68","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f47b9a58-96a0-4f08-8bde-5092e8b9b1ac","path":"sprites/spr_brainpainteridle/spr_brainpainteridle.yy",},},},"Disabled":false,"id":"5fe58167-52ca-4492-b05c-ab7a217d8fd9","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e243bd16-817e-4a5c-a456-9fe28f3b9994","path":"sprites/spr_brainpainteridle/spr_brainpainteridle.yy",},},},"Disabled":false,"id":"13f35560-bcfc-4eb5-adab-6b67dcec2366","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

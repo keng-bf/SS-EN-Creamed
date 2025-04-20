@@ -6,21 +6,21 @@
   "bbox_left": 16,
   "bbox_right": 111,
   "bbox_top": 0,
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"61121b76-b7b5-4589-9263-f4fff673be5a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fd9b9c06-df1b-41b8-9a79-41c1642ca3a7",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 256,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cbb76451-f4b2-4d9d-911e-15fb95535d95","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9037c338-0375-4886-8c3a-7bfd8df32160","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"61121b76-b7b5-4589-9263-f4fff673be5a","path":"sprites/spr_minesdestroyablewall/spr_minesdestroyablewall.yy",},},},"Disabled":false,"id":"b5e93a17-765d-440e-b175-c805282e02ee","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fd9b9c06-df1b-41b8-9a79-41c1642ca3a7","path":"sprites/spr_minesdestroyablewall/spr_minesdestroyablewall.yy",},},},"Disabled":false,"id":"66864a0d-6c0f-4bb7-9c9b-84e7454219fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

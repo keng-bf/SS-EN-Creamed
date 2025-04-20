@@ -1,48 +1,46 @@
-depth = -99;
-scrollFactor = 0;
-bgx = 0;
-bgy = 0;
-currentPage = 0;
-maxPage = 1;
-selectH = 0;
-selectV = -1;
-taskPadX = 200;
-taskPadY = 200;
-scr_input_varinit();
-levelArr = ["demoEN", "entryway", "steamy", "mineshaft", "molasses"];
-floorArr = ["demoEN"];
-outfitArr = [];
-outfitRows = 0;
-taskIcons = {};
+depth = -99
+scrollFactor = 0
+bgx = 0
+bgy = 0
+currentPage = 0
+maxPage = 1
+selectH = 0
+selectV = 0
+taskPadX = 200
+taskPadY = 200
+scr_input_varinit()
+levelArr = ["demoEN", "entryway", "steamy", "mineshaft", "molasses"]
+floorArr = ["demoEN"]
+outfitArr = []
+outfitRows = 0
+taskIcons = {}
 
-taskIcon = function(argument0, argument1 = false) constructor
+taskIcon = function(arg0, arg1 = false) constructor
 {
-    static get = function(argument0)
-    {
-        return struct_get(task, argument0);
-    };
-    
-    x = 0;
-    y = 0;
-    task = argument0;
-    isCompleted = argument1;
-};
+	static get = function(arg0)
+	{
+		return struct_get(task, arg0);
+	}
+	
+	x = 0
+	y = 0
+	task = arg0
+	isCompleted = arg1
+}
 
-addTask = function(argument0, argument1)
+addTask = function(arg0, arg1)
 {
-    var arr;
-    
-    if (is_undefined(variable_struct_get(taskIcons, argument0)))
-        variable_struct_set(taskIcons, argument0, []);
-    
-    arr = variable_struct_get(taskIcons, argument0);
-    array_push(arr, argument1);
-    return arr;
-};
+	if (is_undefined(variable_struct_get(taskIcons, arg0)))
+		variable_struct_set(taskIcons, arg0, [])
+	
+	var arr = variable_struct_get(taskIcons, arg0)
+	array_push(arr, arg1)
+	return arr;
+}
 
-addOutfit = function(argument0)
+addOutfit = function(arg0)
 {
-    array_push(outfitArr, argument0);
-};
+	array_push(outfitArr, arg0)
+}
 
-event_user(0);
+event_user(0)

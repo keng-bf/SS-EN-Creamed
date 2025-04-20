@@ -1,1 +1,1 @@
-showRank();
+showRank()

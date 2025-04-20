@@ -1,1 +1,1 @@
-visible = global.panic;
+visible = global.panic

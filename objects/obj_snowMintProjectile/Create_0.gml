@@ -1,2 +1,2 @@
-image_xscale = obj_snowMint.image_xscale;
-bumpcount = 0;
+image_xscale = obj_snowMint.image_xscale
+bumpcount = 0

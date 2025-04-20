@@ -1,2 +1,1 @@
-state = States.frozen;
-
+state = PlayerState.frozen

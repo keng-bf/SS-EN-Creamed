@@ -1,2 +1,2 @@
-fadein = 1;
-fadealpha = 1;
+fadein = 1
+fadealpha = 1

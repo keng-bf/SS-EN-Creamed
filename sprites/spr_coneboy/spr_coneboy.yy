@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_coneboy",
   "bbox_bottom": 95,
-  "bbox_left": 16,
-  "bbox_right": 85,
-  "bbox_top": 16,
+  "bbox_left": 13,
+  "bbox_right": 86,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a10f23f8-9571-422c-afd4-6ac3cd5e7600",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1dd465c8-e125-44a8-9961-50628c465ff2",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a796d100-cf2e-4ce1-a4e6-1645b1aec640","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"02adde0a-72fe-489d-b9c9-a76a31cf57aa","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a10f23f8-9571-422c-afd4-6ac3cd5e7600","path":"sprites/spr_coneboy/spr_coneboy.yy",},},},"Disabled":false,"id":"4da0da15-005c-486a-a9c9-7997717ad4fb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1dd465c8-e125-44a8-9961-50628c465ff2","path":"sprites/spr_coneboy/spr_coneboy.yy",},},},"Disabled":false,"id":"4af47a47-3db1-4b0b-a017-929c0bfd9e93","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

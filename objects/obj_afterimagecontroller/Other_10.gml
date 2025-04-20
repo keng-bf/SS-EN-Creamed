@@ -1,1 +1,1 @@
-global.BlinkTrail = !global.BlinkTrail;
+global.BlinkTrail = !global.BlinkTrail

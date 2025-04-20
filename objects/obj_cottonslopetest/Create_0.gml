@@ -1,2 +1,2 @@
-depth = -99;
-vertical = false;
+depth = -99
+vertical = false

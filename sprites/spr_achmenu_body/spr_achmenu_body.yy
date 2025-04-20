@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f062f2de-94e6-4915-ad06-15fd86ea3434",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"23aedc44-950c-4a54-bc0d-f4812762b40e",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 373,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b89b30ac-3309-49a1-834c-d27a71d127c4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"860276bf-a6d5-4448-8f2a-e9733578a200","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Baker Badges",
-    "path": "folders/Sprites/Baker Badges.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f062f2de-94e6-4915-ad06-15fd86ea3434","path":"sprites/spr_achmenu_body/spr_achmenu_body.yy",},},},"Disabled":false,"id":"ae983e85-ece1-48d1-bdcb-8a7966976d82","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"23aedc44-950c-4a54-bc0d-f4812762b40e","path":"sprites/spr_achmenu_body/spr_achmenu_body.yy",},},},"Disabled":false,"id":"03c33211-64cb-44c6-8be9-97dc7fa015f1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

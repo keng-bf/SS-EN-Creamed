@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d0fa03d-e619-49e7-9f14-cb73b98f95c2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6e752201-49a0-4ca0-8714-d9ecde42ddb7",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 1000,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d0a0f2fe-d420-441d-9a68-18b1a844bb2e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b7ed3739-3962-4cfd-b60a-b2522f4798bf","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Secrets & Sound Test",
-    "path": "folders/Sprites/Backgrounds/Secrets & Sound Test.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4d0fa03d-e619-49e7-9f14-cb73b98f95c2","path":"sprites/bg_secretArea/bg_secretArea.yy",},},},"Disabled":false,"id":"4a760ab5-ab39-4542-92f0-f71197ef4bb7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6e752201-49a0-4ca0-8714-d9ecde42ddb7","path":"sprites/bg_secretArea/bg_secretArea.yy",},},},"Disabled":false,"id":"2730a847-7868-4501-8bab-024b28f8394b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

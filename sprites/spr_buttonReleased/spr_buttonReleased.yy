@@ -6,21 +6,21 @@
   "bbox_left": 16,
   "bbox_right": 79,
   "bbox_top": 56,
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 5,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"07a0c46d-3e8d-49cf-a131-46fb82e07d46",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2562cfee-cce8-4a85-8ab6-8626df8f9fd4",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 96,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7ea526ee-7b5c-4535-8742-4dc932539e19","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f058455-5b28-4c6d-8522-fb31267a2131","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Button",
-    "path": "folders/Sprites/Level Elements/Button.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"07a0c46d-3e8d-49cf-a131-46fb82e07d46","path":"sprites/spr_buttonReleased/spr_buttonReleased.yy",},},},"Disabled":false,"id":"42cb5379-431d-46c5-8cf3-736dda604376","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2562cfee-cce8-4a85-8ab6-8626df8f9fd4","path":"sprites/spr_buttonReleased/spr_buttonReleased.yy",},},},"Disabled":false,"id":"a157b6a9-dc7d-4865-a0c3-f0b824a72097","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

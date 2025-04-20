@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e8104421-fde8-42e0-89b3-f7475506dfa3",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"744e30dc-f43b-4b11-897c-262b8d8baf46",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2338cd8d-309f-4816-b4d5-ad9851805a99",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"549ba836-4b20-4100-b81b-21f6cb2bd90e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"01bff8f5-c2e5-40a9-8401-9cc7044b67b1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"da846d28-b77e-4fb5-8750-7a4daf97e1a2",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0285f5e2-e7a1-4142-967f-a9b4508da82b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"38b5f480-ccde-47a9-946a-9deb6d91a649","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Destroyables",
-    "path": "folders/Sprites/Destroyables.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e8104421-fde8-42e0-89b3-f7475506dfa3","path":"sprites/spr_bigbreakhard_overlay/spr_bigbreakhard_overlay.yy",},},},"Disabled":false,"id":"8aaa6a11-e790-419c-a7b4-e7f340f8e686","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"744e30dc-f43b-4b11-897c-262b8d8baf46","path":"sprites/spr_bigbreakhard_overlay/spr_bigbreakhard_overlay.yy",},},},"Disabled":false,"id":"c2b25804-22d8-4359-a8f9-893734c5a0bc","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2338cd8d-309f-4816-b4d5-ad9851805a99","path":"sprites/spr_bigbreakhard_overlay/spr_bigbreakhard_overlay.yy",},},},"Disabled":false,"id":"93ba6b2a-6eb6-4bd7-bbbc-39171bd431a3","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"549ba836-4b20-4100-b81b-21f6cb2bd90e","path":"sprites/spr_bigbreakhard_overlay/spr_bigbreakhard_overlay.yy",},},},"Disabled":false,"id":"546b7b7a-001d-400c-ad71-352a23bca44e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"01bff8f5-c2e5-40a9-8401-9cc7044b67b1","path":"sprites/spr_bigbreakhard_overlay/spr_bigbreakhard_overlay.yy",},},},"Disabled":false,"id":"759843f7-4adb-4b0f-8aba-caccc0104bc1","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"da846d28-b77e-4fb5-8750-7a4daf97e1a2","path":"sprites/spr_bigbreakhard_overlay/spr_bigbreakhard_overlay.yy",},},},"Disabled":false,"id":"5bff118b-5980-4f74-8953-6d5d6895b61e","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

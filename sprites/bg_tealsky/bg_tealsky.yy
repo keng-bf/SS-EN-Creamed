@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"42f2542a-0fe3-4558-b405-b38fbe395d85",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9f0e4fe8-a855-4652-9c45-e371e56ea4c7",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"929f32a8-8462-4012-964a-e9211b139ed6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b2d0e295-9b49-4edc-bc1f-a4606f68eff4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c1609386-a432-49c3-afb3-730963d923ba",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1a6cdebc-4e0e-41dd-b6db-4f070fb895e0",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"00c32038-e682-41ed-b192-1a671c3edb46","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a619b9ab-e934-434f-b5f0-467d490bfe92","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sucrose Snowstorm",
-    "path": "folders/Sprites/Backgrounds/Sucrose Snowstorm.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"42f2542a-0fe3-4558-b405-b38fbe395d85","path":"sprites/bg_tealsky/bg_tealsky.yy",},},},"Disabled":false,"id":"1d117590-b5b1-41f0-b215-713b86264dc4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9f0e4fe8-a855-4652-9c45-e371e56ea4c7","path":"sprites/bg_tealsky/bg_tealsky.yy",},},},"Disabled":false,"id":"b77fd8dc-a750-43b0-97f0-033de57babaa","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"929f32a8-8462-4012-964a-e9211b139ed6","path":"sprites/bg_tealsky/bg_tealsky.yy",},},},"Disabled":false,"id":"b304da30-b1f2-4f18-ab71-ec2c919baa6d","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b2d0e295-9b49-4edc-bc1f-a4606f68eff4","path":"sprites/bg_tealsky/bg_tealsky.yy",},},},"Disabled":false,"id":"6aa2bc77-3af9-4b88-b1a8-efdef4fa5dcc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c1609386-a432-49c3-afb3-730963d923ba","path":"sprites/bg_tealsky/bg_tealsky.yy",},},},"Disabled":false,"id":"954b1d11-f8f7-4832-9500-3d18b047bd67","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1a6cdebc-4e0e-41dd-b6db-4f070fb895e0","path":"sprites/bg_tealsky/bg_tealsky.yy",},},},"Disabled":false,"id":"85aa6d68-792d-49f2-bec3-c075df16c7c3","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -1,1 +1,1 @@
-kill_sounds(pullSND);
+kill_sounds(pullSND)

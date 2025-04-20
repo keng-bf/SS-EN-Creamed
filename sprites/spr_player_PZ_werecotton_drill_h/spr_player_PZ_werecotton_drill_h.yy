@@ -13,18 +13,18 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0b6d82db-9852-493e-8ef4-abd6abfbf91d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6732e06e-e0e8-4acd-be36-09e8369781d1",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"94d4cd92-6e5e-4a2f-be1e-1b2c4b3bd10b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"76db6a6a-23b5-4f09-9251-168394851c2b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b1754083-d185-4737-af17-4a0854cccefc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b1fdd7b4-cd80-4e84-9fa5-eaf890d75b46",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e1d80d37-e4cf-48be-bb88-8854a07b862b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c9bea4b7-f53f-4ffa-a5ef-23840da4839e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"09182f5e-99df-4e9a-92f8-39d53ed19089",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f9dfba2e-98d3-4a26-b14c-bfb0a6102f96",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"09731b6f-5448-4b2a-93cb-0188bcac11ad","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4809e361-9969-49c4-a462-efa151fad060","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -52,8 +52,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -81,11 +81,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0b6d82db-9852-493e-8ef4-abd6abfbf91d","path":"sprites/spr_player_PZ_werecotton_drill_h/spr_player_PZ_werecotton_drill_h.yy",},},},"Disabled":false,"id":"b6a66804-6d58-4880-b5d4-9373aec6ecbc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6732e06e-e0e8-4acd-be36-09e8369781d1","path":"sprites/spr_player_PZ_werecotton_drill_h/spr_player_PZ_werecotton_drill_h.yy",},},},"Disabled":false,"id":"78142729-049b-4448-9f49-f5396638f44a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"94d4cd92-6e5e-4a2f-be1e-1b2c4b3bd10b","path":"sprites/spr_player_PZ_werecotton_drill_h/spr_player_PZ_werecotton_drill_h.yy",},},},"Disabled":false,"id":"a2f4366e-eb78-4c53-a0bf-377f08899a24","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"76db6a6a-23b5-4f09-9251-168394851c2b","path":"sprites/spr_player_PZ_werecotton_drill_h/spr_player_PZ_werecotton_drill_h.yy",},},},"Disabled":false,"id":"d9ed7e26-0dc0-488f-8d29-626fbf05df71","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b1754083-d185-4737-af17-4a0854cccefc","path":"sprites/spr_player_PZ_werecotton_drill_h/spr_player_PZ_werecotton_drill_h.yy",},},},"Disabled":false,"id":"1630c677-5a36-419c-8c59-177c74c13240","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b1fdd7b4-cd80-4e84-9fa5-eaf890d75b46","path":"sprites/spr_player_PZ_werecotton_drill_h/spr_player_PZ_werecotton_drill_h.yy",},},},"Disabled":false,"id":"166d5cd7-713c-40f3-9a7a-9e57b7f1a35b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e1d80d37-e4cf-48be-bb88-8854a07b862b","path":"sprites/spr_player_PZ_werecotton_drill_h/spr_player_PZ_werecotton_drill_h.yy",},},},"Disabled":false,"id":"a3d56472-2024-434a-8477-a4ce055d0dea","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c9bea4b7-f53f-4ffa-a5ef-23840da4839e","path":"sprites/spr_player_PZ_werecotton_drill_h/spr_player_PZ_werecotton_drill_h.yy",},},},"Disabled":false,"id":"dec1da85-7965-4760-a59a-c9368107430b","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"09182f5e-99df-4e9a-92f8-39d53ed19089","path":"sprites/spr_player_PZ_werecotton_drill_h/spr_player_PZ_werecotton_drill_h.yy",},},},"Disabled":false,"id":"ed3a5ab2-6724-48d3-89ae-94f9079ce554","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f9dfba2e-98d3-4a26-b14c-bfb0a6102f96","path":"sprites/spr_player_PZ_werecotton_drill_h/spr_player_PZ_werecotton_drill_h.yy",},},},"Disabled":false,"id":"a5a1337e-df29-4828-8cf1-33fd528a886d","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -37,9 +37,9 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"importantEnemy","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false;","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"escapeEnemy","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false;","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"escapeEnemyUnStun","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false;","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"importantEnemy","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"escapeEnemy","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"escapeEnemyUnStun","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":4,},
   ],
   "solid": false,
   "spriteId": {

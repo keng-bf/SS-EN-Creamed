@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"05c7e56c-380d-46bc-9045-3d59ea165d9a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8a403914-e6eb-4629-9845-92781a3dbb54",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8b0ae0c2-d20b-4717-b9a3-fc5b1cb4082f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3084532c-ec53-43c7-8482-8ba71e7ec582",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e899dfaa-c596-429b-ad2f-25a573b31a19",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e069f260-9295-4088-b07f-b11056036237",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 116,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"50647125-f4cb-484a-ad50-c66f0680d03b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0b54a174-105c-4c72-a210-8780baf265a5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Builder Bears",
-    "path": "folders/Sprites/Decor/Crunchy Construction/Builder Bears.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"05c7e56c-380d-46bc-9045-3d59ea165d9a","path":"sprites/spr_builderBear_karen_panic/spr_builderBear_karen_panic.yy",},},},"Disabled":false,"id":"195fef8c-e148-4783-a361-0ff54cc7dc9a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8a403914-e6eb-4629-9845-92781a3dbb54","path":"sprites/spr_builderBear_karen_panic/spr_builderBear_karen_panic.yy",},},},"Disabled":false,"id":"504503e3-94ef-4e0e-af66-5bca1ee75dbc","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8b0ae0c2-d20b-4717-b9a3-fc5b1cb4082f","path":"sprites/spr_builderBear_karen_panic/spr_builderBear_karen_panic.yy",},},},"Disabled":false,"id":"48e1ad79-7064-4d13-aa17-d23a4a1fe881","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3084532c-ec53-43c7-8482-8ba71e7ec582","path":"sprites/spr_builderBear_karen_panic/spr_builderBear_karen_panic.yy",},},},"Disabled":false,"id":"39fde751-2551-4847-ae8f-28950fda5f76","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e899dfaa-c596-429b-ad2f-25a573b31a19","path":"sprites/spr_builderBear_karen_panic/spr_builderBear_karen_panic.yy",},},},"Disabled":false,"id":"57a28b07-e320-4d3d-8266-cf3bc044691d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e069f260-9295-4088-b07f-b11056036237","path":"sprites/spr_builderBear_karen_panic/spr_builderBear_karen_panic.yy",},},},"Disabled":false,"id":"3f245268-ae05-49c5-b315-b28930f5c95e","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

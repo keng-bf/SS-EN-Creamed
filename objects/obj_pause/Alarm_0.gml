@@ -1,2 +1,2 @@
-key_jump = false;
-canmove = true;
+key_jump = false
+canmove = true

@@ -1,1 +1,1 @@
-kill_sounds([falling_sound]);
+kill_sounds([falling_sound])

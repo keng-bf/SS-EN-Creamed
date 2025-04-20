@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"455e5f6f-da07-4e5c-99ee-ad22d7980790",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"89b5ee03-12c7-41e2-b386-0d5be85653d4",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 229,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"561d1254-285c-4df8-b0a2-42433e11e569","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"98dff3bd-f948-4341-a644-60a9418b3d24","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -46,7 +46,7 @@
     ],
     "top": 0,
   },
-  "origin": 9,
+  "origin": 0,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
@@ -71,13 +71,13 @@
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
     "playbackSpeed": 0.0,
-    "playbackSpeedType": 0,
+    "playbackSpeedType": 1,
     "showBackdrop": true,
     "showBackdropImage": true,
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"455e5f6f-da07-4e5c-99ee-ad22d7980790","path":"sprites/spr_tutorialassets7/spr_tutorialassets7.yy",},},},"Disabled":false,"id":"5add795b-ee61-4bce-b2a9-20b7f23af924","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"89b5ee03-12c7-41e2-b386-0d5be85653d4","path":"sprites/spr_tutorialassets7/spr_tutorialassets7.yy",},},},"Disabled":false,"id":"1599f5b6-2296-47cc-99c9-15fd5418d60e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -1,1 +1,1 @@
-camera_shake_add(irandom(2), 1);
+camera_shake_add(irandom(2), 1)

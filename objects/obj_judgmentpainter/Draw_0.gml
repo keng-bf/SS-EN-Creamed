@@ -1,2 +1,2 @@
-draw_self();
-flickspr.draw();
+draw_self()
+flickspr.draw()

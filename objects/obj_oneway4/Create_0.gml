@@ -1,3 +1,3 @@
-event_inherited();
-onewayDeathSprite = spr_lemonheadblockdead;
-onewayRank = 4;
+event_inherited()
+onewayDeathSprite = spr_lemonheadblockdead
+onewayRank = 4

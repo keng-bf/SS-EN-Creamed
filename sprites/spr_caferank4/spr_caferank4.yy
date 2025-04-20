@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3192ce83-c028-4862-bb9a-992ad1b9d7bf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ccc8c2eb-93be-4763-85b4-46aa6640c2d8",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 347,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5a3cb982-e2a4-4239-b83c-5d95cd7a1923","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0bbf9b36-472a-49e4-80aa-630f23306984","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Cafe Ranks",
-    "path": "folders/Sprites/Graphics/Cafe Ranks.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3192ce83-c028-4862-bb9a-992ad1b9d7bf","path":"sprites/spr_caferank4/spr_caferank4.yy",},},},"Disabled":false,"id":"c18670f6-972f-4f21-8dfe-754b1ce0b60c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ccc8c2eb-93be-4763-85b4-46aa6640c2d8","path":"sprites/spr_caferank4/spr_caferank4.yy",},},},"Disabled":false,"id":"8b382f40-0818-405b-8e63-c4168b4cb336","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

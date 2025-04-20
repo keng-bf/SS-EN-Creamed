@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2225a789-ef04-44a8-b1cb-f16b6edb4823",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b7f0a825-e2b7-4273-9272-e774d78a9dd1",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b2ea3f71-7c43-4b2c-a1cb-0378799f0382",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5ca8d595-086a-4d29-9930-5311228ada5f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"57bcd474-ef4b-4684-b7f5-f9f81f40b246",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fb8ab2fa-fae9-499c-a7db-60bf0a7d7b91",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"59c356f0-1a59-4b17-bf16-34fedab4f4c8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"faa4bbf0-b85c-4fbc-a66b-45f3d33ac4b0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Mt. Fudgetop",
-    "path": "folders/Sprites/Backgrounds/Mt. Fudgetop.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2225a789-ef04-44a8-b1cb-f16b6edb4823","path":"sprites/bg_fudgetop_sky/bg_fudgetop_sky.yy",},},},"Disabled":false,"id":"597f30d6-1a16-44ca-84fb-42c02e68930c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b7f0a825-e2b7-4273-9272-e774d78a9dd1","path":"sprites/bg_fudgetop_sky/bg_fudgetop_sky.yy",},},},"Disabled":false,"id":"cdc58513-e0f1-464d-8a54-df4ecd1ecf7b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b2ea3f71-7c43-4b2c-a1cb-0378799f0382","path":"sprites/bg_fudgetop_sky/bg_fudgetop_sky.yy",},},},"Disabled":false,"id":"b461c34a-4b31-4d7d-8098-7a6c6f48a28a","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5ca8d595-086a-4d29-9930-5311228ada5f","path":"sprites/bg_fudgetop_sky/bg_fudgetop_sky.yy",},},},"Disabled":false,"id":"7bf113ae-7c76-4b0e-8ee1-f8bf138e8f98","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"57bcd474-ef4b-4684-b7f5-f9f81f40b246","path":"sprites/bg_fudgetop_sky/bg_fudgetop_sky.yy",},},},"Disabled":false,"id":"ca13489c-92da-438f-b195-e7c052eac005","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fb8ab2fa-fae9-499c-a7db-60bf0a7d7b91","path":"sprites/bg_fudgetop_sky/bg_fudgetop_sky.yy",},},},"Disabled":false,"id":"38748f15-e5b3-4a25-9cb9-b21c17696cc1","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

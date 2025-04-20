@@ -13,18 +13,18 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1f29da9f-b034-4943-8ace-6aa51caf0afa",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b2a91784-08fd-43c6-becf-49feb3ad3cdd",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"18a7e5d0-e8f8-4efc-8363-c4cf8270d58e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4e492c56-24cd-4d91-b91e-f20905436e2a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a59886f3-7a4e-469c-a610-a81eadbab861",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6f85140-c12d-447e-ab58-756643e2d86e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8e08f988-e74c-4034-957b-55f01090a17a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db00d152-4351-46a3-86b8-cb5561908300",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5daa0083-4fb4-4000-ad7a-c5716edd3f3c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"45a9996e-99cf-4077-8a29-284539f23a76",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 684,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d0683de1-9d74-466e-9bae-2c877559aa95","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"380d3a7c-0488-4c93-b5a8-3220fe0bd650","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -52,8 +52,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Mt. Fudgetop",
-    "path": "folders/Sprites/Backgrounds/Mt. Fudgetop.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -81,11 +81,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1f29da9f-b034-4943-8ace-6aa51caf0afa","path":"sprites/bg_fudgetop_skyescape/bg_fudgetop_skyescape.yy",},},},"Disabled":false,"id":"04b8f2b8-d041-4fe5-ba93-b32a46fe9dc4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b2a91784-08fd-43c6-becf-49feb3ad3cdd","path":"sprites/bg_fudgetop_skyescape/bg_fudgetop_skyescape.yy",},},},"Disabled":false,"id":"7cb2de37-ab1e-4cbe-8bff-9910aa6f3b45","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"18a7e5d0-e8f8-4efc-8363-c4cf8270d58e","path":"sprites/bg_fudgetop_skyescape/bg_fudgetop_skyescape.yy",},},},"Disabled":false,"id":"37f81d4a-358f-40a0-bca8-d774dbd0e7d0","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4e492c56-24cd-4d91-b91e-f20905436e2a","path":"sprites/bg_fudgetop_skyescape/bg_fudgetop_skyescape.yy",},},},"Disabled":false,"id":"b89f8269-6987-4108-a367-4bfc0306ed03","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a59886f3-7a4e-469c-a610-a81eadbab861","path":"sprites/bg_fudgetop_skyescape/bg_fudgetop_skyescape.yy",},},},"Disabled":false,"id":"6ccd2790-80cd-4085-af24-9f80e548952f","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b6f85140-c12d-447e-ab58-756643e2d86e","path":"sprites/bg_fudgetop_skyescape/bg_fudgetop_skyescape.yy",},},},"Disabled":false,"id":"b2bd0502-ccad-43e7-a3e5-03ba7f3d5aed","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8e08f988-e74c-4034-957b-55f01090a17a","path":"sprites/bg_fudgetop_skyescape/bg_fudgetop_skyescape.yy",},},},"Disabled":false,"id":"f7a300ab-2d6e-43b1-a8be-8ff34893a89b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"db00d152-4351-46a3-86b8-cb5561908300","path":"sprites/bg_fudgetop_skyescape/bg_fudgetop_skyescape.yy",},},},"Disabled":false,"id":"a1fb1535-6640-4617-9fa0-0c3af39cb432","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5daa0083-4fb4-4000-ad7a-c5716edd3f3c","path":"sprites/bg_fudgetop_skyescape/bg_fudgetop_skyescape.yy",},},},"Disabled":false,"id":"d17917ab-8442-4838-8242-6eae528967dd","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"45a9996e-99cf-4077-8a29-284539f23a76","path":"sprites/bg_fudgetop_skyescape/bg_fudgetop_skyescape.yy",},},},"Disabled":false,"id":"0a0e4d00-b421-420b-9948-51bc698e6a23","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

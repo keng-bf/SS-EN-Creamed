@@ -1,2 +1,2 @@
-scr_input_varinit();
-blockedInputs = false;
+scr_input_varinit()
+blockedInputs = false

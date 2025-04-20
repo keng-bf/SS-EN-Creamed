@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"56280caf-9e78-4f41-801f-bb6ece3b5404",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c4aa153-a93a-4e90-91db-80778f1e4d56",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b1ce19fe-1777-4cb7-b7e6-5c901c0d1619",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5c057d94-a021-46ed-b6b7-405ac7172289",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"711779be-3a3e-4099-856a-50dd0e204012",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8551646a-dcaf-451d-b7cc-5c1554ef3ed5",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 167,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f95b5847-46d8-4b21-b0f3-91c4ceeaf0fc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e5d22de6-1651-47b7-88c9-925c8a7009c0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"56280caf-9e78-4f41-801f-bb6ece3b5404","path":"sprites/spr_player_PZ_flinged_tilt/spr_player_PZ_flinged_tilt.yy",},},},"Disabled":false,"id":"aaa72fbb-2ba6-4d19-817c-34e2626a8453","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3c4aa153-a93a-4e90-91db-80778f1e4d56","path":"sprites/spr_player_PZ_flinged_tilt/spr_player_PZ_flinged_tilt.yy",},},},"Disabled":false,"id":"ab9d805d-c86d-40dc-876c-a491a55d24a5","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b1ce19fe-1777-4cb7-b7e6-5c901c0d1619","path":"sprites/spr_player_PZ_flinged_tilt/spr_player_PZ_flinged_tilt.yy",},},},"Disabled":false,"id":"431ee0c8-f99a-4eed-a0a8-c71690cf6979","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5c057d94-a021-46ed-b6b7-405ac7172289","path":"sprites/spr_player_PZ_flinged_tilt/spr_player_PZ_flinged_tilt.yy",},},},"Disabled":false,"id":"266fdf74-fa51-423d-a45a-c7fdc20143ec","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"711779be-3a3e-4099-856a-50dd0e204012","path":"sprites/spr_player_PZ_flinged_tilt/spr_player_PZ_flinged_tilt.yy",},},},"Disabled":false,"id":"1309b03d-0f34-4d66-82c1-27d7250ccfac","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8551646a-dcaf-451d-b7cc-5c1554ef3ed5","path":"sprites/spr_player_PZ_flinged_tilt/spr_player_PZ_flinged_tilt.yy",},},},"Disabled":false,"id":"1dedfa0e-7c0f-4687-9f93-07bf57e541b8","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

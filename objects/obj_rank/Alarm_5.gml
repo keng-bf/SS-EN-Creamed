@@ -1,3 +1,3 @@
-flash = false;
-pshake = false;
-alarm[5] = -1;
+flash = false
+pshake = false
+alarm[5] = -1

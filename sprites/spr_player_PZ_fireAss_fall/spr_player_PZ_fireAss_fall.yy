@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3660b81b-9dcb-479d-b8dc-2bc0b2f945ff",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"913dd869-84fb-4be3-8047-92d54cb87766",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"120f0a22-8a6c-46a2-bd64-23216d3c1901",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"47d15c85-6cf0-48ee-9f6c-3ea257806391",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b132aa3b-54f3-497a-bbf6-de1820dcc3e1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9046cb61-85cc-4aba-9e55-aad3c38e587c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5f649128-b42f-4e37-b20b-943ac880044a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f632854e-a1ee-476c-b599-bcd07fee761b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3660b81b-9dcb-479d-b8dc-2bc0b2f945ff","path":"sprites/spr_player_PZ_fireAss_fall/spr_player_PZ_fireAss_fall.yy",},},},"Disabled":false,"id":"40d36b03-1028-4af5-8749-560d47d5aba7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"913dd869-84fb-4be3-8047-92d54cb87766","path":"sprites/spr_player_PZ_fireAss_fall/spr_player_PZ_fireAss_fall.yy",},},},"Disabled":false,"id":"6500a7af-5c87-41a1-912b-0f7285443750","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"120f0a22-8a6c-46a2-bd64-23216d3c1901","path":"sprites/spr_player_PZ_fireAss_fall/spr_player_PZ_fireAss_fall.yy",},},},"Disabled":false,"id":"97159f60-6a53-4ea4-8c78-b3d85061f80e","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"47d15c85-6cf0-48ee-9f6c-3ea257806391","path":"sprites/spr_player_PZ_fireAss_fall/spr_player_PZ_fireAss_fall.yy",},},},"Disabled":false,"id":"4eeae286-dd12-45e9-bcea-4da7c25c5cdc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b132aa3b-54f3-497a-bbf6-de1820dcc3e1","path":"sprites/spr_player_PZ_fireAss_fall/spr_player_PZ_fireAss_fall.yy",},},},"Disabled":false,"id":"66e78192-4dfa-4f7b-9847-58398b798ac5","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9046cb61-85cc-4aba-9e55-aad3c38e587c","path":"sprites/spr_player_PZ_fireAss_fall/spr_player_PZ_fireAss_fall.yy",},},},"Disabled":false,"id":"824c949f-9f66-4adb-b9e6-d1b8f5f5f9d4","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

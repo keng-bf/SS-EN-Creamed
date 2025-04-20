@@ -1,1 +1,1 @@
-progression = 2;
+progression = 2

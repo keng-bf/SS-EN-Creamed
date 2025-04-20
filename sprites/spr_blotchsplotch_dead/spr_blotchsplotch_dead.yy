@@ -6,21 +6,21 @@
   "bbox_left": 35,
   "bbox_right": 162,
   "bbox_top": 42,
-  "bboxMode": 2,
-  "collisionKind": 2,
+  "bboxMode": 0,
+  "collisionKind": 4,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"62b571bf-ecc9-4182-b3ed-0d61dc2e4262",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5e72d325-428f-4f06-bb59-bdde4b0d8d8c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 200,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9a270a9a-fd62-4d58-9db0-65709a1a36c6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2c54d089-6b05-429b-8dcc-dbaea0dd2ad3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Blotchsplotch",
-    "path": "folders/Sprites/Enemies/Blotchsplotch.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"62b571bf-ecc9-4182-b3ed-0d61dc2e4262","path":"sprites/spr_blotchsplotch_dead/spr_blotchsplotch_dead.yy",},},},"Disabled":false,"id":"bf8afde1-d657-416e-ac14-26378ecad3e3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5e72d325-428f-4f06-bb59-bdde4b0d8d8c","path":"sprites/spr_blotchsplotch_dead/spr_blotchsplotch_dead.yy",},},},"Disabled":false,"id":"49a78b1a-04ad-44b6-a1e4-3392a6a29f4f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -13,17 +13,17 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5c3614c5-209d-49ea-8f1b-dcdfd2f0cb19",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bbfb0026-2f31-49a9-a3ea-0238aacdac0e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7126a21d-8349-402c-8e93-855c9c6d74f1",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d897eaa4-6511-41ba-b194-afe54c5cc2a5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1534ed7b-f8dd-4a86-9e18-34939e4ec895",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aeed3e88-ce7c-4ff6-a9a2-b7d806d872ad",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"444730f0-7ec5-4abe-9b9a-81415e8d6e41",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"98bcf189-27e9-4de2-96a4-1ac7cbb3f108",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1577f8e9-1488-467b-8ab4-948ec129ae2b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b4731cda-0adb-4bbd-8603-362c9cfd60f6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -51,8 +51,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Cottontown",
-    "path": "folders/Sprites/Backgrounds/Cottontown.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -80,10 +80,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5c3614c5-209d-49ea-8f1b-dcdfd2f0cb19","path":"sprites/bg_cottontown1_4_vandalized/bg_cottontown1_4_vandalized.yy",},},},"Disabled":false,"id":"776bd82b-df7f-439d-9261-46d73e4526ea","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bbfb0026-2f31-49a9-a3ea-0238aacdac0e","path":"sprites/bg_cottontown1_4_vandalized/bg_cottontown1_4_vandalized.yy",},},},"Disabled":false,"id":"877e43f9-7ff4-4f1a-b02b-4b006ffd1209","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7126a21d-8349-402c-8e93-855c9c6d74f1","path":"sprites/bg_cottontown1_4_vandalized/bg_cottontown1_4_vandalized.yy",},},},"Disabled":false,"id":"18e0eab0-c65f-411c-be10-fa250e9a4855","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d897eaa4-6511-41ba-b194-afe54c5cc2a5","path":"sprites/bg_cottontown1_4_vandalized/bg_cottontown1_4_vandalized.yy",},},},"Disabled":false,"id":"e333db31-0e9d-454b-a1a2-712953a29358","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1534ed7b-f8dd-4a86-9e18-34939e4ec895","path":"sprites/bg_cottontown1_4_vandalized/bg_cottontown1_4_vandalized.yy",},},},"Disabled":false,"id":"227573a3-3c46-4e7e-989b-87d265ae1499","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"aeed3e88-ce7c-4ff6-a9a2-b7d806d872ad","path":"sprites/bg_cottontown1_4_vandalized/bg_cottontown1_4_vandalized.yy",},},},"Disabled":false,"id":"6da91efb-47ba-4228-9344-54b6ad163cfd","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"444730f0-7ec5-4abe-9b9a-81415e8d6e41","path":"sprites/bg_cottontown1_4_vandalized/bg_cottontown1_4_vandalized.yy",},},},"Disabled":false,"id":"a0fffc95-69a7-4365-b250-98b1ae3fc6ad","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"98bcf189-27e9-4de2-96a4-1ac7cbb3f108","path":"sprites/bg_cottontown1_4_vandalized/bg_cottontown1_4_vandalized.yy",},},},"Disabled":false,"id":"2f895c02-645a-478a-abbc-d4885c3599fb","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

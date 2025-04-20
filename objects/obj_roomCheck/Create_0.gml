@@ -1,2 +1,2 @@
-alarm[0] = 5;
-firstRoom = true;
+alarm[0] = 5
+firstRoom = true

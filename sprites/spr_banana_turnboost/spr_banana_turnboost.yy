@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b0b8dc16-0133-4151-b20a-0c21b5f2534d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a6f45941-fed1-4b4c-9f77-da6bc8d3cb32",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a0b75d29-6665-4bad-bf8a-04700480f004",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"84226437-91fc-4313-850c-603fc1b94a70",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"162c6c28-f180-426d-8883-bc7b787e5854",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7cba279e-cf2e-451c-8177-bfb1b7daf066",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 151,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"499cea1a-b4ce-4d94-b87c-655b5e1b20d3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cd68f9f8-bea1-4747-8eef-226b6358f5f7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Banancer",
-    "path": "folders/Sprites/Enemies/Banancer.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b0b8dc16-0133-4151-b20a-0c21b5f2534d","path":"sprites/spr_banana_turnboost/spr_banana_turnboost.yy",},},},"Disabled":false,"id":"fb68dfa7-d163-4da1-8d8b-2a55adb6e65d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a6f45941-fed1-4b4c-9f77-da6bc8d3cb32","path":"sprites/spr_banana_turnboost/spr_banana_turnboost.yy",},},},"Disabled":false,"id":"bd8268ad-c3fd-45a6-9ecd-07bfab3740ed","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a0b75d29-6665-4bad-bf8a-04700480f004","path":"sprites/spr_banana_turnboost/spr_banana_turnboost.yy",},},},"Disabled":false,"id":"b8ed7811-d5f8-4365-9a30-09588033a3da","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"84226437-91fc-4313-850c-603fc1b94a70","path":"sprites/spr_banana_turnboost/spr_banana_turnboost.yy",},},},"Disabled":false,"id":"9ece3a71-2b94-4467-84da-20b130faf531","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"162c6c28-f180-426d-8883-bc7b787e5854","path":"sprites/spr_banana_turnboost/spr_banana_turnboost.yy",},},},"Disabled":false,"id":"d9444dc3-d3b1-41ed-b0df-4e25683f4f94","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7cba279e-cf2e-451c-8177-bfb1b7daf066","path":"sprites/spr_banana_turnboost/spr_banana_turnboost.yy",},},},"Disabled":false,"id":"a1a5946d-6cc2-40ae-9bb4-e7bdab8fff1c","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

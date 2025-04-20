@@ -6,21 +6,21 @@
   "bbox_left": 23,
   "bbox_right": 246,
   "bbox_top": 1,
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f6e16d75-4db6-4249-a2a3-513a4a27e957",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"90f9bbc2-ab9b-4800-8f67-c14d2142646e",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 398,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"94d167a2-56ca-4922-8448-e88bbe20c695","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"48e43971-de57-42e4-821b-c85b1035b511","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f6e16d75-4db6-4249-a2a3-513a4a27e957","path":"sprites/spr_geyserCutscene_Inactive/spr_geyserCutscene_Inactive.yy",},},},"Disabled":false,"id":"2815cf20-f39f-4ddc-a9af-0546ccdc3d2a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"90f9bbc2-ab9b-4800-8f67-c14d2142646e","path":"sprites/spr_geyserCutscene_Inactive/spr_geyserCutscene_Inactive.yy",},},},"Disabled":false,"id":"5546d3ff-f6fb-45cd-bc52-bc26c1b22a01","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

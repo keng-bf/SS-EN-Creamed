@@ -1,1 +1,1 @@
-gogogo = true;
+gogogo = true

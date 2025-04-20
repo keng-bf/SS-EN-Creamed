@@ -1,2 +1,2 @@
-depth = 4;
-visible = global.showcollisions || isVisible;
+depth = 4
+visible = global.showcollisions || isVisible

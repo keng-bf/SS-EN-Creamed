@@ -1,11 +1,10 @@
-if (state == States.run)
+if (state == PlayerState.run)
 {
-    returntimer++;
-    
-    if (returntimer > 15)
-    {
-        candie = 1;
-        movespeed = 0;
-    }
+	returntimer++
+	
+	if (returntimer > 15)
+	{
+		candie = 1
+		movespeed = 0
+	}
 }
-

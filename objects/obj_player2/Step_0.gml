@@ -1,3 +1,3 @@
-x = -999;
-y = -999;
-visible = false;
+x = -999
+y = -999
+visible = false

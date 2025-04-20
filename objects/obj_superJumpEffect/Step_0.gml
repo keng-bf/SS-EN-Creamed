@@ -1,5 +1,4 @@
-updateEffectPosition();
+updateEffectPosition()
 
-if ((playerID.state != States.climbwall && playerID.state != States.Sjump) || playerID.sprite_index == playerID.spr_superjumpCancelIntro)
-    instance_destroy();
-
+if ((playerID.state != PlayerState.climbwall && playerID.state != PlayerState.Sjump) || playerID.sprite_index == playerID.spr_superjumpCancelIntro)
+	instance_destroy()

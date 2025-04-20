@@ -6,21 +6,21 @@
   "bbox_left": 32,
   "bbox_right": 107,
   "bbox_top": 56,
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dd688228-07cf-4f31-91b9-b034ff585024",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c7806a94-c2c6-43ad-bd9a-b16eca4c2428",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 144,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fea7d210-cbe5-49fb-abf4-58ae42c676b2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e74e34af-fbf5-4ab8-a259-8161ae7081a2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dd688228-07cf-4f31-91b9-b034ff585024","path":"sprites/spr_minesElevatorCrashed/spr_minesElevatorCrashed.yy",},},},"Disabled":false,"id":"0c561e1b-1aec-43f4-b9c1-52aa882c8a7c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c7806a94-c2c6-43ad-bd9a-b16eca4c2428","path":"sprites/spr_minesElevatorCrashed/spr_minesElevatorCrashed.yy",},},},"Disabled":false,"id":"21299c8f-eee4-4e9b-bd0a-254c88319b56","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

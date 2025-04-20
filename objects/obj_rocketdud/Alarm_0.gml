@@ -1,1 +1,1 @@
-collide = 1;
+collide = 1

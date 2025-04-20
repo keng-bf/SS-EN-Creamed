@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"efae80d8-d68a-4a2a-82e9-9a4b11c32bb0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"187a7b46-a0fd-4cf9-b78d-a70d1d8b14fa",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e03efa25-ed00-4c9e-9846-aa4e3709f945",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"44a000d4-a72c-4717-a158-4d68fb10fec5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e2005cf0-7688-4243-a868-5f6139c42c22",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"33f8a605-ceb0-49e0-bd48-7d5d9dc64bc0",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3d7a1d4d-bc94-4899-8617-7b7bfeebb4a1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c316e150-06dd-4588-8eaa-05008ac86328","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sugarshack Mines",
-    "path": "folders/Sprites/Backgrounds/Sugarshack Mines.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"efae80d8-d68a-4a2a-82e9-9a4b11c32bb0","path":"sprites/bg_mines1/bg_mines1.yy",},},},"Disabled":false,"id":"0eeda0d7-8388-4ee9-801e-6772f84fecf5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"187a7b46-a0fd-4cf9-b78d-a70d1d8b14fa","path":"sprites/bg_mines1/bg_mines1.yy",},},},"Disabled":false,"id":"99f7cb4b-9f24-4bfa-aece-a68db5b434d6","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e03efa25-ed00-4c9e-9846-aa4e3709f945","path":"sprites/bg_mines1/bg_mines1.yy",},},},"Disabled":false,"id":"7722a513-b320-4e68-992c-669e5d277304","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"44a000d4-a72c-4717-a158-4d68fb10fec5","path":"sprites/bg_mines1/bg_mines1.yy",},},},"Disabled":false,"id":"5facce8a-9dc9-4c1d-9d83-1aeee756dfd0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e2005cf0-7688-4243-a868-5f6139c42c22","path":"sprites/bg_mines1/bg_mines1.yy",},},},"Disabled":false,"id":"1e60971c-dc65-4c27-8867-f1bbf8e0007b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"33f8a605-ceb0-49e0-bd48-7d5d9dc64bc0","path":"sprites/bg_mines1/bg_mines1.yy",},},},"Disabled":false,"id":"3006983d-c32b-4219-a0cd-56a93b183d8d","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

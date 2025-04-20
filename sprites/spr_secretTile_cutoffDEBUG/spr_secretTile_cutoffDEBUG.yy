@@ -6,21 +6,21 @@
   "bbox_left": 26,
   "bbox_right": 31,
   "bbox_top": 0,
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 5,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8c5b8ce2-2990-41d8-a48f-538e6089779a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d1782e0-064d-4119-865d-eed0cfafaa4d",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9219f630-3ad8-45f8-b1a5-a95f5d2a01c9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"017d2e75-91bc-451b-90a0-fc5bbe3acdd0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8c5b8ce2-2990-41d8-a48f-538e6089779a","path":"sprites/spr_secretTile_cutoffDEBUG/spr_secretTile_cutoffDEBUG.yy",},},},"Disabled":false,"id":"47cd424a-cce5-4463-b14a-94c79b575e99","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9d1782e0-064d-4119-865d-eed0cfafaa4d","path":"sprites/spr_secretTile_cutoffDEBUG/spr_secretTile_cutoffDEBUG.yy",},},},"Disabled":false,"id":"d85b3972-156a-4cbf-979c-25e037c46e59","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -13,15 +13,15 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"986d2746-82e2-4383-8862-694c383d6ca0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"efb215cf-7a61-485e-bf20-dd38d26f8913",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b1072aa2-d64c-4052-adbd-c26dc010a054",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"448cd271-331f-44c6-8f06-7929f06532cb",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a86e164d-8262-406c-bfc6-5303cb7422d0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a2c21216-5a50-46e4-9b80-2965f28b07ed","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -78,8 +78,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"986d2746-82e2-4383-8862-694c383d6ca0","path":"sprites/spr_tutorialdoor/spr_tutorialdoor.yy",},},},"Disabled":false,"id":"ee459edd-c389-4dc2-8ed2-9c6b9af57f32","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"efb215cf-7a61-485e-bf20-dd38d26f8913","path":"sprites/spr_tutorialdoor/spr_tutorialdoor.yy",},},},"Disabled":false,"id":"4c9de88d-f404-48ce-bb7b-e21cdc2bedef","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b1072aa2-d64c-4052-adbd-c26dc010a054","path":"sprites/spr_tutorialdoor/spr_tutorialdoor.yy",},},},"Disabled":false,"id":"9e1d85dd-5deb-46fe-b772-4eee2b30a43b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"448cd271-331f-44c6-8f06-7929f06532cb","path":"sprites/spr_tutorialdoor/spr_tutorialdoor.yy",},},},"Disabled":false,"id":"e1165e87-440e-4586-9ec7-62c17352e5e6","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

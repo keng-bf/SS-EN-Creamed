@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7d2bf8b0-870a-4a21-8484-ec51a533c670",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2aeed426-06b4-4b61-b6fe-e690357c191c",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0b99ff17-b270-49a1-b582-bb90f73640e3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"38fcb598-c2a7-4b22-8d7e-fa814db432a2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4e32f7c7-a2f2-4712-85d3-623f1e12458c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c57f8205-70b5-4b8c-884b-588b5051da1b",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 160,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f83b907a-a39a-4598-954a-2faffef28b4b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3af05a0c-17e4-489e-814e-21f1f48886e9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7d2bf8b0-870a-4a21-8484-ec51a533c670","path":"sprites/spr_player_PZ_minecart_fall/spr_player_PZ_minecart_fall.yy",},},},"Disabled":false,"id":"328f0e8f-dad3-4522-8a8e-10900e3aa437","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2aeed426-06b4-4b61-b6fe-e690357c191c","path":"sprites/spr_player_PZ_minecart_fall/spr_player_PZ_minecart_fall.yy",},},},"Disabled":false,"id":"c916d8c5-a2d3-428d-b578-491b154c5a16","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0b99ff17-b270-49a1-b582-bb90f73640e3","path":"sprites/spr_player_PZ_minecart_fall/spr_player_PZ_minecart_fall.yy",},},},"Disabled":false,"id":"e4b501c0-02c4-429d-86b1-416e42d19add","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"38fcb598-c2a7-4b22-8d7e-fa814db432a2","path":"sprites/spr_player_PZ_minecart_fall/spr_player_PZ_minecart_fall.yy",},},},"Disabled":false,"id":"2a762660-6046-49c1-b800-163599595aea","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4e32f7c7-a2f2-4712-85d3-623f1e12458c","path":"sprites/spr_player_PZ_minecart_fall/spr_player_PZ_minecart_fall.yy",},},},"Disabled":false,"id":"dfbb3bfe-eaa8-4d6a-93ec-63333269b15f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c57f8205-70b5-4b8c-884b-588b5051da1b","path":"sprites/spr_player_PZ_minecart_fall/spr_player_PZ_minecart_fall.yy",},},},"Disabled":false,"id":"2c4329f9-da88-4229-81cd-3edf00f3500d","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

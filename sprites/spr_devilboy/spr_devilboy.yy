@@ -13,15 +13,15 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"abbecff9-7f81-4d26-aebf-eb5740e74009",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cee34619-f205-476b-bb58-5cd46df2b7b9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1cb8fabe-33d5-4919-999b-2c66a8b561bb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"540a4be2-d70a-4881-bffa-af1a12747164",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b7e590be-c6c9-426a-ae8e-841d9045bd24","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"12eb48cc-e2c8-4ada-b020-f1dc1a60abe2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -78,8 +78,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"abbecff9-7f81-4d26-aebf-eb5740e74009","path":"sprites/spr_devilboy/spr_devilboy.yy",},},},"Disabled":false,"id":"3a553842-d435-4b99-90b2-49b69ef96df2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cee34619-f205-476b-bb58-5cd46df2b7b9","path":"sprites/spr_devilboy/spr_devilboy.yy",},},},"Disabled":false,"id":"5eb74b7d-b313-49d5-875b-3b35aefe38f6","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1cb8fabe-33d5-4919-999b-2c66a8b561bb","path":"sprites/spr_devilboy/spr_devilboy.yy",},},},"Disabled":false,"id":"72798f6d-aed8-4aeb-a050-bd3e7a1f846a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"540a4be2-d70a-4881-bffa-af1a12747164","path":"sprites/spr_devilboy/spr_devilboy.yy",},},},"Disabled":false,"id":"09eb9a22-0f23-490d-b043-fccea69f690c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

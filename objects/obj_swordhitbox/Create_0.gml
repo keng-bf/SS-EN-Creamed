@@ -1,2 +1,2 @@
-image_xscale = obj_parent_player.xscale;
-bumpeffect = 0;
+image_xscale = obj_parent_player.xscale
+bumpeffect = 0

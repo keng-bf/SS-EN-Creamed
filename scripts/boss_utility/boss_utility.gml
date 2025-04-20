@@ -1,11 +1,9 @@
-function face_obj(argument0)
+function face_obj(arg0)
 {
-    var dir;
-    
-    dir = sign(argument0.x - x);
-    
-    if (dir == 0)
-        dir = 1;
-    
-    return dir;
+	var dir = sign(arg0.x - x)
+	
+	if (dir == 0)
+		dir = 1
+	
+	return dir;
 }

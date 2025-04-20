@@ -1,2 +1,2 @@
-hurted = false;
-keyParticles = false;
+hurted = false
+keyParticles = false

@@ -1,3 +1,2 @@
-if (obj_parent_player.state == States.doughmount || obj_parent_player.state == States.doughmountspin)
-    instance_destroy();
-
+if (obj_parent_player.state == PlayerState.doughmount || obj_parent_player.state == PlayerState.doughmountspin)
+	instance_destroy()

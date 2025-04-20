@@ -1,2 +1,2 @@
-image_xscale = playerID.xscale;
-image_speed = 0.4;
+image_xscale = playerID.xscale
+image_speed = 0.4

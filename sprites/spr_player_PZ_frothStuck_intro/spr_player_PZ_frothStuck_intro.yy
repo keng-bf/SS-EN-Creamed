@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1908957e-996b-4558-ab8e-2d9ce4fbf099",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9a98d729-d160-4a33-b411-c1ad61949c01",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"68cf0008-d764-4154-9117-cda89834dab3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"744193f0-4dd8-4cef-9b3f-7ca05bbd892a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c485912a-cf48-4914-ba45-e7bb50611913",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"60c13928-64fe-4ae9-a17e-7907f9ead1a7",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4bc6f66f-ec12-459d-9e85-6ce4ce6eb4c8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cc4cd70c-1908-42a8-b6bf-b975a705df92","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1908957e-996b-4558-ab8e-2d9ce4fbf099","path":"sprites/spr_player_PZ_frothStuck_intro/spr_player_PZ_frothStuck_intro.yy",},},},"Disabled":false,"id":"de942606-3b5f-437d-af48-27f5e993b493","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9a98d729-d160-4a33-b411-c1ad61949c01","path":"sprites/spr_player_PZ_frothStuck_intro/spr_player_PZ_frothStuck_intro.yy",},},},"Disabled":false,"id":"6d97f15f-b92f-420c-9a80-0d18ad879d1b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"68cf0008-d764-4154-9117-cda89834dab3","path":"sprites/spr_player_PZ_frothStuck_intro/spr_player_PZ_frothStuck_intro.yy",},},},"Disabled":false,"id":"538043f8-e7b1-4ba6-9b59-973b25da3783","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"744193f0-4dd8-4cef-9b3f-7ca05bbd892a","path":"sprites/spr_player_PZ_frothStuck_intro/spr_player_PZ_frothStuck_intro.yy",},},},"Disabled":false,"id":"dcbe3b4a-f289-4c5a-8715-c0f07b9b3f47","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c485912a-cf48-4914-ba45-e7bb50611913","path":"sprites/spr_player_PZ_frothStuck_intro/spr_player_PZ_frothStuck_intro.yy",},},},"Disabled":false,"id":"5b1ccad1-543a-4c40-aacd-d8358dd2b777","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"60c13928-64fe-4ae9-a17e-7907f9ead1a7","path":"sprites/spr_player_PZ_frothStuck_intro/spr_player_PZ_frothStuck_intro.yy",},},},"Disabled":false,"id":"2afa0d91-68a6-4de3-926c-efec4e39e9c0","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -6,21 +6,21 @@
   "bbox_left": 16,
   "bbox_right": 47,
   "bbox_top": 16,
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2b2a8b73-8504-48bb-9e0b-21f8bb826fa5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8bf09712-3ed1-44c6-8f64-f02424f1012a",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1515a5ae-2889-470c-bf37-ac11009b6659","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"36158e37-8e68-4191-bd9f-b1afca66a982","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2b2a8b73-8504-48bb-9e0b-21f8bb826fa5","path":"sprites/spr_clutterPaintBucket_destroyed/spr_clutterPaintBucket_destroyed.yy",},},},"Disabled":false,"id":"ab219246-af49-4527-93df-23b6a204ead6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8bf09712-3ed1-44c6-8f64-f02424f1012a","path":"sprites/spr_clutterPaintBucket_destroyed/spr_clutterPaintBucket_destroyed.yy",},},},"Disabled":false,"id":"42a43f92-ec4f-487e-9113-b7797c6b236e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

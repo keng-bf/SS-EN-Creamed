@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7da67287-69ad-47ad-a41e-f9b019ad192e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f6629871-dc58-4106-a0ed-bc12fdc0353f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"59ce7a27-3bc2-4e4f-ab24-159ffccba81f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cfe89081-15c7-468a-87f2-667c7d8fcd76",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dfbf8885-493d-4ce9-b9f3-f9064bd18d4e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d6799b70-ff87-4b01-a023-86af4bc85d8f",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 256,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8aecc7f9-11e8-41c8-a0df-e64ecad482a0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4fcfd758-bc77-4065-aed5-46fefa68b88f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7da67287-69ad-47ad-a41e-f9b019ad192e","path":"sprites/spr_cottontown_easelbg/spr_cottontown_easelbg.yy",},},},"Disabled":false,"id":"a193dda2-be4f-4de6-8a4b-290bde45ca24","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f6629871-dc58-4106-a0ed-bc12fdc0353f","path":"sprites/spr_cottontown_easelbg/spr_cottontown_easelbg.yy",},},},"Disabled":false,"id":"6e331c53-a7be-4d92-9d73-f0105e5ac527","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"59ce7a27-3bc2-4e4f-ab24-159ffccba81f","path":"sprites/spr_cottontown_easelbg/spr_cottontown_easelbg.yy",},},},"Disabled":false,"id":"c50e5e64-94a7-45de-80c3-fb6328c36f50","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cfe89081-15c7-468a-87f2-667c7d8fcd76","path":"sprites/spr_cottontown_easelbg/spr_cottontown_easelbg.yy",},},},"Disabled":false,"id":"09418653-f5e1-439b-95fe-f3f916db0beb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dfbf8885-493d-4ce9-b9f3-f9064bd18d4e","path":"sprites/spr_cottontown_easelbg/spr_cottontown_easelbg.yy",},},},"Disabled":false,"id":"851ae67d-0b80-41b9-b706-189ba179bc0d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d6799b70-ff87-4b01-a023-86af4bc85d8f","path":"sprites/spr_cottontown_easelbg/spr_cottontown_easelbg.yy",},},},"Disabled":false,"id":"0608b30d-5eac-48a5-9dc9-af021bf48304","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e1e700fd-ee4a-438a-86ab-7c3d194732b0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7bd6edc7-30c7-4f8b-931f-79be29c44b7e",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a8de8d38-de4e-4b51-a4cb-eeab00d2c9ca",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"00f6d3c1-4431-4276-b137-fc6aee42b1fa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"34f0ad10-bc65-4803-a658-5fc6a23c1010",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fe1208a1-ea36-4ead-9a80-7fef30974d2c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 116,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5d53c544-6ef1-44aa-baa6-7b684367febd","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9a0eccd1-411c-4581-9a28-f7b0183f1366","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Builder Bears",
-    "path": "folders/Sprites/Decor/Crunchy Construction/Builder Bears.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e1e700fd-ee4a-438a-86ab-7c3d194732b0","path":"sprites/spr_builderBear_jack/spr_builderBear_jack.yy",},},},"Disabled":false,"id":"2662daa8-f77c-4ae5-a279-0ecc592d7f2f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7bd6edc7-30c7-4f8b-931f-79be29c44b7e","path":"sprites/spr_builderBear_jack/spr_builderBear_jack.yy",},},},"Disabled":false,"id":"81ed3c0b-f82d-4fa0-bf79-e6c6b5469430","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a8de8d38-de4e-4b51-a4cb-eeab00d2c9ca","path":"sprites/spr_builderBear_jack/spr_builderBear_jack.yy",},},},"Disabled":false,"id":"425425cb-8800-410d-8677-7fda0711405e","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"00f6d3c1-4431-4276-b137-fc6aee42b1fa","path":"sprites/spr_builderBear_jack/spr_builderBear_jack.yy",},},},"Disabled":false,"id":"9772fd77-715f-48c5-a956-d4a3ff707cba","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"34f0ad10-bc65-4803-a658-5fc6a23c1010","path":"sprites/spr_builderBear_jack/spr_builderBear_jack.yy",},},},"Disabled":false,"id":"760c654b-d93d-4def-b791-b50e8540a85f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fe1208a1-ea36-4ead-9a80-7fef30974d2c","path":"sprites/spr_builderBear_jack/spr_builderBear_jack.yy",},},},"Disabled":false,"id":"ca85a9b9-ddb6-414e-a1a7-f8ccafcc8352","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

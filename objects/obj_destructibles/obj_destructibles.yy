@@ -36,7 +36,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"smokeColor","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"[ #9E5402, #A85808, #A74001 ];","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"smokeColor","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"[ #9E5402, #A85808, #A74001]","varType":4,},
   ],
   "solid": false,
   "spriteId": null,

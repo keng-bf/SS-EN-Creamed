@@ -1,2 +1,2 @@
-up = 560;
-image_speed = 0.35;
+up = 560
+image_speed = 0.35

@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"440f46fe-a7fe-4b57-a67f-aa01c122127a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d723e8cf-ec8a-4e6e-b5ae-8c41564739f8",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c4fc820-b5ae-4817-ba5a-4e5bb05f2bbd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bd97542c-4c65-4635-8cb1-a8d7338cb031",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b76484a9-c7e1-4b6f-b195-a65ab823590d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d97386d6-a90f-49c7-9269-35c2b29c59c4",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 700,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"73a2eb0e-be04-47a0-a05d-531764329444","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"24315c51-5817-43a4-869e-d7b60a609e7c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sugarshack Mines",
-    "path": "folders/Sprites/Backgrounds/Sugarshack Mines.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"440f46fe-a7fe-4b57-a67f-aa01c122127a","path":"sprites/bg_minesWood_escape/bg_minesWood_escape.yy",},},},"Disabled":false,"id":"4fa0571f-546b-4814-985a-2244bf54f49b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d723e8cf-ec8a-4e6e-b5ae-8c41564739f8","path":"sprites/bg_minesWood_escape/bg_minesWood_escape.yy",},},},"Disabled":false,"id":"4b352574-e163-4b97-beff-7bdace892fd6","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6c4fc820-b5ae-4817-ba5a-4e5bb05f2bbd","path":"sprites/bg_minesWood_escape/bg_minesWood_escape.yy",},},},"Disabled":false,"id":"631dcfa9-432e-4d16-badf-5fc8f5377721","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bd97542c-4c65-4635-8cb1-a8d7338cb031","path":"sprites/bg_minesWood_escape/bg_minesWood_escape.yy",},},},"Disabled":false,"id":"7e68c842-908a-43e8-acee-62aa2cf04aaf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b76484a9-c7e1-4b6f-b195-a65ab823590d","path":"sprites/bg_minesWood_escape/bg_minesWood_escape.yy",},},},"Disabled":false,"id":"4ce9423b-4c4a-4726-9aa8-7799ed7954ff","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d97386d6-a90f-49c7-9269-35c2b29c59c4","path":"sprites/bg_minesWood_escape/bg_minesWood_escape.yy",},},},"Disabled":false,"id":"e54f77fb-e0a3-4c37-9cb5-72b0a484cac3","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

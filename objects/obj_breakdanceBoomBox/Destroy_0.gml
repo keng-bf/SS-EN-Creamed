@@ -1,1 +1,1 @@
-create_particle(x, y, spr_genericPoofEffect);
+create_particle(x, y, spr_genericPoofEffect)

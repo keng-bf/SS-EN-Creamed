@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c91a81e2-7976-4e47-bffa-2309e2d8483c",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"62c05876-054d-4cb5-98c2-57f319d2cf03",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2409c086-1863-4123-9d6e-8c90d3072a8a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8d61404d-19ca-4b70-acd4-602898d2a7e2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"02a13fe3-0003-454b-8612-dc931bea6105",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"262e39ac-5623-47ce-a6d8-cd7a160130c3",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"89c26ee0-6ef4-4298-8651-6abe3af6278b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"82570b8f-bc22-401d-9f66-0f930b28cd13","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Candy",
-    "path": "folders/Sprites/Level Elements/Confecti/Candy.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c91a81e2-7976-4e47-bffa-2309e2d8483c","path":"sprites/spr_candy_taunt/spr_candy_taunt.yy",},},},"Disabled":false,"id":"8da5c9b9-5613-412b-8926-67f48aea522e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"62c05876-054d-4cb5-98c2-57f319d2cf03","path":"sprites/spr_candy_taunt/spr_candy_taunt.yy",},},},"Disabled":false,"id":"cd9123fb-c68d-4d85-9731-c63ba69d7c1a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2409c086-1863-4123-9d6e-8c90d3072a8a","path":"sprites/spr_candy_taunt/spr_candy_taunt.yy",},},},"Disabled":false,"id":"af647d79-97e1-434b-aa9c-eecba00f8de1","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8d61404d-19ca-4b70-acd4-602898d2a7e2","path":"sprites/spr_candy_taunt/spr_candy_taunt.yy",},},},"Disabled":false,"id":"3e7c6e55-0651-48f8-8b15-2dbd15311c23","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"02a13fe3-0003-454b-8612-dc931bea6105","path":"sprites/spr_candy_taunt/spr_candy_taunt.yy",},},},"Disabled":false,"id":"fc8604c0-9361-4a35-961e-d577ce6d683c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"262e39ac-5623-47ce-a6d8-cd7a160130c3","path":"sprites/spr_candy_taunt/spr_candy_taunt.yy",},},},"Disabled":false,"id":"770136de-fc83-4f6a-89c0-f2f7304a3e23","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

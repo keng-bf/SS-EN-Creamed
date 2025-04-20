@@ -1,14 +1,11 @@
-var target_player;
+var target_player = get_primaryPlayer()
 
-target_player = get_primaryPlayer();
+if (global.freezeframe || instance_exists(obj_cutsceneManager) || target_player.state == PlayerState.actor)
+	exit
 
-if (global.freezeframe || instance_exists(obj_cutsceneManager) || target_player.state == States.actor)
-    exit;
+visible = !(target_player.sprite_index == target_player.spr_cottonIntroLeft || target_player.sprite_index == target_player.spr_cottonIntroRight)
 
-visible = !(target_player.sprite_index == target_player.spr_cottonIntroLeft || target_player.sprite_index == target_player.spr_cottonIntroRight);
-
-if (target_player.state == States.cotton || target_player.state == States.cottondig || target_player.state == States.cottondrill || target_player.state == States.cottonroll)
-    sprite_index = spr_cottonmakerzzz;
+if (target_player.state == PlayerState.cotton || target_player.state == PlayerState.cottondig || target_player.state == PlayerState.cottondrill || target_player.state == PlayerState.cottonroll)
+	sprite_index = spr_cottonmakerzzz
 else
-    sprite_index = spr_cottonmaker;
-
+	sprite_index = spr_cottonmaker

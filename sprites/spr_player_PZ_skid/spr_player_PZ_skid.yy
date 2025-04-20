@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7d035a77-0aad-4032-bec7-cd63ee20f1cd",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c1470e5f-bb0d-443d-8b43-c2d5c3587c46",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"643e6672-0347-4101-ad90-0215ae29a827",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"372cf85e-c313-48c1-a6c9-48e7082bcc0e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"077812f8-53c8-4b6f-b916-9c7264e99715",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"98027e2a-0db2-4416-a7dc-dc97197632df",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d9aa8650-cfc5-4a32-bedd-2692b53eb305","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e4a4ac41-c8dd-4a47-969d-f008ba5e1f1c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7d035a77-0aad-4032-bec7-cd63ee20f1cd","path":"sprites/spr_player_PZ_skid/spr_player_PZ_skid.yy",},},},"Disabled":false,"id":"3effa712-0d80-422f-a963-c4bf413ec7d1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c1470e5f-bb0d-443d-8b43-c2d5c3587c46","path":"sprites/spr_player_PZ_skid/spr_player_PZ_skid.yy",},},},"Disabled":false,"id":"aac50a90-a737-46e0-8c75-27f3ddbfa342","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"643e6672-0347-4101-ad90-0215ae29a827","path":"sprites/spr_player_PZ_skid/spr_player_PZ_skid.yy",},},},"Disabled":false,"id":"fb672e14-1019-4c51-b5df-b77007056f93","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"372cf85e-c313-48c1-a6c9-48e7082bcc0e","path":"sprites/spr_player_PZ_skid/spr_player_PZ_skid.yy",},},},"Disabled":false,"id":"47b790a3-bfc1-472e-81f5-0d2fdbffb1bd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"077812f8-53c8-4b6f-b916-9c7264e99715","path":"sprites/spr_player_PZ_skid/spr_player_PZ_skid.yy",},},},"Disabled":false,"id":"2d7b2d3c-6b4a-47c2-964a-4490c56f5dd7","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"98027e2a-0db2-4416-a7dc-dc97197632df","path":"sprites/spr_player_PZ_skid/spr_player_PZ_skid.yy",},},},"Disabled":false,"id":"0f2bd159-b5b3-4a0c-a034-0028910a14d4","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

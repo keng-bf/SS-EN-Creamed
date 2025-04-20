@@ -13,17 +13,17 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d5425d0-1e56-4f1e-b7e2-c6a97b17606b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"022c0085-6adf-4f4d-8cfa-38a978cc6d7b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"121c5698-f7e7-4b36-80af-65a285862456",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"700ac107-5f0e-478b-9f80-9375eeba6953",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e1cef4ac-78d8-4430-8113-39a87f069e99",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b21f8b16-3109-4a40-9f48-79625ea5208f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a566c70e-8af1-49f8-a579-93caae54fedb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"61db78e8-0945-40a3-98cc-0dc416320cf0",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"31d9790e-d8f7-454c-b62c-a142ff1c4706","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"166f04b5-a541-419b-b6fc-bb3d58041c08","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -80,10 +80,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1d5425d0-1e56-4f1e-b7e2-c6a97b17606b","path":"sprites/spr_minesdebris_crate/spr_minesdebris_crate.yy",},},},"Disabled":false,"id":"9ff373f8-bf4c-4784-ac9b-1ce1179fc168","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"022c0085-6adf-4f4d-8cfa-38a978cc6d7b","path":"sprites/spr_minesdebris_crate/spr_minesdebris_crate.yy",},},},"Disabled":false,"id":"c8141537-ecaa-4d2a-b967-63b9098bf030","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"121c5698-f7e7-4b36-80af-65a285862456","path":"sprites/spr_minesdebris_crate/spr_minesdebris_crate.yy",},},},"Disabled":false,"id":"277b4f86-95ad-4661-9090-faf047acdade","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"700ac107-5f0e-478b-9f80-9375eeba6953","path":"sprites/spr_minesdebris_crate/spr_minesdebris_crate.yy",},},},"Disabled":false,"id":"1282ce92-993e-4ed5-a61f-118086f06915","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e1cef4ac-78d8-4430-8113-39a87f069e99","path":"sprites/spr_minesdebris_crate/spr_minesdebris_crate.yy",},},},"Disabled":false,"id":"4f188309-6d83-4db8-af0c-97d3585a9c31","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b21f8b16-3109-4a40-9f48-79625ea5208f","path":"sprites/spr_minesdebris_crate/spr_minesdebris_crate.yy",},},},"Disabled":false,"id":"73628c44-1833-4105-8b7c-ca8ddfaa7c8c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a566c70e-8af1-49f8-a579-93caae54fedb","path":"sprites/spr_minesdebris_crate/spr_minesdebris_crate.yy",},},},"Disabled":false,"id":"224b5347-8c62-4540-b261-924acdca6047","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"61db78e8-0945-40a3-98cc-0dc416320cf0","path":"sprites/spr_minesdebris_crate/spr_minesdebris_crate.yy",},},},"Disabled":false,"id":"88caa2c0-c890-46d3-90e4-2118e070915e","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

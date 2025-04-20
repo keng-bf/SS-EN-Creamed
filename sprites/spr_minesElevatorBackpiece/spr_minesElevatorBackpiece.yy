@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"780143aa-009d-4aa6-8ff8-878d113523f9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"714a7efe-e985-4f68-bb6d-6cbbca27136e",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 144,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"20488512-cfb6-4604-8152-5a798353b2e6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f0108cf2-1846-4164-97db-7e2cafc801d3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"780143aa-009d-4aa6-8ff8-878d113523f9","path":"sprites/spr_minesElevatorBackpiece/spr_minesElevatorBackpiece.yy",},},},"Disabled":false,"id":"2e1d11ef-b2af-4322-b090-a0bff306a576","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"714a7efe-e985-4f68-bb6d-6cbbca27136e","path":"sprites/spr_minesElevatorBackpiece/spr_minesElevatorBackpiece.yy",},},},"Disabled":false,"id":"84dd8d89-aceb-4f26-9041-5e8caff5f4cd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

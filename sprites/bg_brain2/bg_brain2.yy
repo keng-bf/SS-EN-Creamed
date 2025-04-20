@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8d46bfcd-ba2a-4ccd-bb34-26ce6044e9b6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9161a00c-fb83-4a06-bb0c-062494232485",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 816,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"eba86b1d-667a-4639-8dbc-bccb31efd60b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e896efd0-836d-422d-9414-875e97b2aad8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Painter's Brain",
-    "path": "folders/Sprites/Backgrounds/Painter's Brain.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8d46bfcd-ba2a-4ccd-bb34-26ce6044e9b6","path":"sprites/bg_brain2/bg_brain2.yy",},},},"Disabled":false,"id":"fb48f677-da10-4f22-b5fe-e4a8b8470ef2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9161a00c-fb83-4a06-bb0c-062494232485","path":"sprites/bg_brain2/bg_brain2.yy",},},},"Disabled":false,"id":"51ec396b-c1e7-4729-98e5-be6b2aa7d1da","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

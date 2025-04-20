@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6efb9eff-c899-412e-8480-fb32042a01e7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b2f338a1-f7c0-4436-be58-de5c30628624",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 363,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"412b8d77-8c32-4f1f-a2e9-84577c1f8557","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e8e5ef01-8b24-40b6-b510-b89c0a552ac4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Hub",
-    "path": "folders/Sprites/Backgrounds/Hub.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6efb9eff-c899-412e-8480-fb32042a01e7","path":"sprites/bg_painterhubmolasses/bg_painterhubmolasses.yy",},},},"Disabled":false,"id":"ecb21ea9-13d1-4171-9f5a-a601238d26f1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b2f338a1-f7c0-4436-be58-de5c30628624","path":"sprites/bg_painterhubmolasses/bg_painterhubmolasses.yy",},},},"Disabled":false,"id":"488ebd23-1136-4b27-8452-4314e9db732e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

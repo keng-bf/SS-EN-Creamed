@@ -1,4 +1,4 @@
-following = false;
+following = false
 
 with (cultistID)
-    sprite_index = spr_cultist;
+	sprite_index = spr_cultist

@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d2a37da-d0f0-47dc-9653-b5e73e774a84",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2cc5c686-81da-43dc-a5e8-7cc4c9d221b8",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a6b541c9-4381-4fb6-8185-3b53057e8e96",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a6a3d6e2-e0bf-43bb-b887-f268eae4fa6c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9004088d-dad1-4e54-b4a4-54e222f012d0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"90bada4f-46f6-41f4-81ee-ae6c3e50323f",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7a23c83e-579f-4bc7-82e9-269875d98747","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c47f33c9-f948-42e5-ab62-2ab1d663404d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9d2a37da-d0f0-47dc-9653-b5e73e774a84","path":"sprites/spr_player_PZ_hurt/spr_player_PZ_hurt.yy",},},},"Disabled":false,"id":"6152c927-70cd-467e-8be8-2f1297b7e573","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2cc5c686-81da-43dc-a5e8-7cc4c9d221b8","path":"sprites/spr_player_PZ_hurt/spr_player_PZ_hurt.yy",},},},"Disabled":false,"id":"80faf424-ba4d-41cb-9ae1-62cc2a9189cb","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a6b541c9-4381-4fb6-8185-3b53057e8e96","path":"sprites/spr_player_PZ_hurt/spr_player_PZ_hurt.yy",},},},"Disabled":false,"id":"f89d820e-a819-4532-b468-7b2f7c3fc10d","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a6a3d6e2-e0bf-43bb-b887-f268eae4fa6c","path":"sprites/spr_player_PZ_hurt/spr_player_PZ_hurt.yy",},},},"Disabled":false,"id":"526b9422-3ad5-40eb-97a0-7bcad541c706","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9004088d-dad1-4e54-b4a4-54e222f012d0","path":"sprites/spr_player_PZ_hurt/spr_player_PZ_hurt.yy",},},},"Disabled":false,"id":"1c6f9042-f5e5-4ac9-9775-5d99f4171586","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"90bada4f-46f6-41f4-81ee-ae6c3e50323f","path":"sprites/spr_player_PZ_hurt/spr_player_PZ_hurt.yy",},},},"Disabled":false,"id":"1b9ffcc3-be33-4775-87b9-36545a22f976","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

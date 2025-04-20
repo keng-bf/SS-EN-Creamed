@@ -13,18 +13,18 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aaa4a279-7bb3-4b3e-85b0-789c28f05d45",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e01cc3e0-d600-4993-a203-693aa98bc217",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"979053c4-d988-49c4-b6ff-fbc2b9cdb29d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ec709c9e-3e4a-46a4-8489-d1209d545933",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3314b030-0158-4310-8208-55decf272784",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3a8b07b6-db96-4fe6-85b5-a72113169af2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"903d2b02-f174-47cd-99d4-709aede71af2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"91d96735-e76c-43c3-a060-07e9db740dfc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e1acc6c8-1aaf-46be-8acc-44b37e5da7dd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"065e4c1b-6d19-4a0c-9e4a-ac1412ba7816",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 684,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6ce99c0a-48b5-4b46-85ab-8d539ee9ec21","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b50be8d4-623f-459a-b695-7bc316f12813","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -52,8 +52,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Mt. Fudgetop",
-    "path": "folders/Sprites/Backgrounds/Mt. Fudgetop.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -81,11 +81,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"aaa4a279-7bb3-4b3e-85b0-789c28f05d45","path":"sprites/bg_fudgetop_frontmountainescape/bg_fudgetop_frontmountainescape.yy",},},},"Disabled":false,"id":"de562de7-4bb9-464a-a081-42110c6665be","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e01cc3e0-d600-4993-a203-693aa98bc217","path":"sprites/bg_fudgetop_frontmountainescape/bg_fudgetop_frontmountainescape.yy",},},},"Disabled":false,"id":"249edafc-ee85-41e8-80db-a1469b2446cf","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"979053c4-d988-49c4-b6ff-fbc2b9cdb29d","path":"sprites/bg_fudgetop_frontmountainescape/bg_fudgetop_frontmountainescape.yy",},},},"Disabled":false,"id":"6635c8f4-9fab-4020-bde2-bd53af152b9a","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ec709c9e-3e4a-46a4-8489-d1209d545933","path":"sprites/bg_fudgetop_frontmountainescape/bg_fudgetop_frontmountainescape.yy",},},},"Disabled":false,"id":"2ffdf559-0606-4ba9-8613-578992c5c7d7","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3314b030-0158-4310-8208-55decf272784","path":"sprites/bg_fudgetop_frontmountainescape/bg_fudgetop_frontmountainescape.yy",},},},"Disabled":false,"id":"02e736fd-1300-4e18-b992-cc10722fb9d4","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3a8b07b6-db96-4fe6-85b5-a72113169af2","path":"sprites/bg_fudgetop_frontmountainescape/bg_fudgetop_frontmountainescape.yy",},},},"Disabled":false,"id":"eadd4691-ffd2-4097-a384-393c0a4f1483","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"903d2b02-f174-47cd-99d4-709aede71af2","path":"sprites/bg_fudgetop_frontmountainescape/bg_fudgetop_frontmountainescape.yy",},},},"Disabled":false,"id":"9c02b3fb-7900-400b-a0ac-ecf6d7a5a1de","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"91d96735-e76c-43c3-a060-07e9db740dfc","path":"sprites/bg_fudgetop_frontmountainescape/bg_fudgetop_frontmountainescape.yy",},},},"Disabled":false,"id":"7550b7c8-5bbe-46b2-8812-f842f54ce23a","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e1acc6c8-1aaf-46be-8acc-44b37e5da7dd","path":"sprites/bg_fudgetop_frontmountainescape/bg_fudgetop_frontmountainescape.yy",},},},"Disabled":false,"id":"b8c9a924-3d85-409d-bbbc-c76a3bc3f0b2","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"065e4c1b-6d19-4a0c-9e4a-ac1412ba7816","path":"sprites/bg_fudgetop_frontmountainescape/bg_fudgetop_frontmountainescape.yy",},},},"Disabled":false,"id":"a728d20a-c595-48fc-8f53-3cd671184279","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

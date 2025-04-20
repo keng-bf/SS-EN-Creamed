@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bd906488-438f-4907-94ca-485429c0aa33",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a5905ea6-fe9d-4495-b1f6-fdae4835620c",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"59e7b47d-aefa-4876-be0f-442411f5a8a6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"36d5a370-a885-4615-bc3f-3e37462e815c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"871f9b43-a711-451c-a8c1-7b52574856bf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"63fc4c62-a500-4730-95bf-c2ab623080d9",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 268,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fc92831a-f243-4e71-b08f-ebab139491f3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b005cdd8-bd7b-45c4-b45a-be7279e936ff","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "TV",
-    "path": "folders/Sprites/HUD/TV.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bd906488-438f-4907-94ca-485429c0aa33","path":"sprites/spr_tvHUD_janitorLap/spr_tvHUD_janitorLap.yy",},},},"Disabled":false,"id":"afc4552a-7907-4943-849a-6b3132a54949","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a5905ea6-fe9d-4495-b1f6-fdae4835620c","path":"sprites/spr_tvHUD_janitorLap/spr_tvHUD_janitorLap.yy",},},},"Disabled":false,"id":"76cd9674-39ed-41b5-94a2-bfd631aecafc","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"59e7b47d-aefa-4876-be0f-442411f5a8a6","path":"sprites/spr_tvHUD_janitorLap/spr_tvHUD_janitorLap.yy",},},},"Disabled":false,"id":"aa3d4baa-e8c0-4a69-8361-5b30d19a236b","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"36d5a370-a885-4615-bc3f-3e37462e815c","path":"sprites/spr_tvHUD_janitorLap/spr_tvHUD_janitorLap.yy",},},},"Disabled":false,"id":"b32eb947-7bac-46c7-81ee-0c760ef61006","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"871f9b43-a711-451c-a8c1-7b52574856bf","path":"sprites/spr_tvHUD_janitorLap/spr_tvHUD_janitorLap.yy",},},},"Disabled":false,"id":"00ecff90-3d64-4631-a860-4c43d16261df","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"63fc4c62-a500-4730-95bf-c2ab623080d9","path":"sprites/spr_tvHUD_janitorLap/spr_tvHUD_janitorLap.yy",},},},"Disabled":false,"id":"bd65c1c7-b9c7-4bcd-bed0-9a59944df0c3","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

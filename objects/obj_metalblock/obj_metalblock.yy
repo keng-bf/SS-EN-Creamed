@@ -33,8 +33,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"debrisSprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_metaldebris;","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"smokeColor","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"[ #A1C1F8, #F8A880, #F8E080, #A1C1F8 ];","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"debrisSprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_metaldebris","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"smokeColor","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"[ #A1C1F8, #F8A880, #F8E080, #A1C1F8 ]","varType":4,},
   ],
   "solid": false,
   "spriteId": {

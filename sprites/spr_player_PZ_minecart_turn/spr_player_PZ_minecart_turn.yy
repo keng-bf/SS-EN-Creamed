@@ -13,18 +13,18 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e30903d3-34f0-4d28-81ec-eddbb1f6af58",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3bbfc6ff-0334-43ae-9991-8670692f33de",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"827f3c02-caaa-4c7a-9984-81f2e2fcc974",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ca1b10a8-ec0c-42b9-b9e2-08988b035f0f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"24b202d0-8df2-4ae5-bfc8-fe00e8e4b6e0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0c15e292-8034-4f16-bcc1-7e2342fc0edc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5d9a445a-5a93-4398-9252-92cec37073bb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5026b832-80d7-4315-b512-2fb5c425d99b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"11cf0049-1bd5-4f88-ba5b-475b1b8fc77b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d3ef7846-589b-4c40-aa0f-83cfde27cefd",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 160,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"80ef986c-3af5-49a0-8e26-cc25a3c31f8c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9cd7df67-148a-473b-8b42-9ec40283e937","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -52,8 +52,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -81,11 +81,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e30903d3-34f0-4d28-81ec-eddbb1f6af58","path":"sprites/spr_player_PZ_minecart_turn/spr_player_PZ_minecart_turn.yy",},},},"Disabled":false,"id":"3e900871-0a24-4b98-a2f4-e030ef46709c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3bbfc6ff-0334-43ae-9991-8670692f33de","path":"sprites/spr_player_PZ_minecart_turn/spr_player_PZ_minecart_turn.yy",},},},"Disabled":false,"id":"f5a4ba6c-2d49-467c-b2e4-d509b67ce553","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"827f3c02-caaa-4c7a-9984-81f2e2fcc974","path":"sprites/spr_player_PZ_minecart_turn/spr_player_PZ_minecart_turn.yy",},},},"Disabled":false,"id":"708de397-6018-4590-a0fc-e4650b4c647a","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ca1b10a8-ec0c-42b9-b9e2-08988b035f0f","path":"sprites/spr_player_PZ_minecart_turn/spr_player_PZ_minecart_turn.yy",},},},"Disabled":false,"id":"1d53c92c-e26a-4387-b314-f554770a6680","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"24b202d0-8df2-4ae5-bfc8-fe00e8e4b6e0","path":"sprites/spr_player_PZ_minecart_turn/spr_player_PZ_minecart_turn.yy",},},},"Disabled":false,"id":"e8e363f1-ad51-4783-bd0c-a5a8a61104bc","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0c15e292-8034-4f16-bcc1-7e2342fc0edc","path":"sprites/spr_player_PZ_minecart_turn/spr_player_PZ_minecart_turn.yy",},},},"Disabled":false,"id":"e918b4a3-6e9c-4cda-b984-933e339a94ac","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5d9a445a-5a93-4398-9252-92cec37073bb","path":"sprites/spr_player_PZ_minecart_turn/spr_player_PZ_minecart_turn.yy",},},},"Disabled":false,"id":"166b9b46-391f-422b-b10a-8c24422a5010","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5026b832-80d7-4315-b512-2fb5c425d99b","path":"sprites/spr_player_PZ_minecart_turn/spr_player_PZ_minecart_turn.yy",},},},"Disabled":false,"id":"b9b64318-bf43-43e4-9709-6dcae81048c3","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"11cf0049-1bd5-4f88-ba5b-475b1b8fc77b","path":"sprites/spr_player_PZ_minecart_turn/spr_player_PZ_minecart_turn.yy",},},},"Disabled":false,"id":"d03f9cb8-ada8-428d-9a23-00757a376bb9","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d3ef7846-589b-4c40-aa0f-83cfde27cefd","path":"sprites/spr_player_PZ_minecart_turn/spr_player_PZ_minecart_turn.yy",},},},"Disabled":false,"id":"368bc7ec-788a-40ef-a25f-fc53c6fb6b06","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -1,1 +1,1 @@
-info = undefined;
+info = undefined

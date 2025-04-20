@@ -1,1 +1,1 @@
-targetRoom = hub_mindpalace;
+targetRoom = hub_mindpalace

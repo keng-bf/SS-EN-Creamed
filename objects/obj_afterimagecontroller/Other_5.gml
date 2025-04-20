@@ -1,1 +1,1 @@
-ds_list_clear(global.afterimage_list);
+ds_list_clear(global.afterimage_list)

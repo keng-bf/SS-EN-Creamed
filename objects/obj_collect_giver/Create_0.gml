@@ -1,2 +1,2 @@
-collect = 150;
-alarm[0] = 1;
+collect = 150
+alarm[0] = 1

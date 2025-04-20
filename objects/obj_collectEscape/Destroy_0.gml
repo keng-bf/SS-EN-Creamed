@@ -1,1 +1,1 @@
-ds_list_add(global.EscapeRoom, id);
+ds_list_add(global.EscapeRoom, id)

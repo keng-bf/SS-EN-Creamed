@@ -1,1 +1,1 @@
-global.balls = 0;
+global.balls = 0

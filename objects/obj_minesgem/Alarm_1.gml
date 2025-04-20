@@ -1,1 +1,1 @@
-collected = true;
+collected = true

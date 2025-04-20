@@ -6,6 +6,6 @@
   "isDnD": false,
   "parent": {
     "name": "Initialization",
-    "path": "folders/Extensions/Scribble/(System - don't call these functions)/Initialization.yy",
+    "path": "folders/Scribble/(System - don't call these functions)/Initialization.yy",
   },
 }

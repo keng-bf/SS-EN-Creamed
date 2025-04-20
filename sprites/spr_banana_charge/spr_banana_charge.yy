@@ -13,18 +13,18 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db85d6f0-229e-46f7-9bba-bddd32bea9a9",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d764c802-7b64-401e-9065-0b5458d7e174",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c7e8228e-1121-4503-a746-5452bcf1e7df",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5421cb22-8d94-49b8-9f5f-e3e1390ca17b",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"80c8238b-6369-4700-b359-6027c3d0a612",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"043391c2-f81f-405e-a298-7cf555c65db2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc7eef2d-f988-4c6c-a10f-b5a91a1e1b4f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b0a126e-64f9-45b5-b15b-43386d34c634",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d622ef9-c79e-4835-90fb-06629261a4ed",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3e9a94da-859f-490a-bbf4-26d408e18691",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 151,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"75ec7cbe-c32d-4bb2-8bc4-5319983788e2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8b86bf03-02a2-4ce6-aaeb-cad60260c066","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -52,8 +52,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Banancer",
-    "path": "folders/Sprites/Enemies/Banancer.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -81,11 +81,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"db85d6f0-229e-46f7-9bba-bddd32bea9a9","path":"sprites/spr_banana_charge/spr_banana_charge.yy",},},},"Disabled":false,"id":"81cbbbdf-031b-4b87-8233-ce0b1ec80609","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d764c802-7b64-401e-9065-0b5458d7e174","path":"sprites/spr_banana_charge/spr_banana_charge.yy",},},},"Disabled":false,"id":"41fd0a41-0a2a-4d19-b1f1-22619ee4e7fd","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c7e8228e-1121-4503-a746-5452bcf1e7df","path":"sprites/spr_banana_charge/spr_banana_charge.yy",},},},"Disabled":false,"id":"42358770-a41f-4f52-9b24-75265e84fc7a","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5421cb22-8d94-49b8-9f5f-e3e1390ca17b","path":"sprites/spr_banana_charge/spr_banana_charge.yy",},},},"Disabled":false,"id":"604b3f90-63f8-49bf-bacb-f9bd66d57532","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"80c8238b-6369-4700-b359-6027c3d0a612","path":"sprites/spr_banana_charge/spr_banana_charge.yy",},},},"Disabled":false,"id":"409ef9c4-067b-4c32-a1d0-65f8d1f6a8de","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"043391c2-f81f-405e-a298-7cf555c65db2","path":"sprites/spr_banana_charge/spr_banana_charge.yy",},},},"Disabled":false,"id":"3a2b941b-788d-480d-adac-cf84c71e8b4e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bc7eef2d-f988-4c6c-a10f-b5a91a1e1b4f","path":"sprites/spr_banana_charge/spr_banana_charge.yy",},},},"Disabled":false,"id":"1431e79e-5066-40a6-8022-4e29143d3850","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5b0a126e-64f9-45b5-b15b-43386d34c634","path":"sprites/spr_banana_charge/spr_banana_charge.yy",},},},"Disabled":false,"id":"fd6422d1-a1e0-4a07-972a-5ee7bb9d9248","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9d622ef9-c79e-4835-90fb-06629261a4ed","path":"sprites/spr_banana_charge/spr_banana_charge.yy",},},},"Disabled":false,"id":"e38c25ff-e5ad-410b-855e-572eb56c56b1","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3e9a94da-859f-490a-bbf4-26d408e18691","path":"sprites/spr_banana_charge/spr_banana_charge.yy",},},},"Disabled":false,"id":"5eedbbbb-7bb0-42b7-9a4f-3fa22cfdbf0d","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

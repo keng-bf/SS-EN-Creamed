@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4dc1efa8-0b54-4ee6-9c62-2e39492299c0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f3a04c61-7033-43ab-b3e5-51cec7f10371",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"77b568aa-7dd2-4acd-a111-4844a0a7e3a2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b0f6e141-4353-4708-a4fa-ee8c9cc55bec",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6dfd02cd-e755-47b8-a087-cdf0470242d2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab56e14d-90cc-432b-b613-b596ea09458a",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ce42e56c-1f30-408e-8268-9c428b6bc386","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6dc0f24f-a62b-409c-a8af-9185eaae05bb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4dc1efa8-0b54-4ee6-9c62-2e39492299c0","path":"sprites/spr_player_PZ_frostburn_wallJump/spr_player_PZ_frostburn_wallJump.yy",},},},"Disabled":false,"id":"7d0e209c-87a7-4f01-adf4-21f581e3e82f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f3a04c61-7033-43ab-b3e5-51cec7f10371","path":"sprites/spr_player_PZ_frostburn_wallJump/spr_player_PZ_frostburn_wallJump.yy",},},},"Disabled":false,"id":"0fc8dde7-094c-4b94-83ef-4ed3c253755f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"77b568aa-7dd2-4acd-a111-4844a0a7e3a2","path":"sprites/spr_player_PZ_frostburn_wallJump/spr_player_PZ_frostburn_wallJump.yy",},},},"Disabled":false,"id":"6e16ce61-1b1d-4776-9d2d-6acbe2eb72ed","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b0f6e141-4353-4708-a4fa-ee8c9cc55bec","path":"sprites/spr_player_PZ_frostburn_wallJump/spr_player_PZ_frostburn_wallJump.yy",},},},"Disabled":false,"id":"23800676-5163-4811-8916-560e3d829031","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6dfd02cd-e755-47b8-a087-cdf0470242d2","path":"sprites/spr_player_PZ_frostburn_wallJump/spr_player_PZ_frostburn_wallJump.yy",},},},"Disabled":false,"id":"1db7626a-5f9b-42c3-a63b-2cbe3e08c04b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ab56e14d-90cc-432b-b613-b596ea09458a","path":"sprites/spr_player_PZ_frostburn_wallJump/spr_player_PZ_frostburn_wallJump.yy",},},},"Disabled":false,"id":"30dd1def-d2a7-4cd1-9a3e-b0e09f268a47","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

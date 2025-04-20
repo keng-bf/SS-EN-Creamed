@@ -1,3 +1,3 @@
-openSpr = spr_exhibitiongateopen;
-closingSpr = spr_exhibitiongateclosing;
-closedspr = spr_exhibitiongateclosed;
+openSpr = spr_exhibitiongateopen
+closingSpr = spr_exhibitiongateclosing
+closedspr = spr_exhibitiongateclosed

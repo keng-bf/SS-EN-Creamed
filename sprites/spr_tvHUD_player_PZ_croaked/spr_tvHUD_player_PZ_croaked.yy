@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d8662c14-b432-419e-8cb8-23eaa4cabe7d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"156709ab-0e4d-4e55-8801-28b2a1098f26",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e623be9c-8ad4-4800-a221-1b5ed69b43b1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"03da22b5-ba8c-45ca-9163-5270c04f1184",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2c96b169-009b-4055-8cbe-74a3b6aea75b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"39dd8517-bd2c-482d-ac44-3433e24131aa",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 268,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e19384a9-1794-42e5-86f9-3d70ca933305","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"215d870f-8a3d-4f5c-8174-dab2a6250357","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/HUD/TV/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d8662c14-b432-419e-8cb8-23eaa4cabe7d","path":"sprites/spr_tvHUD_player_PZ_croaked/spr_tvHUD_player_PZ_croaked.yy",},},},"Disabled":false,"id":"0f77e612-da6c-4d40-a11f-a1a48f44d157","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"156709ab-0e4d-4e55-8801-28b2a1098f26","path":"sprites/spr_tvHUD_player_PZ_croaked/spr_tvHUD_player_PZ_croaked.yy",},},},"Disabled":false,"id":"c5db7dc1-2ebf-4640-8d01-3d58c3142d59","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e623be9c-8ad4-4800-a221-1b5ed69b43b1","path":"sprites/spr_tvHUD_player_PZ_croaked/spr_tvHUD_player_PZ_croaked.yy",},},},"Disabled":false,"id":"36f3e7bc-60c1-43f1-8088-e994da12c184","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"03da22b5-ba8c-45ca-9163-5270c04f1184","path":"sprites/spr_tvHUD_player_PZ_croaked/spr_tvHUD_player_PZ_croaked.yy",},},},"Disabled":false,"id":"1be18b0d-13db-4587-b2eb-d6ec0a71f56e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2c96b169-009b-4055-8cbe-74a3b6aea75b","path":"sprites/spr_tvHUD_player_PZ_croaked/spr_tvHUD_player_PZ_croaked.yy",},},},"Disabled":false,"id":"d5ddf4aa-f966-44e8-96af-9fb49d65d474","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"39dd8517-bd2c-482d-ac44-3433e24131aa","path":"sprites/spr_tvHUD_player_PZ_croaked/spr_tvHUD_player_PZ_croaked.yy",},},},"Disabled":false,"id":"c036beab-9908-447b-8696-214473831296","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

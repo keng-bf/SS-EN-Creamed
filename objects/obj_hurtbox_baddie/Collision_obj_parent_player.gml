@@ -1,4 +1,4 @@
 if (!canHurtPlayer)
-    exit;
+	exit
 
-scr_hurtplayer(other.id);
+scr_hurtplayer(other.id)

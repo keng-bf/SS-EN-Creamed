@@ -1,2 +1,2 @@
-depth = 50;
-instance_destroy();
+depth = 50
+instance_destroy()

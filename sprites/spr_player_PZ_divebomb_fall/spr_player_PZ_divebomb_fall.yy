@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3799f46f-e20c-45b5-a71f-06d0a2461566",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cef2bdb0-bf92-42e9-902c-bb1db30dc3a8",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b98256fa-5546-4c47-94ea-a70a973d9bce",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c275b63b-58c7-4ac1-81eb-e5cf75077901",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"16c9329b-8f41-4985-a482-52eab51d7a0b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7a080439-4303-41cc-aa67-a596979b8fe4",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1b1e6148-bf30-4001-be3d-9010d5c8cd74","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"39dda821-a209-4b87-9da0-bf0520b6d504","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3799f46f-e20c-45b5-a71f-06d0a2461566","path":"sprites/spr_player_PZ_divebomb_fall/spr_player_PZ_divebomb_fall.yy",},},},"Disabled":false,"id":"3b16debf-4252-4bba-8576-eeb4d69a7243","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cef2bdb0-bf92-42e9-902c-bb1db30dc3a8","path":"sprites/spr_player_PZ_divebomb_fall/spr_player_PZ_divebomb_fall.yy",},},},"Disabled":false,"id":"0fcea08d-b529-49f2-84de-682a55f2c68d","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b98256fa-5546-4c47-94ea-a70a973d9bce","path":"sprites/spr_player_PZ_divebomb_fall/spr_player_PZ_divebomb_fall.yy",},},},"Disabled":false,"id":"00ae57db-16a1-483c-b97b-e9ed7faedef6","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c275b63b-58c7-4ac1-81eb-e5cf75077901","path":"sprites/spr_player_PZ_divebomb_fall/spr_player_PZ_divebomb_fall.yy",},},},"Disabled":false,"id":"97b8afda-88a6-476e-8317-119a95994d27","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"16c9329b-8f41-4985-a482-52eab51d7a0b","path":"sprites/spr_player_PZ_divebomb_fall/spr_player_PZ_divebomb_fall.yy",},},},"Disabled":false,"id":"d5176b86-10ed-4f7b-8c0b-448673154e01","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7a080439-4303-41cc-aa67-a596979b8fe4","path":"sprites/spr_player_PZ_divebomb_fall/spr_player_PZ_divebomb_fall.yy",},},},"Disabled":false,"id":"0a878d54-8a98-4367-826c-acd008da5b8f","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

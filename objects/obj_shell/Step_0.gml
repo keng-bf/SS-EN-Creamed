@@ -154,11 +154,11 @@ if (!isOpen) {
 	} else if (keyboard_check_pressed(vk_enter)) {
         if (isAutocompleteOpen)
         {
-            _confirm_current_suggestion();
+            self._confirm_current_suggestion();
         }
         else
         {
-            var args = _input_string_split(consoleString);
+            var args = self._input_string_split(consoleString);
             
             if (array_length(args) > 0)
             {
@@ -177,7 +177,7 @@ if (!isOpen) {
                         array_push(history, consoleString);
                         array_push(output, ">" + consoleString);
                         array_push(output, "Execution deferred until shell is closed.");
-                        _update_positions();
+                        self._update_positions();
                     }
                     else
                     {
@@ -236,7 +236,7 @@ if (!isOpen) {
 		var y1 = autocompleteOriginY;
 		var x2 = x1 + autocompleteMaxWidth + font_get_size(consoleFont) + (autocompletePadding * 2) - scrollbarWidth;
 		var y2 = y1 + (string_height(prompt) * min(array_length(filteredSuggestions), autocompleteMaxLines)) + autocompletePadding;
-		if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), x1, y1, x2, y2)) {
+		if (point_in_rectangle(get_mouse_x_screen(0), get_mouse_x_screen(0), x1, y1, x2, y2)) {
 			if (mouse_wheel_down()) {
 				autocompleteScrollPosition++;
 				autocompleteScrollPosition = clamp(array_length(filteredSuggestions) - autocompleteMaxLines, 0, autocompleteScrollPosition);
@@ -245,7 +245,7 @@ if (!isOpen) {
 				autocompleteScrollPosition--;
 				autocompleteScrollPosition = max(autocompleteScrollPosition, 0);
 			}
-		} else if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), shellOriginX, shellOriginY, shellOriginX + width, shellOriginY + height)) {
+		} else if (point_in_rectangle(get_mouse_x_screen(0), get_mouse_x_screen(0), shellOriginX, shellOriginY, shellOriginX + width, shellOriginY + height)) {
 			if (mouse_wheel_down()) {
 				targetScrollPosition = targetScrollPosition + scrollSpeed;
 			}
@@ -254,7 +254,7 @@ if (!isOpen) {
 			}
 		}
 	} else {
-		if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), shellOriginX, shellOriginY, shellOriginX + width, shellOriginY + height)) {
+		if (point_in_rectangle(get_mouse_x_screen(0), get_mouse_x_screen(0), shellOriginX, shellOriginY, shellOriginX + width, shellOriginY + height)) {
 			if (mouse_wheel_down()) {
 				targetScrollPosition = targetScrollPosition + scrollSpeed;
 			}
@@ -288,13 +288,13 @@ if (!isOpen) {
 // Handle mouse argument data
 if (!is_undefined(activeMouseArgType)) {
 	if (activeMouseArgType == mouseArgumentType.worldX) {
-		activeMouseArgValue = mouse_x;
+		activeMouseArgValue = get_mouse_x();
 	} else if (activeMouseArgType == mouseArgumentType.worldY) {
-		activeMouseArgValue = mouse_y;
+		activeMouseArgValue = get_mouse_y();
 	} else if (activeMouseArgType == mouseArgumentType.guiX) {
-		activeMouseArgValue = device_mouse_x_to_gui(0);
+		activeMouseArgValue = get_mouse_x_screen(0);
 	} else if (activeMouseArgType == mouseArgumentType.guiY) {
-		activeMouseArgValue = device_mouse_y_to_gui(0);
+		activeMouseArgValue = get_mouse_x_screen(0);
 	} else if (activeMouseArgType == mouseArgumentType.instanceId) {
 		var inst_at_cursor = instance_position(mouse_x, mouse_y, all);
 		if (inst_at_cursor != noone) {
@@ -303,7 +303,7 @@ if (!is_undefined(activeMouseArgType)) {
 			activeMouseArgValue = "";
 		}
 	} else if (activeMouseArgType == mouseArgumentType.objectId) {
-		var inst_at_cursor = instance_position(mouse_x, mouse_y, all);
+		var inst_at_cursor = instance_position(get_mouse_x(), get_mouse_y(), all);
 		if (inst_at_cursor != noone) {
 			activeMouseArgValue = inst_at_cursor.object_index;
 		} else {

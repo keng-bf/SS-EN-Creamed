@@ -1,17 +1,19 @@
-var _type;
-
-_type = ds_map_find_value(async_load, "type");
+var _type = ds_map_find_value(async_load, "type")
 
 if (_type == "video_start")
 {
-    video_set_volume((!global.unfocusedMute || window_has_focus()) ? real_volume : 0);
-    displayVideo = true;
+	updateVolume()
+	displayVideo = true
+	alarm[1] = -1
+	show_debug_message("Video Loaded.")
 }
 else if (_type == "video_end")
 {
-    if (displayVideo)
-    {
-        event_user(0);
-        video_close();
-    }
+	if (displayVideo)
+	{
+		event_user(0)
+		video_close()
+	}
+	
+	show_debug_message("Video Finished.")
 }

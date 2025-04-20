@@ -6,21 +6,21 @@
   "bbox_left": 16,
   "bbox_right": 83,
   "bbox_top": 32,
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 4,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0896e068-7f8d-4049-ba59-45110e835532",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a6085c29-b34e-43c0-a78a-40541ffbafee",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"58399a95-85d9-4f29-a375-92bfd9aa032a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6673021d-dd11-43b8-b4bb-a2eaffd68dad","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0896e068-7f8d-4049-ba59-45110e835532","path":"sprites/spr_checkpointflag_unvisit/spr_checkpointflag_unvisit.yy",},},},"Disabled":false,"id":"b06262d1-9286-49fe-bdce-ea74837aff29","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a6085c29-b34e-43c0-a78a-40541ffbafee","path":"sprites/spr_checkpointflag_unvisit/spr_checkpointflag_unvisit.yy",},},},"Disabled":false,"id":"af265857-0c30-4b3c-a4bf-5f8a3f0b5f13","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

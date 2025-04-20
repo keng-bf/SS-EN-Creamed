@@ -1,4 +1,24 @@
-enum States
+scr_gameInit()
+depth = 5
+draw_flush()
+randomize()
+window_center()
+var temparray = ["Player", "Baddies", "HUD", "Structure", "Hub", "effectsGroup", "titleGroup"]
+textureLoaderList = ds_list_create()
+
+for (var i = 0; i < array_length(temparray); i++)
+	ds_list_set(textureLoaderList, i, texturegroup_get_textures(temparray[i]))
+
+DslistMax = ds_list_size(textureLoaderList)
+alarm[0] = 3
+rareRoach = chance(2)
+loadSpriteCount = sprite_get_number(spr_bodyloadbar) - 1
+imageIndexArray = array_create(loadSpriteCount + 1, 0)
+global.texturesToLoad = []
+global.loadedTextures = []
+texture_debug_messages(true)
+
+enum PlayerState
 {
 	frozen = 0,
 	normal = 1,
@@ -106,15 +126,16 @@ enum Characters
 
 enum OptionMenu
 {
-	Base = 0,
-	Video = 1,
-	Audio = 2,
-	Game = 3,
-	Language = 4,
-	Controls = 5,
-	Keyboard = 6,
-	Gamepad = 7,
-	Deadzones = 8
+	Base,
+	Audio,
+	Video,
+	Window,
+	Game,
+	Language,
+	Controls,
+	Keyboard,
+	Gamepad,
+	Deadzones
 }
 
 enum OldOptionType
@@ -301,39 +322,29 @@ enum StickPressed
 	Pressed
 }
 
-enum UnknownTitlecard
+enum TitlecardParams
 {
-	Zero,
-	One,
-	Two,
-	Three,
-	Four,
-	Five,
-	Six,
-	Seven,
-	Eight
+    Up = 0,
+    Down = 1,
+    Left = 2,
+    Right = 3,
+    Linear = 4,
+    Interp = 5,
+    Waving = 6,
+    Shake = 7,
+    None = 8
 }
 
-#macro isDemo 0 + 1
+enum ControlType
+{
+	Keyboard,
+	Gamepad
+}
 
-var temparray, i;
-
-scr_gameInit();
-depth = 5;
-draw_flush();
-randomize();
-window_center();
-temparray = ["Player", "Baddies", "HUD", "Structure", "Hub", "effectsGroup", "titleGroup"];
-textureLoaderList = ds_list_create();
-
-for (i = 0; i < array_length(temparray); i++)
-    ds_list_set(textureLoaderList, i, texturegroup_get_textures(temparray[i]));
-
-DslistMax = ds_list_size(textureLoaderList);
-alarm[0] = 3;
-rareRoach = chance(2);
-loadSpriteCount = sprite_get_number(spr_bodyloadbar) - 1;
-imageIndexArray = array_create(loadSpriteCount + 1, 0);
-global.texturesToLoad = [];
-global.loadedTextures = [];
-texture_debug_messages(true);
+enum LetterboxMode
+{
+	Off,
+	Simple,
+	Doodle,
+	Dynamic
+}

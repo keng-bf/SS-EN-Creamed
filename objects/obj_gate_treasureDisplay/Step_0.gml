@@ -1,2 +1,2 @@
-time++;
-bobsin = sin(time / 7) * 4;
+time++
+bobsin = sin(time / 7) * 4

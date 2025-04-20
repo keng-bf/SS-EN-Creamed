@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b51d4bd2-c59e-4d48-9533-b32b9cfa2bad",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f9552031-c389-4e6d-8ee3-a9b12d77ac39",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 117,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a4e175a6-ab53-4fd2-8cda-98f02529f759","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a47e2815-c0e9-42ce-b32a-6453b9db3e59","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b51d4bd2-c59e-4d48-9533-b32b9cfa2bad","path":"sprites/spr_player_PZ_slipSlide_crack/spr_player_PZ_slipSlide_crack.yy",},},},"Disabled":false,"id":"e27d5e39-eb29-4c3d-b3cd-b625342d5a40","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f9552031-c389-4e6d-8ee3-a9b12d77ac39","path":"sprites/spr_player_PZ_slipSlide_crack/spr_player_PZ_slipSlide_crack.yy",},},},"Disabled":false,"id":"b267bb03-4ab5-4f0e-a1c3-661cb0d08901","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

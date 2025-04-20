@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0264aa16-80fb-4db4-9dfb-ad05dc49ba79",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3b3f522f-ee94-42d4-84ec-dd5e0731e5e5",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"11f5cf64-cba8-43ad-a04d-e9fee90df102",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"599bb666-38b0-43bf-8810-6c0bf8be52be",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"27309cc7-a502-45ce-962c-07d0555538ce",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"733b2d67-4d2d-4fae-a55e-7cda4a8d5624",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 900,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fe232db1-db4a-4885-ad82-ccc5af7842a3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9be16f23-47ce-411d-91b8-77a17e7175e6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Crunchy Construction",
-    "path": "folders/Sprites/Backgrounds/Crunchy Construction.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0264aa16-80fb-4db4-9dfb-ad05dc49ba79","path":"sprites/bg_escapebuildingsentryway/bg_escapebuildingsentryway.yy",},},},"Disabled":false,"id":"efc5442c-05e6-4d2b-baed-6952592e3da9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3b3f522f-ee94-42d4-84ec-dd5e0731e5e5","path":"sprites/bg_escapebuildingsentryway/bg_escapebuildingsentryway.yy",},},},"Disabled":false,"id":"eec1366e-101d-48c6-b3cd-29cab4efdae6","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"11f5cf64-cba8-43ad-a04d-e9fee90df102","path":"sprites/bg_escapebuildingsentryway/bg_escapebuildingsentryway.yy",},},},"Disabled":false,"id":"a0e8757a-ec76-494f-90b8-473ec61f7135","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"599bb666-38b0-43bf-8810-6c0bf8be52be","path":"sprites/bg_escapebuildingsentryway/bg_escapebuildingsentryway.yy",},},},"Disabled":false,"id":"34a4b52b-1b7a-4038-b361-e1320cc28bfb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"27309cc7-a502-45ce-962c-07d0555538ce","path":"sprites/bg_escapebuildingsentryway/bg_escapebuildingsentryway.yy",},},},"Disabled":false,"id":"cdfbdd63-f335-4468-beda-fd3bb35c930f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"733b2d67-4d2d-4fae-a55e-7cda4a8d5624","path":"sprites/bg_escapebuildingsentryway/bg_escapebuildingsentryway.yy",},},},"Disabled":false,"id":"be8dbb1c-e4a4-45d1-a382-eda06c1f5383","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

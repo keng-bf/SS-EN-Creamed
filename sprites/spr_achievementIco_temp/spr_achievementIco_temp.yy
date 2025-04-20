@@ -13,15 +13,15 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c9a3a1de-720b-4dcf-9f87-ce4c55d48a0f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"00c683b0-0cce-4be9-aa3f-6b09e4184994",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d7fb911d-0cd0-4da7-861d-3d86c1c2424d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4db99d78-3076-4987-91b3-4056d7398cbe",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4304865a-ae5b-488e-82d5-5ec3229ad5a7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b0597b69-c00c-413c-8f70-a101cf81a5e7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -49,8 +49,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Baker Badges",
-    "path": "folders/Sprites/Baker Badges.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -78,8 +78,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c9a3a1de-720b-4dcf-9f87-ce4c55d48a0f","path":"sprites/spr_achievementIco_temp/spr_achievementIco_temp.yy",},},},"Disabled":false,"id":"e8baec17-e772-4768-b178-c7a8549e2234","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"00c683b0-0cce-4be9-aa3f-6b09e4184994","path":"sprites/spr_achievementIco_temp/spr_achievementIco_temp.yy",},},},"Disabled":false,"id":"bddcaef1-2064-467f-9183-e3fcc4a6fea9","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d7fb911d-0cd0-4da7-861d-3d86c1c2424d","path":"sprites/spr_achievementIco_temp/spr_achievementIco_temp.yy",},},},"Disabled":false,"id":"9c81d495-6e1b-45d4-8db9-2d09f1998c86","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4db99d78-3076-4987-91b3-4056d7398cbe","path":"sprites/spr_achievementIco_temp/spr_achievementIco_temp.yy",},},},"Disabled":false,"id":"68bceddb-9440-46ed-9084-1e736fa5d859","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

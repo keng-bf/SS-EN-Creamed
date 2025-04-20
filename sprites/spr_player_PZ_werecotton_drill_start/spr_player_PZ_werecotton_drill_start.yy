@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1088e4e1-9b3a-4b3b-8e8a-b1208b354cbc",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ee8dd4a8-df4d-4f59-80ae-961e72631ca5",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"73e3069c-3a70-4a6a-a01e-a032d5fd75d9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b0f60c5b-6e55-44bf-a707-dc7530fe447c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f5f2a1cd-6252-468b-ae93-80e137f48730",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"76d807ca-24e5-4332-abac-4a24b1a9914e",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9ee92713-d81d-49da-8df1-e9c09a015904","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"56974e78-bf83-4f19-be09-8060bdbca1af","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1088e4e1-9b3a-4b3b-8e8a-b1208b354cbc","path":"sprites/spr_player_PZ_werecotton_drill_start/spr_player_PZ_werecotton_drill_start.yy",},},},"Disabled":false,"id":"956f1ec1-a147-4e27-8550-9e74341437c2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ee8dd4a8-df4d-4f59-80ae-961e72631ca5","path":"sprites/spr_player_PZ_werecotton_drill_start/spr_player_PZ_werecotton_drill_start.yy",},},},"Disabled":false,"id":"ecbca0db-1ce1-46eb-af1c-97f961565b8b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"73e3069c-3a70-4a6a-a01e-a032d5fd75d9","path":"sprites/spr_player_PZ_werecotton_drill_start/spr_player_PZ_werecotton_drill_start.yy",},},},"Disabled":false,"id":"ad0d7c6f-be9e-4a03-8822-69f00c19286f","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b0f60c5b-6e55-44bf-a707-dc7530fe447c","path":"sprites/spr_player_PZ_werecotton_drill_start/spr_player_PZ_werecotton_drill_start.yy",},},},"Disabled":false,"id":"6630d64a-1b94-4201-98c0-a782d1eecbac","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f5f2a1cd-6252-468b-ae93-80e137f48730","path":"sprites/spr_player_PZ_werecotton_drill_start/spr_player_PZ_werecotton_drill_start.yy",},},},"Disabled":false,"id":"9c63b4e8-b524-4724-ad17-67c88e9f9c2f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"76d807ca-24e5-4332-abac-4a24b1a9914e","path":"sprites/spr_player_PZ_werecotton_drill_start/spr_player_PZ_werecotton_drill_start.yy",},},},"Disabled":false,"id":"80ce7721-ee2f-4d32-ab2b-238cec9b4f0b","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

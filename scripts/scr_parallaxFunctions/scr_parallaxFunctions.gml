@@ -1,132 +1,114 @@
-global.ParallaxMap = ds_map_create();
+global.ParallaxMap = ds_map_create()
 
-function scr_calculate_farParallaxX(argument0, argument1)
+function scr_calculate_farParallaxX(arg0, arg1)
 {
-    var sprite_size, max_pos;
-    
-    if (!sprite_exists(argument0))
-        return 0;
-    
-    sprite_size = sprite_get_width(argument0) - camera_get_view_width(view_camera[0]);
-    max_pos = 0;
-    
-    if (room_width > camera_get_view_width(view_camera[0]) && sprite_size <= room_width)
-        max_pos = camera_get_view_x(view_camera[0]) / (room_width - camera_get_view_width(view_camera[0]));
-    
-    return max(sprite_size * max_pos * argument1, 0);
+	if (!sprite_exists(arg0))
+		return 0;
+	
+	var sprite_size = sprite_get_width(arg0) - camera_get_view_width(view_camera[0])
+	var max_pos = 0
+	
+	if (room_width > camera_get_view_width(view_camera[0]) && sprite_size <= room_width)
+		max_pos = camera_get_view_x(view_camera[0]) / (room_width - camera_get_view_width(view_camera[0]))
+	
+	return max(sprite_size * max_pos * arg1, 0);
 }
 
-function scr_calculate_farParallaxY(argument0, argument1)
+function scr_calculate_farParallaxY(arg0, arg1)
 {
-    var sprite_size, max_pos;
-    
-    if (!sprite_exists(argument0))
-        return 0;
-    
-    sprite_size = sprite_get_height(argument0) - camera_get_view_height(view_camera[0]);
-    max_pos = 0;
-    
-    if (room_height > camera_get_view_height(view_camera[0]) && sprite_size <= room_height)
-        max_pos = camera_get_view_y(view_camera[0]) / (room_height - camera_get_view_height(view_camera[0]));
-    
-    return max(sprite_size * max_pos * argument1, 0);
+	if (!sprite_exists(arg0))
+		return 0;
+	
+	var sprite_size = sprite_get_height(arg0) - camera_get_view_height(view_camera[0])
+	var max_pos = 0
+	
+	if (room_height > camera_get_view_height(view_camera[0]) && sprite_size <= room_height)
+		max_pos = camera_get_view_y(view_camera[0]) / (room_height - camera_get_view_height(view_camera[0]))
+	
+	return max(sprite_size * max_pos * arg1, 0);
 }
 
-function scr_addParallaxLayer(argument0, argument1, argument2 = [])
+function scr_addParallaxLayer(arg0, arg1, arg2 = [])
 {
-    ds_map_set(global.ParallaxMap, argument0, 
-    {
-        func: argument1,
-        args: argument2
-    });
-    exit;
+	ds_map_set(global.ParallaxMap, arg0, 
+	{
+		func: arg1,
+		args: arg2
+	})
+	exit
 }
 
-function defaultParallax(argument0, argument1)
+function defaultParallax(arg0, arg1)
 {
-    x += (camera_get_view_x(view_camera[0]) * argument0);
-    y += (camera_get_view_y(view_camera[0]) * argument1);
+	x += (camera_get_view_x(view_camera[0]) * arg0)
+	y += (camera_get_view_y(view_camera[0]) * arg1)
 }
 
-function defaultParallaxGround(argument0, argument1)
+function defaultParallaxGround(arg0, arg1)
 {
-    x += (camera_get_view_x(view_camera[0]) * argument0);
-    y += round(room_height - sprite_get_height(layer_background_get_sprite(layer_background_get_id_fixed(id))));
+	x += (camera_get_view_x(view_camera[0]) * arg0)
+	y += round(room_height - sprite_get_height(layer_background_get_sprite(layer_background_get_id_fixed(id))))
 }
 
-function defaultParallaxZigZag(argument0, argument1, argument2, argument3)
+function defaultParallaxZigZag(arg0, arg1, arg2, arg3)
 {
-    var time;
-    
-    time = global.CurrentTime;
-    x += (camera_get_view_x(view_camera[0]) * argument0);
-    y += (camera_get_view_y(view_camera[0]) * argument1);
-    x += wave(-argument2, argument2, 4, 10, time);
-    y += wave(-argument3, argument3, 4, 10, time);
+	var time = global.CurrentTime
+	x += (camera_get_view_x(view_camera[0]) * arg0)
+	y += (camera_get_view_y(view_camera[0]) * arg1)
+	x += wave(-arg2, arg2, 4, 10, time)
+	y += wave(-arg3, arg3, 4, 10, time)
 }
 
-function defaultParallaxH(argument0, argument1)
+function defaultParallaxH(arg0, arg1)
 {
-    var sprite;
-    
-    sprite = layer_background_get_sprite(layer_background_get_id_fixed(id));
-    x += (camera_get_view_x(view_camera[0]) * argument0);
-    y += (camera_get_view_y(view_camera[0]) - scr_calculate_farParallaxY(sprite, argument1));
+	var sprite = layer_background_get_sprite(layer_background_get_id_fixed(id))
+	x += (camera_get_view_x(view_camera[0]) * arg0)
+	y += (camera_get_view_y(view_camera[0]) - scr_calculate_farParallaxY(sprite, arg1))
 }
 
-function defaultParallaxV(argument0, argument1)
+function defaultParallaxV(arg0, arg1)
 {
-    var sprite;
-    
-    sprite = layer_background_get_sprite(layer_background_get_id_fixed(id));
-    x += (camera_get_view_x(view_camera[0]) - scr_calculate_farParallaxX(sprite, argument0));
-    y += (camera_get_view_y(view_camera[0]) * argument1);
+	var sprite = layer_background_get_sprite(layer_background_get_id_fixed(id))
+	x += (camera_get_view_x(view_camera[0]) - scr_calculate_farParallaxX(sprite, arg0))
+	y += (camera_get_view_y(view_camera[0]) * arg1)
 }
 
-function defaultParallaxFar(argument0, argument1)
+function defaultParallaxFar(arg0, arg1)
 {
-    var sprite;
-    
-    sprite = layer_background_get_sprite(layer_background_get_id_fixed(id));
-    x += (camera_get_view_x(view_camera[0]) - scr_calculate_farParallaxX(sprite, argument0));
-    y += (camera_get_view_y(view_camera[0]) - scr_calculate_farParallaxY(sprite, argument1));
+	var sprite = layer_background_get_sprite(layer_background_get_id_fixed(id))
+	x += (camera_get_view_x(view_camera[0]) - scr_calculate_farParallaxX(sprite, arg0))
+	y += (camera_get_view_y(view_camera[0]) - scr_calculate_farParallaxY(sprite, arg1))
 }
 
-function parallaxZigZagV(argument0, argument1)
+function parallaxZigZagV(arg0, arg1)
 {
-    var _spd, _sin;
-    
-    _spd = layer_get_vspeed(id);
-    _sin = wave(-_spd, _spd, 1, 0);
-    x += (camera_get_view_x(view_camera[0]) * argument0);
-    y += ((camera_get_view_y(view_camera[0]) * argument1) + _sin);
-    y -= yShift;
+	var _spd = layer_get_vspeed(id)
+	var _sin = wave(-_spd, _spd, 1, 0)
+	x += (camera_get_view_x(view_camera[0]) * arg0)
+	y += ((camera_get_view_y(view_camera[0]) * arg1) + _sin)
+	y -= yShift
 }
 
-function parallaxZigZagHFar(argument0, argument1)
+function parallaxZigZagHFar(arg0, arg1)
 {
-    var time, _spd, _sin, sprite;
-    
-    time = global.ScrollOffset / 60;
-    _spd = vspeed;
-    _sin = wave(-_spd, _spd, 1, 0);
-    sprite = layer_background_get_sprite(layer_background_get_id_fixed(id));
-    x += (camera_get_view_x(view_camera[0]) * argument0);
-    y += (camera_get_view_y(view_camera[0]) - scr_calculate_farParallaxY(sprite, argument1));
-    y += _sin;
-    y -= yShift;
+	var time = global.ScrollOffset / 60
+	var _spd = vspeed
+	var _sin = wave(-_spd, _spd, 1, 0)
+	var sprite = layer_background_get_sprite(layer_background_get_id_fixed(id))
+	x += (camera_get_view_x(view_camera[0]) * arg0)
+	y += (camera_get_view_y(view_camera[0]) - scr_calculate_farParallaxY(sprite, arg1))
+	y += _sin
+	y -= yShift
 }
 
-function parallaxZigZagVFar(argument0, argument1)
+function parallaxZigZagVFar(arg0, arg1)
 {
-    var time, _spd, _sin, sprite;
-    
-    time = global.ScrollOffset / 60;
-    _spd = vspeed;
-    _sin = wave(-_spd, _spd, 1, 0);
-    sprite = layer_background_get_sprite(layer_background_get_id_fixed(id));
-    x += (camera_get_view_x(view_camera[0]) - scr_calculate_farParallaxX(sprite, argument0));
-    y += (camera_get_view_y(view_camera[0]) - scr_calculate_farParallaxY(sprite, argument1));
-    y += _sin;
-    y -= yShift;
+	var time = global.ScrollOffset / 60
+	var _spd = vspeed
+	var _sin = wave(-_spd, _spd, 1, 0)
+	var sprite = layer_background_get_sprite(layer_background_get_id_fixed(id))
+	x += (camera_get_view_x(view_camera[0]) - scr_calculate_farParallaxX(sprite, arg0))
+	y += (camera_get_view_y(view_camera[0]) - scr_calculate_farParallaxY(sprite, arg1))
+	y += _sin
+	y -= yShift
 }

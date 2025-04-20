@@ -13,18 +13,18 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b1f23160-6803-4728-aee1-6bc6e0ffc2b3",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ba55159b-a0e7-4a78-b9af-e80b05aa4d8a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"11208783-5e83-47ba-873e-0f400b1d3a4d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eb0cfa54-6cdc-43aa-998a-1b540ab5f17f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c7217839-a337-4219-aeeb-daba1344f408",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d8ae4cbf-6d98-44a2-9c17-0818228b417d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c38d2cae-f6c0-47f6-90c2-955c27ddb43f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a0e1c883-af57-48ae-8422-5d28951fcb25",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"307648a4-88d9-4925-9330-238d3bbac0be",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"576ee0ae-dbe7-4a21-932f-814ac6ad4644",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 170,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c1f7b276-f60f-4524-be99-c081e0fcf2bf","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"afa61f88-d570-4fe1-a67b-964506aa3576","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -52,8 +52,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -81,11 +81,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b1f23160-6803-4728-aee1-6bc6e0ffc2b3","path":"sprites/spr_player_PZ_mach2_climbWall/spr_player_PZ_mach2_climbWall.yy",},},},"Disabled":false,"id":"4086f300-aa63-4dc1-acb6-95474b5df697","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ba55159b-a0e7-4a78-b9af-e80b05aa4d8a","path":"sprites/spr_player_PZ_mach2_climbWall/spr_player_PZ_mach2_climbWall.yy",},},},"Disabled":false,"id":"60ccb9b4-ca4b-4559-aaea-d191f1ad8333","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"11208783-5e83-47ba-873e-0f400b1d3a4d","path":"sprites/spr_player_PZ_mach2_climbWall/spr_player_PZ_mach2_climbWall.yy",},},},"Disabled":false,"id":"18003731-e556-4111-8a57-d89230438248","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eb0cfa54-6cdc-43aa-998a-1b540ab5f17f","path":"sprites/spr_player_PZ_mach2_climbWall/spr_player_PZ_mach2_climbWall.yy",},},},"Disabled":false,"id":"25db9b22-b7a8-4170-8699-8695f097535e","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c7217839-a337-4219-aeeb-daba1344f408","path":"sprites/spr_player_PZ_mach2_climbWall/spr_player_PZ_mach2_climbWall.yy",},},},"Disabled":false,"id":"1d54ede0-d8e7-400d-b305-dc7de18da6ef","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d8ae4cbf-6d98-44a2-9c17-0818228b417d","path":"sprites/spr_player_PZ_mach2_climbWall/spr_player_PZ_mach2_climbWall.yy",},},},"Disabled":false,"id":"5e5db97c-5952-47eb-a2bb-107bb7d43cb6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c38d2cae-f6c0-47f6-90c2-955c27ddb43f","path":"sprites/spr_player_PZ_mach2_climbWall/spr_player_PZ_mach2_climbWall.yy",},},},"Disabled":false,"id":"3716d2dd-a174-40bb-b1ff-c00117f105af","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a0e1c883-af57-48ae-8422-5d28951fcb25","path":"sprites/spr_player_PZ_mach2_climbWall/spr_player_PZ_mach2_climbWall.yy",},},},"Disabled":false,"id":"969af5ee-2a60-46fd-9862-ba7298969023","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"307648a4-88d9-4925-9330-238d3bbac0be","path":"sprites/spr_player_PZ_mach2_climbWall/spr_player_PZ_mach2_climbWall.yy",},},},"Disabled":false,"id":"643ae6cf-d08b-4b1b-8c26-2f470c19fe6d","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"576ee0ae-dbe7-4a21-932f-814ac6ad4644","path":"sprites/spr_player_PZ_mach2_climbWall/spr_player_PZ_mach2_climbWall.yy",},},},"Disabled":false,"id":"49f553bf-d47d-4c43-bd40-43c09bfc047a","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

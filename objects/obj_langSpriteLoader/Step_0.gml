@@ -1,4 +1,7 @@
-buffer--;
+buffer--
 
 if (ds_map_size(global.langSpritesAsync) < 1 && buffer < 1)
-    instance_destroy();
+{
+	lang_update_layers()
+	instance_destroy()
+}

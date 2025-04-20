@@ -1,130 +1,127 @@
-global.instancelist = ds_list_create();
+global.instancelist = ds_list_create()
 
-function check_and_destroy(x1, y1, obj, checkfunc = -4)
+function check_and_destroy(arg0, arg1, arg2, arg3 = -4)
 {
-    var _result, _num, i;
-    
-    if (!place_meeting(x1, y1, obj))
-        return false;
-    
-    _result = false;
-    _num = instance_place_list(x1, y1, obj, global.instancelist, false);
-    
-    if (_num > 0)
-    {
-        for (i = 0; i < ds_list_size(global.instancelist); i++)
-        {
-            with (ds_list_find_value(global.instancelist, i))
-            {
-                if (checkfunc == -4 || checkfunc(other.id, id))
-                {
-                    DestroyedBy = other.id;
-                    event_user(0);
-                    _result = true;
-                }
-            }
-        }
-        
-        ds_list_clear(global.instancelist);
-    }
-    
-    return _result;
+	if (!place_meeting(arg0, arg1, arg2))
+		return false;
+	
+	var _result = false
+	var _num = instance_place_list(arg0, arg1, arg2, global.instancelist, false)
+	
+	if (_num > 0)
+	{
+		for (var i = 0; i < ds_list_size(global.instancelist); i++)
+		{
+			with (ds_list_find_value(global.instancelist, i))
+			{
+				if (arg3 == -4 || arg3(other.id, id))
+				{
+					DestroyedBy = other.id
+					event_user(0)
+					_result = true
+				}
+			}
+		}
+		
+		ds_list_clear(global.instancelist)
+	}
+	
+	return _result;
 }
 
 function scr_collide_destructibles()
 {
-    var old_mask, _player_dir, side_to_side_states, ceiling_hit_head, _player;
-    
-    static dont_break_worms = function(argument0, argument1)
-    {
-        return argument1.object_index != obj_gummyWormBump;
-    };
-    
-    old_mask = mask_index;
-    
-    if (state == States.machtumble2)
-        mask_index = spr_player_mask;
-    
-    _player_dir = sign(obj_player1.hsp) ? max(obj_player1.xscale, obj_player1.hsp) : min(obj_player1.xscale, obj_player1.hsp);
-    side_to_side_states = [States.mach2, States.charge, States.slipnslide, States.frostburnnormal, States.frostburnjump, States.frostburnslide, States.grind, States.hang, States.trick, States.geyser, States.mach3, States.run, States.unknownrun, States.machroll, States.cottonroll, States.machtumble2, States.dodgetumble, States.uppercut, States.parry, States.puddle, States.tumble, States.door, States.comingoutdoor, States.minecart, States.doughmount, States.doughmountspin, States.fireassdash, States.cottondig, States.machtumble, States.wallkick];
-    
-    if (array_contains(side_to_side_states, state) || (state == States.grab && sprite_index == spr_swingDing) || (state == States.bottlerocket && substate == 0))
-    {
-        check_and_destroy(x + hsp, y, obj_destructibles);
-        check_and_destroy(x + sign(hsp), y, obj_destructibles);
-        check_and_destroy(x + xscale, y, obj_destructibles);
-    }
-    
-    if ((state == States.machroll && sprite_index == spr_dive) || (state == States.cotton && momentum && movespeed >= 12) || state == States.wallkick || state == States.geyser || state == States.cottondig || state == States.fling_launch)
-    {
-        check_and_destroy(x + hsp, y + vsp, obj_destructibles);
-        check_and_destroy(x + sign(hsp), y + sign(vsp), obj_destructibles);
-    }
-    
-    if (((state == States.machtumble2 || state == States.cottondig || state == States.superslam || state == States.puddle) && vsp >= 0) || (state == States.cottondrill || (state == States.bottlerocket && substate == 2) || state == States.geyser) || ((state == States.climbwall || state == States.wallkick || state == States.uppercut) && vsp < 0))
-    {
-        check_and_destroy(x, y + vsp, obj_destructibles);
-        check_and_destroy(x, y + sign(vsp), obj_destructibles);
-        check_and_destroy(x, y + vsp + 2, obj_destructibles);
-    }
-    
-    if (vsp >= 0 && (state == States.puddle || state == States.frostburnjump || state == States.superslam || state == States.wallkick || (state == States.freefall || state == States.freefallland)))
-    {
-        if (state == States.puddle || (state == States.frostburnjump && sprite_index == spr_player_PZ_frostburn_spin) || (state == States.superslam && freeFallSmash >= 10) || ((state == States.freefall || state == States.freefallland) && freeFallSmash >= 10))
-        {
-            check_and_destroy(x, y + vsp, obj_metalblock);
-            check_and_destroy(x, y + sign(vsp), obj_metalblock);
-            check_and_destroy(x, y + 1, obj_metalblock);
-        }
-        
-        check_and_destroy(x, y + vsp, obj_destructibles);
-        check_and_destroy(x, y + sign(vsp), obj_destructibles);
-        check_and_destroy(x, y + vsp + 2, obj_destructibles);
-    }
-    
-    if ((state == States.jump || state == States.Sjump || state == States.mach2 || state == States.mach3 || state == States.wallkick) && vsp <= grav)
-    {
-        ceiling_hit_head = check_and_destroy(x, y - 1, obj_destructibles, dont_break_worms);
-        
-        if (ceiling_hit_head && (state == States.jump || state == States.mach2 || state == States.mach3) && !place_meeting(x, y - 1, obj_destructibles))
-        {
-            vsp = grav;
-            jumpStop = true;
-        }
-    }
-    
-    if (state == States.grabdash)
-    {
-        with (obj_destructibles)
-        {
-            if (place_meeting(x - obj_parent_player.hsp, y, obj_parent_player))
-            {
-                _player = instance_nearest(x, y, obj_parent_player);
-                DestroyedBy = _player;
-                event_user(0);
-            }
-        }
-    }
-    
-    if (state == States.machslide || state == States.climbwall)
-        check_and_destroy(x + sign(hsp), y + sign(vsp), obj_parent_clutterDestroyable);
-    
-    if (state == States.jump || state == States.normal)
-    {
-        check_and_destroy(x, y + 1, obj_parent_clutterDestroyable);
-        check_and_destroy(x, y + vsp, obj_parent_clutterDestroyable);
-        check_and_destroy(x, y + sign(vsp), obj_parent_clutterDestroyable);
-    }
-    
-    mask_index = old_mask;
+	static dont_break_worms = function(arg0, arg1)
+	{
+		return arg1.object_index != obj_gummyWormBump;
+	}
+	
+	var old_mask = mask_index
+	
+	if (state == PlayerState.machtumble2)
+		mask_index = spr_player_mask
+	
+	var _player_dir = sign(obj_player1.hsp) ? max(obj_player1.xscale, obj_player1.hsp) : min(obj_player1.xscale, obj_player1.hsp)
+	var side_to_side_states = [PlayerState.mach2, PlayerState.charge, PlayerState.slipnslide, PlayerState.frostburnnormal, PlayerState.frostburnjump, PlayerState.frostburnslide, PlayerState.grind, PlayerState.hang, PlayerState.trick, PlayerState.geyser, PlayerState.mach3, PlayerState.run, PlayerState.unknownrun, PlayerState.machroll, PlayerState.cottonroll, PlayerState.machtumble2, PlayerState.dodgetumble, PlayerState.uppercut, PlayerState.parry, PlayerState.puddle, PlayerState.tumble, PlayerState.door, PlayerState.comingoutdoor, PlayerState.minecart, PlayerState.doughmount, PlayerState.doughmountspin, PlayerState.fireassdash, PlayerState.cottondig, PlayerState.machtumble, PlayerState.wallkick]
+	
+	if (array_contains(side_to_side_states, state) || (state == PlayerState.grab && sprite_index == spr_swingDing) || (state == PlayerState.bottlerocket && substate == 0))
+	{
+		check_and_destroy(x + hsp, y, obj_destructibles)
+		check_and_destroy(x + sign(hsp), y, obj_destructibles)
+		check_and_destroy(x + xscale, y, obj_destructibles)
+	}
+	
+	if ((state == PlayerState.cotton && ((momentum && movespeed >= 12) || sprite_index == spr_player_PZ_werecotton_spin)) || state == PlayerState.wallkick || state == PlayerState.geyser || state == PlayerState.cottondig || state == PlayerState.fling_launch)
+	{
+		check_and_destroy(x + hsp, y + vsp, obj_destructibles)
+		check_and_destroy(x + sign(hsp), y + sign(vsp), obj_destructibles)
+	}
+	
+	if (((state == PlayerState.machtumble2 || state == PlayerState.cottondig || state == PlayerState.superslam || state == PlayerState.puddle) && vsp >= 0) || (state == PlayerState.cottondrill || (state == PlayerState.bottlerocket && substate == 2) || state == PlayerState.geyser) || ((state == PlayerState.climbwall || state == PlayerState.wallkick || state == PlayerState.uppercut) && vsp < 0))
+	{
+		check_and_destroy(x, y + vsp, obj_destructibles)
+		check_and_destroy(x, y + sign(vsp), obj_destructibles)
+		check_and_destroy(x, y + vsp + 2, obj_destructibles)
+	}
+	
+	if (vsp >= 0 && (state == PlayerState.puddle || state == PlayerState.frostburnjump || state == PlayerState.superslam || state == PlayerState.wallkick || (state == PlayerState.freefall || state == PlayerState.freefallland)))
+	{
+		if (state == PlayerState.puddle || (state == PlayerState.frostburnjump && sprite_index == spr_player_PZ_frostburn_spin) || (state == PlayerState.superslam && freeFallSmash >= 10) || ((state == PlayerState.freefall || state == PlayerState.freefallland) && freeFallSmash >= 10))
+		{
+			check_and_destroy(x, y + vsp, obj_metalblock)
+			check_and_destroy(x, y + sign(vsp), obj_metalblock)
+			check_and_destroy(x, y + 1, obj_metalblock)
+		}
+		
+		check_and_destroy(x, y + vsp, obj_destructibles)
+		check_and_destroy(x, y + sign(vsp), obj_destructibles)
+		check_and_destroy(x, y + vsp + 2, obj_destructibles)
+	}
+	
+	if ((state == PlayerState.jump || state == PlayerState.Sjump || state == PlayerState.mach2 || state == PlayerState.mach3 || state == PlayerState.wallkick) && vsp <= grav)
+	{
+		var ceiling_hit_head = check_and_destroy(x, y - 1, obj_destructibles, dont_break_worms)
+		
+		if (ceiling_hit_head && (state == PlayerState.jump || state == PlayerState.mach2 || state == PlayerState.mach3) && !place_meeting(x, y - 1, obj_destructibles))
+		{
+			vsp = grav
+			jumpStop = true
+		}
+		
+		check_and_destroy(x, y - 1, obj_gummyWormBump)
+	}
+	
+	if (state == PlayerState.grabdash)
+	{
+		with (obj_destructibles)
+		{
+			if (place_meeting(x - obj_parent_player.hsp, y, obj_parent_player))
+			{
+				var _player = instance_nearest(x, y, obj_parent_player)
+				DestroyedBy = _player
+				event_user(0)
+			}
+		}
+	}
+	
+	if (state == PlayerState.machslide || state == PlayerState.climbwall)
+		check_and_destroy(x + sign(hsp), y + sign(vsp), obj_parent_clutterDestroyable)
+	
+	if (state == PlayerState.jump || state == PlayerState.normal)
+	{
+		check_and_destroy(x, y + 1, obj_parent_clutterDestroyable)
+		check_and_destroy(x, y + vsp, obj_parent_clutterDestroyable)
+		check_and_destroy(x, y + sign(vsp), obj_parent_clutterDestroyable)
+	}
+	
+	mask_index = old_mask
 }
 
 function scr_baddie_collide_destroyables()
 {
-    if (state == States.climbwall || canBreakBlocks)
-    {
-        check_and_destroy(x + hsp, y + vsp, obj_destructibles);
-        check_and_destroy(x + sign(hsp), y + sign(vsp), obj_destructibles);
-    }
+	if (state == PlayerState.climbwall || canBreakBlocks)
+	{
+		check_and_destroy(x + hsp, y + vsp, obj_destructibles)
+		check_and_destroy(x + sign(hsp), y + sign(vsp), obj_destructibles)
+	}
 }
-

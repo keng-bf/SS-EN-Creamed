@@ -1,3 +1,3 @@
-event_inherited();
-depth = 4;
-mask_index = spr_rampMask;
+event_inherited()
+depth = 4
+mask_index = spr_rampMask

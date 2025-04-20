@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ef4900ad-535e-45f2-94d7-3b4ce1698f7f",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ae12e1e0-175a-48ec-a483-58b799f61c08",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6d13e204-2a15-4b5b-9dee-ef90ee94d329",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f27be895-de2e-45a6-9a3a-7c1631ddf50a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1300435b-4cbd-44c8-9c73-3fcc1af581e9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4c1d79e3-af5a-43fb-a237-92d3bcedbfd5",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c3b84588-128b-4ee7-b856-a9f530b9d3fb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0f3de285-fadf-43a8-8472-62adf41a8f34","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ef4900ad-535e-45f2-94d7-3b4ce1698f7f","path":"sprites/spr_player_PZ_bomb_run_flashing/spr_player_PZ_bomb_run_flashing.yy",},},},"Disabled":false,"id":"bfb4d79a-0c58-4b21-94e8-2ed9ab86b610","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ae12e1e0-175a-48ec-a483-58b799f61c08","path":"sprites/spr_player_PZ_bomb_run_flashing/spr_player_PZ_bomb_run_flashing.yy",},},},"Disabled":false,"id":"927c4a63-3e28-4fa8-a291-d44a5fde0b1a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6d13e204-2a15-4b5b-9dee-ef90ee94d329","path":"sprites/spr_player_PZ_bomb_run_flashing/spr_player_PZ_bomb_run_flashing.yy",},},},"Disabled":false,"id":"22760cb1-5c0f-4354-ada7-d7db6c9de2d4","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f27be895-de2e-45a6-9a3a-7c1631ddf50a","path":"sprites/spr_player_PZ_bomb_run_flashing/spr_player_PZ_bomb_run_flashing.yy",},},},"Disabled":false,"id":"f0a90903-312a-45f4-aaf8-1f20c41f1c1d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1300435b-4cbd-44c8-9c73-3fcc1af581e9","path":"sprites/spr_player_PZ_bomb_run_flashing/spr_player_PZ_bomb_run_flashing.yy",},},},"Disabled":false,"id":"4d28b8e6-a5c9-49ec-83e5-ac30b319908c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4c1d79e3-af5a-43fb-a237-92d3bcedbfd5","path":"sprites/spr_player_PZ_bomb_run_flashing/spr_player_PZ_bomb_run_flashing.yy",},},},"Disabled":false,"id":"5cd69611-a947-4edf-b1b0-18de0d93f372","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

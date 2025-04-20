@@ -1,1 +1,1 @@
-image_alpha = fade;
+image_alpha = fade

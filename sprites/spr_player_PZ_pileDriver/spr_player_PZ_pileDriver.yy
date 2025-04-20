@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"af1cb576-4896-4d34-8aae-edb2e7e27c03",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ad60a13d-ce6d-459a-aee4-4ea2c4025448",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b536cb2c-ec61-472e-b79d-9d412a7b73d5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c2ab3c5-9a67-4e22-8aba-90e92a82d83d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"647f0bf5-7ecf-467a-9220-44ea8b47cf53",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28be0957-6b57-419c-96aa-f77158547556",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 107,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"05e4b7d0-2a88-4954-b958-955796e55064","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3c9c1e0e-3f19-423c-81fd-4e6b2f40e958","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"af1cb576-4896-4d34-8aae-edb2e7e27c03","path":"sprites/spr_player_PZ_pileDriver/spr_player_PZ_pileDriver.yy",},},},"Disabled":false,"id":"7224230c-65cc-4421-9fe2-4b1ea3ea511e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ad60a13d-ce6d-459a-aee4-4ea2c4025448","path":"sprites/spr_player_PZ_pileDriver/spr_player_PZ_pileDriver.yy",},},},"Disabled":false,"id":"dd4a5d60-df15-493b-a094-fa7b567b14d6","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b536cb2c-ec61-472e-b79d-9d412a7b73d5","path":"sprites/spr_player_PZ_pileDriver/spr_player_PZ_pileDriver.yy",},},},"Disabled":false,"id":"0e936538-9b53-4b0b-b2f6-59f3738507a0","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3c2ab3c5-9a67-4e22-8aba-90e92a82d83d","path":"sprites/spr_player_PZ_pileDriver/spr_player_PZ_pileDriver.yy",},},},"Disabled":false,"id":"f2d6ee6b-d5b7-4938-8149-bf86dad97413","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"647f0bf5-7ecf-467a-9220-44ea8b47cf53","path":"sprites/spr_player_PZ_pileDriver/spr_player_PZ_pileDriver.yy",},},},"Disabled":false,"id":"d206f266-6f1f-4dfd-929f-be53d2db0fc0","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"28be0957-6b57-419c-96aa-f77158547556","path":"sprites/spr_player_PZ_pileDriver/spr_player_PZ_pileDriver.yy",},},},"Disabled":false,"id":"45398034-2b46-43ac-a119-0a9d10f265da","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

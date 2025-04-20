@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"21292449-9e0c-4455-bde3-29b02df542f3",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3db89722-9d63-4ca8-8f35-ddd8090c7b70",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"10113383-383c-49ad-8678-95a97a3f52c3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"693d9501-0c99-434b-b863-ee24d7e24f7c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2ecca9f5-c5fa-4690-b6dc-c0880d82e649",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e93b1413-9e14-432a-b946-26556658f5de",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 125,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5aa3cb37-4eef-4acb-b98c-a98d28dea080","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"868480fb-1bba-437b-a268-e8f78a66dcfa","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"21292449-9e0c-4455-bde3-29b02df542f3","path":"sprites/spr_player_PZ_wallJumpFastFall/spr_player_PZ_wallJumpFastFall.yy",},},},"Disabled":false,"id":"9fe89e1e-5f69-4475-a1ce-dad07a4b040f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3db89722-9d63-4ca8-8f35-ddd8090c7b70","path":"sprites/spr_player_PZ_wallJumpFastFall/spr_player_PZ_wallJumpFastFall.yy",},},},"Disabled":false,"id":"79220baf-6d99-4722-8640-067c897f4bbc","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"10113383-383c-49ad-8678-95a97a3f52c3","path":"sprites/spr_player_PZ_wallJumpFastFall/spr_player_PZ_wallJumpFastFall.yy",},},},"Disabled":false,"id":"e86948e6-8814-4476-942b-cd841c3bc7de","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"693d9501-0c99-434b-b863-ee24d7e24f7c","path":"sprites/spr_player_PZ_wallJumpFastFall/spr_player_PZ_wallJumpFastFall.yy",},},},"Disabled":false,"id":"ea260d73-febe-415e-9305-d07c0e7b6f5c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2ecca9f5-c5fa-4690-b6dc-c0880d82e649","path":"sprites/spr_player_PZ_wallJumpFastFall/spr_player_PZ_wallJumpFastFall.yy",},},},"Disabled":false,"id":"5ae0612b-633b-487c-832f-2035e7135cfc","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e93b1413-9e14-432a-b946-26556658f5de","path":"sprites/spr_player_PZ_wallJumpFastFall/spr_player_PZ_wallJumpFastFall.yy",},},},"Disabled":false,"id":"1ffc7917-e591-4791-9b36-f13d7f1f3684","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

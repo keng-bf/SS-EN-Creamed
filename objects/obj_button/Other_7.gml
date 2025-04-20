@@ -1,11 +1,10 @@
-if (currentState == States.titlescreen)
+if (currentState == PlayerState.titlescreen)
 {
-    currentState = States.normal;
-    sprite_index = spr_Pressed;
+	currentState = PlayerState.normal
+	sprite_index = spr_Pressed
 }
-else if (currentState == States.run)
+else if (currentState == PlayerState.run)
 {
-    currentState = States.frozen;
-    sprite_index = spr_Released;
+	currentState = PlayerState.frozen
+	sprite_index = spr_Released
 }
-

@@ -1,1 +1,1 @@
-ds_list_destroy(textureLoaderList);
+ds_list_destroy(textureLoaderList)

@@ -1,6 +1,6 @@
-depth = -10;
+depth = -10
 
 activationCode = function()
 {
-    return place_meeting(x, y, obj_parent_player);
-};
+	return place_meeting(x, y, obj_parent_player);
+}

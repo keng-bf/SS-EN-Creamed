@@ -1,1 +1,1 @@
-event_user(image_index);
+event_user(image_index)

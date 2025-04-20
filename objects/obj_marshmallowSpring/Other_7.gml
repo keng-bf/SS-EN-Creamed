@@ -1,1 +1,1 @@
-sprite_index = spr_marshmallowSpring;
+sprite_index = spr_marshmallowSpring

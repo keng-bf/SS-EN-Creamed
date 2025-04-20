@@ -1,2 +1,2 @@
-image_speed = 1;
-depth = 105;
+image_speed = 1
+depth = 105

@@ -1,1 +1,1 @@
-skippable = true;
+skippable = true

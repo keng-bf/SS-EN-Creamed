@@ -1,1 +1,1 @@
-scr_playerrespawn();
+scr_playerrespawn()

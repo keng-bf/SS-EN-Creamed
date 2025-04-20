@@ -1,2 +1,2 @@
-event_inherited();
-peek = 64;
+event_inherited()
+peek = 64

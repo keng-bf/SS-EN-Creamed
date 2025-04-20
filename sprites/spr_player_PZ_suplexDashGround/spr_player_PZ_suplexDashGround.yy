@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9ab0b2a9-f6a5-4ba5-92c9-703f9328c3fa",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f90a607e-14d2-4388-bdbb-852835d73f07",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"872c7744-dcca-4192-8f88-9e1def9b489a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"08209f00-a808-4d1f-ad7e-dfd5c1263d8e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0296e25b-a461-42d2-8911-b4144dd22530",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"524e020b-3291-43a7-9429-447879b529cf",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7822b63c-8db2-4d49-b362-c768e359f5ea","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"acdb1f99-4b75-421a-b9cc-f9837de0b518","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pizzelle",
-    "path": "folders/Sprites/Player/Pizzelle.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9ab0b2a9-f6a5-4ba5-92c9-703f9328c3fa","path":"sprites/spr_player_PZ_suplexDashGround/spr_player_PZ_suplexDashGround.yy",},},},"Disabled":false,"id":"131ace36-5a00-48a2-a884-44d09e9d321b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f90a607e-14d2-4388-bdbb-852835d73f07","path":"sprites/spr_player_PZ_suplexDashGround/spr_player_PZ_suplexDashGround.yy",},},},"Disabled":false,"id":"cc1eda60-a9a7-423d-9e89-6b0b4e06ac8b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"872c7744-dcca-4192-8f88-9e1def9b489a","path":"sprites/spr_player_PZ_suplexDashGround/spr_player_PZ_suplexDashGround.yy",},},},"Disabled":false,"id":"634b26ad-f8e0-4a4f-b8eb-4cfc91effe0b","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"08209f00-a808-4d1f-ad7e-dfd5c1263d8e","path":"sprites/spr_player_PZ_suplexDashGround/spr_player_PZ_suplexDashGround.yy",},},},"Disabled":false,"id":"9bd0f105-5381-414f-aae5-784c079ca2bf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0296e25b-a461-42d2-8911-b4144dd22530","path":"sprites/spr_player_PZ_suplexDashGround/spr_player_PZ_suplexDashGround.yy",},},},"Disabled":false,"id":"1f7fd87c-bbf8-462b-9d9d-094a410bacbf","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"524e020b-3291-43a7-9429-447879b529cf","path":"sprites/spr_player_PZ_suplexDashGround/spr_player_PZ_suplexDashGround.yy",},},},"Disabled":false,"id":"da0c497f-5ebe-489c-9323-1f6d0cc0da18","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

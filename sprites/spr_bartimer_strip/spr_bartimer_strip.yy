@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e6419bed-df4e-40c7-8b18-b5c19dc56aeb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0c264306-1a2f-4ab0-ad0a-eba255e45386",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 113,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"96313186-eeb0-4684-b651-d48c59bd96c0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e4c84cbd-2dfd-4592-be93-0fb068739cc9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Escape Timer",
-    "path": "folders/Sprites/HUD/Escape Timer.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e6419bed-df4e-40c7-8b18-b5c19dc56aeb","path":"sprites/spr_bartimer_strip/spr_bartimer_strip.yy",},},},"Disabled":false,"id":"f614d68e-8e3b-493f-a2a6-67e33fabbcf8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0c264306-1a2f-4ab0-ad0a-eba255e45386","path":"sprites/spr_bartimer_strip/spr_bartimer_strip.yy",},},},"Disabled":false,"id":"f6086e0c-ddb4-4b07-8343-a2f79e90713a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

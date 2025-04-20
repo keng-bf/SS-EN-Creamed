@@ -1,1 +1,1 @@
-visible = global.BlinkTrail;
+visible = global.BlinkTrail

@@ -13,16 +13,16 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c21f0911-8a8a-4288-bcb6-3ae3a045e673",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6fdc1c70-6da8-47aa-b698-e0ecc5f79fa9",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6ace620c-7185-4207-9276-a3bdf15f7ea2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ce4c21fc-fd71-4592-900b-9a777123bc8a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c08e9775-a3a1-4cc9-a590-aaa6253dcff6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b32335b-4229-416c-8973-0ec1f43dd283",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 96,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3b5a6d10-5863-4e0c-a6be-bd85da8953ea","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b2afca7b-b374-4105-8369-537fd5bc6bc4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Boxfrog",
-    "path": "folders/Sprites/Enemies/Boxfrog.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c21f0911-8a8a-4288-bcb6-3ae3a045e673","path":"sprites/spr_boxfrog_fall/spr_boxfrog_fall.yy",},},},"Disabled":false,"id":"4663d72c-c96c-43ae-b8ec-2c5fc891fc9c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6fdc1c70-6da8-47aa-b698-e0ecc5f79fa9","path":"sprites/spr_boxfrog_fall/spr_boxfrog_fall.yy",},},},"Disabled":false,"id":"aaaf806f-856d-40dd-815b-6274c584b21a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6ace620c-7185-4207-9276-a3bdf15f7ea2","path":"sprites/spr_boxfrog_fall/spr_boxfrog_fall.yy",},},},"Disabled":false,"id":"1e1b3e1c-f106-4445-9b5f-d93d53796714","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ce4c21fc-fd71-4592-900b-9a777123bc8a","path":"sprites/spr_boxfrog_fall/spr_boxfrog_fall.yy",},},},"Disabled":false,"id":"b84e3eb0-41f1-41c0-a679-b8e958953a98","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c08e9775-a3a1-4cc9-a590-aaa6253dcff6","path":"sprites/spr_boxfrog_fall/spr_boxfrog_fall.yy",},},},"Disabled":false,"id":"df3baabb-25e7-45c2-bff8-c12ebe40f241","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1b32335b-4229-416c-8973-0ec1f43dd283","path":"sprites/spr_boxfrog_fall/spr_boxfrog_fall.yy",},},},"Disabled":false,"id":"f0026b30-a458-4832-ae59-052d78c0e688","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
