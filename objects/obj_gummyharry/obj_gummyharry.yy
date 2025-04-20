@@ -36,12 +36,12 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_harryNEW",
-    "path": "sprites/spr_harryNEW/spr_harryNEW.yy",
+    "name": "spr_harry",
+    "path": "sprites/spr_harry/spr_harry.yy",
   },
   "spriteMaskId": {
-    "name": "spr_harryNEW",
-    "path": "sprites/spr_harryNEW/spr_harryNEW.yy",
+    "name": "spr_harry",
+    "path": "sprites/spr_harry/spr_harry.yy",
   },
   "visible": true,
 }

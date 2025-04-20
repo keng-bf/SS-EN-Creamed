@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_harrydeadNEW",
-    "path": "sprites/spr_harrydeadNEW/spr_harrydeadNEW.yy",
+    "name": "spr_harrydead",
+    "path": "sprites/spr_harrydead/spr_harrydead.yy",
   },
   "spriteMaskId": null,
   "visible": true,
