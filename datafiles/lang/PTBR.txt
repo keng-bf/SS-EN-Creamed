@@ -540,6 +540,9 @@
 "opt_game_reset_clothes"    : "RESETAR ROUPAS"
 "reset_clothes_confirm"     : "APERTE PARA RESETAR ROUPAS"
 
+# Modification Submenu
+"opt_mod_lap3" : "VOLTA 3"
+
 # Language Submenu
 "opt_access_lang" : "IDIOMA"
 

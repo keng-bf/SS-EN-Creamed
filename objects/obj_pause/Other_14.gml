@@ -1,6 +1,6 @@
 pausecount = -1
 
-if (room != rank_room && !is_hub())
+if (room != rank_room && !is_hub() && room != secrets_await)
 {
 	global.gamePauseState = 0
 	fmod_event_setPause_all(false)

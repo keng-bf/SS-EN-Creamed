@@ -21,7 +21,7 @@ function cutscene_lapPortal_start()
 	
 	if (finished)
 	{
-		global.lapcount = 1
+		global.lapcount += 1
 		global.ComboTime = 60
 		
 		for (var i = 0; i < ds_list_size(global.EscapeRoom); i++)
@@ -117,10 +117,10 @@ function cutscene_lapPortal_end()
 	{
 		if (global.lapcount == 1)
 			global.savedfill = global.EscapeTime
-		else if (global.lapcount > 1)
-			global.EscapeTime = global.savedfill - ((global.lapcount - 1) * 100)
+		else if (global.lapcount == 2)
+			global.EscapeTime = 0
 		
-		instance_create(0, 0, obj_lap2visual)
+		instance_create(0, 0, obj_lapvisual)
 		event_play_oneshot("event:/SFX/general/lap2start", x, y)
 		cutscene_event_end()
 	}

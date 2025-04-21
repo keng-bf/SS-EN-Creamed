@@ -539,6 +539,9 @@
 "opt_game_reset_clothes"    : "RESET CLOTHES PROGRESS"
 "reset_clothes_confirm"     : "RESET CLOTHES PROGRESS"
 
+# Modification Submenu
+"opt_mod_lap3" : "LAP 3"
+
 # Language Submenu
 "opt_access_lang" : "LANGUAGE"
 

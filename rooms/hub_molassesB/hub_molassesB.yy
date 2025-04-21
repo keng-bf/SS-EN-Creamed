@@ -15,6 +15,7 @@
     {"name":"inst_112611","path":"rooms/hub_molassesB/hub_molassesB.yy",},
     {"name":"inst_112612","path":"rooms/hub_molassesB/hub_molassesB.yy",},
     {"name":"inst_112613","path":"rooms/hub_molassesB/hub_molassesB.yy",},
+    {"name":"inst_66FD5D0A","path":"rooms/hub_molassesB/hub_molassesB.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -32,6 +33,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"showDoorSprite","path":"objects/obj_door/obj_door.yy",},"value":"false",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3072.0,"y":352.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_112613","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_coneboyCutout","path":"objects/obj_coneboyCutout/obj_coneboyCutout.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1716.0,"y":402.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_66FD5D0A","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_nullface","path":"objects/obj_nullface/obj_nullface.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":96.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1_Lang","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_227C0E31","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_molassessign2","path":"sprites/spr_molassessign2/spr_molassessign2.yy",},"x":96.0,"y":128.0,},

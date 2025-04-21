@@ -539,6 +539,9 @@
 "opt_game_reset_clothes"    : "СБРОСИТЬ ПРОГРЕСС ОДЁЖКИ"
 "reset_clothes_confirm"     : "СБРОСИТЬ ПРОГРЕСС ОДЁЖКИ"
 
+# Modification Submenu
+"opt_mod_lap3" : "КРУС 3"
+
 # Language Submenu
 "opt_access_lang" : "ЯЗЫК"
 

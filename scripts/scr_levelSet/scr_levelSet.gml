@@ -36,7 +36,7 @@ function scr_levelSet()
 	instance_destroy(obj_cafedrawer)
 	instance_destroy(obj_sucroseTimer)
 	instance_destroy(obj_devilboy)
-	instance_destroy(obj_lap2visual)
+	instance_destroy(obj_lapvisual)
 	instance_destroy(obj_minesgem)
 	instance_destroy(obj_collect_giver)
 	global.CafeDrawer = -4

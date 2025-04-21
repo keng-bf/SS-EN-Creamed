@@ -541,6 +541,9 @@
 "opt_game_reset_clothes"    : "BORRAR PROGRESO DE TRAPOS"
 "reset_clothes_confirm"     : "BORRAR PROGRESO DE TRAPOS"
 
+# Modification Submenu
+"opt_mod_lap3" : "3DA VUELTA"
+
 # Language Submenu
 "opt_access_lang": "LENGUAJE"
 

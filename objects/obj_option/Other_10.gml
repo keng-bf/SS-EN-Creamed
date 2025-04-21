@@ -25,11 +25,16 @@ switch (optionMenu)
 		}).add_icon(spr_newpause_icons, 8), new option_button("opt_controls", function()
 		{
 			option_goto(OptionMenu.Controls)
-		}).add_icon(spr_newpause_icons, 7), new option_button("opt_modification", function()
+		}).add_icon(spr_newpause_icons, 7)]
+		if (room == rm_mainmenu || is_hub())
 		{
-			option_goto(OptionMenu.Modification)
-		}).add_icon(spr_newpause_icons, 10)]
-		
+			var modification_menu = new option_button("opt_modification", function()
+			{
+				option_goto(OptionMenu.Modification)
+			})
+			modification_menu.add_icon(spr_newpause_icons, 10)
+			array_push(options, modification_menu)
+		}
 		if (room == rm_mainmenu)
 		{
 			var lang_menu = new option_button("opt_language", function()
@@ -193,20 +198,19 @@ switch (optionMenu)
 		backMenu = OptionMenu.Base
 		backOption = 4
 		alignCenter = false
-		/*var modification_options = ["opt_off", "opt_game_timer_type_level", "opt_game_timer_type_save", "opt_game_timer_type_both"]
-		options = [toMainPage, new option_normal("opt_game_vibrate", onOffToggle, function(arg0)
+		options = [toMainPage, new option_normal("opt_mod_lap3", onOffToggle, function(arg0)
 		{
-			quick_write_option("Settings", "vibration", arg0)
-			global.controllerVibration = arg0
-		}, global.controllerVibration), new option_normal("opt_game_screenshake", onOffToggle, function(arg0)
+			quick_write_option("Settings", "lap3", arg0)
+			global.lap3 = arg0
+		}, global.lap3)]/*, new option_normal("opt_mod", onOffToggle, function(arg0)
 		{
 			quick_write_option("Settings", "screenshake", arg0)
 			global.ScreenShake = arg0
-		}, global.ScreenShake), new option_normal("opt_game_timer_type", timer_options, function(arg0)
+		}, global.ScreenShake), new option_normal("opt_mod", onOffToggle, function(arg0)
 		{
 			quick_write_option("Settings", "opt_timerType", arg0)
 			global.option_timer_type = arg0
-		}, global.option_timer_type), new option_normal("opt_game_timerspeedrun", onOffToggle, function(arg0)
+		}, global.option_timer_type), new option_normal("opt_mod", onOffToggle, function(arg0)
 		{
 			quick_write_option("Settings", "timerspeedrun", arg0)
 			global.option_speedrun_timer = arg0
