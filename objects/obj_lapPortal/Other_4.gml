@@ -1,4 +1,4 @@
-if (global.lapcount > 0)
+if (global.lapcount > (global.lap3 ? 1 : 0))
 {
 	ds_list_add(global.SaveRoom, id)
 	instance_destroy()

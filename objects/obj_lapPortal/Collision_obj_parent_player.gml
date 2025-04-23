@@ -14,13 +14,6 @@ if (other.state != PlayerState.actor && sprite_index == spr_lappingportal_idle &
 	global.ComboTime = 60
 	global.Collect += 3000
 	create_small_number(x, y, "3000")
-	if global.lap3
-	{
-		if global.lapcount == 2
-			ds_list_add(global.SaveRoom, id)
-	}
-	else{
-	ds_list_add(global.SaveRoom, id)}
 	cutscene_create([cutscene_lapPortal_start, cutscene_lapPortal_middle, cutscene_lapPortal_end])
 	instance_destroy()
 }
