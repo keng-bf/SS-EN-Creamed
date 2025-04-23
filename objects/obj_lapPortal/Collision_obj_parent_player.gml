@@ -16,7 +16,7 @@ if (other.state != PlayerState.actor && sprite_index == spr_lappingportal_idle &
 	create_small_number(x, y, "3000")
 	if global.lap3
 	{
-		if global.lapcount == 1
+		if global.lapcount == 2
 			ds_list_add(global.SaveRoom, id)
 	}
 	else{

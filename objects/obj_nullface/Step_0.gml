@@ -25,15 +25,17 @@ if (pid > 0 && !pid.cutscene && !instance_exists(obj_fadeoutTransition) && !inst
 	with (pid)
 	{
 		instance_destroy(obj_fadeoutTransition)
+		instance_destroy(obj_shell)
 		scr_levelSet()
 		targetDoor = "A"
 		global.panic = 0
 		global.greyscalefade = 0
 		room = secrets_await
+		state = PlayerState.timesup
+		sprite_index = spr_Timesup
 		image_index = 0
-		event_play_oneshot("event:/music/timesup")
 	}
-		instance_destroy()
+	instance_destroy()
 }
 
 savedCamX = x - camera_get_view_x(view_camera[0])

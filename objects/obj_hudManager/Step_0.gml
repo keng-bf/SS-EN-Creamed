@@ -25,7 +25,7 @@ with (HUDObject_tooltipPrompts)
 		y = approach(y, 425, 0.5)
 }
 
-if (is_hub() || !scr_roomcheck() || room == mineshaft_elevator)
+if (is_hub() || !scr_roomcheck() || room == mineshaft_elevator || room == secrets_await)
 	exit
 
 var target_player = get_primaryPlayer()
