@@ -30,11 +30,10 @@ scr_defineLevel(0, "entryway", "Crunchy Construction", entryway_1, ["Entryway"],
 scr_defineLevel(0, "steamy", "Cottontown", steamy_1, ["Cottontown"], 22500, new scr_defineTitleCard(1, "event:/music/w1/cottontown_titlecard", 37, 498))
 scr_defineLevel(0, "mineshaft", "Sugarshack Mines", mineshaft_1, ["Mines"], 21500, new scr_defineTitleCard(2, "event:/music/w1/mines_titlecard", 37, 498))
 scr_defineLevel(0, "molasses", "Molasses Swamp", molasses_1, ["Molasses", "geyserwaves"], 19000, new scr_defineTitleCard(3, "event:/music/w2/molasses_titlecard", 37, 498))
-scr_defineLevel(0, "boss_pizzahead", "Boss 1", rm_missing, [], 20000, true)
-scr_defineLevel(1, "fudge", "Mt. Fudgetop", mountain_intro, ["Fudgetop"])
-scr_defineLevel(1, "molasses", "Molasses Swamp", molasses_1, ["Molasses"])
-scr_defineLevel(1, "cafe", "Chocoa Cafe", cafe_1, ["Cafe"])
-scr_defineLevel(1, "boss_pizzabro", "Boss 2", rm_missing)
+//scr_defineLevel(0, "boss_pizzahead", "Boss 1", rm_missing, [], 20000, true)
+scr_defineLevel(1, "fudge", "Mt. Fudgetop", mountain_intro, ["Fudgetop"], 10000, new scr_defineTitleCard(4, "event:/music/w1/entryway_titlecard", 37, 42))
+scr_defineLevel(1, "cafe", "Chocoa Cafe", cafe_1, ["Cafe"], 10000, new scr_defineTitleCard(5, "event:/music/w1/entryway_titlecard", 37, 42))
+//scr_defineLevel(1, "boss_pizzabro", "Boss 2", rm_missing)
 
 function scr_gotoLevel(arg0)
 {

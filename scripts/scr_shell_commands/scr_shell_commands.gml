@@ -123,7 +123,7 @@ function sh_unlock(arg0)
 	
 	if (type == "all" || type == "levels")
 	{
-		var levels = ["tutorial", "entryway", "steamy", "mineshaft", "molasses"]
+		var levels = ["tutorial", "entryway", "steamy", "mineshaft", "molasses", "cafe", "mountain"]
 		ini_open(global.SaveFileName)
 		
 		for (var i = 0; i < array_length(levels); i++)
