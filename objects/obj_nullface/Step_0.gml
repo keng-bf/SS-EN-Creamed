@@ -34,6 +34,7 @@ if (pid > 0 && !pid.cutscene && !instance_exists(obj_fadeoutTransition) && !inst
 		state = PlayerState.timesup
 		sprite_index = spr_Timesup
 		image_index = 0
+		show_message("GAME OVER")
 	}
 	instance_destroy()
 }

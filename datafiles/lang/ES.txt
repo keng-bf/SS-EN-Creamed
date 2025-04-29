@@ -543,6 +543,7 @@
 
 # Modification Submenu
 "opt_mod_lap3" : "3DA VUELTA"
+"opt_mod_fps" : "FPS"
 
 # Language Submenu
 "opt_access_lang": "LENGUAJE"

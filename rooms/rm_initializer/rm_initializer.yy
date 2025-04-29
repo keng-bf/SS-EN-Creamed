@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rm_initializer",
-  "creationCodeFile": "",
+  "creationCodeFile": "rooms/rm_initializer/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
@@ -28,6 +28,7 @@
     {"name":"inst_100021","path":"rooms/rm_initializer/rm_initializer.yy",},
     {"name":"inst_100022","path":"rooms/rm_initializer/rm_initializer.yy",},
     {"name":"inst_100023","path":"rooms/rm_initializer/rm_initializer.yy",},
+    {"name":"inst_3837D92A","path":"rooms/rm_initializer/rm_initializer.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -59,6 +60,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_100020","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rpc","path":"objects/obj_rpc/obj_rpc.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-256.0,"y":64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_100021","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_achievementTracker","path":"objects/obj_achievementTracker/obj_achievementTracker.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-256.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_100022","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_gametimer","path":"objects/obj_gametimer/obj_gametimer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-320.0,"y":-192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3837D92A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fps","path":"objects/obj_fps/obj_fps.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-288.0,"y":-96.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_100023","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_initializer","path":"objects/obj_initializer/obj_initializer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-288.0,"y":96.0,},

@@ -541,6 +541,7 @@
 
 # Modification Submenu
 "opt_mod_lap3" : "LAP 3"
+"opt_mod_fps" : "FPS"
 
 # Language Submenu
 "opt_access_lang" : "LANGUAGE"

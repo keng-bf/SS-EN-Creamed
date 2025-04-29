@@ -1376,6 +1376,7 @@
     {"id":{"name":"spr_collectslice","path":"sprites/spr_collectslice/spr_collectslice.yy",},},
     {"id":{"name":"spr_sluggy_parry","path":"sprites/spr_sluggy_parry/spr_sluggy_parry.yy",},},
     {"id":{"name":"spr_player_PZ_parry_3","path":"sprites/spr_player_PZ_parry_3/spr_player_PZ_parry_3.yy",},},
+    {"id":{"name":"obj_fps","path":"objects/obj_fps/obj_fps.yy",},},
     {"id":{"name":"spr_marshmallow_appear","path":"sprites/spr_marshmallow_appear/spr_marshmallow_appear.yy",},},
     {"id":{"name":"spr_clockdoor","path":"sprites/spr_clockdoor/spr_clockdoor.yy",},},
     {"id":{"name":"spr_groundpoundeffect","path":"sprites/spr_groundpoundeffect/spr_groundpoundeffect.yy",},},

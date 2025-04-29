@@ -565,3 +565,19 @@ function meta_lang_reload()
 		argumentDescriptions: []
 	};
 }
+
+function sh_pizzano_please(arg0)
+{
+	show_message("NO LOL >:)")
+}
+
+function meta_pizzano_please()
+{
+	return 
+	{
+		description: "Give U Pizzano",
+		arguments: [],
+		suggestions: [],
+		argumentDescriptions: []
+	};
+}

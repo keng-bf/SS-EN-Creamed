@@ -202,11 +202,11 @@ switch (optionMenu)
 		{
 			quick_write_option("Settings", "lap3", arg0)
 			global.lap3 = arg0
-		}, global.lap3)]/*, new option_normal("opt_mod", onOffToggle, function(arg0)
+		}, global.lap3), new option_normal("opt_mod_fps", onOffToggle, function(arg0)
 		{
-			quick_write_option("Settings", "screenshake", arg0)
-			global.ScreenShake = arg0
-		}, global.ScreenShake), new option_normal("opt_mod", onOffToggle, function(arg0)
+			quick_write_option("Settings", "fps", arg0)
+			global.fps = arg0
+		}, global.fps)/*, new option_normal("opt_mod", onOffToggle, function(arg0)
 		{
 			quick_write_option("Settings", "opt_timerType", arg0)
 			global.option_timer_type = arg0
@@ -214,7 +214,7 @@ switch (optionMenu)
 		{
 			quick_write_option("Settings", "timerspeedrun", arg0)
 			global.option_speedrun_timer = arg0
-		}, global.option_speedrun_timer)]*/
+		}, global.option_speedrun_timer)*/]
 		
 		break
 	
