@@ -1,1 +1,1 @@
-targetRoom = mineshaft_escape2b
+targetRoom = mineshaft_escape2

@@ -1,12 +1,12 @@
 function is_preGame(arg0 = room)
 {
-	var special_rooms = [rm_preinitializer, rm_initializer, rm_startupLogo, rm_introVideo, rm_mainmenu, rm_credits, rm_titlecard, rm_disclaimer]
+	var special_rooms = [rm_preinitializer, rm_initializer, rm_startupLogo, rm_introVideo, rm_mainmenu, rm_credits, rm_disclaimer]
 	return array_contains(special_rooms, arg0);
 }
 
 function scr_roomcheck(arg0 = room)
 {
-	var special_rooms = [rm_initializer, rm_preinitializer, rm_startupLogo, rm_devroom, rm_introVideo, rank_room, timesuproom, rm_mainmenu, rm_credits, rm_titlecard, rm_disclaimer, rm_blank]
+	var special_rooms = [rm_initializer, rm_preinitializer, rm_startupLogo, rm_devroom, rm_introVideo, rank_room, timesuproom, rm_mainmenu, rm_credits, rm_disclaimer, rm_blank]
 	return !array_contains(special_rooms, arg0);
 }
 

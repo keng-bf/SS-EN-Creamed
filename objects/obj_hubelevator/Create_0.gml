@@ -1,7 +1,7 @@
 depth = 10
 state = PlayerState.frozen
 var i = 0
-hub_array[i++] = [hub_paintstudio, "EXHIBITION NIGHT"]
+hub_array[i++] = [hub_paintstudio, "E N"]
 drawx = 0
 drawy = 0
 surface2 = -4

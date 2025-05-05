@@ -12,9 +12,6 @@ vsp = 0
 grav = 0.5
 depth = 49
 image_index = 0
-openSpr = spr_enterexitgate
-closingSpr = spr_exitgateclosing
-closedspr = spr_exitgateclosed
 
 if (true && global.InternalLevelName != "none")
 {

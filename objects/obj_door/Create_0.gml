@@ -1,6 +1,5 @@
 image_speed = 0
 depth = 8
-spriteDoorDefault = spr_leveldoors
 spriteDoorUnlocked = spr_doorvisited
 spriteDoorLocked = spr_doorblocked
 spriteDoorEscape = spr_doorblocked

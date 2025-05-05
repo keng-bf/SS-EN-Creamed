@@ -29,7 +29,11 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"openSpr","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_enterexitgate","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"closingSpr","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_exitgateclosing","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"closedspr","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_exitgateclosed","varType":5,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "spr_enterexitgate",

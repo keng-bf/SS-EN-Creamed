@@ -1,6 +1,6 @@
 DrawHUD = true
 
-if (room == timesuproom || room == rank_room || room == rm_credits || room == rm_titlecard || room == hub_demohallway || room == hub_paintstudio || room == mineshaft_elevator || is_hub() || is_tutorial())
+if (room == timesuproom || room == rank_room || room == rm_credits || room == secrets_await || room == mineshaft_elevator || is_hub() || is_tutorial())
 	DrawHUD = false
 
 if (get_panic())

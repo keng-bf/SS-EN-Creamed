@@ -24,7 +24,7 @@ if (!global.gamePauseState && !instance_exists(obj_fadeoutTransition) && !instan
 			_cant_pause = true
 	}
 	
-	if (!global.shellactivate && key_start2 && whitealpha <= 0 && room != rank_room && room != rm_introVideo && room != rm_mainmenu && room != timesuproom && room != rm_credits && room != rm_disclaimer && room != rm_startupLogo && room != rm_titlecard && room != mineshaft_elevator && room != secrets_await && !instance_exists(obj_titlecard) && !_cant_pause && canmove)
+	if (!global.shellactivate && key_start2 && whitealpha <= 0 && room != rank_room && room != rm_introVideo && room != rm_mainmenu && room != timesuproom && room != rm_credits && room != rm_disclaimer && room != rm_startupLogo && room != mineshaft_elevator && room != secrets_await && !instance_exists(obj_titlecard) && !_cant_pause && canmove)
 	{
 		event_user(5)
 		exit

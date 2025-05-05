@@ -29,10 +29,6 @@ function scr_gamecaptions(arg0 = room)
 			game_caption = "winname_devroom"
 			break
 		
-		case rm_titlecard:
-			game_caption = "winname_titlecard"
-			break
-		
 		case rank_room:
 			game_caption = "winname_rank"
 			break
@@ -42,14 +38,8 @@ function scr_gamecaptions(arg0 = room)
 			break
 		
 		case hub_paintstudio:
-			game_caption = "winname_hub"
-			break
-		
 		case hub_demohallway:
 		case hub_molassesB:
-			game_caption = "winname_hub"
-			break
-		
 		case hub_molasses:
 			game_caption = "winname_hub"
 			break

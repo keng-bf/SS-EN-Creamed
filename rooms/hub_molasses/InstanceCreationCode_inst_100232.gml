@@ -1,5 +1,3 @@
-targetRoom = hub_mindpalace
-useCustomSprite = true
 sprite_index = spr_door_mindpalace
 visible = true
 image_index = 0

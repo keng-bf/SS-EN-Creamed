@@ -3,7 +3,7 @@ if (!global.gamePauseState)
 
 if (room != rm_mainmenu && room != rm_introVideo && room != rm_startupLogo && room != rm_disclaimer && room != rm_credits)
 {
-	in_level = !instance_exists(obj_startGate) && room != rm_titlecard && string_copy(room_get_name(room), 1, 3) != "hub" && !is_hub()
+	in_level = !instance_exists(obj_startGate) && string_copy(room_get_name(room), 1, 3) != "hub" && !is_hub()
 	stop_timer = room == rank_room || instance_exists(obj_endlevelfade) || (room == hub_mindpalace || room == hub_mindvault)
 	freeze_timer = (global.gamePauseState || global.freezeframe || (instance_exists(obj_parent_player) && obj_parent_player.state == PlayerState.frozen) || (room == hub_mindpalace || room == hub_mindvault)) && !global.option_speedrun_timer
 	

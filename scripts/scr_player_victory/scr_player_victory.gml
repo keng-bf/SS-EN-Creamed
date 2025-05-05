@@ -11,7 +11,7 @@ function state_player_victory()
 	{
 		image_speed = 0
 		
-		if (!place_meeting(x, y, obj_startGate) && room != rm_titlecard)
+		if !place_meeting(x, y, obj_startGate)
 		{
 			if (sprite_index == spr_victory)
 			{

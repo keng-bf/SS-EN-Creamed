@@ -40,7 +40,6 @@ gotoLevel = function(arg0)
 surf = -4
 easelSurf = -4
 fadewhite = 1
-details = [gate_createlayer(spr_default_startgate, 0), gate_createlayer(spr_default_startgate, 1)]
 
 defineConfecti = function(arg0, arg1, arg2) constructor
 {
@@ -50,7 +49,6 @@ defineConfecti = function(arg0, arg1, arg2) constructor
 }
 
 confectiSprites = [new defineConfecti(spr_marshmellow_idle, spr_marshemellow_run, spr_marshmellow_taunt), new defineConfecti(spr_chocolate_idle, spr_chocolate_walk, spr_chocolate_taunt), new defineConfecti(spr_crack_idle, spr_crack_run, spr_crack_taunt), new defineConfecti(spr_gummyworm_idle, spr_gummyworm_walk, spr_gummyworm_taunt), new defineConfecti(spr_candy_idle, spr_candy_walk, spr_candy_taunt)]
-isEasel = false
 savedPaintSprite = undefined
 
 saveSurfaceSprite = function()
