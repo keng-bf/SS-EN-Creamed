@@ -13,6 +13,7 @@ else
 var _smalltimerx = 815
 var _smalltimery = drawtexty - 225
 draw_set_font(global.cafefontsmall)
+draw_set_valign(fa_top);
 draw_set_halign(fa_left)
 
 if (global.cafesecondssmall < 10)

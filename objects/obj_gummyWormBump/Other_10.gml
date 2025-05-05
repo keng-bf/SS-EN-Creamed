@@ -1,7 +1,7 @@
 if (clone && instance_exists(realBump) && place_meeting(x, y, realBump))
 	exit
 
-if (DestroyedBy.object_index == obj_parent_player || DestroyedBy.object_index == obj_player1 || DestroyedBy.object_index == obj_player2)
+if (DestroyedBy.object_index == obj_parent_player || DestroyedBy.object_index == obj_player1)
 {
 	if (DestroyedBy.state == PlayerState.jump)
 	{

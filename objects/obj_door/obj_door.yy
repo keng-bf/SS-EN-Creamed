@@ -33,12 +33,12 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"showDoorLight","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"showDoorSprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"escapeBlockedDoor","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"doorLocked","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"useCustomSprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spriteDoorDefault","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_leveldoors","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"showDoorLight","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"showDoorSprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"escapeBlockedDoor","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"doorLocked","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"useCustomSprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spriteDoorDefault","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_leveldoors","varType":5,},
   ],
   "solid": false,
   "spriteId": {

@@ -2,6 +2,13 @@ function set_resolution_option(arg0)
 {
 	window_set_size(global.resolutions[arg0][0], global.resolutions[arg0][1])
 	window_center()
+ 	with obj_screen
+ 	{
+ 		previousMouseX = get_mouse_x_screen(0);
+ 		previousMouseY = get_mouse_y_screen(0);
+ 		captionBuffer = 100;
+ 		global.gameframe_default_cursor = global.DefaultCursor;
+ 	}	
 }
 
 function create_option() constructor

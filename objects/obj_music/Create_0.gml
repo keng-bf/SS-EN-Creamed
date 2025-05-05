@@ -55,6 +55,7 @@ addRoomMusic(rm_mainmenu, "event:/music/titlescreen_demo", undefined, function(a
 })
 addRoomMusic(rm_credits, "event:/music/credits", undefined, undefined)
 addRoomMusic(rm_devroom, "event:/music/devroom", undefined, undefined)
+addRoomMusic(rm_missing, "event:/music/boss/painter", undefined, undefined)
 addRoomMusic(tutorial_1, "event:/music/tutorial", undefined, undefined)
 addRoomMusic(hub_paintstudio, "event:/music/hub", undefined, function(arg0, arg1, arg2)
 {

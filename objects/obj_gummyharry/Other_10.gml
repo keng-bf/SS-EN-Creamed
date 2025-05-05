@@ -1,4 +1,4 @@
-if (DestroyedBy.object_index == obj_parent_player || DestroyedBy.object_index == obj_player1 || DestroyedBy.object_index == obj_player2)
+if (DestroyedBy.object_index == obj_parent_player || DestroyedBy.object_index == obj_player1)
 {
 	if (place_meeting(x - DestroyedBy.hsp, y, DestroyedBy))
 	{

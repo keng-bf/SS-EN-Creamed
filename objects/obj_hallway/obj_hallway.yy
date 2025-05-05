@@ -28,8 +28,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"targetRoom","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"rm_missing","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ResetSaveroom","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"targetRoom","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"rm_missing","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ResetSaveroom","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":3,},
   ],
   "solid": false,
   "spriteId": {

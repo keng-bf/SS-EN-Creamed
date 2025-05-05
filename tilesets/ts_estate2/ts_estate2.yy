@@ -24,7 +24,7 @@
     "name": "Cafe",
     "path": "texturegroups/Cafe",
   },
-  "tile_count": 840,
+  "tile_count": 841,
   "tileAnimation": {
     "FrameData": [
       0,
@@ -867,6 +867,7 @@
       837,
       838,
       839,
+      840,
     ],
     "SerialiseFrameCount": 1,
   },

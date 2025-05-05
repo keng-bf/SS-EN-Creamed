@@ -10,11 +10,11 @@
   "androidPermissions": [
     "android.permission.RECORD_AUDIO",
   ],
-  "androidProps": true,
+  "androidProps": false,
   "androidsourcedir": "",
   "author": "",
   "classname": "Fmod_iOS",
-  "copyToTargets": 3035426153142681806,
+  "copyToTargets": 64,
   "date": "2025-04-20T07:54:11.4755746+08:00",
   "description": "",
   "exportToGame": true,
@@ -2281,7 +2281,7 @@
   "ioscodeinjection": "<YYIosPlist>\r\n\r\n<key>NSMicrophoneUsageDescription</key>\n<string>${YYEXTOPT_FMOD_iosMicAccessDesc}</string>\n\r\n</YYIosPlist>",
   "iosdelegatename": "",
   "iosplistinject": "\r\n\r\n<key>NSMicrophoneUsageDescription</key>\n<string>${YYEXTOPT_FMOD_iosMicAccessDesc}</string>\n\r\n",
-  "iosProps": true,
+  "iosProps": false,
   "iosSystemFrameworkEntries": [],
   "iosThirdPartyFrameworkEntries": [
     {"resourceType":"GMExtensionFrameworkEntry","resourceVersion":"1.0","name":"libYYFMOD.xcframework","embed":0,"weakReference":false,},
@@ -2336,8 +2336,8 @@
   "optionsFile": "options.json",
   "packageId": "",
   "parent": {
-    "name": "Extensions",
-    "path": "folders/Fmod/Extensions.yy",
+    "name": "Fmod",
+    "path": "folders/Extensions/Fmod.yy",
   },
   "productId": "",
   "sourcedir": "",
@@ -2350,7 +2350,7 @@
   "tvosmaccompilerflags": "",
   "tvosmaclinkerflags": "",
   "tvosplistinject": "",
-  "tvosProps": true,
+  "tvosProps": false,
   "tvosSystemFrameworkEntries": [],
   "tvosThirdPartyFrameworkEntries": [
     {"resourceType":"GMExtensionFrameworkEntry","resourceVersion":"1.0","name":"libYYFMOD.xcframework","embed":0,"weakReference":false,},

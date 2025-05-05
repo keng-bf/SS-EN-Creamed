@@ -581,3 +581,8 @@ function meta_pizzano_please()
 		argumentDescriptions: []
 	};
 }
+
+function sh_fun(arg0)
+{
+	global.GLOBAL_FUN = arg0[1]
+}

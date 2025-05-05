@@ -91,7 +91,7 @@ if (!global.freezeframe)
 global.ComboFreeze = clamp(global.ComboFreeze, 0, 15)
 global.ComboTime = clamp(global.ComboTime, 0, 60)
 
-if (!global.freezeframe && !instance_exists(obj_fadeoutTransition) && global.ComboFreeze <= 0)
+if (!global.freezeframe && !instance_exists(obj_fadeoutTransition) && global.ComboFreeze <= 0 && !is_tutorial())
 	global.ComboTime = approach(global.ComboTime, 0, 0.15)
 
 var c_title = floor(global.Combo / 5)

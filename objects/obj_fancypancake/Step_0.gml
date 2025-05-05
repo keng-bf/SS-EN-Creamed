@@ -13,7 +13,6 @@ if (state != PlayerState.titlescreen)
 	scr_scareenemy()
 
 enemyAttackTimer = max(enemyAttackTimer - 1, 0)
-ragereset = max(ragereset - 1, 0)
 
 if (point_in_rectangle(obj_parent_player.x, obj_parent_player.y, x - 100, y - 50, x + 100, y + 50) && obj_parent_player.state != PlayerState.door && obj_parent_player.state != PlayerState.comingoutdoor)
 {
@@ -24,7 +23,6 @@ if (point_in_rectangle(obj_parent_player.x, obj_parent_player.y, x - 100, y - 50
 		create_heat_afterimage(AfterImageType.plain)
 		state = PlayerState.titlescreen
 		sprite_index = spr_golfburger_golf
-		enemyAttackTimer = 200
 	}
 }
 
@@ -35,3 +33,22 @@ else
 
 if (invisFrames > 0)
 	invisFrames--
+
+if (hitboxcreate == 0 && sprite_index == spr_golfburger_golf)
+{
+    hitboxcreate = 1;
+    
+    with (instance_create(x, y, obj_crackerkicker_kickhitbox, 
+    {
+        ID: other.id
+    }))
+    {
+        ID = other.id;
+        image_xscale = other.image_xscale;
+        image_index = other.image_index;
+        depth = -1;
+    }
+}
+
+if (state == PlayerState.titlescreen && obj_parent_player.state != PlayerState.doughmount && obj_parent_player.state != PlayerState.doughmountspin && !place_meeting(x + (5 * image_xscale), y, obj_parent_player))
+    state = PlayerState.frozen;

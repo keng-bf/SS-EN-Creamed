@@ -26,7 +26,7 @@ function get_panic()
 
 function chance(arg0)
 {
-	return random(100) <= arg0;
+	return (debug_mode ? true : (random(100) <= arg0));
 }
 
 function wave(arg0, arg1, arg2, arg3, arg4 = global.CurrentTime)

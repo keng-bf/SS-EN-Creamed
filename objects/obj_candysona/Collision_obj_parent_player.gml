@@ -13,9 +13,9 @@ if (!instance_exists(candyID))
 	sprite_index = baddieSpriteDead
 	create_particle((x - sprite_xoffset) + (sprite_width / 2), (y - sprite_yoffset) + (sprite_height / 2), spr_bangEffect)
 	
-	repeat (3)
+	repeat 3
 	{
-		with (create_debris(x, y, spr_slapstar))
+		with create_debris(x, y, spr_slapstar)
 		{
 			hsp = random_range(-5, 5)
 			vsp = random_range(-10, 10)

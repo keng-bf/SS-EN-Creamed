@@ -1,3 +1,4 @@
+var _drawx,_drawy,_xs,_ys
 depth = -25
 sucrose_lighting = false
 sucrose_color = 0
@@ -28,8 +29,8 @@ drawBaddieSprite = function(arg0 = id)
 {
 	with (arg0)
 	{
-		var _drawx = x + (46 * squashValueY)
-		var _drawy = y + (46 * squashValueX)
+		_drawx = x + (46 * squashValueY)
+		_drawy = y + (46 * squashValueX)
 		
 		if (global.freezeframe && markedForDeath)
 		{
@@ -37,8 +38,8 @@ drawBaddieSprite = function(arg0 = id)
 			_drawy += irandom_range(-1, 1)
 		}
 		
-		var _xs = (abs(image_xscale) + squashValueX) * sign(image_xscale)
-		var _ys = yscale - squashValueX
+		_xs = (abs(image_xscale) + squashValueX) * sign(image_xscale)
+		_ys = yscale - squashValueX
 		
 		if (hasSquashedY)
 		{
@@ -49,7 +50,7 @@ drawBaddieSprite = function(arg0 = id)
 		if (yscale <= -1)
 			_drawy += 47
 		
-		if (!is_undefined(paletteSprite))
+		if !is_undefined(paletteSprite)
 		{
 			pal_swap_set(paletteSprite, paletteSelect, false)
 			draw_sprite_ext(sprite_index, image_index, _drawx, _drawy, _xs, _ys, image_angle, image_blend, image_alpha)

@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_coneball_new",
-    "path": "sprites/spr_coneball_new/spr_coneball_new.yy",
+    "name": "spr_coneball",
+    "path": "sprites/spr_coneball/spr_coneball.yy",
   },
   "spriteMaskId": {
     "name": "spr_player_mask",

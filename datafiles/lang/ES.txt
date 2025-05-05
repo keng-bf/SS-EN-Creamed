@@ -3,7 +3,7 @@
 #-----------------------#
 
 # Game Version.
-"version" :	"v4.0.0.0"
+"version" :	"v4.0.1.0"
 # This value matches the version of the game the lang file was last updated for.
 # It will not always match the in-game version number.
 
@@ -140,7 +140,7 @@
 "democritic_3_c" : "Umm... ¡Sería mejor si\nEl Painter me\ndibujara!"
 "democritic_3_b" : "Umm... Yo lo hubiera\nhecho mejor..."
 "democritic_3_a" : "Umm... Un estilo único,\nsupongo..."
-"democritic_3_s" : "Umm... ¡Los colores aquí\nson inpecables!"
+"democritic_3_s" : "Umm... ¡Los colores aquí\nson impecables!"
 "democritic_3_p" : "Umm... ¡No puedo dejar\nde ver esta pieza!"
 
 "democritic_4_d" : "Oui... Que alguien\ntraiga mi machete..."
@@ -301,7 +301,7 @@
 "judgmentinfo_fine_2"          : "[j_painter_pose,upset]Pero, ¿acaso no sentiste algo más en mis pinturas? [delay][j_painter_pose,normal]Me entristece que has fallado en apreciar la profundidad de cada una de ellas."
 "judgmentinfo_fine_3"          : "[j_painter_pose,devious]Independientemente, confitera, lo has hecho aceptablemente."
 
-"judgmentinfo_perfect_1"       : "[j_painter_pose,devious]No solo has logrado recuperar toda mi preciosa TINTA, ¡sino que también lo haz echo con niveles grandes de elegancia!"
+"judgmentinfo_perfect_1"       : "[j_painter_pose,devious]No solo has logrado recuperar toda mi preciosa TINTA, ¡sino que también lo has hecho con niveles grandes de elegancia!"
 "judgmentinfo_perfect_2"       : "[j_painter_pose,devious]Temía que tu metida de pata haría enfurecer a los Críticos, ¡pero nunca antes los había visto tan enamorados!"
 "judgmentinfo_perfect_3"       : "[j_painter_pose,normal]Y no me equivocaría en decir que vos saliste feliz también, ¿no?  [j_painter_pose,upset]¡No creas que no te he cachado mientras llenabas tus bolsillos mientras estabas ocupada \"admirando\" mis pinturas!"
 "judgmentinfo_perfect_4"       : "[j_painter_pose,devious]¡Ja! Bromeo. Te lo has ganado, confitera. ¡Tu actuación esta noche fue más que maravillosa!"
@@ -353,18 +353,18 @@
 "prompt_intro_skip" : "Saltar"
 
 # Hurt Milestone Prompt.
-"prompt_hurt" : "Haz lastimado /1 /2 veces..."
+"prompt_hurt" : "Has lastimado /1 /2 veces..."
 
 # Progress-related prompts.
-"prompt_confecti_found"      : "¡Haz encontrado /1 Confecti de 5!"
-"prompt_last_confecti_found" : "¡Haz encontrado los 5 Confecti!"
+"prompt_confecti_found"      : "¡Has encontrado /1 Confecti de 5!"
+"prompt_last_confecti_found" : "¡Has encontrado los 5 Confecti!"
 
 # Slightly different prompt for the tutorial.
 # Ice Pop's grandkids aren't "real" confecti, hence the use of air quotes.
-"prompt_tut_confecti_found"      : "¡Haz encontrado /1 \"Confecti\" de 5!"
-"prompt_tut_last_confecti_found" : "¡Haz encontrado los 5 \"Confecti\"!"
+"prompt_tut_confecti_found"      : "¡Has encontrado /1 \"Confecti\" de 5!"
+"prompt_tut_last_confecti_found" : "¡Has encontrado los 5 \"Confecti\"!"
 
-"prompt_secret_found"     : "Haz encontrado el /1 Secreto. ¡/2 de 3!"
+"prompt_secret_found"     : "Has encontrado el /1 Secreto. ¡/2 de 3!"
 
 # Ordinals used in some prompts.
 "prompt_ord_first" : "Primer"
@@ -405,7 +405,7 @@
 "winname_entryway": "Una ciudad bajo construcción en la Exhibición Nocturna"
 "winname_cotton"  : "Una muy vaporosa y algonodera Exhibición Nocturna"
 "winname_mines"   : "Una cueva oscura y aterradora debajo de la Exhibición Nocturna"
-"winname_swamp"   : "Un pantano pegajozo y de mierda, igual que la Exhibición Nocturna"
+"winname_swamp"   : "Un pantano pegajoso y lleno de mierda, igual que la Exhibición Nocturna"
 
 # Hub
 "winname_hub": "¡Bienvenido a la Exhibición Nocturna!"
@@ -418,7 +418,7 @@
 "winname_intro"      : "Exhibición Nocturna: La Película"
 "winname_logos"      : "La pintura está por secarse en la Exhibición Nocturna"
 "winname_disclaimer" : "Una advertencia antes de la Exhibición Nocturna"
-"winname_fileselect" : "Haz una oferta en la Exhibición Nocturna"
+"winname_fileselect" : "Has una oferta en la Exhibición Nocturna"
 "winname_levelselect": "Escogiendo tu pintura favorita en la Exhibición Nocturna"
 "winname_devroom"    : "Las pinceladas detrás de la Exhibición Nocturna"
 "winname_titlecard"  : "¿Te gusta lo que vez en la Exhibición Nocturna?"

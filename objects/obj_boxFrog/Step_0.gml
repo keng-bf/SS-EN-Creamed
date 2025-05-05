@@ -1,17 +1,9 @@
-if (!wearingBox)
-{
-	baddieSpriteIdle = spr_boxfrog_idle
-	baddieSpriteWalk = spr_boxfrog_idle
-}
-else
-{
-	baddieSpriteIdle = spr_boxfrog_boxidle
-	baddieSpriteWalk = spr_boxfrog_boxidle
-}
+baddieSpriteIdle = (!wearingBox ? spr_boxfrog_idle : spr_boxfrog_boxidle)
+baddieSpriteWalk = (!wearingBox ? spr_boxfrog_idle : spr_boxfrog_boxidle)
 
 event_inherited()
 
-if (!global.freezeframe)
+if !global.freezeframe
 	canGetScared = !(state == PlayerState.titlescreen || wearingBox)
 
 enemyAttack_TriggerEvent()
@@ -33,7 +25,7 @@ if (state == PlayerState.titlescreen && (sprite_index == spr_boxfrog_jump || spr
 {
 	doRedAfterImage = true
 	
-	if (!instance_exists(hurtboxID))
+	if !instance_exists(hurtboxID)
 	{
 		with (instance_create(x, y, obj_forkhitbox, 
 		{

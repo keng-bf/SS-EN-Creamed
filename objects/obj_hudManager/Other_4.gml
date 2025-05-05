@@ -29,11 +29,11 @@ with (HUDObject_TV)
 			break
 		
 		case "sucrose":
-			tvBG_index = 11
+			tvBG_index = 10
 			break
 		
 		default:
-			tvBG_index = 12
+			tvBG_index = 8
 			break
 	}
 	

@@ -1,0 +1,13 @@
+global.panic = false
+global.Treasure = false
+global.rank = "d"
+global.Combo = 0
+global.ComboTime = 0
+global.ComboFreeze = 0
+global.ComboLost = false
+global.secretfound = 0
+global.Collect = 0
+global.SecretsFound[0] = false
+global.SecretsFound[1] = false
+global.SecretsFound[2] = false
+global.lapcount = 0
