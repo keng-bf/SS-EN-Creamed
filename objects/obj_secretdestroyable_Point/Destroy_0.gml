@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	var val = 10
 	create_small_number((x - sprite_xoffset) + (sprite_width / 2), (y - sprite_yoffset) + (sprite_height / 2), string(val))

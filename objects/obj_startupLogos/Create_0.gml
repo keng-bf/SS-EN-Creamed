@@ -5,3 +5,5 @@ logoChangeBufferMax = 100
 logoChangeBuffer = logoChangeBufferMax
 completed = false
 playedGnome = false
+if global.skipintro
+	room_goto_fixed(rm_mainmenu)

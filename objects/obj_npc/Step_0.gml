@@ -1,7 +1,7 @@
 speaking = place_meeting(x, y, obj_parent_player)
 sprite_index = speaking ? speak : idle
 
-if (voice_cooldown > speaking)
+if voice_cooldown > speaking
 	voice_cooldown--
 
 mytex_x -= 0.5

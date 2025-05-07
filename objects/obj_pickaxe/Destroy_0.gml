@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	for (var i = 0; i < sprite_get_number(spr_pickaxeDebris); i++)
 	{
@@ -7,5 +7,5 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
 	}
 	
 	create_particle(x, y, spr_bangEffect)
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 }

@@ -18,8 +18,8 @@ if (!place_meeting(x, y - 1, obj_destructibles) && !place_meeting(x, y - 1, obj_
 			other.SpoutID = id
 		}
 		
-		if (ds_list_find_index(global.SaveRoom, id) == -1)
-			ds_list_add(global.SaveRoom, id)
+		if !in_saveroom()
+			add_saveroom()
 	}
 }
 

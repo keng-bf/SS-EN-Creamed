@@ -1,18 +1,6 @@
-var old = draw_get_font()
-var wave_x = wave(-5, 5, 5, 20)
+var old = draw_get_font(),wave_x = wave(-5, 5, 5, 20),msg = text,textheight = string_height_scribble_ext("[wave][c_black][npcfont]" + text, 800),total_lines = round(textheight / 32),my_height = (total_lines + 1) * 32,tgty,active = speaking,drawing
 draw_set_font(global.npcfont)
-var msg = text
-var textheight = string_height_scribble_ext("[wave][c_black][npcfont]" + text, 800)
-var total_lines = round(textheight / 32)
-var my_height = (total_lines + 1) * 32
-var tgty
-
-if (total_lines == 1)
-	tgty = max(my_height, 96)
-else
-	tgty = max(my_height, 128)
-
-var active = speaking
+tgty = ((total_lines == 1) ? max(my_height, 96) : max(my_height, 128))
 draw_set_font(old)
 
 switch (ropetype)
@@ -29,7 +17,7 @@ switch (ropetype)
 		break
 }
 
-var drawing = true
+drawing = true
 boxy = max(boxy, -tgty)
 
 if (active)
@@ -45,13 +33,11 @@ if (active)
 		boxvsp += 0.35
 		boxy = approach(boxy, 50, boxvsp)
 		
-		if (boxy >= 50)
+		if boxy >= 50
 			boxstate = 1
 	}
 	else
-	{
 		boxy = lerp(boxy, 30 + wave(-2, 2, 4, 0), 0.2)
-	}
 }
 else
 {
@@ -59,23 +45,23 @@ else
 	boxvsp = 0
 	boxy = approach(boxy, -tgty, 5)
 	
-	if (boxy <= -tgty)
+	if boxy <= -tgty
 		drawing = false
 }
 
-if (!drawing)
+if !drawing
 {
 	event_perform(ev_cleanup, 0)
 	exit
 }
 
-if (!surface_exists(mysurf))
+if !surface_exists(mysurf)
 	mysurf = surface_create(960, tgty)
 
-if (!surface_exists(mycut))
+if !surface_exists(mycut)
 	mycut = surface_create(960, tgty)
 
-if (surface_exists(mycut))
+if surface_exists(mycut)
 {
 	surface_set_target(mycut)
 	draw_set_color(c_white)
@@ -86,7 +72,7 @@ if (surface_exists(mycut))
 	surface_reset_target()
 }
 
-if (surface_exists(mysurf))
+if surface_exists(mysurf)
 {
 	surface_set_target(mysurf)
 	draw_set_color(c_white)

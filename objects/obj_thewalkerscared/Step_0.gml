@@ -2,9 +2,9 @@ var target_player = get_nearestPlayer()
 
 if (distance_to_object(target_player) <= 350)
 {
-	if (ds_list_find_index(global.SaveRoom, id) == -1)
+	if !in_saveroom()
 	{
-		ds_list_add(global.SaveRoom, id)
+		add_saveroom()
 		moving = true
 		image_xscale *= -1
 	}

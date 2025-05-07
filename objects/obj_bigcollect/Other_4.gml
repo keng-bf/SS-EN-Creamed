@@ -1,6 +1,6 @@
 with (instance_place(x, y, obj_collectablebox))
 {
-	if (ds_list_find_index(global.SaveRoom, id) == -1 && !activated)
+	if (!in_saveroom() && !activated)
 	{
 		other.collectvanish = true
 		other.collectboxid = id
@@ -10,5 +10,5 @@ with (instance_place(x, y, obj_collectablebox))
 	}
 }
 
-if (ds_list_find_index(global.SaveRoom, id) != -1)
+if in_saveroom()
 	instance_destroy()

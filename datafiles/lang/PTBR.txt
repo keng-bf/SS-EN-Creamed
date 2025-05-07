@@ -543,6 +543,7 @@
 # Modification Submenu
 "opt_mod_lap3" : "VOLTA 3"
 "opt_mod_fps" : "FPS"
+"opt_mod_skipintro" : "PULAR INTRO"
 
 # Language Submenu
 "opt_access_lang" : "IDIOMA"

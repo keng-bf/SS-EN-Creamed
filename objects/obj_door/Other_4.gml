@@ -1,13 +1,13 @@
 with (instance_place(x, y, obj_parent_doortrigger))
 	other.targetDoor = id_door
 
-if (place_meeting(x, y, obj_parent_player) && ds_list_find_index(global.SaveRoom, id) == -1)
+if (place_meeting(x, y, obj_parent_player) && !in_saveroom())
 {
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 	showDoorLight = false
 }
 
-if (ds_list_find_index(global.SaveRoom, id) != -1)
+if in_saveroom()
 	showDoorLight = false
 
 if (!useCustomSprite)

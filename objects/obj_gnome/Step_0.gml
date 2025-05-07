@@ -1,11 +1,8 @@
 don += 0.35
 
-if ((place_meeting(x, y, obj_donut_mines_collect) || (place_meeting(x, y, obj_parent_player) && global.Donutfollow)) && ds_list_find_index(global.SaveRoom, id) == -1)
+if (((place_meeting(x, y, obj_parent_player) && global.Donutfollow)) && !in_saveroom())
 {
-	with (instance_place(x, y, obj_parent_donut))
-		instance_destroy()
-	
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 	global.ComboTime = 60
 	sprite_index = spr_gnomeMinerBlowingUp
 	image_index = 0

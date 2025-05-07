@@ -52,7 +52,7 @@ with (obj_parent_player)
 			
 			with (other)
 			{
-				ds_list_add(global.SaveRoom, id)
+				add_saveroom()
 				sprite_index = spriteDoorUnlocked
 				image_index = 0
 				image_speed = 0.35

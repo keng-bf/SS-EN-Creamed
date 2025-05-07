@@ -1,9 +1,6 @@
 function gate_createlayer(arg0, arg1, arg2 = 0, arg3 = 0, arg4 = 0)
 {
-	var w = sprite_get_width(arg0)
-	var h = sprite_get_height(arg0)
-	var x1 = sprite_get_xoffset(arg0)
-	var y1 = sprite_get_yoffset(arg0)
+	var w = sprite_get_width(arg0),h = sprite_get_height(arg0),x1 = sprite_get_xoffset(arg0),y1 = sprite_get_yoffset(arg0)
 	return 
 	{
 		sprite_index: arg0,
@@ -44,10 +41,7 @@ function default_gate_scroll(arg0)
 
 function default_gate_parallax(arg0)
 {
-	var length = sprite_get_number(arg0)
-	var arr = []
-	var xoffset = x
-	var yoffset = y - (sprite_height / 2)
+	var length = sprite_get_number(arg0),arr = [],xoffset = x,yoffset = y - (sprite_height / 2)
 	
 	for (var i = length; i > 0; i--)
 	{

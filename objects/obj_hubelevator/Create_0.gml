@@ -1,7 +1,21 @@
 depth = 10
 state = PlayerState.frozen
 var i = 0
+
 hub_array[i++] = [hub_paintstudio, "E N"]
+hub_array[i++] = [internship_floor1, "I FLOOR 1"]
+hub_array[i++] = [internship_floor2, "I FLOOR 2"]
+hub_array[i++] = [rm_missing, "TBA"]
+hub_array[i++] = [rm_missing, "TBA"]
+hub_array[i++] = [rm_missing, "TBA"]
+hub_array[i++] = [rm_missing, "TBA"]
+hub_array[i++] = [rm_missing, "TBA"]
+hub_array[i++] = [rm_missing, "TBA"]
+hub_array[i++] = [rm_missing, "TBA"]
+hub_array[i++] = [rm_missing, "TBA"]
+hub_array[i++] = [rm_missing, "TBA"]
+hub_array[i++] = [rm_devroom, "DEV"]
+
 drawx = 0
 drawy = 0
 surface2 = -4

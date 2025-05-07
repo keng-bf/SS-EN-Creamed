@@ -1,2 +1,2 @@
-if (save_trigger && ds_list_find_index(global.SaveRoom, id) != -1)
+if (save_trigger && in_saveroom())
 	event_user(0)

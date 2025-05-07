@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	var room_name = room_get_name(room)
 	var secret_number = real(string_char_at(room_name, string_length(room_name))) - 1
@@ -18,6 +18,6 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
 			scr_queueTVAnimation(global.TvSprPlayer_Secret, time)
 		}
 		
-		ds_list_add(global.SaveRoom, id)
+		add_saveroom()
 	}
 }

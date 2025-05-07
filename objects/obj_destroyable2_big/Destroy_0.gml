@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	with (instance_create((x - sprite_xoffset) + (sprite_width / 2), (y - sprite_yoffset) + (sprite_height / 2), obj_puffEffect))
 	{
@@ -18,5 +18,5 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
 	global.ComboTime += 45
 	global.Collect += val
 	global.PizzaMeter += 5
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 }

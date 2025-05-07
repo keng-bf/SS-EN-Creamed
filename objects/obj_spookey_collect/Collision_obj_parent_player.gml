@@ -1,7 +1,7 @@
 if (!scr_player_check_normal(other))
 	exit
 
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	with (other)
 	{
@@ -31,7 +31,7 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
 			
 			with (other)
 			{
-				ds_list_add(global.SaveRoom, id)
+				add_saveroom()
 				instance_destroy()
 			}
 		}

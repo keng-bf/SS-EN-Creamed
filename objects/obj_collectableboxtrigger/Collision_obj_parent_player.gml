@@ -1,6 +1,6 @@
 if (global.panic || !panicmode)
 {
-	if (ds_list_find_index(global.SaveRoom, id) == -1 && can_activate && !activated)
+	if (!in_saveroom() && can_activate && !activated)
 	{
 		with (obj_collectablebox)
 		{
@@ -15,7 +15,7 @@ if (global.panic || !panicmode)
 		}
 		
 		activated = true
-		ds_list_add(global.SaveRoom, id)
+		add_saveroom()
 		instance_destroy()
 	}
 }

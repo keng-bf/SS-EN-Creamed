@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.BaddieRoom, id) != -1)
+if in_baddieroom()
 	instance_destroy(id, false)
 
 if (escapeEnemy)

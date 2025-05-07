@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.BaddieRoom, id) != -1 && !importantEnemy)
+if (in_baddieroom() && !importantEnemy)
 	exit
 
 repeat (3)
@@ -33,7 +33,7 @@ if (giveScore)
 	global.ComboScore += _score
 }
 
-ds_list_add(global.BaddieRoom, id)
+add_baddieroom()
 
 if (escapeEnemy)
-	ds_list_add(global.EscapeRoom, id)
+	add_escaperoom()

@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	repeat (2)
 	{
@@ -26,5 +26,5 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
 	scr_sleep()
 	global.ComboTime = 60
 	global.Combo++
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 }

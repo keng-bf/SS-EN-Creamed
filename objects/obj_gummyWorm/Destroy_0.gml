@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	create_particle(random_range(bbox_left, bbox_right), random_range(bbox_top, bbox_bottom), spr_parryeffect)
 	create_debris(random_range(bbox_left, bbox_right), random_range(bbox_top, bbox_bottom), spr_gummywormdebrishead)
@@ -25,7 +25,7 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
 	var _score = 10 + floor(global.Combo / 2)
 	global.Collect += _score
 	global.ComboScore += _score
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 	
 	with (obj_gummyWormBump)
 	{

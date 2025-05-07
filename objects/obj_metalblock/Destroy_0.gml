@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	var rep = 3 + round(sprite_width / 32)
 	
@@ -15,5 +15,5 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
 	create_particle((x - sprite_xoffset) + (sprite_width / 2), (y - sprite_yoffset) + (sprite_height / 2), spr_bangEffect)
 	camera_shake_add(20, 40)
 	event_play_oneshot("event:/SFX/general/breakmetal", x, y)
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 }

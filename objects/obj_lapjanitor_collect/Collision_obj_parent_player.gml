@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	instance_create(x, y, obj_lapjanitor)
 	
@@ -10,6 +10,6 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
 	
 	event_play_oneshot("event:/SFX/general/collectfollower")
 	global.ComboTime = 60
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 	instance_destroy()
 }

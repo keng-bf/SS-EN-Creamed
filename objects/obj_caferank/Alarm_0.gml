@@ -1,4 +1,4 @@
-if (collect > 0)
+if collect > 0
 {
 	var difference = (collect >= 10) ? 10 : collect
 	global.Collect += difference

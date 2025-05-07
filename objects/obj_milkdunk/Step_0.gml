@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	if (place_meeting(x, y - 64, obj_parent_player))
 	{

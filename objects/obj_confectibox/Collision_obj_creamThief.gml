@@ -17,5 +17,5 @@ if (other.state == PlayerState.titlescreen)
 		create_debris(random_range(bbox_left, bbox_right), random_range(bbox_top, bbox_bottom), spr_confecticage_debris)
 	
 	instance_destroy()
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 }

@@ -21,7 +21,7 @@ with (obj_parent_player)
 			
 			with (other)
 			{
-				ds_list_add(global.SaveRoom, id)
+				add_saveroom()
 				image_index = 0
 				sprite_index = spr_lapdooropen
 				image_speed = 0.35

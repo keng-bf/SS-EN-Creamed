@@ -206,11 +206,11 @@ switch (optionMenu)
 		{
 			quick_write_option("Settings", "fps", arg0)
 			global.fps = arg0
-		}, global.fps)/*, new option_normal("opt_mod", onOffToggle, function(arg0)
+		}, global.fps), new option_normal("opt_mod_skipintro", onOffToggle, function(arg0)
 		{
-			quick_write_option("Settings", "opt_timerType", arg0)
-			global.option_timer_type = arg0
-		}, global.option_timer_type), new option_normal("opt_mod", onOffToggle, function(arg0)
+			quick_write_option("Settings", "skipintro", arg0)
+			global.skipintro = arg0
+		}, global.skipintro)/*, new option_normal("opt_mod", onOffToggle, function(arg0)
 		{
 			quick_write_option("Settings", "timerspeedrun", arg0)
 			global.option_speedrun_timer = arg0

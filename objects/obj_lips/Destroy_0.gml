@@ -17,4 +17,4 @@ global.ComboTime = 60
 with (obj_sucroseTimer)
 	timer += time_in_frames(0, 3)
 
-ds_list_add(global.BaddieRoom, id)
+add_baddieroom()

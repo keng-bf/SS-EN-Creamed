@@ -34,10 +34,6 @@ output = function()
 			continue
 		
 		image_alpha = approach(image_alpha, target_alpha, 0.05)
-		
-		if (image_alpha <= 0)
-			y = 540
-		else
-			y = ystart
+		y = ((image_alpha <= 0) ? 540 : ystart)
 	}
 }

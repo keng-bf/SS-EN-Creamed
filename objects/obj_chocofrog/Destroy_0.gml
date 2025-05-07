@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	event_play_oneshot("event:/SFX/enemies/kill")
 	event_play_oneshot((object_index == obj_chocofrog) ? "event:/SFX/general/frogdeathbig" : "event:/SFX/general/frogdeath", x, y)
@@ -24,5 +24,5 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
 	with (instance_create((x - sprite_xoffset) + (sprite_width / 2), (y - sprite_yoffset) + (sprite_height / 2), obj_baddieDead))
 		sprite_index = other.deadSpr
 	
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 }

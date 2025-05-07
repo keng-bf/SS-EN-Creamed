@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	event_play_multiple("event:/SFX/general/collect", x, y)
 	
@@ -7,7 +7,7 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
 	
 	instance_destroy(obj_milkblock)
 	global.CafeDrawer.dunk = true
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 }
 
 sprite_index = spr_milkgoal_filled

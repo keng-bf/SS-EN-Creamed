@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	var rep = 3 + round(sprite_width / 32)
 	
@@ -9,5 +9,5 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
 	}
 	
 	event_play_multiple("event:/SFX/general/breakblock", x, y)
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 }

@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) != -1 || playerID == -4)
+if (in_saveroom() || playerID == -4)
 	exit
 
 if (playerID.minesGemCount < 4)
@@ -34,4 +34,4 @@ var val = playerID.minesGemCount
 fmod_studio_system_set_parameter_by_name("collectedGems", val, true)
 event_play_multiple("event:/SFX/general/gemCollect", x, y)
 global.ComboTime += 10
-ds_list_add(global.SaveRoom, id)
+add_saveroom()

@@ -1,4 +1,4 @@
-if (instance_exists(obj_creamThief) && ds_list_find_index(global.SaveRoom, id) == -1)
+if (instance_exists(obj_creamThief) && !in_saveroom())
 {
 	with (obj_creamThief)
 	{
@@ -9,5 +9,5 @@ if (instance_exists(obj_creamThief) && ds_list_find_index(global.SaveRoom, id) =
 		image_index = 0
 	}
 	
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 }

@@ -1,4 +1,4 @@
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	sprite_get_destroyable_smoke(debrisSprite)
 	var rep = 3 + round(sprite_width / 32)
@@ -18,7 +18,7 @@ if (ds_list_find_index(global.SaveRoom, id) == -1)
 	else
 		event_play_multiple("event:/SFX/general/wormKill", (x - sprite_xoffset) + (sprite_width / 2), (y - sprite_yoffset) + (sprite_height / 2))
 	
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 }
 
 for (var i = 0; i < array_length(tiles); i++)

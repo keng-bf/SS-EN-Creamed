@@ -1,4 +1,4 @@
-var _raceOver = ds_list_find_index(global.SaveRoom, id) != -1
+var _raceOver = in_saveroom()
 var _ind = ds_list_find_index(global.SaveRoom, id)
 var _won = ds_list_find_value(global.SaveRoom, _ind + 1)
 var _killed = ds_list_find_index(global.SaveRoom, string("{0}Killed", id)) != -1

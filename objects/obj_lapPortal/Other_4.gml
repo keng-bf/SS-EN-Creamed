@@ -1,6 +1,6 @@
 if (global.lapcount > (global.lap3 ? 1 : 0))
 {
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 	instance_destroy()
 	exit
 }
@@ -28,7 +28,7 @@ if (global.panic && sprite_index != spr_lappingportal_inactive)
 	}
 }
 
-if (ds_list_find_index(global.SaveRoom, id) != -1)
+if in_saveroom()
 {
 	if (instance_exists(obj_lapjanitor_CutscenePointer))
 		instance_destroy(obj_lapjanitor_CutscenePointer)

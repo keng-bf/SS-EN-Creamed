@@ -3,7 +3,7 @@ onewayDeathSprite = spr_popcornowdead
 onewayRank = 0
 solidid = -4
 
-if (ds_list_find_index(global.SaveRoom, id) == -1)
+if !in_saveroom()
 {
 	with (instance_create(x, y, obj_solid))
 	{

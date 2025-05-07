@@ -26,7 +26,7 @@ if (!instance_exists(candyID))
 	
 	event_play_oneshot("event:/SFX/enemies/kill")
 	vsp = random_range(-5, -10)
-	ds_list_add(global.SaveRoom, id)
+	add_saveroom()
 	hsp = sign(x - obj_parent_player.x) * random_range(10, 15)
 	
 	if (x != obj_parent_player.x)

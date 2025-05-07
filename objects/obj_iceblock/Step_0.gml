@@ -65,7 +65,7 @@ switch (state)
 		if (baddieID != -4 && !instance_exists(baddieID))
 		{
 			instance_destroy()
-			ds_list_add(global.SaveRoom, id)
+			add_saveroom()
 		}
 		
 		break
