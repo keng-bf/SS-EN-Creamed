@@ -64,7 +64,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6DCBAEAD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hubelevator","path":"objects/obj_hubelevator/obj_hubelevator.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":800.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7BA4C803","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorE","path":"objects/obj_doorE/obj_doorE.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":768.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"ImportedMap","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":29,"SerialiseWidth":60,"TileCompressedData":[
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"ImportedMap","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":28,"SerialiseWidth":60,"TileCompressedData":[
 -61,1,2,2,3,-54,4,13,5,6,1,1,7,8,9,10,11,12,13,14,15,-5,13,2,16,17,-7,13,2,11,12,-11,13,2,18,19,-12,13,2,268435473,19,-4,13,6,20,21,1,1,4,1610612749,-34,0,2,22,23,-6,24,2,268435479,268435478,
 -10,0,6,25,4,1,1,4,1610612749,-34,0,2,22,23,-6,24,2,268435479,268435478,-10,0,6,1342177289,4,1,1,4,1610612749,-34,0,2,22,23,-6,24,2,268435479,268435478,-10,0,6,26,4,1,1,4,27,-23,0,3,28,29,30,-8,0,2,22,23,-6,24,
 2,268435479,268435478,-10,0,6,1073741837,4,1,1,4,31,-23,0,3,32,33,34,-8,0,2,22,23,-6,24,2,268435479,268435478,-10,0,6,1073741838,4,1,1,4,1610612749,-20,0,6,35,36,37,38,39,40,-8,0,2,22,23,-6,24,2,268435479,268435478,-10,0,6,1073741836,
@@ -82,7 +82,7 @@
 310,255,239,-6,242,2,311,4,-12,1,5,312,313,314,315,316,-5,78,3,317,318,319,-5,78,1,231,-4,78,97,302,0,0,22,23,320,321,322,323,324,1,1,325,326,327,328,329,330,331,332,333,334,335,1342177294,4,1,336,337,338,339,340,
 341,342,343,344,345,346,347,346,346,348,349,350,351,352,353,353,354,355,356,338,357,358,359,360,361,362,363,364,346,346,365,366,353,353,367,368,369,370,371,338,372,373,374,353,375,346,346,376,377,338,378,379,380,355,381,326,382,383,384,326,
 385,326,386,326,326,387,-4,326,2,388,389,-3,326,3,390,326,391,-4,326,5,392,326,393,394,395,-3,326,2,396,397,-7,326,1,398,-12,326,7,399,326,326,400,401,402,403,-3,404,21,405,406,407,408,409,410,411,401,412,413,414,414,415,
-412,416,417,418,419,420,421,422,-5,410,27,423,424,425,425,426,427,428,412,420,429,430,431,417,432,433,434,435,436,437,438,439,440,413,414,414,441,442,-60,0,],"TileDataFormat":1,},"tilesetId":{"name":"ts_devroom","path":"tilesets/ts_devroom/ts_devroom.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
+412,416,417,418,419,420,421,422,-5,410,27,423,424,425,425,426,427,428,412,420,429,430,431,417,432,433,434,435,436,437,438,439,440,413,414,414,441,442,],"TileDataFormat":1,},"tilesetId":{"name":"ts_devroom","path":"tilesets/ts_devroom/ts_devroom.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":0.35,"animationSpeedType":1,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":1.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bg_secretArea","path":"sprites/bg_secretArea/bg_secretArea.yy",},"stretch":false,"userdefinedAnimFPS":true,"userdefinedDepth":true,"visible":true,"vspeed":1.0,"vtiled":true,"x":0,"y":0,},
   ],
   "parent": {
@@ -98,7 +98,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "roomSettings": {
-    "Height": 900,
+    "Height": 896,
     "inheritRoomSettings": false,
     "persistent": false,
     "Width": 1920,
