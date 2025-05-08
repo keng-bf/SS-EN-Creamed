@@ -3,20 +3,9 @@ function scr_confecti_normal()
 	if (sprite_index != spr_appear)
 	{
 		if (x != real_x)
-		{
-			if (global.panic == 0)
-				sprite_index = spr_run
-			else
-				sprite_index = spr_runpanic
-		}
-		else if (global.panic == 0)
-		{
-			sprite_index = spr_idle
-		}
+			sprite_index = !global.panic ? spr_run : spr_runpanic
 		else
-		{
-			sprite_index = spr_panic
-		}
+			sprite_index = !global.panic ? spr_idle : spr_panic
 	}
 	
 	var _dir = 0

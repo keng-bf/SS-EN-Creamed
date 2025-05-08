@@ -39,18 +39,12 @@ if (key_jump2)
 		instance_destroy()
 	}
 	else
-	{
 		deleteFileBuffer++
-	}
 }
 else if (key_slap2 || key_start2)
-{
 	instance_destroy()
-}
 else
-{
 	deleteFileBuffer = 0
-}
 
 image_speed = max((deleteFileBuffer / (deleteFileBufferMax - 50)) * 0.65, 0.25)
 

@@ -1,6 +1,6 @@
 function scr_escapebgs()
 {
-	if (global.panic == 1 || (instance_exists(obj_sucroseTimer) && obj_sucroseTimer.time_til_timed == 0))
+	if (global.panic || (instance_exists(obj_sucroseTimer) && obj_sucroseTimer.time_til_timed == 0))
 	{
 		layer_change_background(bg_entryway1_fgBuildings, bg_entryway1_fgBuildings_escape)
 		layer_change_background(bg_entryway1_bgBuildings, bg_entryway1_bgBuildings_escape)

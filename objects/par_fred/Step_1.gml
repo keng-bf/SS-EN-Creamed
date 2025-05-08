@@ -1,5 +1,4 @@
-var dis = -4
-var _id = -4
+var dis = -4,_id = -4
 
 with (obj_parent_player)
 {

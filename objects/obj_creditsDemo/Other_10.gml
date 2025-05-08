@@ -1,22 +1,4 @@
-var catSoda = addCategory("credits_lead");
-var catDirectors = addCategory("credits_directors");
-var catProgrammers = addCategory("credits_programmers");
-var catArtist = addCategory("credits_artists");
-var catLevels = addCategory("credits_levels");
-var catMusicians = addCategory("credits_music");
-var catSFX = addCategory("credits_sfx");
-var catQA = addCategory("credits_qa");
-var catLocalizationHead = addCategory("credits_langhead");
-var catLocalizationES = addCategory("credits_langES");
-var catLocalizationRU = addCategory("credits_langRU");
-var catLocalizationPTBR = addCategory("credits_langPTBR");
-var catVoicework = addCategory("credits_voice");
-var catBredi = addCategory("credits_trailer");
-var catWebsite = addCategory("credits_website");
-var catPlaytest = addCategory("credits_playtest");
-var catSpecial = addCategory("credits_thanks");
-var catPizza = addCategory("credits_tdp");
-var catYou = addCategory("credits_and");
+var catSoda = addCategory("credits_lead"),catDirectors = addCategory("credits_directors"),catProgrammers = addCategory("credits_programmers"),catArtist = addCategory("credits_artists"),catLevels = addCategory("credits_levels"),catMusicians = addCategory("credits_music"),catSFX = addCategory("credits_sfx"),catQA = addCategory("credits_qa"),catLocalizationHead = addCategory("credits_langhead"),catLocalizationES = addCategory("credits_langES"),catLocalizationRU = addCategory("credits_langRU"),catLocalizationPTBR = addCategory("credits_langPTBR"),catVoicework = addCategory("credits_voice"),catBredi = addCategory("credits_trailer"),catWebsite = addCategory("credits_website"),catPlaytest = addCategory("credits_playtest"),catSpecial = addCategory("credits_thanks"),catPizza = addCategory("credits_tdp"),catYou = addCategory("credits_and");
 
 addCredit(catSoda, "Sodamang", [spr_candysona_idle6, spr_candysona_dead6]);
 
@@ -165,13 +147,7 @@ addCredit(catPizza, "Post Elvis");
 
 addCredit(catYou, lang_get("credits_you"), [spr_player_PZ_idleAnim_credits, spr_player_PZ_stun]).playerPalette = true;
 
-var cindex = 0;
-var unsetSprites = [
-	[spr_grandpop, spr_grandpop_freed],
-	[spr_icegrandson, spr_icegrandson_panic],
-	[spr_grandpacone, spr_grandpacone_speak]
-];
-var set_last = array_length(unsetSprites) - 1;
+var cindex = 0,unsetSprites = [[spr_grandpop, spr_grandpop_freed],[spr_icegrandson, spr_icegrandson_panic],[spr_grandpacone, spr_grandpacone_speak]],set_last = array_length(unsetSprites) - 1;
 for (var c = 0; c < categoryCount; c++)
 {
 	var cat = creditEntries[c][1];

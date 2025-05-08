@@ -1,7 +1,7 @@
 if (global.panic)
 	sprite_index = openSpr
 
-if (place_meeting(x, y, obj_parent_player) && obj_parent_player.state != PlayerState.comingoutdoor && sprite_index == openSpr && global.panic == 0 && obj_parent_player.sprite_index != obj_parent_player.spr_lookdoor && sprite_index != closedspr)
+if (place_meeting(x, y, obj_parent_player) && obj_parent_player.state != PlayerState.comingoutdoor && sprite_index == openSpr && !global.panic && obj_parent_player.sprite_index != obj_parent_player.spr_lookdoor && sprite_index != closedspr)
 {
 	add_saveroom()
 	sprite_index = closingSpr

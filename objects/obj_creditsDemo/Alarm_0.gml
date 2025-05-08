@@ -1,8 +1,4 @@
-var nameArr = creditEntries[currentCategory][1]
-var allDone = true
-var cCount = -1
-var catLast = false
-var len = array_length(nameArr)
+var nameArr = creditEntries[currentCategory][1],allDone = true,cCount = -1,catLast = false,len = array_length(nameArr)
 
 for (var i = 0; i < len; i++)
 {

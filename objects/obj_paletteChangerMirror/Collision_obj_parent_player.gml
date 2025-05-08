@@ -1,8 +1,6 @@
 with (other)
 {
-	var inp = input_check_pressed("up") - input_check_pressed("down")
-	var inpup = input_get("up").pressed || input_get("upC").pressed
-	var inpdown = input_get("down").pressed || input_get("downC").pressed
+	var inp = input_check_pressed("up") - input_check_pressed("down"),inpup = input_get("up").pressed || input_get("upC").pressed,inpdown = input_get("down").pressed || input_get("downC").pressed
 	inp = inpup - inpdown
 	
 	if (inp != 0 && grounded && state == PlayerState.normal)
