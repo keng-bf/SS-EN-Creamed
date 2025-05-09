@@ -7,19 +7,19 @@ function room_goto_fixed(index)
 }
 function is_preGame(arg0 = room)
 {
-	var special_rooms = [rm_preinitializer, rm_initializer, rm_startupLogo, rm_introVideo, rm_mainmenu, rm_credits, rm_disclaimer]
+	var special_rooms = [rm_preinitializer, rm_initializer, rm_startupLogo, rm_introVideo, rm_mainmenu, rm_credits, rm_disclaimer, rm_virtualcontrollerload]
 	return array_contains(special_rooms, arg0);
 }
 
 function scr_roomcheck(arg0 = room)
 {
-	var special_rooms = [rm_initializer, rm_preinitializer, rm_startupLogo, rm_devroom, rm_introVideo, rank_room, timesuproom, rm_mainmenu, rm_credits, rm_disclaimer, rm_blank]
+	var special_rooms = [rm_initializer, rm_preinitializer, rm_startupLogo, rm_devroom, rm_introVideo, rank_room, timesuproom, rm_mainmenu, rm_credits, rm_disclaimer, rm_blank, rm_virtualcontrollerload]
 	return !array_contains(special_rooms, arg0);
 }
 
 function is_hub(arg0 = room)
 {
-	var hub_rooms = [hub_soundTest, hub_demohallway, hub_paintstudio, hub_molasses, hub_mindpalace, hub_mindvault, rm_credits, internship_floor1, internship_floor2, tower_1, tower_2, tower_3, tower_4, tower_5]
+	var hub_rooms = [hub_soundTest, hub_demohallway, hub_paintstudio, hub_molasses, hub_mindpalace, hub_mindvault, rm_credits, internship_floor1, internship_floor2, tower_entrancehall, tower_johngutterhall,tower_1, tower_2, tower_3, tower_4, tower_5]
 	return array_contains(hub_rooms, arg0);
 }
 

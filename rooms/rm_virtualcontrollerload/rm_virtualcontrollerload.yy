@@ -1,0 +1,92 @@
+{
+  "resourceType": "GMRoom",
+  "resourceVersion": "1.0",
+  "name": "rm_virtualcontrollerload",
+  "creationCodeFile": "rooms/rm_virtualcontrollerload/RoomCreationCode.gml",
+  "inheritCode": false,
+  "inheritCreationOrder": false,
+  "inheritLayers": false,
+  "instanceCreationOrder": [
+    {"name":"inst_4200810D","path":"rooms/rm_virtualcontrollerload/rm_virtualcontrollerload.yy",},
+    {"name":"inst_30E10430","path":"rooms/rm_virtualcontrollerload/rm_virtualcontrollerload.yy",},
+    {"name":"inst_20E40CB3","path":"rooms/rm_virtualcontrollerload/rm_virtualcontrollerload.yy",},
+    {"name":"inst_13EACF12","path":"rooms/rm_virtualcontrollerload/rm_virtualcontrollerload.yy",},
+    {"name":"inst_1B92FD21","path":"rooms/rm_virtualcontrollerload/rm_virtualcontrollerload.yy",},
+    {"name":"inst_7A10FDB5","path":"rooms/rm_virtualcontrollerload/rm_virtualcontrollerload.yy",},
+    {"name":"inst_5AF54DC6","path":"rooms/rm_virtualcontrollerload/rm_virtualcontrollerload.yy",},
+    {"name":"inst_10D17282","path":"rooms/rm_virtualcontrollerload/rm_virtualcontrollerload.yy",},
+  ],
+  "isDnd": false,
+  "layers": [
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Buttons","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4200810D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_virtual_controller_manager","path":"objects/obj_virtual_controller_manager/obj_virtual_controller_manager.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":-32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_30E10430","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"keycode","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"\"load\"",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"mysprite","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"spr_button_load_big",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_20E40CB3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"keycode","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"\"save\"",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"mysprite","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"spr_button_save_big",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_13EACF12","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"keycode","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"\"delete\"",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"mysprite","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"spr_button_remove_big",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1B92FD21","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"mysprite","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"spr_button_cog_big",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"keycode","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"\"edit\"",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A10FDB5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"keycode","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"\"color\"",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"mysprite","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"spr_button_color",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5AF54DC6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"keycode","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"\"grid\"",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"mysprite","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"spr_button_grid",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"spr_pressed","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"spr_button_grid_pressed",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10D17282","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"keycode","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"\"addbutton\"",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_virtual_controller","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"propertyId":{"name":"mysprite","path":"objects/obj_virtual_controller/obj_virtual_controller.yy",},"value":"spr_button_add_big",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":32.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+  ],
+  "parent": {
+    "name": "Rooms",
+    "path": "folders/Rooms.yy",
+  },
+  "parentRoom": null,
+  "physicsSettings": {
+    "inheritPhysicsSettings": false,
+    "PhysicsWorld": false,
+    "PhysicsWorldGravityX": 0.0,
+    "PhysicsWorldGravityY": 10.0,
+    "PhysicsWorldPixToMetres": 0.1,
+  },
+  "roomSettings": {
+    "Height": 540,
+    "inheritRoomSettings": false,
+    "persistent": false,
+    "Width": 960,
+  },
+  "sequenceId": null,
+  "views": [
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+  ],
+  "viewSettings": {
+    "clearDisplayBuffer": true,
+    "clearViewBackground": false,
+    "enableViews": false,
+    "inheritViewSettings": false,
+  },
+  "volume": 1.0,
+}

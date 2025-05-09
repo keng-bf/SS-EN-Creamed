@@ -300,7 +300,7 @@ function define_palette_sprite(arg0, arg1 = [1, 2])
 	trace("INIT PAL BASE : ", _struct)
 }
 
-define_palette_sprite(Characters.Pizzelle, [0, 1, 13])
+define_palette_sprite(Characters.Pizzelle, [0, 1])
 define_player_palette(Characters.Pizzelle, "palette_PZ_default", 4259839, 3979494, 2631776, undefined, 13773959, 3736096, 9988216, 8628991, 14496)
 define_player_palette(Characters.Pizzelle, "palette_PZ_classic", 16777215, 13150344, 13150344, undefined)
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionnight", 12105936, 6907567, 2631776, undefined)
@@ -315,7 +315,6 @@ define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionentryway", unde
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionsteamy", undefined, 0, 16375551, spr_demopattern_steamy, 11042984, 15743104, 9461864)
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionmineshaft", undefined, 0, 8340489, spr_demopattern_mineshaft, 4771936, 5793792, 5793792)
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionmolasses", undefined, 0, 5793792, spr_demopattern_molasses, 1601784, 12464, 12464)
-define_player_palette(Characters.Pizzelle, "palette_PZ_pizzatowerjohn", undefined, 0, 13150344, spr_ptpattern_john)
 // https://chrisanselmo.com/gmcolor/
 var palette_surface = surface_create(1, 1)
 
