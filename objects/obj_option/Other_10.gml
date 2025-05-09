@@ -22,10 +22,16 @@ switch (optionMenu)
 		}).add_icon(spr_newpause_icons, 6), new option_button("opt_game", function()
 		{
 			option_goto(OptionMenu.Game)
-		}).add_icon(spr_newpause_icons, 8), new option_button("opt_controls", function()
+		}).add_icon(spr_newpause_icons, 8)]
+		if (os_type == os_windows)
 		{
-			option_goto(OptionMenu.Controls)
-		}).add_icon(spr_newpause_icons, 7)]
+			var controls_menu = new option_button("opt_controls", function()
+			{
+				option_goto(OptionMenu.Controls)
+			})
+			controls_menu.add_icon(spr_newpause_icons, 7)
+			array_push(options, controls_menu)
+		}
 		if (room == rm_mainmenu || is_hub())
 		{
 			var modification_menu = new option_button("opt_modification", function()
