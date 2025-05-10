@@ -18,6 +18,7 @@
     {"name":"inst_162645","path":"rooms/tower_johngutterhall/tower_johngutterhall.yy",},
     {"name":"inst_162646","path":"rooms/tower_johngutterhall/tower_johngutterhall.yy",},
     {"name":"inst_162647","path":"rooms/tower_johngutterhall/tower_johngutterhall.yy",},
+    {"name":"inst_78229A3","path":"rooms/tower_johngutterhall/tower_johngutterhall.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -37,6 +38,13 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_162645","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":15.000004,"scaleY":1.0,"x":640.0,"y":672.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_162646","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_slope","path":"objects/obj_slope/obj_slope.yy",},"properties":[],"rotation":0.0,"scaleX":-3.0,"scaleY":2.0,"x":1216.0,"y":672.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_162647","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_slope","path":"objects/obj_slope/obj_slope.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":2.0,"x":544.0,"y":672.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_78229A3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"level","path":"objects/obj_startGate/obj_startGate.yy",},"value":"entrance",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_startGate/obj_startGate.yy",},"value":"entrance_1",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"isEasel","path":"objects/obj_startGate/obj_startGate.yy",},"value":"False",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"sprite_index","path":"objects/obj_startGate/obj_startGate.yy",},"value":"spr_default_startgate",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"details","path":"objects/obj_startGate/obj_startGate.yy",},"value":"default_gate_scroll(spr_tutorial_startgateBG)",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":672.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":33,"SerialiseWidth":60,"TileCompressedData":[
 -32,51,6,460,461,462,463,464,465,-35,51,4,600,601,602,603,-15,51,6,480,481,482,483,484,485,-35,51,4,620,621,622,623,-15,51,6,500,501,502,503,504,505,-35,51,4,640,641,642,643,-15,51,6,520,521,522,523,524,525,-35,51,4,

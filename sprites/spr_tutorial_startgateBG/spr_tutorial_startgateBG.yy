@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_tutorial_stargateBG",
+  "name": "spr_tutorial_startgateBG",
   "bbox_bottom": 255,
   "bbox_left": 0,
   "bbox_right": 174,
@@ -57,7 +57,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_tutorial_stargateBG",
+    "name": "spr_tutorial_startgateBG",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -79,9 +79,9 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"57024fa8-cca9-4835-9931-990117789483","path":"sprites/spr_tutorial_stargateBG/spr_tutorial_stargateBG.yy",},},},"Disabled":false,"id":"e1b08917-b9c6-4e69-bdee-7a1b1b6c9886","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"689b3366-56e3-47d7-a998-dc011654fae6","path":"sprites/spr_tutorial_stargateBG/spr_tutorial_stargateBG.yy",},},},"Disabled":false,"id":"ecc4f865-dc04-479a-90f1-b5f006e3c367","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f2fbe7d7-6a81-4f54-a143-bbdfd3fa1e73","path":"sprites/spr_tutorial_stargateBG/spr_tutorial_stargateBG.yy",},},},"Disabled":false,"id":"232e999b-b2af-4bc3-bc02-a9f97ea21622","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"57024fa8-cca9-4835-9931-990117789483","path":"sprites/spr_tutorial_startgateBG/spr_tutorial_startgateBG.yy",},},},"Disabled":false,"id":"e1b08917-b9c6-4e69-bdee-7a1b1b6c9886","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"689b3366-56e3-47d7-a998-dc011654fae6","path":"sprites/spr_tutorial_startgateBG/spr_tutorial_startgateBG.yy",},},},"Disabled":false,"id":"ecc4f865-dc04-479a-90f1-b5f006e3c367","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f2fbe7d7-6a81-4f54-a143-bbdfd3fa1e73","path":"sprites/spr_tutorial_startgateBG/spr_tutorial_startgateBG.yy",},},},"Disabled":false,"id":"232e999b-b2af-4bc3-bc02-a9f97ea21622","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
