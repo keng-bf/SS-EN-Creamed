@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_janitor2NPC_idle2",
-    "path": "sprites/spr_janitor2NPC_idle2/spr_janitor2NPC_idle2.yy",
+    "name": "spr_janitorNPC_idle2",
+    "path": "sprites/spr_janitorNPC_idle2/spr_janitorNPC_idle2.yy",
   },
   "spriteMaskId": null,
   "visible": true,

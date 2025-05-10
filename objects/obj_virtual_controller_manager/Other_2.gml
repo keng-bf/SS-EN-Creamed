@@ -1,2 +1,2 @@
-scr_initinput()
+scr_getinput()
 alarm[0] = 1

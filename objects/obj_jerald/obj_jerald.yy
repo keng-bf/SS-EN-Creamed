@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_jerald",
-    "path": "sprites/spr_jerald/spr_jerald.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

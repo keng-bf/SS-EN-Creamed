@@ -216,11 +216,21 @@ switch (optionMenu)
 		{
 			quick_write_option("Settings", "skipintro", arg0)
 			global.skipintro = arg0
-		}, global.skipintro)/*, new option_normal("opt_mod", onOffToggle, function(arg0)
+		}, global.skipintro)
+		/*, new option_normal("opt_mod", onOffToggle, function(arg0)
 		{
 			quick_write_option("Settings", "timerspeedrun", arg0)
 			global.option_speedrun_timer = arg0
 		}, global.option_speedrun_timer)*/]
+		if (os_type == os_windows)
+		{
+			var virtual_controller = new option_normal("opt_virtualcontroller", onOffToggle, function(arg0)
+			{
+				quick_write_option("Settings", "virtualcontroller", arg0)
+				global.virtualcontroller = arg0
+			}, global.virtualcontroller)
+			array_push(options, virtual_controller)
+		}
 		
 		break
 	

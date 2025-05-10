@@ -3,7 +3,7 @@ depth = 5
 draw_flush()
 randomize()
 window_center()
-var temparray = ["Player", "Baddies", "HUD", "Structure", "Hub", "effectsGroup", "titleGroup"]
+var temparray = ["Player", "Baddies", "HUD", "Structure", "Hub", "effectsGroup", "titleGroup", "Buttons"]
 textureLoaderList = ds_list_create()
 
 for (var i = 0; i < array_length(temparray); i++)

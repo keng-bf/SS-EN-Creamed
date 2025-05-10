@@ -15,6 +15,7 @@ hub_array[i++] = [rm_missing, "TBA"]
 hub_array[i++] = [rm_missing, "TBA"]
 hub_array[i++] = [rm_missing, "TBA"]
 hub_array[i++] = [rm_devroom, "DEV"]
+hub_array[i++] = [hub_basement, "BASEMENT"]
 
 drawx = 0
 drawy = 0

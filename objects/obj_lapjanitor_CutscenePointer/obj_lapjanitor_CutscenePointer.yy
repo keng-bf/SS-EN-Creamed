@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_janitor2_idle",
-    "path": "sprites/spr_janitor2_idle/spr_janitor2_idle.yy",
+    "name": "spr_janitor_idle",
+    "path": "sprites/spr_janitor_idle/spr_janitor_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -481,63 +481,50 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 		case "showcollisions":
 			global.showcollisions = !global.showcollisions
 			event_perform_object(obj_virtual_controller_manager, ev_other, ev_room_start)
+			toggle_collision_function()
 		break
 		case "showcollision true":
 		case "showcollisions true":
 			global.showcollisions = true
 			event_perform_object(obj_virtual_controller_manager, ev_other, ev_room_start)
+			toggle_collision_function()
 		break
 		case "showcollision false":
 		case "showcollisions false":
 			global.showcollisions = false
 			event_perform_object(obj_virtual_controller_manager, ev_other, ev_room_start)
+			toggle_collision_function()
 		break
 		case "hidetile":
 		case "hidetiles":
-			layer_set_visible(layer_get_id("Tiles_BG"),false)
-			layer_set_visible(layer_get_id("Tiles_BG2"),false)
-			layer_set_visible(layer_get_id("Tiles_BG3"),false)
-			layer_set_visible(layer_get_id("Tiles_1"),false)
-			layer_set_visible(layer_get_id("Tiles_2"),false)
-			layer_set_visible(layer_get_id("Tiles_3"),false)
-			layer_set_visible(layer_get_id("Tiles_Foreground1"),false)
-			layer_set_visible(layer_get_id("Tiles_Foreground2"),false)
-			layer_set_visible(layer_get_id("Tiles_Foreground3"),false)
+			global.showtiles = false
+		show_tiles_function()
 		break
 		case "showtile":
 		case "showtiles":
-			global.hidetiles = false
-			layer_set_visible(layer_get_id("Tiles_BG"),true)
-			layer_set_visible(layer_get_id("Tiles_BG2"),true)
-			layer_set_visible(layer_get_id("Tiles_BG3"),true)
-			layer_set_visible(layer_get_id("Tiles_1"),true)
-			layer_set_visible(layer_get_id("Tiles_2"),true)
-			layer_set_visible(layer_get_id("Tiles_3"),true)
-			layer_set_visible(layer_get_id("Tiles_Foreground1"),true)
-			layer_set_visible(layer_get_id("Tiles_Foreground2"),true)
-			layer_set_visible(layer_get_id("Tiles_Foreground3"),true)
+			global.showtiles = true
+			show_tiles_function()
 		break
 		case "toggletile":
 		case "toggletiles":
-			global.hidetiles = !global.hidetiles
-				layer_set_visible(layer_get_id("Tiles_BG"),global.hidetiles)
-				layer_set_visible(layer_get_id("Tiles_BG2"),global.hidetiles)
-				layer_set_visible(layer_get_id("Tiles_BG3"),global.hidetiles)
-				layer_set_visible(layer_get_id("Tiles_1"),global.hidetiles)
-				layer_set_visible(layer_get_id("Tiles_2"),global.hidetiles)
-				layer_set_visible(layer_get_id("Tiles_3"),global.hidetiles)
-				layer_set_visible(layer_get_id("Tiles_Foreground1"),global.hidetiles)
-				layer_set_visible(layer_get_id("Tiles_Foreground2"),global.hidetiles)
-				layer_set_visible(layer_get_id("Tiles_Foreground3"),global.hidetiles)
+			global.showtiles = !global.showtiles
+			show_tiles_function()
 		break
-		case "character noise":
+		case "character pizzelle":
+		case "character PZ":
 			scr_player_changeCharacter(obj_parent_player, Characters.Pizzelle)
 		break
 		case "togglebinds":
 			global.showbinds = !global.showbinds
 		break
+		case "room_goto":
+			var roomnext = get_string_async("Target Room?", "rm_missing");
+			room_goto_fixed(roomnext)
+		case "pizzano_please":
+			show_message_async("NO LOL >:)")
+		break
 		case "help":
-			get_string_async("Available Commands: ","showcollisions <boolean>, panic <seconds>, hidetiles, showtiles, toggletiles, character <string>, instance_set_variable <obj_> <type> <variablename> <new value>,global_set_variable <type> <variablename> <new value>,spawn <obj_> <optional distance>, togglebinds,instance_set_variable_all <obj_> <type> <variablename> <new value>, exec <filename>, savecommand <commands>")
+			get_string_async("Available Commands: ","showcollisions <boolean>, panic <seconds>, hidetiles, showtiles, toggletiles, character <string>, instance_set_variable <obj_> <type> <variablename> <new value>,global_set_variable <type> <variablename> <new value>,spawn <obj_> <optional distance>, togglebinds,instance_set_variable_all <obj_> <type> <variablename> <new value>, exec <filename>, savecommand <commands>, room_goto, pizzano_please")
 		break
 	}
 }

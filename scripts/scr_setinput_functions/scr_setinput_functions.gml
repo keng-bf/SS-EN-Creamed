@@ -66,7 +66,10 @@ function scr_input_create()
 		}
 	}
 	
-	ini_open("optionData.ini")
+    if (os_type == os_android)
+        ini_open("/storage/emulated/0/Documents/sugary spire android/saves/optionData.ini.png");
+    else
+		ini_open("optionData.ini")
 	scr_input_ini_read("up", false, [38])
 	scr_input_ini_read("down", false, [40])
 	scr_input_ini_read("left", false, [37])

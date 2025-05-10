@@ -18,20 +18,19 @@ if(touch_id != -1)
         joy_x = 0;
         joy_y = 0;
     }
-	var p = obj_parent_player
 	var _up = (joy_y / radius < -joy_deadzone_y)
 	_up = _up ? keyboard_key_press : keyboard_key_release
-	_up(p.key_up)
-		
-	var _down = (joy_y / radius > joy_deadzone_y)
-	_down = _down ? keyboard_key_press : keyboard_key_release
-	_down(p.key_down)
-		
-	var _left = (joy_x / radius < -joy_deadzone_x)
-	_left = _left ? keyboard_key_press : keyboard_key_release
-	_left(p.key_left)
-		
-	var _right = (joy_x / radius > joy_deadzone_x)
-	_right = _right ? keyboard_key_press : keyboard_key_release
-	_right(p.key_right)
+    _up(vk_up);
+	
+    var _down = (joy_y / radius) > joy_deadzone_y;
+    _down = _down ? keyboard_key_press : keyboard_key_release;
+    _down(vk_down);
+	
+    var _left = (joy_x / radius) < -joy_deadzone_x;
+    _left = _left ? keyboard_key_press : keyboard_key_release;
+    _left(vk_left);
+	
+    var _right = (joy_x / radius) > joy_deadzone_x;
+    _right = _right ? keyboard_key_press : keyboard_key_release;
+    _right(vk_right);
 }

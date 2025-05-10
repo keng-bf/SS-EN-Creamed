@@ -22,7 +22,7 @@ if (global.panic && sprite_index != spr_lappingportal_inactive)
 	
 	with (obj_lapjanitor_CutscenePointer)
 	{
-		sprite_index = spr_janitor2_summonIntro
+		sprite_index = spr_janitor_summonIntro
 		image_index = 0
 		image_speed = 0
 	}

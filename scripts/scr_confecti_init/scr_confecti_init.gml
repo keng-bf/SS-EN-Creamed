@@ -89,13 +89,13 @@ function scr_confecti_init()
 		
 		case obj_lapjanitor:
 			bigTaunt = true
-			spr_idle = spr_janitor2_idle
-			spr_run = spr_janitor2_run
-			spr_runpanic = spr_janitor2_run
-			spr_panic = spr_janitor2_idle
-			spr_appear = spr_janitor2_jump
-			spr_supertaunt = spr_janitor2_taunt
-			spr_taunt = spr_janitor2_taunt
+			spr_idle = spr_janitor_idle
+			spr_run = spr_janitor_run
+			spr_runpanic = spr_janitor_run
+			spr_panic = spr_janitor_idle
+			spr_appear = spr_janitor_jump
+			spr_supertaunt = spr_janitor_taunt
+			spr_taunt = spr_janitor_taunt
 			global.janitorLapfollow = true
 			break
 	}
