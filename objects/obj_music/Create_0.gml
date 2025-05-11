@@ -82,6 +82,7 @@ addRoomMusic(hub_molasses, "event:/music/hub", undefined, function(arg0, arg1, a
 		fmod_studio_event_instance_set_parameter_by_name(arg1, "state", event_state, false)
 })
 addRoomMusic(entryway_1, "event:/music/w1/entryway", "event:/music/w1/entryway_secret", undefined)
+addRoomMusic(entrance_1, "event:/music/w1/entryway", "event:/music/w1/entryway_secret", undefined)
 addRoomMusic(steamy_1, "event:/music/w1/cottontown", "event:/music/w1/cottontown_secret", function(arg0, arg1, arg2)
 {
 	var event_state = undefined
