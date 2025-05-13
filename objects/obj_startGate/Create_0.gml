@@ -10,6 +10,7 @@ secretcanspit = false
 
 gotoLevel = function(arg0)
 {
+	var gate = self.isEasel
 	scr_gotoLevel(arg0)
 	obj_camera.chargeCameraX = 0
 	
@@ -17,15 +18,13 @@ gotoLevel = function(arg0)
 	{
 		image_index = 0
 		
-		if (true && global.InternalLevelName != "tutorial")
+		if (true && gate)
 		{
 			sprite_index = spr_enterpainting
 			event_play_oneshot("event:/SFX/general/enterpainting")
 		}
 		else
-		{
 			sprite_index = spr_entergate
-		}
 		
 		state = PlayerState.victory
 		targetDoor = "A"
@@ -64,9 +63,7 @@ saveSurfaceSprite = function()
 		sprite_delete(sp)
 	}
 	else
-	{
 		savedPaintSprite = sp
-	}
 }
 
 defineObject = function(arg0, arg1) constructor

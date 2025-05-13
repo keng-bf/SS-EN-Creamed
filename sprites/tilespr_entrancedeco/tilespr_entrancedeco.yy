@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "_decompiled_tile_entrancedeco",
-  "bbox_bottom": 726,
+  "name": "tilespr_entrancedeco",
+  "bbox_bottom": 836,
   "bbox_left": 0,
-  "bbox_right": 935,
+  "bbox_right": 621,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"85be6ed4-42e5-444d-938b-052c0c3acfda",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a58cabaf-50cb-4c74-b6c9-5e5e62af1052",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 972,
+  "height": 864,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d39976a4-3a5c-4526-a909-14283958ce42","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cc8c2453-6535-4c41-8a64-aad2446b6b78","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "GeneratedTileSprites",
-    "path": "folders/DecompilerGenerated/GeneratedTileSprites.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "_decompiled_tile_entrancedeco",
+    "name": "tilespr_entrancedeco",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"85be6ed4-42e5-444d-938b-052c0c3acfda","path":"sprites/_decompiled_tile_entrancedeco/_decompiled_tile_entrancedeco.yy",},},},"Disabled":false,"id":"8f702025-6836-4800-a69f-e28e45aa3f8e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a58cabaf-50cb-4c74-b6c9-5e5e62af1052","path":"sprites/tilespr_entrancedeco/tilespr_entrancedeco.yy",},},},"Disabled":false,"id":"7071694d-ca97-4cf2-9e41-13cc85c15c1d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 936,
+  "width": 640,
 }

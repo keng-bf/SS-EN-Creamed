@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "_decompiled_tile_towerfloor3",
-  "bbox_bottom": 984,
+  "name": "tilespr_towerfloor3",
+  "bbox_bottom": 1290,
   "bbox_left": 0,
-  "bbox_right": 1079,
+  "bbox_right": 639,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ce27bf35-c2b7-404f-934a-60a79d881ab8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"47547b9d-e74c-44d9-8f52-92e81b73e179",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1116,
+  "height": 1312,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"38d0410b-c4fe-4383-8eaf-49e3a9313abb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"13f4dfdd-3bf8-44bb-9f44-d4faa1d4b461","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "GeneratedTileSprites",
-    "path": "folders/DecompilerGenerated/GeneratedTileSprites.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "_decompiled_tile_towerfloor3",
+    "name": "tilespr_towerfloor3",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ce27bf35-c2b7-404f-934a-60a79d881ab8","path":"sprites/_decompiled_tile_towerfloor3/_decompiled_tile_towerfloor3.yy",},},},"Disabled":false,"id":"a9114680-3b82-4bd9-9570-6cf24704f1ad","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"47547b9d-e74c-44d9-8f52-92e81b73e179","path":"sprites/tilespr_towerfloor3/tilespr_towerfloor3.yy",},},},"Disabled":false,"id":"5e4c3049-2cfb-41b9-b297-47b7f466dac3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1080,
+  "width": 640,
 }

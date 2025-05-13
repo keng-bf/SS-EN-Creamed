@@ -44,12 +44,7 @@ function state_player_victory()
 	}
 	
 	if (place_meeting(x, y, obj_startGate))
-	{
-		if (true && global.InternalLevelName != "tutorial")
-			sprite_index = spr_enterpainting
-		else
-			sprite_index = spr_entergate
-		
+	{	
 		with (instance_place(x, y, obj_startGate))
 		{
 			other.x = approach(other.x, x, 5)

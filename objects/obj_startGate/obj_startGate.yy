@@ -35,7 +35,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"hideDetails","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"false","varType":3,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"targetRoom","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"entryway_1","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"targetDoor","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"A","varType":2,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"isEasel","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"True","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"isEasel","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"sprite_index","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_easelGate1","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"details","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"default_gate_scroll(spr_entryway_easelbg)","varType":4,},
   ],

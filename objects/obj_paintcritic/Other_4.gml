@@ -37,30 +37,19 @@ if (found_rank == "" || instance_exists(obj_tutorialBlock))
 
 var si = irandom_range(0, array_length(available_critics) - 1)
 
-if (lv == "tutorial")
+if lv == "tutorial"
 {
 	sprite_index = spr_grandpacone
 	image_speed = 0.35
 }
 else
-{
 	sprite_index = available_critics[si]
-}
 
-var xo = (sprite_get_width(spr_npcbubble) / 2) + 16
-var yo = (sprite_get_height(spr_npcbubble) / 2) + 16
+var xo = (sprite_get_width(spr_npcbubble) / 2) + 16,yo = (sprite_get_height(spr_npcbubble) / 2) + 16
 textbubble = instance_create(x - ((abs(sprite_width / 2) + xo) * image_xscale), bbox_top - yo, obj_npcbubble)
 
 with (textbubble)
 {
-	if (lv == "tutorial")
-	{
-		text = lang_get("democritic_icepop")
-		image_xscale = -other.image_xscale
-	}
-	else
-	{
-		text = lang_get(string("democritic_{0}_{1}", array_get_index(other.criticArr, other.sprite_index) + 1, found_rank))
-		image_xscale = -other.image_xscale
-	}
+	text = lang_get(lv == "tutorial" ? "democritic_icepop" : string("democritic_{0}_{1}", array_get_index(other.criticArr, other.sprite_index) + 1, found_rank))
+	image_xscale = -other.image_xscale
 }

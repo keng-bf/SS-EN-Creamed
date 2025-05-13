@@ -18,7 +18,7 @@ if (enter_gate)
 	self.gotoLevel(level)
 }
 
-if (!secretcanspit && array_contains(secrets, true) && level != "tutorial")
+if (!secretcanspit && array_contains(secrets, true) && isEasel)
 {
 	secretcanspit = true
 	

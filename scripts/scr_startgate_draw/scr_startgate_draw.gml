@@ -4,10 +4,8 @@ function scr_startgate_draw_normal()
 	
 	if fade < 1
 	{
-		if (!surface_exists(surf))
-		{
+		if !surface_exists(surf)
 			surf = surface_create(w, h)
-		}
 		else
 		{
 			surface_set_target(surf)
@@ -15,11 +13,11 @@ function scr_startgate_draw_normal()
 			draw_set_color(c_white)
 			i = array_length(details) - 1
 			
-			while (i >= 0)
+			while i >= 0
 			{
 				_layer = details[i]
 				
-				with (_layer)
+				with _layer
 				{
 					my_height = sprite_get_height(sprite_index)
 					x += hspeed

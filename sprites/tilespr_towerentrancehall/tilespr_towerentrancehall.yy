@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "_decompiled_tile_towerfloor5",
-  "bbox_bottom": 686,
+  "name": "tilespr_towerentrancehall",
+  "bbox_bottom": 1471,
   "bbox_left": 0,
-  "bbox_right": 1079,
+  "bbox_right": 633,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e3710899-7959-4d21-adbf-9c73206d6851",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"44eb25f9-558f-469c-949a-e589ae92af0b",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1116,
+  "height": 1472,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"abcb2e61-7749-4a02-b4b7-28408276c806","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"66a431ec-06f8-458c-a942-ebd72ff04438","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "GeneratedTileSprites",
-    "path": "folders/DecompilerGenerated/GeneratedTileSprites.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "_decompiled_tile_towerfloor5",
+    "name": "tilespr_towerentrancehall",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e3710899-7959-4d21-adbf-9c73206d6851","path":"sprites/_decompiled_tile_towerfloor5/_decompiled_tile_towerfloor5.yy",},},},"Disabled":false,"id":"1070a8f5-b169-4650-97d3-8e95613b8cfe","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"44eb25f9-558f-469c-949a-e589ae92af0b","path":"sprites/tilespr_towerentrancehall/tilespr_towerentrancehall.yy",},},},"Disabled":false,"id":"42c32814-9468-4f07-b11c-c667296bcf1e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1080,
+  "width": 640,
 }
