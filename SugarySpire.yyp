@@ -2850,6 +2850,7 @@
     {"id":{"name":"obj_clutterTrash","path":"objects/obj_clutterTrash/obj_clutterTrash.yy",},},
     {"id":{"name":"obj_minecart","path":"objects/obj_minecart/obj_minecart.yy",},},
     {"id":{"name":"obj_paintBucketDebris","path":"objects/obj_paintBucketDebris/obj_paintBucketDebris.yy",},},
+    {"id":{"name":"spr_lapbg2","path":"sprites/spr_lapbg2/spr_lapbg2.yy",},},
     {"id":{"name":"obj_bossstuffhandler","path":"objects/obj_bossstuffhandler/obj_bossstuffhandler.yy",},},
     {"id":{"name":"obj_fade_particle","path":"objects/obj_fade_particle/obj_fade_particle.yy",},},
     {"id":{"name":"obj_parent_confecti","path":"objects/obj_parent_confecti/obj_parent_confecti.yy",},},

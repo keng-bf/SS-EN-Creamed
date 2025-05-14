@@ -1,4 +1,4 @@
-var catSoda = addCategory("credits_lead"),catDirectors = addCategory("credits_directors"),catProgrammers = addCategory("credits_programmers"),catArtist = addCategory("credits_artists"),catLevels = addCategory("credits_levels"),catMusicians = addCategory("credits_music"),catSFX = addCategory("credits_sfx"),catQA = addCategory("credits_qa"),catLocalizationHead = addCategory("credits_langhead"),catLocalizationES = addCategory("credits_langES"),catLocalizationRU = addCategory("credits_langRU"),catLocalizationPTBR = addCategory("credits_langPTBR"),catVoicework = addCategory("credits_voice"),catBredi = addCategory("credits_trailer"),catWebsite = addCategory("credits_website"),catPlaytest = addCategory("credits_playtest"),catSpecial = addCategory("credits_thanks"),catPizza = addCategory("credits_tdp"),catYou = addCategory("credits_and");
+var catSoda = addCategory("credits_lead"),catDirectors = addCategory("credits_directors"),catProgrammers = addCategory("credits_programmers"),catArtist = addCategory("credits_artists"),catLevels = addCategory("credits_levels"),catMusicians = addCategory("credits_music"),catSFX = addCategory("credits_sfx"),catQA = addCategory("credits_qa"),catLocalizationHead = addCategory("credits_langhead"),catLocalizationES = addCategory("credits_langES"),catLocalizationRU = addCategory("credits_langRU"),catLocalizationPTBR = addCategory("credits_langPTBR"),catVoicework = addCategory("credits_voice"),catBredi = addCategory("credits_trailer"),catWebsite = addCategory("credits_website"),catPlaytest = addCategory("credits_playtest"),catSpecial = addCategory("credits_thanks"),catPizza = addCategory("credits_tdp"),catMod = addCategory("credits_mod"),catYou = addCategory("credits_and");
 
 addCredit(catSoda, "Sodamang", [spr_candysona_idle6, spr_candysona_dead6]);
 
@@ -144,6 +144,10 @@ addCredit(catPizza, "Sertif");
 addCredit(catPizza, "ClascyJitto");
 addCredit(catPizza, "Mr. Sauceman");
 addCredit(catPizza, "Post Elvis");
+
+addCredit(catMod, "keng-bf");
+addCredit(catMod, "anton669");
+addCredit(catMod, ".txt");
 
 addCredit(catYou, lang_get("credits_you"), [spr_player_PZ_idleAnim_credits, spr_player_PZ_stun]).playerPalette = true;
 

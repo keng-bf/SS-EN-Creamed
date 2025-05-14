@@ -444,6 +444,7 @@
 "credits_playtest"		: "Playtesting"
 "credits_thanks"		: "Special Thanks"
 "credits_tdp"			: "Tour de Pizza"
+"credits_mod"			: "Other"
 "credits_and"			: "And..."
 "credits_you"			: "You!"
 #-----------------------#

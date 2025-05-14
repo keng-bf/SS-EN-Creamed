@@ -3,3 +3,5 @@ down = 1
 movespeed = 2
 depth = -100
 sprite_index = lang_get_sprite(spr_lapbg)
+if global.lapcount == 2
+	sprite_index = spr_lapbg2
