@@ -210,10 +210,4 @@ addCategory = function(arg0)
 	return arr;
 }
 
-with (obj_parent_player)
-{
-	targetDoor = "A"
-	state = PlayerState.titlescreen
-}
-
 event_user(0)

@@ -2399,6 +2399,7 @@
     {"id":{"name":"scr_enemySounds","path":"scripts/scr_enemySounds/scr_enemySounds.yy",},},
     {"id":{"name":"scr_player_frostburn","path":"scripts/scr_player_frostburn/scr_player_frostburn.yy",},},
     {"id":{"name":"scribble_super_glyph_delete","path":"scripts/scribble_super_glyph_delete/scribble_super_glyph_delete.yy",},},
+    {"id":{"name":"obj_roomCheck2","path":"objects/obj_roomCheck2/obj_roomCheck2.yy",},},
     {"id":{"name":"scr_player_machtumble","path":"scripts/scr_player_machtumble/scr_player_machtumble.yy",},},
     {"id":{"name":"scr_escapetimes","path":"scripts/scr_escapetimes/scr_escapetimes.yy",},},
     {"id":{"name":"scr_enemy_eyescream","path":"scripts/scr_enemy_eyescream/scr_enemy_eyescream.yy",},},
