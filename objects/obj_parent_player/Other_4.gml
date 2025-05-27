@@ -9,6 +9,12 @@ with (obj_coneball_timesUp)
 	y = other.y
 	image_alpha = 0
 }
+with (obj_nullface)
+{
+	x = other.x
+	y = other.y
+	image_alpha = 0
+}
 
 with (obj_parent_confecti)
 {

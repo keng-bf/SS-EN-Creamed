@@ -444,7 +444,6 @@
 "credits_playtest"		: "Playtesting"
 "credits_thanks"		: "Special Thanks"
 "credits_tdp"			: "Tour de Pizza"
-"credits_mod"			: "Other"
 "credits_and"			: "And..."
 "credits_you"			: "You!"
 #-----------------------#
@@ -541,7 +540,7 @@
 "reset_clothes_confirm"     : "RESET CLOTHES PROGRESS"
 
 # Modification Submenu
-"opt_mod_lap3" : "LAP 3"
+"opt_mod_laphell" : "LAP HELL"
 "opt_mod_fps" : "FPS"
 "opt_mod_skipintro" : "SKIP INTRO"
 "opt_virtualcontroller" : "VIRTUAL CONTROLLER"

@@ -18,7 +18,7 @@ gotoLevel = function(arg0)
 	{
 		image_index = 0
 		
-		if (true && gate)
+		if gate
 		{
 			sprite_index = spr_enterpainting
 			event_play_oneshot("event:/SFX/general/enterpainting")

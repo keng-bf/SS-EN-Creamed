@@ -21,7 +21,10 @@ function cutscene_lapPortal_start()
 	
 	if (finished)
 	{
-		global.lapcount += 1
+		if global.panic
+			global.lapcount += 1
+		else
+			global.lapcount = 2
 		global.ComboTime = 60
 		
 		for (var i = 0; i < ds_list_size(global.EscapeRoom); i++)
@@ -47,13 +50,19 @@ function cutscene_lapPortal_start()
 		
 		ds_list_clear(global.EscapeRoom)
 		
-		if (!instance_exists(obj_fadeoutTransition))
+		if !instance_exists(obj_fadeoutTransition)
 		{
 			event_play_oneshot("event:/SFX/general/door")
 			instance_create(0, 0, obj_fadeoutTransition)
 		}
 		
+		if !global.panic
+		{
+			if !instance_exists(obj_practicemode)
+				instance_create(0, 0, obj_practicemode)
+		}
 		cutscene_event_end()
+		global.panic = 1
 	}
 }
 
@@ -119,6 +128,8 @@ function cutscene_lapPortal_end()
 			global.savedfill = global.EscapeTime
 		else if (global.lapcount == 2)
 			global.EscapeTime = 0
+		else if (global.lapcount == 3)
+			instance_create(0, 0, obj_yogurtexe)
 		
 		instance_create(0, 0, obj_lapvisual)
 		event_play_oneshot("event:/SFX/general/lap2start", x, y)

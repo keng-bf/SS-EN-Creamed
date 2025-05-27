@@ -19,7 +19,7 @@ function scr_roomcheck(arg0 = room)
 
 function is_hub(arg0 = room)
 {
-	var hub_rooms = [hub_soundTest, hub_demohallway, hub_paintstudio, hub_molasses, hub_mindpalace, hub_mindvault, rm_credits, internship_floor1, internship_floor2, tower_entrancehall, tower_johngutterhall,tower_1, tower_2, tower_3, tower_4, tower_5]
+	var hub_rooms = [hub_soundTest, hub_demohallway, hub_paintstudio, hub_molasses, hub_mindpalace, hub_mindvault, rm_credits, internship_floor1, internship_floor2, tower_entrancehall, tower_johngutterhall,tower_1, tower_2, tower_3, tower_4, tower_5, hub_basement]
 	return array_contains(hub_rooms, arg0);
 }
 

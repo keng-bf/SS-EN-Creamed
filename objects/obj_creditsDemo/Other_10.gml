@@ -148,6 +148,8 @@ addCredit(catPizza, "Post Elvis");
 addCredit(catMod, "keng-bf");
 addCredit(catMod, "anton669");
 addCredit(catMod, ".txt");
+addCredit(catMod, "FW_Lemon");
+addCredit(catMod, "CREAM");
 
 addCredit(catYou, lang_get("credits_you"), [spr_player_PZ_idleAnim_credits, spr_player_PZ_stun]).playerPalette = true;
 

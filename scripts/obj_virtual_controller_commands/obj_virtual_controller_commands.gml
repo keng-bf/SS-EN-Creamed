@@ -514,17 +514,22 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 		case "character PZ":
 			scr_player_changeCharacter(obj_parent_player, Characters.Pizzelle)
 		break
+		case "character pizzano":
+		case "character PN":
+			scr_player_changeCharacter(obj_parent_player, Characters.Pizzano)
+		break
+		case "character peppino":
+		case "character PP":
+			scr_player_changeCharacter(obj_parent_player, Characters.Peppino)
+		break
 		case "togglebinds":
 			global.showbinds = !global.showbinds
 		break
 		case "room_goto":
 			var roomnext = get_string_async("Target Room?", "rm_missing");
 			room_goto_fixed(roomnext)
-		case "pizzano_please":
-			show_message_async("NO LOL >:)")
-		break
 		case "help":
-			get_string_async("Available Commands: ","showcollisions <boolean>, panic <seconds>, hidetiles, showtiles, toggletiles, character <string>, instance_set_variable <obj_> <type> <variablename> <new value>,global_set_variable <type> <variablename> <new value>,spawn <obj_> <optional distance>, togglebinds,instance_set_variable_all <obj_> <type> <variablename> <new value>, exec <filename>, savecommand <commands>, room_goto, pizzano_please")
+			get_string_async("Available Commands: ","showcollisions <boolean>, panic <seconds>, hidetiles, showtiles, toggletiles, character <string>, instance_set_variable <obj_> <type> <variablename> <new value>,global_set_variable <type> <variablename> <new value>,spawn <obj_> <optional distance>, togglebinds,instance_set_variable_all <obj_> <type> <variablename> <new value>, exec <filename>, savecommand <commands>, room_goto")
 		break
 	}
 }

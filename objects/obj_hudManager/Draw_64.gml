@@ -1,14 +1,9 @@
-var coneballtimesup = spr_bartimer_showtime
-var coneballtimesup_text = spr_null
-coneballtimesup = spr_bartimer_blotchspotshowtime
-coneballtimesup_text = lang_get_sprite(spr_bartimer_blotchspotshowtime_text)
+var coneballtimesup = spr_bartimer_showtime,coneballtimesup_text = spr_null,coneballtimesup = spr_bartimer_blotchspotshowtime,coneballtimesup_text = lang_get_sprite(spr_bartimer_blotchspotshowtime_text)
 
 if (saveAlpha)
 {
 	saveAlpha = approach(saveAlpha, 0, 0.1)
-	var _yy = camera_get_view_height(view_camera[0])
-	var _offset = 0
-	var _font = draw_get_font()
+	var _yy = camera_get_view_height(view_camera[0]),_offset = 0,_font = draw_get_font()
 	draw_set_font(global.smalltimerfont)
 	var _str_h = string_height("A")
 	draw_set_font(_font)
@@ -36,16 +31,10 @@ if (!(is_hub() || is_tutorial() || !scr_roomcheck() || room == mineshaft_elevato
 {
 	with (HUDObject_comboMeter)
 	{
-		var _x = round(x)
-		var _y = round(y)
+		var _x = round(x),_y = round(y),border_sprite = sprite_get_info(spr_tvHUD_comboMeter_back),meter_sprite = sprite_get_info(elm_meterFill.sprite_index)
 		draw_sprite_ext(spr_tvHUD_comboMeter_back, 0, _x, _y, 1, 1, 0, c_white, 1)
-		var border_sprite = sprite_get_info(spr_tvHUD_comboMeter_back)
-		var meter_sprite = sprite_get_info(elm_meterFill.sprite_index)
-		
 		if (!surface_exists(comboSurface))
-		{
 			comboSurface = surface_create(meter_sprite.width, meter_sprite.height)
-		}
 		else
 		{
 			surface_set_target(comboSurface)

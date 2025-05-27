@@ -1,4 +1,4 @@
-if (global.lapcount > (global.lap3 ? 1 : 0))
+if (global.lapcount > (global.laphell ? 2 : 0))
 {
 	add_saveroom()
 	instance_destroy()

@@ -1,6 +1,6 @@
 function scr_getCharacterPrefix(arg0)
 {
-	var character_prefix = ["PZ"]
+	var character_prefix = ["PZ", "PN", "PP"]
 	return character_prefix[arg0];
 }
 
@@ -301,13 +301,29 @@ function define_palette_sprite(arg0, arg1 = [1, 2])
 }
 
 define_palette_sprite(Characters.Pizzelle, [0, 1])
+define_palette_sprite(Characters.Pizzano, [0, 1])
+define_palette_sprite(Characters.Peppino, [0, 1])
+
 define_player_palette(Characters.Pizzelle, "palette_PZ_default", 4259839, 3979494, 2631776, undefined, 13773959, 3736096, 9988216, 8628991, 14496)
+define_player_palette(Characters.Pizzano, "palette_PZ_default", 4259839, 3979494, 2631776, undefined, 13773959, 3736096, 9988216, 8628991, 14496)
+define_player_palette(Characters.Peppino, "palette_PZ_default", 4259839, 3979494, 2631776, undefined, 13773959, 3736096, 9988216, 8628991, 14496)
+
 define_player_palette(Characters.Pizzelle, "palette_PZ_classic", 16777215, 13150344, 13150344, undefined)
+define_player_palette(Characters.Pizzano, "palette_PZ_classic", 16777215, 13150344, 13150344, undefined)
+define_player_palette(Characters.Peppino, "palette_PZ_classic", 16777215, 13150344, 13150344, undefined)
+
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionnight", 12105936, 6907567, 2631776, undefined)
+define_player_palette(Characters.Pizzano, "palette_PZ_exhibitionnight", 12105936, 6907567, 2631776, undefined)
+define_player_palette(Characters.Peppino, "palette_PZ_exhibitionnight", 12105936, 6907567, 2631776, undefined)
+
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionred", 12512, 88, 88, undefined)
+
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionblack", 4800062, 2629656, 2629656, undefined)
+
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionpurple", 11230063, 7220541, 7220541, undefined, 9437384, 4194448, 12105936)
+
 define_player_palette(Characters.Pizzelle, "palette_PZ_noise", 8446200, 1607896, 1607896, undefined, 1607896, 14496, 14496)
+
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionbrain", undefined, 0, 4528756, spr_demopattern_brain, 6301864, 3670136, 3670136)
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionbraingold", undefined, 0, 88, spr_demopattern_brainGold, 12436, 2106960, 2106960)
 define_player_palette(Characters.Pizzelle, "palette_PZ_exhibitionpaper", undefined, 0, 16296056, spr_demopattern_paper, 16298128, 13660176, 13660176)

@@ -152,7 +152,7 @@ function do_grab(arg0 = state)
 				}
 			}
 		}
-		else if (global.playerCharacter == Characters.Pizzelle && sprite_index != spr_player_PZ_suplexDash_bump)
+		else if (sprite_index != spr_player_PZ_suplexDash_bump)
 		{
 			if (floatyGrab > 0)
 			{

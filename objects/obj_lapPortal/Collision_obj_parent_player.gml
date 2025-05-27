@@ -1,4 +1,4 @@
-if (other.state != PlayerState.actor && sprite_index == spr_lappingportal_idle && global.panic)
+if (other.state != PlayerState.actor && sprite_index == spr_lappingportal_idle && (global.laphell || global.panic))
 {
 	with (other)
 	{

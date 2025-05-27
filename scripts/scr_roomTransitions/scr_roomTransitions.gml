@@ -406,7 +406,7 @@ function cutscene_backtohub_start()
 		hsp = 0
 		vsp = 0
 		
-		if (true && room != hub_demohallway)
+		if (room == hub_paintstudio || room == hub_molasses)
 		{
 			scale = 0
 			sprite_index = spr_player_PZ_geyser

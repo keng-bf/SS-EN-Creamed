@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_treasure_sucrose",
-  "bbox_bottom": 67,
+  "bbox_bottom": 76,
   "bbox_left": 34,
-  "bbox_right": 66,
-  "bbox_top": 33,
+  "bbox_right": 64,
+  "bbox_top": 27,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"18f970ae-e089-44cd-a20c-2a0fa27910f7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"07a6ef8f-9889-4e9b-81e1-46e34be8f3ac",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3037e58b-c9eb-49ba-8025-87141a2997cb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6690099e-c8ce-4370-a524-d7f291c824e6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"18f970ae-e089-44cd-a20c-2a0fa27910f7","path":"sprites/spr_treasure_sucrose/spr_treasure_sucrose.yy",},},},"Disabled":false,"id":"dc45e753-13e8-47fa-96d1-d6255788b4d0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"07a6ef8f-9889-4e9b-81e1-46e34be8f3ac","path":"sprites/spr_treasure_sucrose/spr_treasure_sucrose.yy",},},},"Disabled":false,"id":"e4c36000-804c-4536-9ffb-e75bd4da5f7b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

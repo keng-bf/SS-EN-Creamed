@@ -182,11 +182,11 @@ function scr_gameInit()
 	global.showcollisions = false
 	global.showtiles = true
 	global.DebugVisuals = false
-	global.fartcounter = 0
+	global.fartcounter = 0/*
 	
 	if (global.DebugMode == DebugType.Dev || global.DebugMode == DebugType.Playtest)
 		global.showcollisions = true
-	
+	*/
 	global.parallaxbg_surface = -4
 	global.ParallaxMap = ds_map_create()
 	scr_default_parallax(true)

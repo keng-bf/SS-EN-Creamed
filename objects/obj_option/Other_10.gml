@@ -202,13 +202,13 @@ switch (optionMenu)
 		
 	case OptionMenu.Modification:
 		backMenu = OptionMenu.Base
-		backOption = 4
+		backOption = (os_type == os_windows ? 4 : 3)
 		alignCenter = false
-		options = [toMainPage, new option_normal("opt_mod_lap3", onOffToggle, function(arg0)
+		options = [toMainPage, new option_normal("opt_mod_laphell", onOffToggle, function(arg0)
 		{
-			quick_write_option("Settings", "lap3", arg0)
-			global.lap3 = arg0
-		}, global.lap3), new option_normal("opt_mod_fps", onOffToggle, function(arg0)
+			quick_write_option("Settings", "laphell", arg0)
+			global.laphell = arg0
+		}, global.laphell), new option_normal("opt_mod_fps", onOffToggle, function(arg0)
 		{
 			quick_write_option("Settings", "fps", arg0)
 			global.fps = arg0
@@ -236,7 +236,7 @@ switch (optionMenu)
 	
 	case OptionMenu.Language:
 		backMenu = OptionMenu.Base
-		backOption = 5
+		backOption = (os_type == os_windows ? 5 : 4)
 		alignCenter = false
 		break
 	

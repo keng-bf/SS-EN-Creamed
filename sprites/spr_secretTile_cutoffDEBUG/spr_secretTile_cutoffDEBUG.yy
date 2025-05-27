@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_secretTile_cutoffDEBUG",
   "bbox_bottom": 31,
-  "bbox_left": 26,
+  "bbox_left": 0,
   "bbox_right": 31,
   "bbox_top": 0,
   "bboxMode": 0,

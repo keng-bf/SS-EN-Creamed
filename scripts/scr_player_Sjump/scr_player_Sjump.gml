@@ -73,7 +73,7 @@ function state_player_Sjump()
 		image_index = 0
 		state = PlayerState.ceilingCrash
 	}
-	else if ((key_attack2 || inputBufferSlap > 0) && global.playerCharacter == Characters.Pizzelle && sprite_index != spr_player_PZ_fall_outOfControl && sprite_index != spr_superspring && sprite_index != spr_superjumpCancelIntro)
+	else if ((key_attack2 || inputBufferSlap > 0) && sprite_index != spr_player_PZ_fall_outOfControl && sprite_index != spr_superspring && sprite_index != spr_superjumpCancelIntro)
 	{
 		event_play_oneshot("event:/SFX/player/superjumpcancel", x, y)
 		image_index = 0

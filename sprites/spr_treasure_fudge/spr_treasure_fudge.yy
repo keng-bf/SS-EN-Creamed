@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_treasure_fudge",
-  "bbox_bottom": 67,
-  "bbox_left": 34,
+  "bbox_bottom": 71,
+  "bbox_left": 36,
   "bbox_right": 66,
-  "bbox_top": 33,
+  "bbox_top": 31,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f5708368-1ac5-48b9-a2a6-48b7d05d7dab",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0089d46c-9f01-4ead-9094-aa06099092ae",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"37c2a8ce-9697-4e69-a786-50ea03a8b074","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b2ff20a8-cd81-48d6-88c8-d0ce1162e577","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f5708368-1ac5-48b9-a2a6-48b7d05d7dab","path":"sprites/spr_treasure_fudge/spr_treasure_fudge.yy",},},},"Disabled":false,"id":"a3e512a5-4500-437d-b28e-f3947fda9fdf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0089d46c-9f01-4ead-9094-aa06099092ae","path":"sprites/spr_treasure_fudge/spr_treasure_fudge.yy",},},},"Disabled":false,"id":"98525949-5e6d-4270-9549-edb1919c90a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

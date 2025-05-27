@@ -121,7 +121,9 @@ enum PlayerState
 
 enum Characters
 {
-	Pizzelle = 0	
+	Pizzelle = 0,
+	Pizzano = 1,
+	Peppino = 2,
 }
 
 enum OptionMenu

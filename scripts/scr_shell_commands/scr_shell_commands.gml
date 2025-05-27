@@ -85,6 +85,14 @@ function sh_character(arg0)
 		case "Pizzelle":
 			choosen_character = Characters.Pizzelle
 			break
+			
+		case "Pizzano":
+			choosen_character = Characters.Pizzano
+			break
+			
+		case "Peppino":
+			choosen_character = Characters.Peppino
+			break
 	}
 	
 	scr_player_changeCharacter(obj_parent_player, choosen_character)
@@ -96,7 +104,7 @@ function meta_character()
 	{
 		description: "Change the character you're currently playing as.",
 		arguments: ["<character>"],
-		suggestions: [["Pizzelle"]],
+		suggestions: [["Pizzelle", "Pizzano", "Peppino"]],
 		argumentDescriptions: ["The character to switch to."]
 	};
 }
@@ -560,22 +568,6 @@ function meta_lang_reload()
 	return 
 	{
 		description: "Reload the lang directory",
-		arguments: [],
-		suggestions: [],
-		argumentDescriptions: []
-	};
-}
-
-function sh_pizzano_please(arg0)
-{
-	show_message("NO LOL >:)")
-}
-
-function meta_pizzano_please()
-{
-	return 
-	{
-		description: "Give U Pizzano",
 		arguments: [],
 		suggestions: [],
 		argumentDescriptions: []

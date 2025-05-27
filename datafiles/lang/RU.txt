@@ -540,9 +540,10 @@
 "reset_clothes_confirm"     : "СБРОСИТЬ ПРОГРЕСС ОДЁЖКИ"
 
 # Modification Submenu
-"opt_mod_lap3" : "КРУС 3"
+"opt_mod_laphell" : "КРУС HELL"
 "opt_mod_fps" : "FPS"
 "opt_mod_skipintro" : "ПРОПУСТИТЬ ВВОД"
+"opt_virtualcontroller" : "ВИРТУАЛЬНЫЙ КОНТРОЛЛЕР"
 
 # Language Submenu
 "opt_access_lang" : "ЯЗЫК"

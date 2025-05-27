@@ -3,7 +3,6 @@ selected = 0
 
 switch (global.playerCharacter)
 {
-	case Characters.Pizzelle:
 	default:
 		playerPauseSprite = spr_pizzelle_pause
 		break

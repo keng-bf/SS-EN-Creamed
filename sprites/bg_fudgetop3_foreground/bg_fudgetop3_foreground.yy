@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "bg_fudgetop3_foreground",
-  "bbox_bottom": 0,
+  "bbox_bottom": 539,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 959,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d1737e76-e865-4bc0-9924-c5e1e48f03f5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0ae3a431-a5e5-4efa-bbf6-5948802917b4",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 540,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"962bce5b-43d1-41e8-9aa9-49b68afb8fe3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2bc3fd64-98e6-4534-a2d3-7debb3802a0d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d1737e76-e865-4bc0-9924-c5e1e48f03f5","path":"sprites/bg_fudgetop3_foreground/bg_fudgetop3_foreground.yy",},},},"Disabled":false,"id":"80c80639-4091-4cdf-8115-851b3d5812c0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0ae3a431-a5e5-4efa-bbf6-5948802917b4","path":"sprites/bg_fudgetop3_foreground/bg_fudgetop3_foreground.yy",},},},"Disabled":false,"id":"1a49719c-c878-47a7-b0ee-5e2fdeeb223b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

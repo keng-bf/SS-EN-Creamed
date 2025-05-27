@@ -32,6 +32,8 @@ function scr_levelSet()
 	
 	instance_destroy(obj_cutsceneManager)
 	instance_destroy(obj_coneball_timesUp)
+	instance_destroy(obj_yogurtexe)
+	instance_destroy(obj_practicemode)
 	instance_destroy(obj_snowwalkparticles)
 	instance_destroy(obj_cafedrawer)
 	instance_destroy(obj_sucroseTimer)
