@@ -1,4 +1,5 @@
 scr_collision_init()
+sprite_index = scr_getCharacterSprite(spr_player_PZ_breakDanceBox)
 grav = 0.5
 depth = -4
 event_play_oneshot("event:/SFX/player/breakdanceSpawn", x, y)

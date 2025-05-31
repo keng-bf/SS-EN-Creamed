@@ -29,8 +29,8 @@ function state_player_normal()
 	
 	if (soundtest_check)
 	{
-		_idle_spr = spr_player_PZ_idle_dance
-		_move_spr = spr_player_PZ_walk_dance
+		_idle_spr = spr_idle_dance
+		_move_spr = spr_move_dance
 		_dontidle = true
 		_dontStep = true
 	}
@@ -71,8 +71,8 @@ function state_player_normal()
 			landAnim = false
 			slamHurt = 0
 			breakdanceSpeed = approach(breakdanceSpeed, 0.6, 0.005)
-			_idle_spr = spr_player_PZ_idle_breakdance
-			_move_spr = spr_player_PZ_idle_breakdance
+			_idle_spr = spr_idle_breakdance
+			_move_spr = spr_idle_breakdance
 			_dontidle = true
 			_dontStep = true
 			
@@ -133,7 +133,7 @@ function state_player_normal()
 				sprite_index = _idle_spr
 			}
 			
-			if (sprite_index != spr_player_PZ_walk_breakdance && sprite_index != spr_player_PZ_idle_breakdance && !_dontidle && sprite_index != spr_player_PZ_tired)
+			if (sprite_index != spr_move_breakdance && sprite_index != spr_idle_breakdance && !_dontidle && sprite_index != spr_player_PZ_tired)
 			{
 				if (idle < 300)
 				{
@@ -236,7 +236,7 @@ function state_player_normal()
 		image_speed = 0.35
 	}
 	
-	if (sprite_index == spr_player_PZ_walk_breakdance || sprite_index == spr_player_PZ_idle_breakdance)
+	if (sprite_index == spr_move_breakdance || sprite_index == spr_idle_breakdance)
 		image_speed = breakdanceSpeed
 	
 	if ((key_down && grounded && !place_meeting(x, y, obj_hubDisplay) && !place_meeting(x, y, obj_paletteChangerMirror)) || scr_solid(x, y - 1))
@@ -257,7 +257,7 @@ function state_player_normal()
 			if (!_dontStep)
 				event_play_oneshot("event:/SFX/player/step", x, y)
 			
-			if (sprite_index == spr_player_PZ_walk_dance)
+			if (sprite_index == spr_move_dance)
 				stepEffectBuffer = 8
 			else
 				stepEffectBuffer = 12

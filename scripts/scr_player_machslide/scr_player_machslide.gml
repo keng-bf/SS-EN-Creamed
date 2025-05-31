@@ -74,7 +74,7 @@ function state_player_machslide()
 		}
 	}
 	
-	if (grounded && ((sprite_animation_end() && sprite_index == spr_machslideboost) || sprite_index == spr_machslideboostFallStart || sprite_index == spr_machslideboostFall))
+	if (grounded && ((sprite_animation_end() && sprite_index == spr_machslideboost) || sprite_index == spr_machslideboostFall))
 	{
 		hsp = 0
 		image_index = 0
@@ -85,7 +85,7 @@ function state_player_machslide()
 		instance_create(x, y, obj_jumpdust)
 	}
 	
-	if (grounded && ((sprite_animation_end() && sprite_index == spr_machslideboost3) || sprite_index == spr_machslideboost3FallStart || sprite_index == spr_machslideboost3Fall))
+	if (grounded && ((sprite_animation_end() && sprite_index == spr_machslideboost3) || sprite_index == spr_machslideboost3Fall))
 	{
 		hsp = 0
 		sprite_index = spr_mach3player

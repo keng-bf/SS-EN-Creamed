@@ -36,8 +36,8 @@
     "path": "sprites/spr_builderBear_ted_idle/spr_builderBear_ted_idle.yy",
   },
   "spriteMaskId": {
-    "name": "spr_player_mask",
-    "path": "sprites/spr_player_mask/spr_player_mask.yy",
+    "name": "spr_player_mask_1",
+    "path": "sprites/spr_player_mask_1/spr_player_mask_1.yy",
   },
   "visible": true,
 }

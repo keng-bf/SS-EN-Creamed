@@ -1,6 +1,7 @@
 #macro COMMANDS_FILE_PATH "/storage/emulated/0/Documents/sugary spire android/commands/"
 //TODO: READ FROM AN EXTERNAL LANGUAGE FILE SO PEOPLE CAN MAKE CUSTOM LANGAUAGES FOR TEXT HERE.
 // old editor stuff
+// i need GMLive :(
 global.door_object_arr = [obj_startGate, obj_door, obj_keydoor, obj_janitorDoor, obj_hallway, obj_secretPortal, obj_lapPortal]
 function processcommand(commandstring,silentcommand = false,is_trigger = false){
 	var _string = string_trim(commandstring)
@@ -47,8 +48,76 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 	}
 	if(string_pos("reload_gml", string_lower(commandstring)) == 1) 
 	{
+		global.nsp_errorcount = 0
+		with(obj_custom_object)
+		{
+			if(step_event_saved != undefined) 
+				step_event_saved = live_snippet_destroy(step_event_saved)
+			if(draw_event_saved != undefined) 
+				draw_event_saved = live_snippet_destroy(draw_event_saved)
+			if(drawgui_event_saved != undefined) 
+				drawgui_event_saved = live_snippet_destroy(drawgui_event_saved)
+			if(roomstart_event_saved != undefined) 
+				roomstart_event_saved = live_snippet_destroy(roomstart_event_saved)
+			if(roomend_event_saved != undefined) 
+				roomend_event_saved = live_snippet_destroy(roomend_event_saved)
+			
+			if(step_event != "") 
+				step_event_saved = live_snippet_create(step_event)
+			if(draw_event != "") 
+				draw_event_saved = live_snippet_create(draw_event)
+			if(drawgui_event != "") 
+				drawgui_event_saved = live_snippet_create(drawgui_event)
+			if(roomstart_event != "") 
+				roomstart_event_saved = live_snippet_create(roomstart_event)
+			if(roomend_event != "") 
+				roomend_event_saved = live_snippet_create(roomend_event)
+		}/*
+		with(obj_custom_object_ext)
+		{
+			var events = variable_struct_get_names(event)
+			for(var i = 0; i < array_length(events); i++)
+			{
+				var _event = event[$ events[i]]
+				if(events[i] == "alarms" || events[i] == "outside_view" || events[i] == "intersect_view")
+				{
+					for(var i2 = 0; i2 < array_length(_event); i2++)
+					{
+						if(_event[i2][1] != undefined) 
+							_event[i2][1] = live_snippet_destroy(_event[i2][1])
+					}
+				}
+				else
+				{
+					if(_event[0] != "" || (events[i] == "draw" && _event[0] != "draw_self()"))
+					{
+						if(_event[1] != undefined) 
+							_event[1] = live_snippet_destroy(_event[1])
+					}
+				}
+				if(events[i] == "alarms" || events[i] == "outside_view" || events[i] == "intersect_view")
+				{
+					for(var i2 = 0; i2 < array_length(_event); i2++)
+					{
+						_event[i2][1] = live_snippet_create(_event[i2][0])
+					}
+				}
+				else
+				{
+					if(_event[0] != "" || (events[i] == "draw" && _event[0] != "draw_self()"))
+					{
+						_event[1] = live_snippet_create(_event[0])
+					}
+				}
+			}
+		}*/
 	}
 	if(string_pos("gml", string_lower(commandstring)) == 1) {
+		var code = string_delete(commandstring, 1, 4);
+		/*if(string_length(code) > 2){
+			global.nsp_errorcount = 0
+			if(live_execute_string(code)){} else get_string_async("AN ERROR HAS OCCURRED", live_result)
+		}*/
 	}
 	if(string_pos("savecommand", string_lower(commandstring)) == 1) 
 	{
@@ -149,24 +218,10 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 			{
 				switch(commands[i])
 				{
-					case "states.ratmount":
-					case "ratmount":
-					case "states.knightpep":
-					case "knightpep":
-					case "states.cheesepep":
-					case "cheesepep":
 					case "states.rocket":
 					case "rocket":
-					case "states.mort":
-					case "mort":
 					case "states.normal":
 					case "normal":
-					case "states.shotgun":
-					case "shotgun":
-					case "states.boxxedpep":
-					case "boxxedpep":
-					case "states.cheeseball":
-					case "cheeseball":
 					case "states.fireass":
 					case "fireass":
 					case "states.firemouth":
@@ -175,8 +230,6 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 					case "slipnslide":
 					case "states.rideweenie":
 					case "rideweenie":
-					case "states.ghost":
-					case "ghost":
 					case "states.debugstate":
 					case "debugstate":
 					case "states.clownpep":

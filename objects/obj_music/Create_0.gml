@@ -43,6 +43,7 @@ global.RoomIsSecret = false
 panicStart = false
 currentSecretStatus = false
 global.CurrentBeat = 0
+
 addRoomMusic(rm_mainmenu, "event:/music/titlescreen_demo", undefined, function(arg0, arg1, arg2)
 {
 	var event_state = 0
@@ -83,6 +84,7 @@ addRoomMusic(hub_molasses, "event:/music/hub", undefined, function(arg0, arg1, a
 })
 addRoomMusic(entryway_1, "event:/music/w1/entryway", "event:/music/w1/entryway_secret", undefined)
 addRoomMusic(entrance_1, "event:/music/w1/entryway", "event:/music/w1/entryway_secret", undefined)
+addRoomMusic(rooftop_1, "event:/music/w1/entryway", "event:/music/w1/entryway_secret", undefined)
 addRoomMusic(steamy_1, "event:/music/w1/cottontown", "event:/music/w1/cottontown_secret", function(arg0, arg1, arg2)
 {
 	var event_state = undefined
@@ -150,7 +152,7 @@ addRoomMusic(mineshaft_1, "event:/music/w1/mines", "event:/music/w1/mines_secret
 	if (!is_undefined(event_state))
 		fmod_studio_event_instance_set_parameter_by_name(arg1, "state", event_state, false)
 })
-addRoomMusic(mountain_intro, "event:/music/w2/mountain", "event:/music/w2/mountain_secret", function(arg0, arg1, arg2)
+addRoomMusic(mountain_intro, "event:/music/Soundtest/mountainA", "event:/music/w2/mountain_secret", function(arg0, arg1, arg2)
 {
 	var event_state = undefined
 	
@@ -170,4 +172,4 @@ addRoomMusic(mountain_intro, "event:/music/w2/mountain", "event:/music/w2/mounta
 	if (!is_undefined(event_state))
 		fmod_studio_event_instance_set_parameter_by_name(arg1, "state", event_state, false)
 })
-addRoomMusic(cafe_1, "event:/music/w2/cafe", "event:/music/w2/cafe_secret", undefined)
+addRoomMusic(cafe_1, "event:/music/Soundtest/runthedog", "event:/music/w2/cafe_secret", undefined)

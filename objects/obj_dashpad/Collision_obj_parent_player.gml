@@ -17,40 +17,36 @@ if (other.dashpadBuffer <= 0)
 			movespeed = clamp(movespeed, 12, 24)
 			event_play_multiple("event:/SFX/general/dashpad", x, y)
 			fmod_studio_event_instance_start(sndMachStart)
+			dashpadBuffer = 25
+			state = PlayerState.mach3
 			
-			if (global.playerCharacter == Characters.Pizzelle)
+			if (sprite_index != spr_machdashpad)
 			{
-				dashpadBuffer = 25
-				state = PlayerState.mach3
-				
-				if (sprite_index != spr_machdashpad)
-				{
-					sprite_index = spr_machdashpad
-					image_index = 0
-				}
-				
-				xscale = sign(other.image_xscale)
-				var try_y = 0
-				
-				while (try_y <= 16)
-				{
-					if (scr_solid(x, other.y - try_y))
-					{
-						try_y++
-					}
-					else
-					{
-						y = other.y - try_y
-						break
-					}
-				}
-				
-				if (state != PlayerState.climbwall && !scr_solid(other.x, y))
-					x = other.x
-				
-				vsp = 3
-				flash = true
+				sprite_index = spr_machdashpad
+				image_index = 0
 			}
+			
+			xscale = sign(other.image_xscale)
+			var try_y = 0
+			
+			while (try_y <= 16)
+			{
+				if (scr_solid(x, other.y - try_y))
+				{
+					try_y++
+				}
+				else
+				{
+					y = other.y - try_y
+					break
+				}
+			}
+			
+			if (state != PlayerState.climbwall && !scr_solid(other.x, y))
+				x = other.x
+			
+			vsp = 3
+			flash = true
 		}
 		else if (state == PlayerState.minecart && sprite_get_bbox_bottom(mask_index) <= other.bbox_bottom)
 		{

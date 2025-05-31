@@ -47,7 +47,7 @@
     ],
     "top": 0,
   },
-  "origin": 0,
+  "origin": 7,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",

@@ -1,14 +1,8 @@
-/*if (asset_get_index("obj_gmlive") != -1)
-    instance_create(0, 0, obj_gmlive);*/
+if (asset_get_index("obj_gmlive") != -1)
+    instance_create(0, 0, obj_gmlive);
 global.vkcount = 0;
 global.forcehidecontrols = false;
 global.forceshowcontrols = false;
-global.movingvkeys = false
-global.selectedvbutton = undefined
-global.showbinds = true
-global.vkeysgridmode = false
-global.vkeysgrid_size = 16
-global.colorvkeys = true
 var _permsarray = ["android.permission.READ_MEDIA_IMAGES", "android.permission.READ_MEDIA_VIDEO", "android.permission.READ_MEDIA_AUDIO", "android.permission.MANAGE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE"];
 
 if (os_type == os_android)
@@ -27,5 +21,3 @@ if (os_type == os_android)
         _i++;
     }
 }
-
-room_goto_fixed(rm_startupLogo)

@@ -1,0 +1,13 @@
+sprite = "spr_command_trigger"
+step_event = ""
+destroy_event = ""
+draw_event = "draw_self()"
+drawgui_event = ""
+roomstart_event = ""
+roomend_event = ""
+step_event_saved = undefined
+draw_event_saved = undefined
+drawgui_event_saved = undefined
+roomstart_event_saved = undefined
+roomend_event_saved = undefined
+spriteids = 0

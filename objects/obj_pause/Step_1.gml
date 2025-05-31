@@ -29,27 +29,23 @@ if (!global.gamePauseState && !instance_exists(obj_fadeoutTransition) && !instan
 		event_user(5)
 		exit
 	}
-	
-	if (global.DebugMode != DebugType.None)
+	if (keyboard_check_pressed(vk_f12))
 	{
-		if (keyboard_check_pressed(vk_f11))
-		{
-			screenshot_surface = surface_create(960, 540)
-			surface_set_target(screenshot_surface)
-			draw_clear_alpha(c_black, 0)
-			gpu_set_blendenable(false)
-			draw_surface(application_surface, 0, 0)
-			gpu_set_colorwriteenable(0, 0, 0, 1)
-			draw_set_color(c_white)
-			draw_rectangle(-192, -192, 1152, 732, 0)
-			gpu_set_blendenable(true)
-			gpu_set_colorwriteenable(1, 1, 1, 1)
-			surface_reset_target()
-			var file = get_save_filename_ext("screenshot|*.png", "", working_directory, "Save your Screenshot")
-			
-			if (file != "")
-				surface_save(screenshot_surface, file)
-		}
+		screenshot_surface = surface_create(960, 540)
+		surface_set_target(screenshot_surface)
+		draw_clear_alpha(c_black, 0)
+		gpu_set_blendenable(false)
+		draw_surface(application_surface, 0, 0)
+		gpu_set_colorwriteenable(0, 0, 0, 1)
+		draw_set_color(c_white)
+		draw_rectangle(-192, -192, 1152, 732, 0)
+		gpu_set_blendenable(true)
+		gpu_set_colorwriteenable(1, 1, 1, 1)
+		surface_reset_target()
+		var file = get_save_filename_ext("screenshot|*.png", "", working_directory, "Save your Screenshot")
+		
+		if (file != "")
+			surface_save(screenshot_surface, file)
 	}
 }
 
