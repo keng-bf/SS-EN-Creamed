@@ -16,8 +16,8 @@
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
   ],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "PRE GAME",
+    "path": "folders/Rooms/PRE GAME.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

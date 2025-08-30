@@ -20,3 +20,4 @@ savedCamY = y
 savedCamX = x
 sprite_index = spr_blotchsplotch
 event_play_oneshot("event:/SFX/coneball/blotchlaugh")
+maxspeed = 8

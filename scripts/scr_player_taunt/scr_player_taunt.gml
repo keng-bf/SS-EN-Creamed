@@ -152,7 +152,9 @@ function state_player_taunt()
 	if (sprite_index == spr_supertaunt1 || sprite_index == spr_supertaunt2 || sprite_index == spr_supertaunt3 || sprite_index == spr_supertaunt4)
 		image_speed = 0.4
 	else if (sprite_index == spr_taunt)
+	{
 		image_speed = 0
+	}
 	else
 		image_speed = 0.35
 }

@@ -82,7 +82,7 @@ if !global.freezeframe && state != PlayerState.frozen
 		mach3Roll = 0
 }
 
-if sprite_index == spr_player_PZ_tired && state != PlayerState.normal
+if sprite_index == spr_idle_tired && state != PlayerState.normal
 	windingAnim = 0
 
 if !global.freezeframe

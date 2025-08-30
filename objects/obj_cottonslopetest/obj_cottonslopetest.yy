@@ -29,7 +29,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_slope2",
+    "path": "sprites/spr_slope2/spr_slope2.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

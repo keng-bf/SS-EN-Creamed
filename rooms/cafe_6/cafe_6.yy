@@ -324,8 +324,8 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"NewInstancesLayer","depth":1500,"effectEnabled":false,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
   ],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "CAFE",
+    "path": "folders/Rooms/LEVEL/CAFE.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

@@ -3,7 +3,10 @@ global.NextRoom = rm_missing
 function room_goto_fixed(index)
 {
 	global.NextRoom = index
-	room_goto(index)
+	if debug_mode
+		room_goto_live(index)
+	else
+		room_goto(index)
 }
 function is_preGame(arg0 = room)
 {
@@ -19,7 +22,7 @@ function scr_roomcheck(arg0 = room)
 
 function is_hub(arg0 = room)
 {
-	var hub_rooms = [hub_soundTest, hub_demohallway, hub_paintstudio, hub_molasses, hub_mindpalace, hub_mindvault, rm_credits, internship_floor1, internship_floor2, tower_entrancehall, tower_johngutterhall,tower_1, tower_2, tower_3, tower_4, tower_5, hub_basement]
+	var hub_rooms = [hub_soundTest, hub_demohallway, hub_paintstudio, hub_molasses, hub_mindpalace, hub_mindvault, rm_credits, internship_floor1, tower_entrancehall, tower_johngutterhall,tower_1, tower_2, tower_3, tower_4, tower_5, hub_basement]
 	return array_contains(hub_rooms, arg0);
 }
 

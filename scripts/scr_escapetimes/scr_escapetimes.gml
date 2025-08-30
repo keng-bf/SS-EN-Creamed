@@ -30,11 +30,6 @@ function scr_escapetimes(arg0 = room)
 			seconds = 0
 			break
 		
-		case entryway_1:
-			minutes = 5
-			seconds = 0
-			break
-		
 		case cafe_10:
 			minutes = 4
 			seconds = 30

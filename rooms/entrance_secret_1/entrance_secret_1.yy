@@ -35,6 +35,7 @@
     {"name":"inst_49B1438F","path":"rooms/entrance_secret_1/entrance_secret_1.yy",},
     {"name":"inst_35B2E47C","path":"rooms/entrance_secret_1/entrance_secret_1.yy",},
     {"name":"inst_19D96683","path":"rooms/entrance_secret_1/entrance_secret_1.yy",},
+    {"name":"inst_4E187BB0","path":"rooms/entrance_secret_1/entrance_secret_1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -70,6 +71,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_secretPortal","path":"objects/obj_secretPortal/obj_secretPortal.yy",},"propertyId":{"name":"targetDoor","path":"objects/obj_secretPortal/obj_secretPortal.yy",},"value":"C",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":352.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_19D96683","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_candysona","path":"objects/obj_candysona/obj_candysona.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":496.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4E187BB0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secretfound","path":"objects/obj_secretfound/obj_secretfound.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1904.0,"y":944.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":49,"SerialiseWidth":62,"TileCompressedData":[
 -1378,0,2,290,291,-60,0,2,300,301,-264,0,5,268,269,0,258,259,-57,0,2,278,279,-230,0,2,302,303,-60,0,2,312,313,-132,0,2,270,271,-60,0,2,280,281,-778,0,],"TileDataFormat":1,},"tilesetId":{"name":"tileset_secret","path":"tilesets/tileset_secret/tileset_secret.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
@@ -85,8 +87,8 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_scroll","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":1.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bg_secret","path":"sprites/bg_secret/bg_secret.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":1.0,"vtiled":true,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "ENTRANCE",
+    "path": "folders/Rooms/LEVEL/ENTRANCE.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

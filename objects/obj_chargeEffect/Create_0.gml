@@ -8,7 +8,7 @@ updateEffectPosition = function()
 	image_xscale = playerID.image_xscale
 	image_yscale = 1
 	
-	if (playerID.sprite_index == spr_player_PZ_flicked)
+	if (playerID.sprite_index == playerID.spr_flicked)
 	{
 		image_xscale = -playerID.image_xscale
 		x -= (18 * playerID.xscale)

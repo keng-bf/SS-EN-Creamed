@@ -7,7 +7,7 @@
 			"map": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
 		},
 	],
-	"SpritCN": [{
+	"Sprites": [{
 		"spr_lang_flag": "spr_lang_flag_CN",
 		
 		"bg_controllerdisconnect_text3": "bg_controllerdisconnect_text3_CN",

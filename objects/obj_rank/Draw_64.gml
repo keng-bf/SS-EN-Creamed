@@ -35,7 +35,7 @@ draw_set_alpha(1)
 if (event <= 0)
 	exit
 
-draw_sprite_ext(lang_get_sprite(spr_rankclipboard), 0, 716, 271 + clipboardY, 1, 1, 0, c_white, 1)
+draw_sprite_ext(!isIL ? lang_get_sprite(spr_rankclipboard) : spr_rankclipboard2, 0, 716, 271 + clipboardY, 1, 1, 0, c_white, 1)
 var i = 0
 var _text_scribble = "[c_red][fa_middle][fa_center][dialogfont]"
 
@@ -57,12 +57,13 @@ if (damage_shown)
 
 draw_set_color(c_white)
 
+if !isIL{
 for (var c = 0; c < array_length(confecti_sprites); c++)
 {
 	var _xx = 555 + (75 * c)
 	var _yy = 230 + clipboardY
 	draw_sprite_ext(confecti_sprites[c], confecti_index[c], _xx, _yy, 1, 1, 0, c_white, 1)
-}
+}}
 
 for (var s = 0; s < array_length(secrets_collected_visual); s++)
 {

@@ -66,6 +66,8 @@ function state_player_frostburnnormal()
 		jumpStop = false
 		image_index = 0
 		sprite_index = spr_player_PZ_frostburn_jump
+		state = PlayerState.frostburnjump
+		movespeed = hsp
 		fmod_studio_event_instance_start(sndJump)
 		instance_create(x, y, obj_highJumpCloud1, 
 		{

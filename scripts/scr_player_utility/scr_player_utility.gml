@@ -82,6 +82,11 @@ function do_taunt(arg0 = state)
 			sprite_index = spr_taunt
 			event_play_oneshot("event:/SFX/player/taunt", x, y)
 			image_index = irandom_range(0, sprite_get_number(spr_taunt))
+			if instance_exists(obj_coneball_timesUp)
+			{
+				with(obj_coneball_timesUp) maxspeed += 1
+				trace("test!")
+			}
 		}
 		
 		instance_create(x, y, obj_taunteffect)

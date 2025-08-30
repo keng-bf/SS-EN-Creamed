@@ -47,7 +47,7 @@ defineConfecti = function(arg0, arg1, arg2) constructor
 	spr_taunt = arg2
 }
 
-confectiSprites = [new defineConfecti(spr_marshmellow_idle, spr_marshemellow_run, spr_marshmellow_taunt), new defineConfecti(spr_chocolate_idle, spr_chocolate_walk, spr_chocolate_taunt), new defineConfecti(spr_crack_idle, spr_crack_run, spr_crack_taunt), new defineConfecti(spr_gummyworm_idle, spr_gummyworm_walk, spr_gummyworm_taunt), new defineConfecti(spr_candy_idle, spr_candy_walk, spr_candy_taunt)]
+confectiSprites = [new defineConfecti(spr_marshmellow_idle, spr_marshemellow_run, spr_marshmellow_taunt), new defineConfecti(spr_chocolate_idle, spr_chocolate_walk, spr_chocolate_taunt), new defineConfecti(global.newconfect ? spr_lollipop_idle : spr_crack_idle, global.newconfect ? spr_lollipop_run : spr_crack_run, global.newconfect ? spr_lollipop_taunt : spr_crack_taunt), new defineConfecti(spr_gummyworm_idle, spr_gummyworm_walk, spr_gummyworm_taunt), new defineConfecti(spr_candy_idle, spr_candy_walk, spr_candy_taunt)]
 savedPaintSprite = undefined
 
 saveSurfaceSprite = function()

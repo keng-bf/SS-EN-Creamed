@@ -9,8 +9,8 @@ if (image_alpha >= 1)
 		
 	if (!global.freezeframe)
 	{
-		x = approach(x, obj_parent_player.x, lengthdir_x(9, dir))
-		y = approach(y, obj_parent_player.y, lengthdir_y(9, dir))
+		x = approach(x, obj_parent_player.x, lengthdir_x(13, dir))
+		y = approach(y, obj_parent_player.y, lengthdir_y(13, dir))
 	}
 }
 else

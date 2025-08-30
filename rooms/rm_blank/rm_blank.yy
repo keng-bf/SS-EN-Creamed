@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rm_blank",
-  "creationCodeFile": "",
+  "creationCodeFile": "rooms/rm_blank/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
@@ -10,8 +10,8 @@
   "isDnd": false,
   "layers": [],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "PRE GAME",
+    "path": "folders/Rooms/PRE GAME.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

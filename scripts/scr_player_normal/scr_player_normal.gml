@@ -24,6 +24,13 @@ function state_player_normal()
 		_idle_spr = spr_player_PZ_idle_freezing
 		_dontidle = true
 	}
+	if (global.InternalLevelName == "dance")
+	{
+		_idle_spr = spr_idle_dance
+		_move_spr = spr_move_dance
+		_dontidle = true
+		_dontStep = true
+	}
 	
 	var soundtest_check = instance_exists(obj_soundTest) && obj_soundTest.musicPlaying
 	
@@ -37,10 +44,10 @@ function state_player_normal()
 	
 	if (global.panic)
 	{
-		_idle_spr = spr_player_PZ_idle_escape
+		_idle_spr = spr_escapeidle
 		
 		if (instance_exists(obj_coneball_timesUp))
-			_idle_spr = spr_player_PZ_idle_timesUp
+			_idle_spr = spr_timesupidle
 	}
 	
 	if (global.Combo >= 10)
@@ -58,7 +65,7 @@ function state_player_normal()
 	if (windingAnim > 0)
 	{
 		windingAnim -= 5
-		_idle_spr = spr_player_PZ_tired
+		_idle_spr = spr_idle_tired
 	}
 	
 	if (key_taunt)
@@ -133,7 +140,7 @@ function state_player_normal()
 				sprite_index = _idle_spr
 			}
 			
-			if (sprite_index != spr_move_breakdance && sprite_index != spr_idle_breakdance && !_dontidle && sprite_index != spr_player_PZ_tired)
+			if (sprite_index != spr_move_breakdance && sprite_index != spr_idle_breakdance && !_dontidle && sprite_index != spr_idle_tired)
 			{
 				if (idle < 300)
 				{

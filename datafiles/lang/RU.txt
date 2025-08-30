@@ -540,9 +540,9 @@
 "reset_clothes_confirm"     : "СБРОСИТЬ ПРОГРЕСС ОДЁЖКИ"
 
 # Modification Submenu
-"opt_mod_laphell" : "КРУС HELL"
+"opt_mod_laphell" : "КРУГ АДА"
 "opt_mod_fps" : "FPS"
-"opt_mod_skipintro" : "ПРОПУСТИТЬ ВВОД"
+"opt_mod_skipintro" : "ПРОПУСТИТЬ КАТСЦЕНУ"
 "opt_virtualcontroller" : "ВИРТУАЛЬНЫЙ КОНТРОЛЛЕР"
 
 # Language Submenu

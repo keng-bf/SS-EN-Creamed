@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "SugarySpire",
-    "path": "SugarySpire.yyp",
+    "name": "Misc",
+    "path": "folders/Extensions/GMLive/Internal/Misc.yy",
   },
 }

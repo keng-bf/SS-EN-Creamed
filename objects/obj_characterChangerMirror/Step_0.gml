@@ -7,8 +7,3 @@ var arrow_condition = place_meeting(x, y, obj_parent_player) && obj_parent_playe
 
 with (manage_up_arrow(arrow_condition))
 	sprite_index = spr_uparrow
-
-if global.playerCharacter == Characters.Pizzano
-	sprite_index = spr_player_PZ_idle
-else
-	sprite_index = spr_player_PN_idle

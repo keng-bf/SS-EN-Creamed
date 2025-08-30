@@ -1,12 +1,6 @@
 global.gamePauseState = 1
 selected = 0
-
-switch (global.playerCharacter)
-{
-	default:
-		playerPauseSprite = spr_pizzelle_pause
-		break
-}
+playerPauseSprite = scr_getCharacterSprite(spr_PZ_pause, "spr_")
 
 var guiObjects = [obj_camera, obj_hudManager]
 

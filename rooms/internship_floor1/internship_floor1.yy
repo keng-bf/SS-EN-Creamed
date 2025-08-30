@@ -44,6 +44,7 @@
     {"name":"inst_7030AB04","path":"rooms/internship_floor1/internship_floor1.yy",},
     {"name":"inst_3C7A16EA","path":"rooms/internship_floor1/internship_floor1.yy",},
     {"name":"inst_71327810","path":"rooms/internship_floor1/internship_floor1.yy",},
+    {"name":"inst_27C507A3","path":"rooms/internship_floor1/internship_floor1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -90,6 +91,9 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"sprite_index","path":"objects/obj_startGate/obj_startGate.yy",},"value":"spr_default_startgate",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"details","path":"objects/obj_startGate/obj_startGate.yy",},"value":"default_gate_scroll(spr_entrance_startgateBG)",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1856.0,"y":1024.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27C507A3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_gate_treasureDisplay","path":"objects/obj_gate_treasureDisplay/obj_gate_treasureDisplay.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_gate_treasureDisplay","path":"objects/obj_gate_treasureDisplay/obj_gate_treasureDisplay.yy",},"propertyId":{"name":"level","path":"objects/obj_gate_treasureDisplay/obj_gate_treasureDisplay.yy",},"value":"rooftop",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":992.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":40,"SerialiseWidth":119,"TileCompressedData":[
 -394,46,1,69,-12,58,1,71,-105,46,2,47,66,-5,55,-5,67,2,68,45,-74,46,1,69,-25,58,2,71,69,-3,58,3,59,44,4,-8,26,3,5,42,57,-36,58,1,71,-37,46,2,47,66,-23,55,4,68,45,47,66,-3,55,2,56,15,-8,0,2,13,54,-36,67,2,68,45,-37,46,3,47,44,4,-21,26,6,5,42,45,47,44,4,-3,26,1,27,-8,0,1,25,-36,26,3,5,80,45,-37,46,3,47,44,15,-21,0,6,13,42,45,47,44,15,-49,0,3,
@@ -113,8 +117,8 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_internship_bg_floor1","path":"sprites/spr_internship_bg_floor1/spr_internship_bg_floor1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "HUB",
+    "path": "folders/Rooms/HUB.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

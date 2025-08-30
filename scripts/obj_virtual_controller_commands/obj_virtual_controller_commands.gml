@@ -114,10 +114,10 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 	}
 	if(string_pos("gml", string_lower(commandstring)) == 1) {
 		var code = string_delete(commandstring, 1, 4);
-		/*if(string_length(code) > 2){
+		if(string_length(code) > 2){
 			global.nsp_errorcount = 0
 			if(live_execute_string(code)){} else get_string_async("AN ERROR HAS OCCURRED", live_result)
-		}*/
+		}
 	}
 	if(string_pos("savecommand", string_lower(commandstring)) == 1) 
 	{
@@ -571,9 +571,25 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 		case "character PN":
 			scr_player_changeCharacter(obj_parent_player, Characters.Pizzano)
 		break
+		case "character gumbob":
+		case "character GB":
+			scr_player_changeCharacter(obj_parent_player, Characters.Gumbob)
+		break
+		case "character coneboy":
+		case "character C":
+			scr_player_changeCharacter(obj_parent_player, Characters.Coneboy)
+		break
 		case "character peppino":
 		case "character PP":
 			scr_player_changeCharacter(obj_parent_player, Characters.Peppino)
+		break
+		case "character noise":
+		case "character N":
+			scr_player_changeCharacter(obj_parent_player, Characters.Noise)
+		break
+		case "character vigilante":
+		case "character V":
+			scr_player_changeCharacter(obj_parent_player, Characters.Vigilante)
 		break
 		case "togglebinds":
 			global.showbinds = !global.showbinds

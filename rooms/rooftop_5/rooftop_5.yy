@@ -102,6 +102,7 @@
     {"name":"inst_7CAC1F72","path":"rooms/rooftop_5/rooftop_5.yy",},
     {"name":"inst_3C9048D2","path":"rooms/rooftop_5/rooftop_5.yy",},
     {"name":"inst_7831993E","path":"rooms/rooftop_5/rooftop_5.yy",},
+    {"name":"inst_156A2A56","path":"rooms/rooftop_5/rooftop_5.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -209,6 +210,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7CAC1F72","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collectEscape","path":"objects/obj_collectEscape/obj_collectEscape.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2976.0,"y":256.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3C9048D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collectEscape","path":"objects/obj_collectEscape/obj_collectEscape.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3008.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7831993E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_exitsign","path":"objects/obj_exitsign/obj_exitsign.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":496.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_156A2A56","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_minipillarsleep","path":"objects/obj_minipillarsleep/obj_minipillarsleep.yy",},"properties":[],"rotation":0.0,"scaleX":7.0,"scaleY":2.0,"x":2208.0,"y":384.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_4","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":27,"SerialiseWidth":115,"TileCompressedData":[
 -684,0,8,8,9,10,11,0,0,34,35,-5,0,2,34,35,-5,0,2,34,35,-4,0,2,34,35,-87,0,8,20,21,22,23,0,0,46,47,-5,0,2,46,47,-5,0,2,46,47,-4,0,2,46,47,-93,0,2,58,59,-5,0,2,58,59,-5,0,2,58,59,-4,0,2,58,59,-672,0,3,2,3,4,-112,0,3,14,15,16,-112,0,3,26,27,28,-161,0,3,2,3,4,-53,0,3,5,6,7,-56,0,3,14,15,16,-33,0,2,42,43,-18,0,
@@ -224,7 +226,7 @@
 ],},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_3","depth":400,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":27,"SerialiseWidth":115,"TileCompressedData":[
 -3105,0,],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_5","depth":500,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":27,"SerialiseWidth":115,"TileCompressedData":[
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_BG","depth":500,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":27,"SerialiseWidth":115,"TileCompressedData":[
 -1396,0,6,4,5,6,7,8,9,-27,0,1,1,-9,2,1,3,-25,0,1,1,-6,2,-39,0,6,19,20,21,22,23,24,-27,0,1,16,-9,17,1,18,-25,0,1,16,-6,17,-39,0,6,34,35,36,37,38,39,-27,0,1,31,-9,32,1,33,-25,0,1,31,-6,32,-39,0,6,49,50,51,52,53,54,-109,0,6,64,65,66,67,68,69,-109,0,6,79,80,81,82,83,84,-53,0,2,10,11,-54,0,6,94,95,96,97,98,99,-53,0,2,25,26,
 -72,0,1,1,-4,2,1,3,-35,0,2,40,41,-72,0,1,16,-4,17,1,18,-35,0,2,55,56,-72,0,1,31,-4,32,1,33,-650,0,],"TileDataFormat":1,},"tilesetId":{"name":"tile_rooftop2_bg_misc","path":"tilesets/tile_rooftop2_bg_misc/tile_rooftop2_bg_misc.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_3","animationFPS":16.0,"animationSpeedType":0,"colour":4294967295,"depth":600,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_bg_rooftop_city_4","path":"sprites/spr_bg_rooftop_city_4/spr_bg_rooftop_city_4.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
@@ -233,8 +235,8 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":16.0,"animationSpeedType":0,"colour":4294967295,"depth":900,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_bg_rooftop_city_1","path":"sprites/spr_bg_rooftop_city_1/spr_bg_rooftop_city_1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "ROOFTOP",
+    "path": "folders/Rooms/LEVEL/ROOFTOP.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

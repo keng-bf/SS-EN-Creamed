@@ -14,22 +14,18 @@ if (state != PlayerState.titlescreen)
 
 enemyAttackTimer = max(enemyAttackTimer - 1, 0)
 
-if (point_in_rectangle(obj_parent_player.x, obj_parent_player.y, x - 100, y - 50, x + 100, y + 50) && obj_parent_player.state != PlayerState.door && obj_parent_player.state != PlayerState.comingoutdoor)
+if ((place_meeting(x + 1, y, obj_parent_player) && image_xscale == 1) || (place_meeting(x - 1, y, obj_parent_player) && image_xscale == -1))
 {
 	if (state != PlayerState.titlescreen && state == PlayerState.frozen && (obj_parent_player.state == PlayerState.doughmount || obj_parent_player.state == PlayerState.doughmountspin) && enemyAttackTimer <= 0)
 	{
 		image_index = 0
-		flash = true
 		create_heat_afterimage(AfterImageType.plain)
 		state = PlayerState.titlescreen
 		sprite_index = spr_golfburger_golf
 	}
 }
 
-if (sprite_index == spr_golfburger_golf || invisFrames > 0)
-	baddieInvincibilityBuffer = 1
-else
-	baddieInvincibilityBuffer = 0
+baddieInvincibilityBuffer = (sprite_index == spr_golfburger_golf || invisFrames > 0) ? 1 : 0
 
 if (invisFrames > 0)
 	invisFrames--

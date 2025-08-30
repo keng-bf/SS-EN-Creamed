@@ -7,7 +7,4 @@ draw_set_alpha(1);
 if global.fps
     draw_text(0, 0, string(fps_));
 if debug_mode
-{
     draw_text(0, 30, "FUN " + string(global.GLOBAL_FUN));
-    draw_text(0, 80, "COMBOTIME" + string(global.ComboTime));
-}

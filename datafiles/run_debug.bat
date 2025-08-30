@@ -1,3 +1,3 @@
 @echo off
-set EXE_NAME=SugarySpire_ExhibitionNight.exe
+set EXE_NAME=SugarySpire.exe
 start "" "%~dp0%EXE_NAME%" -debug

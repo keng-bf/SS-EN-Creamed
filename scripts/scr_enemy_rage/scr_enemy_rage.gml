@@ -310,10 +310,6 @@ function scr_enemy_rage()
 			
 			break
 		
-		case obj_painter:
-			scr_painter_dash()
-			break
-		
 		case obj_fancypancake:
 			image_speed = 0.35
 			invisFrames = 100

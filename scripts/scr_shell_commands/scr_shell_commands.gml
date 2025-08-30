@@ -90,8 +90,24 @@ function sh_character(arg0)
 			choosen_character = Characters.Pizzano
 			break
 			
+		case "Gumbob":
+			choosen_character = Characters.Gumbob
+			break
+			
+		case "Coneboy":
+			choosen_character = Characters.Coneboy
+			break
+			
 		case "Peppino":
 			choosen_character = Characters.Peppino
+			break
+			
+		case "Noise":
+			choosen_character = Characters.Noise
+			break
+			
+		case "Vigilante":
+			choosen_character = Characters.Vigilante
 			break
 	}
 	
@@ -104,7 +120,7 @@ function meta_character()
 	{
 		description: "Change the character you're currently playing as.",
 		arguments: ["<character>"],
-		suggestions: [["Pizzelle", "Pizzano", "Peppino"]],
+		suggestions: [["Pizzelle", "Pizzano", "Gumbob", "Coneboy", "Peppino", "Noise", "Vigilante"]],
 		argumentDescriptions: ["The character to switch to."]
 	};
 }

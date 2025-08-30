@@ -384,8 +384,8 @@
 -2802,0,2,263,264,-155,0,2,295,296,-772,0,2,263,264,-155,0,2,295,296,-2826,0,2,263,264,-155,0,2,295,296,-1096,0,2,263,264,-155,0,2,295,296,-1759,0,],"TileDataFormat":1,},"tilesetId":{"name":"ts_estate1decor","path":"tilesets/ts_estate1decor/ts_estate1decor.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "CAFE",
+    "path": "folders/Rooms/LEVEL/CAFE.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

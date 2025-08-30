@@ -3,6 +3,8 @@ depth = 5
 draw_flush()
 randomize()
 window_center()
+audio_group_load(music_group)
+audio_group_load(sound_group)
 var temparray = ["Player", "Baddies", "HUD", "Structure", "Hub", "effectsGroup", "titleGroup", "Buttons"]
 textureLoaderList = ds_list_create()
 
@@ -123,7 +125,11 @@ enum Characters
 {
 	Pizzelle = 0,
 	Pizzano = 1,
-	Peppino = 2,
+	Gumbob = 2,
+	Coneboy = 3,
+	Peppino = 4,
+	Noise = 5,
+	Vigilante = 6
 }
 
 enum OptionMenu

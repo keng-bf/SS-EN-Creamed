@@ -8,16 +8,16 @@ alarm[3] = 180
 
 if (global.rank == "p")
 	alarm[3] = 46
-
+isIL = global.InternalLevelName == "rooftop"
 depth = -6
 event = 0
 subevent = 0
 event_buffer = 0
 confecti_collected = [global.MallowFollow, global.ChocoFollow, global.CrackFollow, global.WormFollow, global.CandyFollow]
 confecti_index = array_create(5, 0)
-confecti_sprites = [spr_confecti1rank, spr_confecti2rank, spr_confecti3rank, spr_confecti4rank, spr_confecti5rank]
-confecti_sprite_lose = [spr_confecti1rank_lose, spr_confecti2rank_lose, spr_confecti3rank_lose, spr_confecti4rank_lose, spr_confecti5rank_lose]
-confecti_sprite_collected = [spr_confecti1rank_collected, spr_confecti2rank_collected, spr_confecti3rank_collected, spr_confecti4rank_collected, spr_confecti5rank_collected]
+confecti_sprites = [spr_confecti1rank, spr_confecti2rank, global.newconfect ? spr_confecti3rankNEW : spr_confecti3rank, spr_confecti4rank, spr_confecti5rank]
+confecti_sprite_lose = [spr_confecti1rank_lose, spr_confecti2rank_lose, global.newconfect ? spr_confecti3rank_loseNEW : spr_confecti3rank_lose, spr_confecti4rank_lose, spr_confecti5rank_lose]
+confecti_sprite_collected = [spr_confecti1rank_collected, spr_confecti2rank_collected, global.newconfect ? spr_confecti3rank_collectedNEW : spr_confecti3rank_collected, spr_confecti4rank_collected, spr_confecti5rank_collected]
 secrets_collected = global.SecretsFound
 secrets_sprite = [spr_rankcard, spr_rankcard, spr_rankcard]
 secrets_collected_visual = array_create(3, 0)
@@ -155,21 +155,30 @@ revealSecret = function()
 
 revealConfecti = function()
 {
-	confecti_sprites[subevent] = confecti_collected[subevent] ? confecti_sprite_collected[subevent] : confecti_sprite_lose[subevent]
+	if !isIL
+	{
+		confecti_sprites[subevent] = confecti_collected[subevent] ? confecti_sprite_collected[subevent] : confecti_sprite_lose[subevent]
 	
-	if (confecti_collected[subevent])
-		event_play_oneshot("event:/SFX/ui/rankConfecti")
+		if (confecti_collected[subevent])
+			event_play_oneshot("event:/SFX/ui/rankConfecti")
+		else
+			event_play_oneshot("event:/SFX/ui/rankConfectilose")
+	
+		confecti_index[subevent] = 0
+		subevent++
+		event_buffer = 20
+	
+		if (subevent >= array_length(confecti_collected))
+		{
+			event++
+			subevent = 0
+			event_buffer = 40
+		}}
 	else
-		event_play_oneshot("event:/SFX/ui/rankConfectilose")
-	
-	confecti_index[subevent] = 0
-	subevent++
-	event_buffer = 20
-	
-	if (subevent >= array_length(confecti_collected))
 	{
 		event++
 		subevent = 0
 		event_buffer = 40
 	}
+	
 }

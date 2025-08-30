@@ -38,8 +38,8 @@
       ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
   ],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "CAFE",
+    "path": "folders/Rooms/LEVEL/CAFE.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

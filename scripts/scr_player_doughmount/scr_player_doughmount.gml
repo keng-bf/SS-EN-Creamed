@@ -31,13 +31,9 @@ function state_player_doughmount()
 			image_speed = 0.6
 	}
 	else if (inputBuffer > 0 && grounded)
-	{
 		movespeed = approach(movespeed, 0, 0.75)
-	}
 	else
-	{
 		movespeed = approach(movespeed, 0, 0.45)
-	}
 	
 	if (inputBufferJump > 0 && can_jump)
 	{
@@ -167,9 +163,7 @@ function state_player_doughmountpancake()
 		test_y += slope_check_down(x + xscale, y, 3)
 		
 		if (test_y != 0)
-		{
 			y += test_y
-		}
 		else
 		{
 			sprite_index = spr_player_PZ_dogMount_idle

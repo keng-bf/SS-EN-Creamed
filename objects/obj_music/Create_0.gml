@@ -44,7 +44,7 @@ panicStart = false
 currentSecretStatus = false
 global.CurrentBeat = 0
 
-addRoomMusic(rm_mainmenu, "event:/music/titlescreen_demo", undefined, function(arg0, arg1, arg2)
+addRoomMusic(rm_mainmenu, "event:/music/titlescreen", undefined, function(arg0, arg1, arg2)
 {
 	var event_state = 0
 	

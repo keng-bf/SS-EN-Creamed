@@ -181,6 +181,9 @@ function scr_gameInit()
 	global.shellactivate = false
 	global.showcollisions = false
 	global.showtiles = true
+	
+	global.newconfect = false
+	
 	global.DebugVisuals = false
 	global.fartcounter = 0/*
 	

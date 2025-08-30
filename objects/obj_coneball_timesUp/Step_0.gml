@@ -11,8 +11,8 @@ if (!noConeballRoom)
 		
 		if (!global.freezeframe)
 		{
-			x = approach(x, obj_parent_player.x, lengthdir_x(8, dir))
-			y = approach(y, obj_parent_player.y, lengthdir_y(8, dir))
+			x = approach(x, obj_parent_player.x, lengthdir_x(maxspeed, dir))
+			y = approach(y, obj_parent_player.y, lengthdir_y(maxspeed, dir))
 		}
 	}
 	else

@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_PN_idle",
-    "path": "sprites/spr_player_PN_idle/spr_player_PN_idle.yy",
+    "name": "spr_characterchanger_mirror",
+    "path": "sprites/spr_characterchanger_mirror/spr_characterchanger_mirror.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -24,10 +24,13 @@ if !in_saveroom()
 			}
 		}
 	}
-	
-	if (place_meeting(x, y - 1, obj_dogMount))
-	{
-		instance_destroy(obj_dogMount)
-		event_user(0)
+    
+    if (instance_exists(obj_dogMount))
+    {
+		if (place_meeting(x, y - 1, obj_dogMount))
+		{
+			instance_destroy(obj_dogMount)
+			event_user(0)
+		}
 	}
 }
