@@ -1,7 +1,6 @@
 #macro COMMANDS_FILE_PATH "/storage/emulated/0/Documents/sugary spire android/commands/"
 //TODO: READ FROM AN EXTERNAL LANGUAGE FILE SO PEOPLE CAN MAKE CUSTOM LANGAUAGES FOR TEXT HERE.
 // old editor stuff
-// i need GMLive :(
 global.door_object_arr = [obj_startGate, obj_door, obj_keydoor, obj_janitorDoor, obj_hallway, obj_secretPortal, obj_lapPortal]
 function processcommand(commandstring,silentcommand = false,is_trigger = false){
 	var _string = string_trim(commandstring)
@@ -72,7 +71,7 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 				roomstart_event_saved = live_snippet_create(roomstart_event)
 			if(roomend_event != "") 
 				roomend_event_saved = live_snippet_create(roomend_event)
-		}/*
+		}
 		with(obj_custom_object_ext)
 		{
 			var events = variable_struct_get_names(event)
@@ -110,7 +109,7 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 					}
 				}
 			}
-		}*/
+		}
 	}
 	if(string_pos("gml", string_lower(commandstring)) == 1) {
 		var code = string_delete(commandstring, 1, 4);
@@ -594,11 +593,8 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 		case "togglebinds":
 			global.showbinds = !global.showbinds
 		break
-		case "room_goto":
-			var roomnext = get_string_async("Target Room?", "rm_missing");
-			room_goto_fixed(roomnext)
 		case "help":
-			get_string_async("Available Commands: ","showcollisions <boolean>, panic <seconds>, hidetiles, showtiles, toggletiles, character <string>, instance_set_variable <obj_> <type> <variablename> <new value>,global_set_variable <type> <variablename> <new value>,spawn <obj_> <optional distance>, togglebinds,instance_set_variable_all <obj_> <type> <variablename> <new value>, exec <filename>, savecommand <commands>, room_goto")
+			get_string_async("Available Commands: ","showcollisions <boolean>, panic <seconds>, hidetiles, showtiles, toggletiles, character <string>, instance_set_variable <obj_> <type> <variablename> <new value>,global_set_variable <type> <variablename> <new value>,spawn <obj_> <optional distance>, togglebinds,instance_set_variable_all <obj_> <type> <variablename> <new value>, exec <filename>, savecommand <commands>")
 		break
 	}
 }

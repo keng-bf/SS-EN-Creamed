@@ -2,6 +2,9 @@
   "resourceType": "GMAndroidOptions",
   "resourceVersion": "1.0",
   "name": "Android",
+  "ConfigValues": {
+    "Release": {"option_android_display_name":"SSEN: Creamed",},
+  },
   "option_android_application_tag_inject": "",
   "option_android_arch_arm64": true,
   "option_android_arch_armv7": false,
