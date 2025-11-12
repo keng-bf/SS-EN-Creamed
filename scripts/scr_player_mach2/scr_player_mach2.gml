@@ -197,11 +197,11 @@ function state_player_mach2()
 	do_taunt(PlayerState.mach2)
 	
 	if (sprite_index == spr_rollgetup || sprite_index == spr_longJump_intro || sprite_index == spr_longJump)
-		image_speed = 0.4
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.4
 	else if (sprite_index == spr_wallJumpCancelIntro)
-		image_speed = 0.35
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	else
-		image_speed = abs(movespeed) / 15
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : abs(movespeed) / 15
 	
 	if (grounded)
 	{

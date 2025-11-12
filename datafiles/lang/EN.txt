@@ -543,6 +543,8 @@
 "opt_mod_laphell" : "LAP HELL"
 "opt_mod_fps" : "FPS"
 "opt_mod_skipintro" : "SKIP INTRO"
+"opt_mod_enmode" : "EXHIBITION NIGHT MODE"
+"opt_mod_cowboyhat" : "COWBOY HAT"
 "opt_virtualcontroller" : "VIRTUAL CONTROLLER"
 
 # Language Submenu

@@ -1,6 +1,6 @@
 function state_player_fling()
 {
-	image_speed = 0.35
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	hsp = 0
 	vsp = 0
 	global.ComboFreeze = 2
@@ -11,7 +11,7 @@ function state_player_fling()
 
 function state_player_fling_launch()
 {
-	image_speed = 0.35
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	hsp = approach(hsp, 15 * sign(hsp), 0.2)
 	flingDashTimer--
 	
@@ -135,7 +135,7 @@ function state_player_fling_launch()
 			{
 				event_play_oneshot("event:/SFX/player/groundpound", x, y)
 				camera_shake_add(20, 40)
-				image_speed = 0.35
+				image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 				
 				with (obj_parent_enemy)
 				{

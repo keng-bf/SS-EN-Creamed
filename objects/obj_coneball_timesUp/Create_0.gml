@@ -18,6 +18,6 @@ attack = 1
 noConeballRoom = false
 savedCamY = y
 savedCamX = x
-sprite_index = spr_blotchsplotch
+sprite_index = (global.enmode ? spr_blotchsplotch : spr_coneball)
 event_play_oneshot("event:/SFX/coneball/blotchlaugh")
 maxspeed = 8

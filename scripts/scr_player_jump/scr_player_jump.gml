@@ -148,7 +148,7 @@ function state_player_jump()
 	if (move != 0)
 		xscale = move
 	
-	image_speed = 0.35
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	do_grab(PlayerState.jump)
 	
 	if (grounded && (sprite_index == spr_player_PZ_freeFall_1 || sprite_index == spr_player_PZ_freeFall_2))

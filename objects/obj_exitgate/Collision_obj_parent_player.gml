@@ -1,4 +1,4 @@
-if (global.panic)
+if (global.panic || random_secret)
 {
 	with (obj_parent_player)
 	{

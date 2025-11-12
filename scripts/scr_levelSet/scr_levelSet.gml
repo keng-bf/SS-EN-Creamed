@@ -32,6 +32,8 @@ function scr_levelSet()
 	
 	instance_destroy(obj_cutsceneManager)
 	instance_destroy(obj_coneball_timesUp)
+	instance_destroy(obj_nullball_lap)
+	instance_destroy(obj_nullball_bg)
 	instance_destroy(obj_yogurtexe)
 	instance_destroy(obj_practicemode)
 	instance_destroy(obj_snowwalkparticles)
@@ -41,6 +43,7 @@ function scr_levelSet()
 	instance_destroy(obj_lapvisual)
 	instance_destroy(obj_minesgem)
 	instance_destroy(obj_collect_giver)
+	instance_destroy(obj_randomsecret)
 	global.CafeDrawer = -4
 	global.cutsceneManager = -4
 	

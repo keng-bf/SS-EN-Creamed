@@ -8,3 +8,5 @@ if (drop && ds_list_find_index(global.doorsave, id) != -1)
 	drop_state = 1
 	y = drop_y
 }
+
+random_secret = instance_exists(obj_randomsecret) && obj_randomsecret.start;

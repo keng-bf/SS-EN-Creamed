@@ -247,7 +247,7 @@ if (target_player.state == PlayerState.fling || target_player.state == PlayerSta
 	targety = y
 }
 
-if (instance_exists(obj_coneball_timesUp))
+if (instance_exists(obj_coneball_timesUp) || instance_exists(obj_nullball_lap))
 {
 	state = PlayerState.stun
 	

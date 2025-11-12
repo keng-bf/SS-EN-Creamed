@@ -150,7 +150,7 @@ function cutscene_secretPortal_start()
 		hsp = 0
 		vsp = 0
 		sprite_index = spr_hurt
-		image_speed = 0.35
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 		
 		switch (other.storedState)
 		{
@@ -223,6 +223,33 @@ function cutscene_secretPortal_middle()
 				global.RoomIsSecret = true
 			
 			event_play_oneshot("event:/SFX/general/door")
+			if instance_exists(obj_randomsecret)
+			{
+                with (obj_randomsecret)
+                {
+					if (!selected)
+                    {
+						var len = array_length(levels);
+                        trace("Selecting random level, array length: ", len);
+                        if (len > 0)
+                        {
+							var num = irandom(len - 1);
+                            selected_level = levels[num];
+                            selected = true;
+                            trace("Selected random level: ", room_get_name(selected_level));
+                            array_delete(levels, num, 1);
+                        }
+                    }
+                            
+                    if (selected_level != -4)
+                        obj_parent_player.targetRoom = selected_level;
+					else
+					{
+						obj_parent_player.targetRoom = secret_entrance;
+						obj_parent_player.targetDoor = "S"
+					}
+                }
+			}
 			instance_create(0, 0, obj_fadeoutTransition)
 		}
 		
@@ -285,7 +312,7 @@ function cutscene_secretPortal_end()
 	{
 		visible = true
 		isInSecretPortal = true
-		image_speed = 0.35
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 		
 		with (instance_place(x, y, obj_secretPortal))
 		{

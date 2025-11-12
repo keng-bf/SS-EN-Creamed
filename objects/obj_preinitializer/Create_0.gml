@@ -129,7 +129,8 @@ enum Characters
 	Coneboy = 3,
 	Peppino = 4,
 	Noise = 5,
-	Vigilante = 6
+	Vigilante = 6,
+	Custom = 7
 }
 
 enum OptionMenu

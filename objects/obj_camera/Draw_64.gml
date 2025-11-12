@@ -3,7 +3,7 @@ if (!DrawHUD)
 
 if (!global.ShowHUD)
 	exit
-
+	
 var collectable_shake_x = pointCollectShake * random_range(-1, 1)
 var collectable_shake_y = pointCollectShake * random_range(-1, 1)
 var visual_score = global.Collect - global.ComboScore
@@ -23,7 +23,7 @@ with (obj_comboEndEffect)
 visual_score = max(visual_score, 0)
 cakeHud.x = cakeHud.xstart + collectable_shake_x
 cakeHud.y = DrawY + cakeHud.ystart + collectable_shake_y + 10
-draw_sprite(spr_cakehud, cakeHud.image_index, cakeHud.x, cakeHud.y)
+draw_sprite(scr_isPTCharacter() ? spr_pizzahud : spr_cakehud, cakeHud.image_index, cakeHud.x, cakeHud.y)
 drawCakeHudTopping(spr_cranktopping, global.crank)
 drawCakeHudTopping(spr_branktopping, global.brank)
 drawCakeHudTopping(spr_aranktopping, global.arank)
@@ -44,7 +44,7 @@ if (oldPointCollect != point_string)
 	oldPointCollect = point_string
 }
 
-draw_set_font(global.candlefont)
+draw_set_font(scr_isPTCharacter() ? global.pizzafont : global.candlefont)
 draw_set_alpha(1)
 draw_set_halign(fa_center)
 draw_set_valign(fa_top)

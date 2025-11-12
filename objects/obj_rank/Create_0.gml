@@ -9,6 +9,7 @@ alarm[3] = 180
 if (global.rank == "p")
 	alarm[3] = 46
 isIL = global.InternalLevelName == "rooftop"
+isSW = global.InternalLevelName == "secretworld"
 depth = -6
 event = 0
 subevent = 0

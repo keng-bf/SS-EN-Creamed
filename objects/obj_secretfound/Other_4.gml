@@ -1,3 +1,8 @@
+if instance_exists(obj_randomsecret)
+{
+	instance_destroy();
+	exit;
+}
 if !in_saveroom()
 {
 	var room_name = room_get_name(room)

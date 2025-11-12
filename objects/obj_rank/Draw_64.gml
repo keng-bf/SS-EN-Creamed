@@ -35,7 +35,12 @@ draw_set_alpha(1)
 if (event <= 0)
 	exit
 
-draw_sprite_ext(!isIL ? lang_get_sprite(spr_rankclipboard) : spr_rankclipboard2, 0, 716, 271 + clipboardY, 1, 1, 0, c_white, 1)
+if isIL
+	draw_sprite_ext(spr_rankclipboard2, 0, 716, 271 + clipboardY, 1, 1, 0, c_white, 1)
+else if isSW
+	draw_sprite_ext(spr_rankclipboard3, 0, 716, 271 + clipboardY, 1, 1, 0, c_white, 1)
+else
+	draw_sprite_ext(lang_get_sprite(spr_rankclipboard), 0, 716, 271 + clipboardY, 1, 1, 0, c_white, 1)
 var i = 0
 var _text_scribble = "[c_red][fa_middle][fa_center][dialogfont]"
 
@@ -57,7 +62,7 @@ if (damage_shown)
 
 draw_set_color(c_white)
 
-if !isIL{
+if !isIL || !isSW{
 for (var c = 0; c < array_length(confecti_sprites); c++)
 {
 	var _xx = 555 + (75 * c)
@@ -65,7 +70,7 @@ for (var c = 0; c < array_length(confecti_sprites); c++)
 	draw_sprite_ext(confecti_sprites[c], confecti_index[c], _xx, _yy, 1, 1, 0, c_white, 1)
 }}
 
-for (var s = 0; s < array_length(secrets_collected_visual); s++)
+if !isSW{for (var s = 0; s < array_length(secrets_collected_visual); s++)
 {
 	var _xx = 650 + (75 * s)
 	var _yy = 325 + clipboardY
@@ -74,7 +79,7 @@ for (var s = 0; s < array_length(secrets_collected_visual); s++)
 	draw_sprite_ext(spr_rank_ink, _ind, irandom_range(_xx - _shk, _xx + _shk), irandom_range(_yy - _shk, _yy + _shk), secrets_scale[s], secrets_scale[s], 0, c_white, 1)
 	secrets_scale[s] = approach(secrets_scale[s], 1, 0.25)
 	secrets_shake[s] = approach(secrets_shake[s], 0, 0.1)
-}
+}}
 
 var _janx = 558
 draw_sprite_ext(spr_rankcake, score_cake_index, 500, 440 + clipboardY, 1, 1, 0, c_white, 1)

@@ -10,8 +10,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_deadjohnparent",
-    "path": "objects/obj_deadjohnparent/obj_deadjohnparent.yy",
+    "name": "obj_parent_deadjohn",
+    "path": "objects/obj_parent_deadjohn/obj_parent_deadjohn.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

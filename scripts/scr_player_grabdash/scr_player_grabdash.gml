@@ -20,7 +20,7 @@ function state_player_grabdash()
 				depth = -8
 				image_xscale = choose(1, -1)
 				sprite_index = spr_shineeffect
-				image_speed = 0.35
+				image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 			}
 		}
 	}
@@ -114,7 +114,7 @@ function state_player_grabdash()
 		}
 	}
 	
-	image_speed = 0.3
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.3
 	
 	if (!instance_exists(obj_slidecloud) && grounded && movespeed > 5)
 	{
@@ -139,7 +139,7 @@ function state_player_grabdash()
 	
 	if (grounded && ((sprite_index == spr_suplexdashGround && sprite_animation_end()) || array_contains(_falling_sprites, sprite_index)))
 	{
-		image_speed = 0.35
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 		grav = 0.5
 		
 		if (key_attack)
@@ -164,7 +164,7 @@ function state_player_grabdash()
 		fmod_studio_event_instance_start(sndCrouchslide)
 		sprite_index = spr_grabDashTumble
 		image_index = 0
-		image_speed = 0.2
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.2
 		
 		if (!grounded && floatyGrab > 0)
 		{

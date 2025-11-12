@@ -15,8 +15,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "SugarySpire",
+    "path": "SugarySpire.yyp",
   },
   "parentObjectId": null,
   "persistent": true,

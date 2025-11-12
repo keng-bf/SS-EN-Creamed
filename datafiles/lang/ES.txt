@@ -545,6 +545,8 @@
 "opt_mod_laphell" : "INFIERNO VUELTA"
 "opt_mod_fps" : "FPS"
 "opt_mod_skipintro" : "SALTAR INTRODUCCIÓN"
+"opt_mod_enmode" : "EXHIBICIÓN NOCTURNA MODO"
+"opt_mod_cowboyhat" : "SOMBRERO DE VAQUERO"
 "opt_virtualcontroller" : "CONTROLADOR VIRTUAL"
 
 # Language Submenu

@@ -34,7 +34,7 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 			if(i == 2)
 			{
 				global.panic = true
-				global.fill = int64(commands[i]) * 12
+				global.EscapeTime = int64(commands[i]) * 12
 				hasarg2 = true
 			}
 			if(i >= 2) break
@@ -42,12 +42,11 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 		if(hasarg2 == false)
 		{
 			global.panic = true
-			global.fill = 0
+			global.EscapeTime = 0
 		}
 	}
 	if(string_pos("reload_gml", string_lower(commandstring)) == 1) 
 	{
-		global.nsp_errorcount = 0
 		with(obj_custom_object)
 		{
 			if(step_event_saved != undefined) 
@@ -114,7 +113,6 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 	if(string_pos("gml", string_lower(commandstring)) == 1) {
 		var code = string_delete(commandstring, 1, 4);
 		if(string_length(code) > 2){
-			global.nsp_errorcount = 0
 			if(live_execute_string(code)){} else get_string_async("AN ERROR HAS OCCURRED", live_result)
 		}
 	}
@@ -217,10 +215,9 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 			{
 				switch(commands[i])
 				{
-					case "states.rocket":
-					case "rocket":
 					case "states.normal":
 					case "normal":
+						obj_parent_player.state = PlayerState.normal
 					case "states.fireass":
 					case "fireass":
 					case "states.firemouth":

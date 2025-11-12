@@ -6,16 +6,12 @@ global.npcsmallfont = __scribble_font_add_sprite_ext(spr_npcsmallfont, "AÁÀÂ�
 global.SoundTestFont = global.npcfont
 global.smalltimerfont = __scribble_font_add_sprite_ext(spr_smalltimerfont, ".1234567890:", 1, 0)
 global.creditsfont = __scribble_font_add_sprite_ext(spr_creditsfont, " ABCDEFGHIJKLMNOPQRSTUVWXYZ.!,abcdefghijklmnopqrstuvwxyz0123456789@#$%^&*(){}[]|:;'/`", 1, 0)
-global.collectfont = __scribble_font_add_sprite_ext(spr_fontcollect, "0123456789", 1, 0)
 global.candlefont = __scribble_font_add_sprite_ext(spr_fontcandle, "0123456789", 1, 0)
+global.pizzafont = __scribble_font_add_sprite_ext(spr_fontpizza, "0123456789", 1, 0)
 global.candleBigFont = __scribble_font_add_sprite_ext(spr_fontBigCandle, "0123456789", 1, 0)
-global.rankcombofont = __scribble_font_add_sprite_ext(spr_fontrankcombo, "0123456789", 1, 0)
-global.bubblefont = __scribble_font_add_sprite_ext(spr_bubblefont, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.!<>'?()[]", 1, 0)
 global.timerfont = __scribble_font_add_sprite_ext(spr_timer_font, "1234567890", 0, 6)
-global.combofont = __scribble_font_add_sprite_ext(spr_tvHUD_comboFont, "0123456789", 1, 2)
-global.lapfont = __scribble_font_add_sprite_ext(spr_lap_font, "0123456789", 1, 2)
-global.dialogfont = __scribble_font_add_sprite_ext(spr_font_dialogue, "ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz,.!¡?¿:;\"`'/-_+=1234567890@#$%^&*()[]ÁÉÍÓÚáéíóú", 1, 2)
-global.percentageFont = __scribble_font_add_sprite_ext(spr_fontPercentage, "1234567890%", 1, 2)
+global.combofont = __scribble_font_add_sprite_ext(spr_tvHUD_comboFont, "0123456789", 1, 2);
+global.percentageFont = __scribble_font_add_sprite_ext(spr_fontPercentage, "1234567890%", 1, 2);
 global.buttonfont = __scribble_font_add_sprite_ext(spr_buttonfont, "ABCDEFGHIJKLMNOPQRSTUVWXYZ$%&*()/", 1, 0)
 global.cafefont = __scribble_font_add_sprite_ext(spr_cafefontbig, "0123456789:", 1, 0)
 global.cafefontsmall = __scribble_font_add_sprite_ext(spr_cafefontsmall, "0123456789:", 1, 0)
@@ -282,7 +278,7 @@ function scr_lang_dictionary_fonts_add(arg0, arg1)
 function scr_lang_fonts_init()
 {
 	var st = {}
-	var fnt_arr = ["fontDefault", "smallfont", "creditsfont", "collectfont", "candlefont", "rankcombofont", "bubblefont", "timerfont", "combofont", "lapfont", "dialogfont", "buttonfont", "promptfont", "npcfont", "npcsmallfont", "captionfont", "keyDrawFont"]
+	var fnt_arr = ["fontDefault", "smallfont", "creditsfont", "collectfont", "candlefont", "rankcombofont", "bubblefont", "timerfont", "combofont", "buttonfont", "promptfont", "npcfont", "npcsmallfont", "captionfont", "keyDrawFont"]
 	
 	for (var i = 0; i < array_length(fnt_arr); i++)
 	{

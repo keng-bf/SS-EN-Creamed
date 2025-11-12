@@ -56,6 +56,6 @@ function state_player_finishingblow()
 		afterimage_timer = 5
 	}
 	
-	image_speed = 0.4
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.4
 	landAnim = false
 }

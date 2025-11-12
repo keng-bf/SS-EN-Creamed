@@ -86,6 +86,7 @@
     {"name":"inst_112495","path":"rooms/cafe_3/cafe_3.yy",},
     {"name":"inst_112496","path":"rooms/cafe_3/cafe_3.yy",},
     {"name":"inst_65434F80","path":"rooms/cafe_3/cafe_3.yy",},
+    {"name":"inst_61F2BD4F","path":"rooms/cafe_3/cafe_3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -177,7 +178,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_112494","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":0.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":372.0,"y":248.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_112495","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":0.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":403.0,"y":248.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_112496","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":0.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":434.0,"y":248.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65434F80","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dogMount","path":"objects/obj_dogMount/obj_dogMount.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3712.0,"y":1040.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61F2BD4F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dogMount_Spawner","path":"objects/obj_dogMount_Spawner/obj_dogMount_Spawner.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":3744.0,"y":1031.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65434F80","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dogMount","path":"objects/obj_dogMount/obj_dogMount.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":3712.0,"y":1040.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_decor","depth":170,"effectEnabled":false,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":38,"SerialiseWidth":138,"TileCompressedData":[
 -166,0,4,123,124,125,126,-64,0,8,1063,1064,1065,1066,1067,1068,1069,1070,-62,0,4,155,156,157,158,-64,0,8,1095,1096,1097,1098,1099,1100,1101,1102,-62,0,4,187,188,189,190,-17,0,1,819,-46,0,8,1127,1128,1129,1130,1131,1132,1133,1134,-62,0,4,219,220,221,222,-64,0,8,1159,1160,1161,1162,1163,1164,1165,1166,-130,0,8,1191,1192,1193,1194,1195,1196,1197,1198,-130,0,8,1223,1224,1225,1226,1227,1228,1229,1230,-4,0,3,1116,1117,1118,-103,0,1,285,-19,0,8,1255,1256,1257,1258,1259,1260,1261,1262,-4,0,3,1148,1149,1150,-95,0,1,274,-27,0,8,1287,1288,1289,1290,1291,1292,
@@ -259,7 +261,7 @@
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1024,"wview":1024,"xport":0,"xview":0,"yport":0,"yview":0,},
   ],
   "viewSettings": {
-    "clearDisplayBuffer": true,
+    "clearDisplayBuffer": false,
     "clearViewBackground": false,
     "enableViews": true,
     "inheritViewSettings": false,

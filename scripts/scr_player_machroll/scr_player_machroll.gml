@@ -124,9 +124,9 @@ function state_player_machroll()
 	}
 	
 	if (sprite_index == spr_crouchslip || sprite_index == spr_crouchslipfall || sprite_index == spr_crouchslipintro || sprite_index == spr_machroll || sprite_index == spr_machroll3 || sprite_index == spr_machroll3intro)
-		image_speed = abs(movespeed) / 15
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : abs(movespeed) / 15
 	else
-		image_speed = 0.35
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	
 	if (!instance_exists(obj_chargeEffect) && sprite_index != spr_crouchslip && sprite_index != spr_crouchslipfall && sprite_index != spr_crouchslipintro && sprite_index != spr_dive && movespeed >= 12)
 	{

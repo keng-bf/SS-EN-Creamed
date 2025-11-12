@@ -104,5 +104,5 @@ function state_player_wallkick()
 		instance_create(x + random_range(-40, 40), y + random_range(-40, 40), obj_wallkickDust)
 	
 	do_taunt(PlayerState.wallkick)
-	image_speed = 0.45
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.45
 }

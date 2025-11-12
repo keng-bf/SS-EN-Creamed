@@ -8,5 +8,5 @@ function state_player_parry()
 	if (sprite_animation_end())
 		state = PlayerState.normal
 	
-	image_speed = 0.5
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.5
 }

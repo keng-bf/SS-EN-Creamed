@@ -16,6 +16,25 @@ setupmacOS() {
     SDK_CORE_SOURCE="$SDK_PATH/api/core/lib/libfmodL.dylib"
     SDK_STUDIO_SOURCE="$SDK_PATH/api/studio/lib/libfmodstudioL.dylib"
 
+    for f in "${SDK_CORE_SOURCE}" "${SDK_STUDIO_SOURCE}"; do
+        # Skip empty vars
+        [ -n "$f" ] || continue
+
+        if [ ! -e "$f" ]; then
+            logWarning "Not found: $f"
+            continue
+        fi
+
+        if xattr -p com.apple.quarantine "$f" >/dev/null 2>&1; then
+            logWarning "'$(basename "$f")' is quarantined. Removing com.apple.quarantine…"
+            if xattr -d com.apple.quarantine "$f" >/dev/null 2>&1; then
+                logInformation "Removed quarantine from '$f'"
+            else
+                logError "Failed to remove quarantine from '$f' (permissions/path?)."
+            fi
+        fi
+    done
+
     # assertFileHashEquals $SDK_CORE_SOURCE $MACOS_SDK_HASH "$ERROR_SDK_HASH"
     
     echo "Copying macOS (64 bit) dependencies"
@@ -24,19 +43,42 @@ setupmacOS() {
         # Assert if xcode-tools are installed (required)
         assertXcodeToolsInstalled
 
+        # Code sign the original library binary
+        codesign -s "${YYPLATFORM_option_mac_signing_identity}" -f --timestamp --verbose --options runtime "./libYYFMOD.dylib"
+
+        # Copy and code sign dependencies
         itemCopyTo "$SDK_CORE_SOURCE" "./libfmodL.dylib"
         codesign -s "${YYPLATFORM_option_mac_signing_identity}" -f --timestamp --verbose --options runtime "./libfmodL.dylib"
 
-        if [[ $ENABLE_STUDIO_FLAG == 1 ]]; then
-            itemCopyTo "$SDK_STUDIO_SOURCE" "./libfmodstudioL.dylib"
-            codesign -s "${YYPLATFORM_option_mac_signing_identity}" -f --timestamp --verbose --options runtime "./libfmodstudioL.dylib"
+        itemCopyTo "$SDK_STUDIO_SOURCE" "./libfmodstudioL.dylib"
+        codesign -s "${YYPLATFORM_option_mac_signing_identity}" -f --timestamp --verbose --options runtime "./libfmodstudioL.dylib"
+
+        # If there is an extra game.zip file here then this is a package command
+        # Update the libraries inside the zip file (used for packaging)
+        if [ -f "./game.zip" ]; then
+            TEMP_FOLDER="${YYprojectName}___temp___"
+
+            mkdir "./${TEMP_FOLDER}"
+
+            itemCopyTo "./libYYFMOD.dylib" "${TEMP_FOLDER}/assets/libYYFMOD.dylib"
+            itemCopyTo "./libfmodL.dylib" "${TEMP_FOLDER}/assets/libfmodL.dylib"
+            itemCopyTo "./libfmodstudioL.dylib" "${TEMP_FOLDER}/assets/libfmodstudioL.dylib"
+    
+            zipUpdate "${TEMP_FOLDER}" "game.zip"
+            rm -r ${TEMP_FOLDER}
         fi
     else
-        itemCopyTo "$SDK_CORE_SOURCE" "${YYprojectName}/${YYprojectName}/Supporting Files/libfmodL.dylib"
 
-        if [[ $ENABLE_STUDIO_FLAG == 1 ]]; then
-            itemCopyTo "$SDK_STUDIO_SOURCE" "${YYprojectName}/${YYprojectName}/Supporting Files/libfmodstudioL.dylib"
+        # When running from CI the 'YYprojectName' will not be set use 'YYprojectPath' instead.
+        if [ -z "$YYprojectName" ]; then
+            YYprojectName=$(basename "${YYprojectPath%.*}")
         fi
+
+        # Replace spaces with underscores (this matches the assetcompiler output)
+        YYfixedProjectName="${YYprojectName// /_}"
+
+        itemCopyTo "$SDK_CORE_SOURCE" "${YYfixedProjectName}/${YYfixedProjectName}/Supporting Files/libfmodL.dylib"
+        itemCopyTo "$SDK_STUDIO_SOURCE" "${YYfixedProjectName}/${YYfixedProjectName}/Supporting Files/libfmodstudioL.dylib"
     fi
 }
 
@@ -47,8 +89,8 @@ setupLinux() {
     pathResolveExisting "$YYprojectDir" "$LINUX_SDK_PATH" SDK_PATH
 
     # Get library file paths
-    SDK_CORE_SOURCE="$SDK_PATH/api/core/lib/x86_64/libfmod.so.13"
-    SDK_STUDIO_SOURCE="$SDK_PATH/api/studio/lib/x86_64/libfmodstudio.so.13"
+    SDK_CORE_SOURCE="$SDK_PATH/api/core/lib/x86_64/libfmod.so.14"
+    SDK_STUDIO_SOURCE="$SDK_PATH/api/studio/lib/x86_64/libfmodstudio.so.14"
 
     # assertFileHashEquals $SDK_CORE_SOURCE $LINUX_SDK_HASH "$ERROR_SDK_HASH"
 
@@ -59,19 +101,16 @@ setupLinux() {
         YYprojectName=$(basename "${YYprojectPath%.*}")
     fi
 
-    fileExtract "${YYprojectName}.zip" "_temp"
+    # Replace spaces with underscores (this matches the assetcompiler output)
+    YYfixedProjectName="${YYprojectName// /_}"
 
-    if [[ ! -f "_temp/assets/libfmod.so.13" ]]; then 
-        itemCopyTo "$SDK_CORE_SOURCE" "_temp/assets/libfmod.so.13"
-
-        # Copy studio libs if enabled
-        if [[$ENABLE_STUDIO_FLAG == 1]]; then
-            [[ ! -f "_temp/assets/libfmodstudio.so.13" ]] && itemCopyTo "$SDK_STUDIO_SOURCE" "_temp/assets/libfmodstudio.so.13"
-        fi
-    fi
-
-    folderCompress "_temp" "${YYprojectName}.zip"
-    rm -r _temp
+    TEMP_FOLDER="${YYprojectName}___temp___"
+    
+    mkdir "./${TEMP_FOLDER}"
+    itemCopyTo "$SDK_CORE_SOURCE" "${TEMP_FOLDER}/assets/libfmod.so.14"
+    itemCopyTo "$SDK_STUDIO_SOURCE" "${TEMP_FOLDER}/assets/libfmodstudio.so.14"
+    zipUpdate "${TEMP_FOLDER}" "${YYprojectName}.zip"
+    rm -r ${TEMP_FOLDER}
 }
 
 # ----------------------------------------------------------------------------------------------------

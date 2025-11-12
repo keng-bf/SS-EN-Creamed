@@ -30,7 +30,7 @@ if (get_panic() && !global.freezeframe && !is_tutorial())
 	
 	if (global.panic && global.EscapeTime <= 0 && room != timesuproom)
 	{
-		if (!instance_exists(obj_coneball_timesUp))
+		if (!instance_exists(obj_coneball_timesUp) && !instance_exists(obj_nullball_lap))
 			instance_create(obj_parent_player.x, obj_parent_player.y, obj_coneball_timesUp)
 	}
 	else
@@ -176,7 +176,8 @@ else
 	}
 	else if (global.Collect >= global.srank)
 	{
-		if (!global.ComboLost && global.secretfound > 2 && global.lapcount >= 1 && global.Treasure)
+		var isSW = global.InternalLevelName == "secretworld"
+		if (isSW ? !global.ComboLost : (!global.ComboLost && global.secretfound > 2 && global.lapcount >= 1 && global.Treasure))
 			global.currentrank = "P"
 		else
 			global.currentrank = "S"
@@ -185,10 +186,7 @@ else
 	if (lastRank != global.currentrank)
 	{
 		bubblescale = 2
-		var rank_snd = sndRankUp
-		var rank_index = rank_checker(string_lower(global.currentrank))
-		var oldrank_index = rank_checker(string_lower(lastRank))
-		var event_state = oldrank_index
+		var rank_snd = sndRankUp,rank_index = rank_checker(string_lower(global.currentrank)),oldrank_index = rank_checker(string_lower(lastRank)),event_state = oldrank_index
 		
 		if (oldrank_index > rank_index)
 		{

@@ -37,6 +37,9 @@
     {"name":"inst_100340","path":"rooms/tutorial_1/tutorial_1.yy",},
     {"name":"inst_100341","path":"rooms/tutorial_1/tutorial_1.yy",},
     {"name":"inst_100342","path":"rooms/tutorial_1/tutorial_1.yy",},
+    {"name":"inst_635FB673","path":"rooms/tutorial_1/tutorial_1.yy",},
+    {"name":"inst_F5894FC","path":"rooms/tutorial_1/tutorial_1.yy",},
+    {"name":"inst_6F5D3DBF","path":"rooms/tutorial_1/tutorial_1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -75,6 +78,11 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_100342","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_coneboyCutout","path":"objects/obj_coneboyCutout/obj_coneboyCutout.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_coneboyCutout","path":"objects/obj_coneboyCutout/obj_coneboyCutout.yy",},"propertyId":{"name":"escapeEnemy","path":"objects/obj_parent_enemy/obj_parent_enemy.yy",},"value":"true",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1869.0,"y":370.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_635FB673","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lapPortal","path":"objects/obj_lapPortal/obj_lapPortal.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_lapPortal","path":"objects/obj_lapPortal/obj_lapPortal.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_lapPortal/obj_lapPortal.yy",},"value":"tutorial_5",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1616.0,"y":576.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F5894FC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorP","path":"objects/obj_doorP/obj_doorP.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":560.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F5D3DBF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lapjanitor_CutscenePointer","path":"objects/obj_lapjanitor_CutscenePointer/obj_lapjanitor_CutscenePointer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1504.0,"y":626.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":25,"SerialiseWidth":88,"TileCompressedData":[
 -159,0,3,633,634,635,-85,0,3,672,673,674,-152,0,1,645,-103,0,2,683,684,-23,0,2,518,519,-61,0,2,722,723,-23,0,2,557,558,-61,0,2,761,762,-23,0,2,596,597,-89,0,2,636,637,-86,0,2,675,676,-376,0,2,511,512,-28,0,2,522,523,-56,0,2,550,551,-28,0,2,561,562,-29,0,2,666,667,-25,0,2,589,590,-20,0,

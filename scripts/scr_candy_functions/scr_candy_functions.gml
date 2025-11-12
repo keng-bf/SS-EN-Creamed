@@ -1488,7 +1488,22 @@ function fmod_event_getEventPath(arg0)
 
 function instance_create(arg0, arg1, arg2, arg3 = {})
 {
-	return instance_create_depth(arg0, arg1, 0, arg2, arg3);
+	var inst = instance_create_depth(arg0, arg1, 0, arg2, arg3);
+    
+    if (instance_exists(obj_fakeeditor))
+    {
+        with (obj_fakeeditor)
+        {
+            if (in_play_mode)
+            {
+                instances[instances_len] = inst;
+                instances_len++;
+            }
+        }
+    }
+    
+    return inst;
+    
 }
 
 function scr_queueTVAnimation(arg0, arg1 = 150)
@@ -2766,32 +2781,6 @@ function scr_solid(arg0, arg1, arg2 = false)
 function scr_solid_player(arg0, arg1, arg2 = false)
 {
 	return place_meeting_collision(arg0, arg1, arg2);
-}
-
-function scr_tvsprites()
-{
-	idletvspr = global.TvSprPlayer_Idle
-	combotvspr = global.TvSprPlayer_Combo
-	happytvspr = global.TvSprPlayer_Happy
-	escapetvspr = global.TvSprPlayer_EscapeIdle
-	tvchange1 = global.TvSprPlayer_IdleAnim1
-	tvchange2 = global.TvSprPlayer_IdleAnim2
-	cottontvspr = global.TvSprPlayer_WereCotton
-	hurttvspr = global.TvSprPlayer_Hurt
-	minecarttvspr = global.TvSprPlayer_Minecart
-	firetvspr = spr_tvHUD_player_PZ_fireAss
-	angrytvspr = spr_tvHUD_player_PZ_angry
-	orbtvspr = spr_tvHUD_player_PZ_croaked
-	crashtvspr = spr_tvHUD_player_PZ_crash
-	tumbletvspr = spr_tvHUD_player_PZ_ball
-	mach2tvspr = spr_tvHUD_player_PZ_mach2
-	mach3tvspr = spr_tvHUD_player_PZ_mach3
-	mach4tvspr = spr_tvHUD_player_PZ_mach4
-	machrolltvspr = spr_tvHUD_player_PZ_machRoll
-	frostburntvspr = spr_tvHUD_player_PZ_frostBurn
-	marshdogspr = spr_tvHUD_player_PZ_marshMount
-	panictvspr = global.TvSprPlayer_EscapeIdle
-	secrettvspr = global.TvSprPlayer_Secret
 }
 
 function scr_confecti_appear()
@@ -4364,4 +4353,19 @@ function scr_player_check_normal(arg0)
 {
 	var normalStates = [PlayerState.normal, PlayerState.jump, PlayerState.mach1, PlayerState.mach2, PlayerState.mach3, PlayerState.machslide, PlayerState.wallkick, PlayerState.grabdash, PlayerState.crouch, PlayerState.crouchjump]
 	return array_contains(normalStates, arg0.state);
+}
+
+function scr_isPTCharacter()
+{
+	return (global.playerCharacter == Characters.Peppino || global.playerCharacter == Characters.Noise || global.playerCharacter == Characters.Vigilante)
+}
+
+function concat()
+{
+    var _string = "";
+    
+    for (var i = 0; i < argument_count; i++)
+        _string += string(argument[i]);
+    
+    return _string;
 }

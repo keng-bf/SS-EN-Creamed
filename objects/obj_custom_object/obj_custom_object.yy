@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bambidance",
-    "path": "sprites/spr_bambidance/spr_bambidance.yy",
+    "name": "spr_command_trigger",
+    "path": "sprites/spr_command_trigger/spr_command_trigger.yy",
   },
   "spriteMaskId": null,
   "visible": true,

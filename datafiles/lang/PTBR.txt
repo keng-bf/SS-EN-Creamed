@@ -544,6 +544,8 @@
 "opt_mod_laphell" : "VOLTA INFERNO"
 "opt_mod_fps" : "FPS"
 "opt_mod_skipintro" : "PULAR INTRO"
+"opt_mod_enmode" : "NOITE DE EXIBIÇÃO MODO"
+"opt_mod_cowboyhat" : "CHAPÉU DE COWBOY"
 "opt_virtualcontroller" : "CONTROLADOR VIRTUAL"
 
 # Language Submenu

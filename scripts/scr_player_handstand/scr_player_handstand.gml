@@ -1,6 +1,6 @@
 function state_player_handstand()
 {
-	image_speed = 0.35
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	scr_getinput()
 	
 	if (dir != xscale)

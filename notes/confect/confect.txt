@@ -3,3 +3,4 @@ obj_confecticrack 2
 obj_confectichoco 3
 obj_confectiworm 4
 obj_confecticandy 5
+obj_confectimallow, obj_confectichoco, obj_confecticrack, obj_confectiworm, obj_confecticandy

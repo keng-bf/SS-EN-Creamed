@@ -6,7 +6,7 @@ function state_player_changing()
 	movespeed = 0
 	pogomovespeed = 0
 	sprite_index = spr_idle
-	image_speed = 0.35
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	visible = false
 	x = approach(x, obj_costumerdoor.x, 2)
 	y = approach(y, obj_costumerdoor.y, 16)

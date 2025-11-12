@@ -46,7 +46,7 @@ function state_player_normal()
 	{
 		_idle_spr = spr_escapeidle
 		
-		if (instance_exists(obj_coneball_timesUp))
+		if (instance_exists(obj_coneball_timesUp) || instance_exists(obj_nullball_lap))
 			_idle_spr = spr_timesupidle
 	}
 	
@@ -232,15 +232,15 @@ function state_player_normal()
 		xscale = move
 		
 		if (movespeed < 3 && move != 0)
-			image_speed = 0.35
+			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 		else if (movespeed > 3 && movespeed < 6)
-			image_speed = 0.45
+			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.45
 		else
-			image_speed = 0.6
+			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.6
 	}
 	else
 	{
-		image_speed = 0.35
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	}
 	
 	if (sprite_index == spr_move_breakdance || sprite_index == spr_idle_breakdance)

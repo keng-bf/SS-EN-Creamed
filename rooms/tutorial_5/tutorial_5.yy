@@ -82,6 +82,7 @@
     {"name":"inst_100663","path":"rooms/tutorial_5/tutorial_5.yy",},
     {"name":"inst_100664","path":"rooms/tutorial_5/tutorial_5.yy",},
     {"name":"inst_100665","path":"rooms/tutorial_5/tutorial_5.yy",},
+    {"name":"inst_4F3FD8E8","path":"rooms/tutorial_5/tutorial_5.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -169,6 +170,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_100663","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secret_cutoff","path":"objects/obj_secret_cutoff/obj_secret_cutoff.yy",},"properties":[],"rotation":-180.0,"scaleX":1.0,"scaleY":2.0,"x":1632.0,"y":544.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_100664","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secret_cutoff","path":"objects/obj_secret_cutoff/obj_secret_cutoff.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":1504.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_100665","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_secret_cutoff","path":"objects/obj_secret_cutoff/obj_secret_cutoff.yy",},"properties":[],"rotation":-180.0,"scaleX":1.0,"scaleY":2.0,"x":1568.0,"y":544.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4F3FD8E8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorP","path":"objects/obj_doorP/obj_doorP.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3504.0,"y":704.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":35,"SerialiseWidth":119,"TileCompressedData":[
 -501,0,2,668,669,-105,0,2,524,525,-10,0,2,707,708,-8,0,2,631,632,-95,0,2,563,564,-20,0,2,670,671,-39,0,2,518,519,-76,0,2,709,710,-39,0,2,557,558,-110,0,3,508,509,510,-4,0,2,596,597,-14,0,2,642,643,-74,0,2,514,515,-7,0,2,511,512,-9,0,3,547,548,549,-20,0,2,681,682,-7,0,2,524,525,-27,0,3,526,527,528,-44,0,2,550,551,-9,0,3,586,587,588,-29,0,2,563,564,-27,0,3,565,566,567,-44,0,4,589,

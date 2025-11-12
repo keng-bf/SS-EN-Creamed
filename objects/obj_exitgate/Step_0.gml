@@ -1,7 +1,7 @@
-if (global.panic)
+if (global.panic || random_secret)
 	sprite_index = openSpr
 
-if (place_meeting(x, y, obj_parent_player) && obj_parent_player.state != PlayerState.comingoutdoor && sprite_index == openSpr && !global.panic && obj_parent_player.sprite_index != obj_parent_player.spr_lookdoor && sprite_index != closedspr)
+if (place_meeting(x, y, obj_parent_player) && obj_parent_player.state != PlayerState.comingoutdoor && sprite_index == openSpr && !global.panic && obj_parent_player.sprite_index != obj_parent_player.spr_lookdoor && sprite_index != closedspr && !random_secret)
 {
 	add_saveroom()
 	sprite_index = closingSpr
@@ -15,7 +15,7 @@ if (place_meeting(x, y, obj_parent_player) && obj_parent_player.state != PlayerS
 if (sprite_index == closingSpr && floor(image_index) == (image_number - 1))
 	sprite_index = closedspr
 
-if (drop && drop_state == 0)
+if (drop && drop_state == 0 && !random_secret)
 {
 	if (!scr_solid(x, y + sign(vsp)))
 	{

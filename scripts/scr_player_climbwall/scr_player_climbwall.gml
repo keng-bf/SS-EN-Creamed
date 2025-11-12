@@ -203,7 +203,7 @@ function state_player_climbwall()
 		}
 	}
 	
-	image_speed = 0.6
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.6
 	
 	if (!instance_exists(obj_puffEffect))
 		instance_create(x, y + 43, obj_puffEffect)

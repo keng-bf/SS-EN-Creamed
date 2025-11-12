@@ -1,7 +1,3 @@
-audio_stop_sound(mu_disclaimer1)
-audio_stop_sound(mu_disclaimer2)
-audio_stop_sound(mu_disclaimer3)
-audio_stop_sound(mu_disclaimer4)
+audio_stop_sound(mu_disclaimer)
 scr_sound(sfx_yes)
 room_goto_fixed(rm_mainmenu)
-instance_destroy()

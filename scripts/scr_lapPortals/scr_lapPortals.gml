@@ -124,12 +124,28 @@ function cutscene_lapPortal_end()
 	
 	if (finished)
 	{
-		if (global.lapcount == 1)
-			global.savedfill = global.EscapeTime
-		else if (global.lapcount == 2)
-			global.EscapeTime = 0
-		else if (global.lapcount == 3)
-			instance_create(0, 0, obj_yogurtexe)
+		switch global.lapcount
+		{
+			case 1:
+				global.savedfill = global.EscapeTime
+				break
+				
+			case 2:
+				global.EscapeTime = 0
+				if is_tutorial()
+					instance_create(0, 0, obj_coneball_timesUp)
+				break
+				
+			case 3:
+				instance_create(0, 0, obj_yogurtexe)
+				break
+				
+			case 4:
+				instance_destroy(obj_coneball_timesUp)
+				instance_create(0, 0, obj_nullball_lap)
+				instance_create(0, 0, obj_nullball_bg)
+				break
+		}
 		
 		instance_create(0, 0, obj_lapvisual)
 		event_play_oneshot("event:/SFX/general/lap2start", x, y)

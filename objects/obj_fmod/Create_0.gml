@@ -1,4 +1,4 @@
-var _channels = 256
+var _channels = 256 //I HATE YOU FMOD
 var _coreflags = FMOD_INIT.NORMAL
 var _studioflags = FMOD_STUDIO_INIT.NORMAL
 global.FMODSTUDIOSYSTEM = fmod_studio_system_create()
@@ -10,10 +10,10 @@ fmod_studio_system_init(_channels, _studioflags, _coreflags)
 show_debug_message("fmod_studio_system_init: " + string(fmod_last_result()))
 system = fmod_studio_system_get_core_system()
 var path = "sound/"
-var plat = "Desktop"
+var plat = "desktop"
 var banks = []
-array_push(banks, "Master.strings.bank")
-array_push(banks, "Master.bank")
+array_push(banks, "master.strings.bank")
+array_push(banks, "master.bank")
 array_push(banks, "music.bank")
 array_push(banks, "sfx.bank")
 
@@ -42,7 +42,7 @@ updateFFT = function()
 		if (fmod_last_result() != FMOD_RESULT.ERR_STUDIO_NOT_LOADED)
 		{
 			fmod_channel_control_add_dsp(channel_group, FMOD_CHANNELCONTROL_DSP_INDEX.HEAD, global.FMOD_DSP_FFT)
-			fmod_dsp_set_parameter_int(global.FMOD_DSP_FFT, FMOD_DSP_FFT.WINDOWTYPE, FMOD_DSP_FFT_WINDOW.RECT)
+			fmod_dsp_set_parameter_int(global.FMOD_DSP_FFT, FMOD_DSP_FFT.WINDOW_TYPE, FMOD_DSP_FFT_WINDOW_TYPE.RECT)
 			var size = 16
 			fmod_dsp_set_parameter_int(global.FMOD_DSP_FFT, FMOD_DSP_FFT.WINDOWSIZE, size)
 			initializedDSP = true

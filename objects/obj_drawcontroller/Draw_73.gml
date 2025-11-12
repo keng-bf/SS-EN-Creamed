@@ -65,9 +65,6 @@ if (sucrose_lighting)
 		
 		gpu_set_blendmode(bm_subtract)
 		
-		with (obj_lightsource)
-			draw_sprite_ext(sprite_index, image_index, x - cam_x, y - cam_y, 1, 1, 0, c_white, 1)
-		
 		with (obj_bombExplosion)
 		{
 			var set = abs((image_index / image_number) - 1)

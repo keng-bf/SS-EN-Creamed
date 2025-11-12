@@ -156,7 +156,7 @@ function state_player_grab()
 		vsp = -6
 		state = PlayerState.superslam
 		image_index = 0
-		image_speed = 0.35
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	}
 	
 	if (key_down && grounded)
@@ -179,5 +179,5 @@ function state_player_grab()
 		idle = 0
 	}
 	
-	image_speed = 0.35
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 }

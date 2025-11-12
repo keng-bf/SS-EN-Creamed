@@ -29,6 +29,7 @@
     {"name":"inst_5113F759","path":"rooms/hub_basement/hub_basement.yy",},
     {"name":"inst_5CE78065","path":"rooms/hub_basement/hub_basement.yy",},
     {"name":"inst_CE561AB","path":"rooms/hub_basement/hub_basement.yy",},
+    {"name":"inst_1667FA2F","path":"rooms/hub_basement/hub_basement.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -60,6 +61,12 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"sprite_index","path":"objects/obj_startGate/obj_startGate.yy",},"value":"spr_dance_startgate",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"details","path":"objects/obj_startGate/obj_startGate.yy",},"value":"default_gate_scroll(spr_dance_startgateBG)",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":576.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1667FA2F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"level","path":"objects/obj_startGate/obj_startGate.yy",},"value":"secretworld",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_startGate/obj_startGate.yy",},"value":"secret_entrance",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"sprite_index","path":"objects/obj_startGate/obj_startGate.yy",},"value":"spr_default_startgate",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_startGate","path":"objects/obj_startGate/obj_startGate.yy",},"propertyId":{"name":"details","path":"objects/obj_startGate/obj_startGate.yy",},"value":"default_gate_scroll(spr_dance_startgateBG)",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":576.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_68E41A9","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"spriteId":{"name":"spr_pizzelle_exe","path":"sprites/spr_pizzelle_exe/spr_pizzelle_exe.yy",},"x":1600.0,"y":1568.0,},

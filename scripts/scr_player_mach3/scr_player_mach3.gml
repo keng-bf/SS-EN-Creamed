@@ -158,7 +158,7 @@ function state_player_mach3()
 		{
 			event_play_oneshot("event:/SFX/player/groundpound", x, y)
 			camera_shake_add(20, 40)
-			image_speed = 0.35
+			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 			
 			with (obj_parent_enemy)
 			{
@@ -216,14 +216,14 @@ function state_player_mach3()
 		})
 	}
 	
-	image_speed = 0.4
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.4
 	
 	if (sprite_index == spr_crazyrun)
-		image_speed = 0.7
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.7
 	else if (sprite_index == spr_machdashpad)
-		image_speed = 0.3
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.3
 	else if (sprite_index == spr_wallJumpCancel || sprite_index == spr_wallJumpCancelIntro)
-		image_speed = 0.35
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	
 	if (sprite_index != spr_dive)
 	{

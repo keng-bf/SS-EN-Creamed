@@ -3,7 +3,7 @@ function state_player_doughmount()
 	inputBuffer = max(inputBuffer - 1, 0)
 	hsp = movespeed
 	move = key_left + key_right
-	image_speed = 0.35
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	scr_conveyorBeltKinematics()
 	
 	if (move != 0 && inputBuffer <= 0)
@@ -24,11 +24,11 @@ function state_player_doughmount()
 		}
 		
 		if (abs(movespeed) < 3 && move != 0)
-			image_speed = 0.35
+			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 		else if (abs(movespeed) > 3 && abs(movespeed) < 6)
-			image_speed = 0.45
+			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.45
 		else
-			image_speed = 0.6
+			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.6
 	}
 	else if (inputBuffer > 0 && grounded)
 		movespeed = approach(movespeed, 0, 0.75)
@@ -119,7 +119,7 @@ function state_player_doughmountspin()
 		movespeed = -(movespeed - (movespeed / 1.5))
 	}
 	
-	image_speed = 0.6
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.6
 }
 
 function state_player_doughmountjump()
@@ -128,7 +128,7 @@ function state_player_doughmountjump()
 
 function state_player_doughmountballoon()
 {
-	image_speed = 0.35
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	
 	if (sprite_index == spr_player_PZ_dogMount_inflate && sprite_animation_end())
 		sprite_index = spr_player_PZ_dogMount_inflated

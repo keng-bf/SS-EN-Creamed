@@ -158,7 +158,7 @@ function state_player_superslam()
 		movespeed -= 0.1
 	
 	if (vsp < 0)
-		image_speed = 0.35
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	else
-		image_speed = 0.5
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.5
 }

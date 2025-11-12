@@ -217,11 +217,16 @@ switch (optionMenu)
 			quick_write_option("Settings", "skipintro", arg0)
 			global.skipintro = arg0
 		}, global.skipintro)
-		/*, new option_normal("opt_mod", onOffToggle, function(arg0)
+		, new option_normal("opt_mod_enmode", onOffToggle, function(arg0)
 		{
-			quick_write_option("Settings", "timerspeedrun", arg0)
-			global.option_speedrun_timer = arg0
-		}, global.option_speedrun_timer)*/]
+			quick_write_option("Settings", "enmode", arg0)
+			global.enmode = arg0
+		}, global.enmode)
+		, new option_normal("opt_mod_cowboyhat", onOffToggle, function(arg0)
+		{
+			quick_write_option("Settings", "cowboyhat", arg0)
+			global.cowboyhat = arg0
+		}, global.cowboyhat)]
 		if (os_type == os_windows)
 		{
 			var virtual_controller = new option_normal("opt_virtualcontroller", onOffToggle, function(arg0)

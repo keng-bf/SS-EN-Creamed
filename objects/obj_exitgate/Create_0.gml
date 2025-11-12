@@ -12,6 +12,7 @@ vsp = 0
 grav = 0.5
 depth = 49
 image_index = 0
+random_secret = false;
 
 if (true && global.InternalLevelName != "none")
 {

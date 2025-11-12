@@ -543,6 +543,8 @@
 "opt_mod_laphell" : "КРУГ АДА"
 "opt_mod_fps" : "FPS"
 "opt_mod_skipintro" : "ПРОПУСТИТЬ КАТСЦЕНУ"
+"opt_mod_enmode" : "НОЧНОЙ ВЫСТАВКЕ РЕЖИМ"
+"opt_mod_cowboyhat" : "КОВБОЙСКАЯ ШЛЯПА"
 "opt_virtualcontroller" : "ВИРТУАЛЬНЫЙ КОНТРОЛЛЕР"
 
 # Language Submenu

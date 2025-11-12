@@ -17,7 +17,7 @@ if (rank == "none")
 
 if (gatePointDisplay.visible)
 {
-	draw_sprite_ext(spr_cakehud, 0, gatePointDisplay.x, gatePointDisplay.y, 1, 1, 0, c_white, 1)
+	draw_sprite_ext(scr_isPTCharacter() ? spr_pizzahud : spr_cakehud, 0, gatePointDisplay.x, gatePointDisplay.y, 1, 1, 0, c_white, 1)
 	var rank_toppings = [spr_null, spr_cranktopping, spr_branktopping, spr_aranktopping, spr_sranktopping, spr_null]
 	
 	for (var i = 0; i < array_length(rank_toppings); i++)
@@ -28,7 +28,7 @@ if (gatePointDisplay.visible)
 	
 	var point_string = string(highscore)
 	var point_string_length = string_length(point_string)
-	draw_set_font(global.candlefont)
+	draw_set_font(scr_isPTCharacter() ? global.pizzafont : global.candlefont)
 	draw_set_halign(fa_center)
 	draw_set_valign(fa_top)
 	

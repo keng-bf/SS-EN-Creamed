@@ -5,7 +5,7 @@ function state_player_victory()
 	jumpAnim = true
 	landAnim = false
 	crouchAnim = true
-	image_speed = 0.35
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	
 	if (sprite_animation_end())
 	{

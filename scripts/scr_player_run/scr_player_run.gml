@@ -82,7 +82,7 @@ function state_player_run()
 			{
 				event_play_oneshot("event:/SFX/player/groundpound", x, y)
 				camera_shake_add(20, 40)
-				image_speed = 0.35
+				image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 				
 				with (obj_parent_enemy)
 				{
@@ -115,9 +115,9 @@ function state_player_run()
 	}
 	
 	if (movespeed > 4)
-		image_speed = movespeed / 12
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : movespeed / 12
 	else
-		image_speed = 0.35
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	
 	if (!instance_exists(dashCloudID) && grounded)
 	{

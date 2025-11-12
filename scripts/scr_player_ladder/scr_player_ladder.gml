@@ -25,7 +25,7 @@ function state_player_ladder()
 			stepEffectBuffer = 12
 		}
 		
-		image_speed = 0.35
+		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	}
 	else if (key_down)
 	{

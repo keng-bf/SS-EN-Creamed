@@ -48,7 +48,7 @@ function state_player_freefallprep()
 	if (sprite_animation_end())
 		image_index = image_number - 1
 	
-	image_speed = 0.35
+	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
 	
 	if (++freefall_buffer > 15)
 	{
