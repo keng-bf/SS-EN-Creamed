@@ -56,7 +56,7 @@ function scr_playerrespawn(arg0 = true, arg1 = false)
 	{
 		if (!arg1)
 		{
-			event_play_oneshot("event:/SFX/player/groundpound", x, room_height - 100)
+			event_play_oneshot(sfx_groundpound, x, room_height - 100)
 			camera_shake_add(3, 3)
 			hsp = 0
 			vsp = 0
@@ -196,10 +196,6 @@ function scr_playerstate()
 		
 		case PlayerState.crouchjump:
 			state_function = state_player_crouchjump
-			break
-		
-		case PlayerState.mach1:
-			state_function = state_player_mach1
 			break
 		
 		case PlayerState.mach2:
@@ -428,6 +424,11 @@ function scr_playerstate()
 		
 		case PlayerState.freeflight:
 			state_function = state_player_freeflight
+			break
+			
+		//MOD
+		case PlayerState.machcancel:
+            state_function = state_noise_machcancel
 			break
 	}
 	

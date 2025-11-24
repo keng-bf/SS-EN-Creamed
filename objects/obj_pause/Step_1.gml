@@ -63,7 +63,7 @@ if (global.gamePauseState)
 			shake = 10 * key_move
 			inputBufferUp = 0
 			inputBufferDown = 0
-			var _uid = fmod_createEventInstance("event:/SFX/ui/menuMove")
+			var _uid = fmod_createEventInstance(sfx_step, false)
 			var _note = global.MenuNoteArray[global.MenuNoteArraySelect]
 			fmod_studio_event_instance_set_parameter_by_name(_uid, "note", _note, true)
 			fmod_studio_event_instance_start(_uid)

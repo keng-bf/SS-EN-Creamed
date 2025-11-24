@@ -55,7 +55,7 @@ function do_taunt(arg0 = state)
 		
 		if (superTauntCharged && key_up)
 		{
-			event_play_oneshot("event:/SFX/player/supertaunt", x, y)
+			event_play_oneshot(sfx_supertaunt, x, y)
 			sprite_index = choose(spr_supertaunt1, spr_supertaunt2, spr_supertaunt3, spr_supertaunt4)
 			image_index = 0
 		}
@@ -76,16 +76,16 @@ function do_taunt(arg0 = state)
 				global.ExitGateTaunt++
 				create_small_number(x, y, string(val))
 				create_collect_effect(x, y, spr_taunteffect, val)
-				event_play_multiple("event:/SFX/general/collect", x, y)
+				event_play_multiple(sfx_collect, x, y)
 			}
 			
 			sprite_index = spr_taunt
-			event_play_oneshot("event:/SFX/player/taunt", x, y)
+			event_play_oneshot(sfx_taunt_PZ, x, y)
 			image_index = irandom_range(0, sprite_get_number(spr_taunt))
 			if instance_exists(obj_coneball_timesUp)
 				with(obj_coneball_timesUp) maxspeed += 1
 			if instance_exists(obj_nullball_lap)
-				with(obj_nullball_lap) angry = 1
+				with(obj_nullball_lap) maxspeed += 1
 		}
 		
 		instance_create(x, y, obj_taunteffect)

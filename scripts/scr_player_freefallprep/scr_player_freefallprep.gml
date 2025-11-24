@@ -48,7 +48,7 @@ function state_player_freefallprep()
 	if (sprite_animation_end())
 		image_index = image_number - 1
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	
 	if (++freefall_buffer > 15)
 	{
@@ -58,6 +58,18 @@ function state_player_freefallprep()
 		freeFallSmash = -14
 		create_particle(x, y, spr_groundPoundClouds)
 	}
+    
+    if (!can_jump && global.playerCharacter == Characters.Noise && key_up && inputBufferJump > 0 && !key_down)
+    {
+		inputBufferJump = 0;
+		movespeed = hsp * xscale;
+		state = PlayerState.freefallprep;
+		sprite_index = spr_player_N_crusherIntro;
+		image_index = 0;
+		vsp = -16;
+		//scr_fmod_soundeffect(snd_noisedoublejump, x, y);
+    }
+    
 	
 	afterimage_timer = max(afterimage_timer - 1, 0)
 	

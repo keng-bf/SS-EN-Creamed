@@ -42,10 +42,51 @@ function scr_collide_destructibles()
 		mask_index = spr_player_mask
 	
 	var _player_dir = sign(obj_player1.hsp) ? max(obj_player1.xscale, obj_player1.hsp) : min(obj_player1.xscale, obj_player1.hsp)
-	var side_to_side_states = [PlayerState.mach2, PlayerState.charge, PlayerState.slipnslide, PlayerState.frostburnnormal, PlayerState.frostburnjump, PlayerState.frostburnslide, PlayerState.grind, PlayerState.hang, PlayerState.trick, PlayerState.geyser, PlayerState.mach3, PlayerState.run, PlayerState.unknownrun, PlayerState.machroll, PlayerState.cottonroll, PlayerState.machtumble2, PlayerState.dodgetumble, PlayerState.uppercut, PlayerState.parry, PlayerState.puddle, PlayerState.tumble, PlayerState.door, PlayerState.comingoutdoor, PlayerState.minecart, PlayerState.doughmount, PlayerState.doughmountspin, PlayerState.fireassdash, PlayerState.cottondig, PlayerState.machtumble, PlayerState.wallkick]
+	var side_to_side_states = 
+	[
+		PlayerState.mach2, 
+		PlayerState.charge, 
+		PlayerState.slipnslide, 
+		PlayerState.frostburnnormal, 
+		PlayerState.frostburnjump, 
+		PlayerState.frostburnslide, 
+		PlayerState.grind, 
+		PlayerState.hang, 
+		PlayerState.trick, 
+		PlayerState.geyser, 
+		PlayerState.mach3, 
+		PlayerState.run, 
+		PlayerState.unknownrun, 
+		PlayerState.machroll,
+		PlayerState.cottonroll, 
+		PlayerState.machtumble2, 
+		PlayerState.dodgetumble, 
+		PlayerState.uppercut, 
+		PlayerState.parry, 
+		PlayerState.puddle, 
+		PlayerState.tumble, 
+		PlayerState.door, 
+		PlayerState.comingoutdoor, 
+		PlayerState.minecart, 
+		PlayerState.doughmount, 
+		PlayerState.doughmountspin, 
+		PlayerState.fireassdash, 
+		PlayerState.cottondig, 
+		PlayerState.machtumble, 
+		PlayerState.wallkick,
+		//MOD
+		PlayerState.machcancel
+	]
 	
 	if (array_contains(side_to_side_states, state) || (state == PlayerState.grab && sprite_index == spr_swingDing) || (state == PlayerState.bottlerocket && substate == 0))
 	{
+        if (sprite_index == spr_player_N_sidewayspin_Intro || sprite_index == spr_player_N_sidewayspin)
+        {
+            check_and_destroy(x + hsp, y, obj_metalblock);
+            check_and_destroy(x + sign(hsp), y, obj_metalblock);
+            check_and_destroy(x + xscale, y, obj_metalblock);
+        }
+        
 		check_and_destroy(x + hsp, y, obj_destructibles)
 		check_and_destroy(x + sign(hsp), y, obj_destructibles)
 		check_and_destroy(x + xscale, y, obj_destructibles)
@@ -64,7 +105,7 @@ function scr_collide_destructibles()
 		check_and_destroy(x, y + vsp + 2, obj_destructibles)
 	}
 	
-	if (vsp >= 0 && (state == PlayerState.puddle || state == PlayerState.frostburnjump || state == PlayerState.superslam || state == PlayerState.wallkick || (state == PlayerState.freefall || state == PlayerState.freefallland)))
+	if (vsp >= 0 && (state == PlayerState.puddle || state == PlayerState.frostburnjump || state == PlayerState.superslam || state == PlayerState.wallkick || state == PlayerState.machcancel || (state == PlayerState.freefall || state == PlayerState.freefallland)) || state == PlayerState.machcancel)
 	{
 		if (state == PlayerState.puddle || (state == PlayerState.frostburnjump && sprite_index == spr_player_PZ_frostburn_spin) || (state == PlayerState.superslam && freeFallSmash >= 10) || ((state == PlayerState.freefall || state == PlayerState.freefallland) && freeFallSmash >= 10))
 		{

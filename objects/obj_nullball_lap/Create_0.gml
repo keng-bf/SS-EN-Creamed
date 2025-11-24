@@ -19,4 +19,3 @@ noConeballRoom = false
 savedCamY = y
 savedCamX = x
 maxspeed = 10
-angry = 0

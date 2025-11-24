@@ -129,11 +129,6 @@ function draw_sprite_ext_duotone(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7,
 	shader_reset()
 }
 
-function draw_self_duotone(arg0, arg1)
-{
-	draw_sprite_ext_duotone(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, arg0, arg1, image_alpha)
-}
-
 function time_in_frames(arg0, arg1)
 {
 	return ((arg0 * 60) + arg1) * 60;
@@ -432,11 +427,6 @@ function camera_get_position_struct(arg0, arg1 = -4) constructor
 	}
 }
 
-function screen_flash(arg0)
-{
-	global.screenflash = arg0
-}
-
 function camera_shake_add(arg0, arg1, arg2 = 0)
 {
 	with (obj_camera)
@@ -612,10 +602,6 @@ function any_input_pressed_check()
 	}
 	
 	return keyboard_check_pressed(vk_anykey);
-}
-
-function scr_key_display(arg0)
-{
 }
 
 function scr_keyname(arg0)
@@ -812,10 +798,6 @@ function p1Vibration(arg0, arg1)
 	}
 	
 	gamepad_set_vibration(global.PlayerInputDevice, obj_inputController.vibration1, obj_inputController.vibration1)
-}
-
-function scr_initinput()
-{
 }
 
 function scr_resetinput()
@@ -1405,25 +1387,7 @@ function face_obj(arg0)
 	return dir;
 }
 
-function fmod_init(arg0, arg1 = FMOD_INIT.NORMAL, arg2 = FMOD_STUDIO_INIT.NORMAL)
-{
-	return fmod_studio_system_init(arg0, arg1, arg2);
-}
-
-function fmod_loadBank(arg0, arg1 = FMOD_STUDIO_LOAD_BANK.NORMAL)
-{
-	return fmod_studio_system_load_bank_file(arg0, arg1);
-}
-
-function fmod_createEventInstance(arg0)
-{
-	var event_description = fmod_studio_system_get_event(arg0)
-	var event_instance = fmod_studio_event_description_create_instance(event_description)
-	array_push(global.FMOD_EventInstances, [event_instance, fmod_studio_event_description_get_path(event_description)])
-	return event_instance;
-}
-
-function fmod_event_getParameter(arg0, arg1)
+/*function fmod_event_getParameter(arg0, arg1)
 {
 	var param = fmod_studio_event_instance_get_parameter_by_name(arg0, arg1)
 	return param.value;
@@ -1453,15 +1417,6 @@ function fmod_getEventLength(arg0)
 	return fmod_studio_event_description_get_length(event_description);
 }
 
-function fmod_event_setPause_all(arg0)
-{
-	for (var i = 0; i < array_length(global.FMOD_EventInstances); i++)
-	{
-		if (fmod_studio_event_instance_is_valid(global.FMOD_EventInstances[i][0]))
-			fmod_studio_event_instance_set_paused(global.FMOD_EventInstances[i][0], arg0)
-	}
-}
-
 function fmod_event_release_all()
 {
 	for (var i = 0; i < array_length(global.FMOD_EventInstances); i++)
@@ -1471,20 +1426,11 @@ function fmod_event_release_all()
 	}
 }
 
-function fmod_event_stop_all(arg0)
-{
-	for (var i = 0; i < array_length(global.FMOD_EventInstances); i++)
-	{
-		if (fmod_studio_event_instance_is_valid(global.FMOD_EventInstances[i][0]))
-			fmod_studio_event_instance_stop(global.FMOD_EventInstances[i][0], arg0)
-	}
-}
-
 function fmod_event_getEventPath(arg0)
 {
 	var event_description = fmod_studio_event_instance_get_description(arg0)
 	return fmod_studio_event_description_get_path(event_description);
-}
+}*/
 
 function instance_create(arg0, arg1, arg2, arg3 = {})
 {
@@ -2401,48 +2347,9 @@ function particle_spawn_dustTrail(arg0 = 15)
 	create_particle(x, y, spr_cloudEffect, arg0)
 }
 
-function event_instance_isplaying(arg0)
-{
-	return fmod_studio_event_instance_get_playback_state(arg0) == FMOD_STUDIO_PLAYBACK_STATE.PLAYING;
-}
-
-function event_instance_exists(arg0)
+/*function event_instance_exists(arg0)
 {
 	return fmod_studio_event_description_get_instance_count(arg0) > 0;
-}
-
-function event_play_oneshot(arg0 = "", arg1 = undefined, arg2 = undefined, arg3 = 0)
-{
-	var _id = fmod_createEventInstance(arg0)
-	fmod_studio_event_instance_start(_id)
-	
-	if (!is_undefined(arg1) && !is_undefined(arg2))
-		fmod_event_set3DPosition(_id, arg1, arg2, arg3)
-	
-	fmod_studio_event_instance_release(_id)
-	return _id;
-}
-
-function event_play_oneshot_ext(arg0 = "", arg1 = undefined, arg2 = undefined, arg3 = 0)
-{
-	var _id = fmod_createEventInstance(arg0)
-	fmod_studio_event_instance_start(_id)
-	
-	if (!is_undefined(arg1) && !is_undefined(arg2))
-		fmod_event_set3DPosition(_id, arg1, arg2, arg3)
-	
-	ds_list_add(global.FMOD_OneShotList, 
-	{
-		id: _id,
-		name: arg0,
-		one_shot: true
-	})
-	return _id;
-}
-
-function event_play_multiple(arg0 = "", arg1 = undefined, arg2 = undefined, arg3 = 0)
-{
-	event_play_oneshot(arg0, arg1, arg2, arg3)
 }
 
 function fmod_quick3D(arg0, arg1 = x, arg2 = y, arg3 = 0)
@@ -2505,7 +2412,7 @@ function kill_sound_list(arg0)
 			}
 		}
 	}
-}
+}*/
 
 function set_volume_options(arg0 = global.masterVolume, arg1 = global.musicVolume, arg2 = global.soundVolume)
 {
@@ -2541,11 +2448,6 @@ function round_ext(arg0, arg1)
 	return round(arg0 * arg1) / arg1;
 }
 
-function scr_shell_openconsole()
-{
-	global.shellactivate = true
-}
-
 function scr_shell_closeconsole()
 {
 	if (instance_exists(obj_pause))
@@ -2568,21 +2470,6 @@ function scr_shell_roomstart()
 {
 	toggle_collision_function()
 	show_tiles_function()
-}
-
-function pal_swap_draw_palette(arg0, arg1, arg2, arg3)
-{
-	draw_sprite_part(arg0, 0, floor(arg1), 0, 1, sprite_get_height(arg0), arg2, arg3)
-}
-
-function pal_swap_get_color_count(arg0)
-{
-	return sprite_get_height(arg0);
-}
-
-function pal_swap_get_pal_count(arg0)
-{
-	return sprite_get_width(arg0);
 }
 
 function pal_swap_init_system(arg0, arg1, arg2)
@@ -2850,22 +2737,26 @@ function scr_confecti_init()
 			break
 		
 		case obj_confecticrack:
-			if global.newconfect == false{
-			spr_idle = spr_crack_idle
-			spr_run = spr_crack_run
-			spr_runpanic = spr_crack_panicWalk
-			spr_panic = spr_crack_panic
-			spr_appear = spr_crack_appear
-			spr_supertaunt = spr_crack_supertaunt
-			spr_taunt = spr_crack_taunt}
-			else{
-			spr_idle = spr_lollipop_idle
-			spr_run = spr_lollipop_run
-			spr_runpanic = spr_lollipop_run
-			spr_panic = spr_lollipop_idle
-			spr_appear = spr_crack_appear
-			spr_supertaunt = spr_crack_supertaunt
-			spr_taunt = spr_lollipop_taunt}
+			if global.newconfect == false
+			{
+				spr_idle = spr_crack_idle
+				spr_run = spr_crack_run
+				spr_runpanic = spr_crack_panicWalk
+				spr_panic = spr_crack_panic
+				spr_appear = spr_crack_appear
+				spr_supertaunt = spr_crack_supertaunt
+				spr_taunt = spr_crack_taunt
+			}
+			else
+			{
+				spr_idle = spr_lollipop_idle
+				spr_run = spr_lollipop_run
+				spr_runpanic = spr_lollipop_run
+				spr_panic = spr_lollipop_idle
+				spr_appear = spr_crack_appear
+				spr_supertaunt = spr_crack_supertaunt
+				spr_taunt = spr_lollipop_taunt
+			}
 			global.CrackFollow = true
 			break
 		
@@ -4007,6 +3898,16 @@ function scr_checkgroundpound()
 	return (disabled && key_down2) || key_groundpound;
 }
 
+function scr_checkgroundpound_held()
+{
+    var disabled = global.option_groundpound_gp;
+    
+    if (global.PlayerInputDevice < 0)
+        disabled = global.option_groundpound_key;
+    
+    return (disabled && key_down) || key_groundpound;
+}
+
 function scr_input_init_sprites()
 {
 	if (!variable_global_exists("input_icons"))
@@ -4351,7 +4252,20 @@ function scr_ghostcollectible(arg0 = false, arg1 = undefined, arg2 = undefined)
 
 function scr_player_check_normal(arg0)
 {
-	var normalStates = [PlayerState.normal, PlayerState.jump, PlayerState.mach1, PlayerState.mach2, PlayerState.mach3, PlayerState.machslide, PlayerState.wallkick, PlayerState.grabdash, PlayerState.crouch, PlayerState.crouchjump]
+	var normalStates = 
+	[
+		PlayerState.normal, 
+		PlayerState.jump, 
+		PlayerState.mach2, 
+		PlayerState.mach3, 
+		PlayerState.machslide, 
+		PlayerState.wallkick, 
+		PlayerState.grabdash, 
+		PlayerState.crouch, 
+		PlayerState.crouchjump,
+		//MOD
+		PlayerState.machcancel
+	]
 	return array_contains(normalStates, arg0.state);
 }
 

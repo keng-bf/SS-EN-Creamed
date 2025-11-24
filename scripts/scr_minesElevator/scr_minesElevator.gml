@@ -91,7 +91,7 @@ function cutscene_elevator_premiddle()
 	{
 		if (!instance_exists(obj_fadeoutTransition))
 		{
-			event_play_oneshot("event:/SFX/general/door")
+			event_play_oneshot(sfx_door)
 			instance_create(0, 0, obj_fadeoutTransition)
 		}
 	}
@@ -172,7 +172,7 @@ function cutscene_elevator_preend()
 	{
 		elevator.sprite_index = spr_minesElevatorCrashed
 		camera_shake_add(8, 20)
-		event_play_oneshot("event:/SFX/player/groundpound", elevator.x, elevator.y)
+		event_play_oneshot(sfx_groundpound, elevator.x, elevator.y)
 		event_play_oneshot("event:/SFX/elevator/open")
 		
 		for (var i = 0; i < sprite_get_number(spr_minesElevatorDebris); i++)

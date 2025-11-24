@@ -23,7 +23,7 @@ enemyDeath_SpawnDeathFX = function()
 		create_baddiedebris()
 	
 	create_particle(x, y, spr_bangEffect)
-	event_play_oneshot("event:/SFX/enemies/kill", x, y)
+	event_play_oneshot(sfx_killenemy, x, y)
 	camera_shake_add(3, 3)
 	enemyDeath_SpawnBody()
 }

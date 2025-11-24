@@ -133,8 +133,25 @@ function state_player_mach3()
 		
 		if (!grounded)
 		{
-			sprite_index = spr_dive
-			fmod_studio_event_instance_start(sndDive)
+			switch (global.playerCharacter)
+			{
+				default:
+			        sprite_index = spr_dive;
+			        fmod_studio_event_instance_start(sndDive);
+					break;
+					
+				case Characters.Noise:
+		            sprite_index = spr_player_N_divebomb;
+		            state = PlayerState.machcancel;
+		            dir = xscale;
+		            vsp = 20;
+		            movespeed = hsp;
+		            inputBufferSlap = 0;
+		            inputBufferJump = 0;
+		            image_index = 0;
+		            exit;
+					break;
+			}
 		}
 		
 		vsp = 10
@@ -156,9 +173,9 @@ function state_player_mach3()
 		
 		if (!_ledge)
 		{
-			event_play_oneshot("event:/SFX/player/groundpound", x, y)
+			event_play_oneshot(sfx_groundpound, x, y)
 			camera_shake_add(20, 40)
-			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+			image_speed = 0.35
 			
 			with (obj_parent_enemy)
 			{
@@ -216,14 +233,26 @@ function state_player_mach3()
 		})
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.4
+	image_speed = 0.4
 	
 	if (sprite_index == spr_crazyrun)
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.7
+		image_speed = 0.7
 	else if (sprite_index == spr_machdashpad)
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.3
+		image_speed = 0.3
 	else if (sprite_index == spr_wallJumpCancel || sprite_index == spr_wallJumpCancelIntro)
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
+    
+    if (!can_jump && global.playerCharacter == Characters.Noise && key_up && inputBufferJump > 0 && !key_down)
+    {
+		inputBufferJump = 0;
+		movespeed = hsp * xscale;
+		state = PlayerState.freefallprep;
+		sprite_index = spr_player_N_crusherIntro;
+		image_index = 0;
+		vsp = -16;
+		//scr_fmod_soundeffect(snd_noisedoublejump, x, y);
+    }
+    
 	
 	if (sprite_index != spr_dive)
 	{

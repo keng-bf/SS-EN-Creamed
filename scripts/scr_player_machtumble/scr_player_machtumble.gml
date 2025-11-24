@@ -154,7 +154,7 @@ function state_player_machtumble()
 		}
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	afterimage_timer = max(afterimage_timer - 1, 0)
 	
 	if (afterimage_timer <= 0)
@@ -260,7 +260,7 @@ function state_player_dodgetumble()
 		}
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	attack_afterimage_timer = max(attack_afterimage_timer - 1, 0)
 	
 	if (attack_afterimage_timer <= 0 && vsp <= 0)

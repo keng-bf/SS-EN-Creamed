@@ -176,7 +176,7 @@ function baddieOnPlayerCollisions()
 		if (baddieInvincibilityBuffer <= 0 && player_object.state == PlayerState.cotton && player_object.sprite_index == spr_player_PZ_werecotton_drill_h)
 		{
 			event_play_oneshot("event:/SFX/player/punch", x, y)
-			event_play_oneshot("event:/SFX/enemies/killingblow", x, y)
+			event_play_oneshot(sfx_killingblow, x, y)
 			camera_shake_add(5, 20)
 			scr_finishingBlow(id, player_object)
 			exit

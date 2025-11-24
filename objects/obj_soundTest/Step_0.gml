@@ -2,7 +2,7 @@ var cur_music_inst = musicArray[currentSelection].eventInstance
 
 if (savedSelection != currentSelection)
 {
-	fmod_studio_event_instance_stop(musicArray[savedSelection].eventInstance, FMOD_STUDIO_STOP_MODE.IMMEDIATE)
+	fmod_studio_event_instance_stop(musicArray[savedSelection].eventInstance, FMOD_STUDIO_STOP_MODE)
 	savedSelection = currentSelection
 }
 

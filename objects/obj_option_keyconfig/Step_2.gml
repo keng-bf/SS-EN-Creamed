@@ -24,7 +24,7 @@ if (exiting)
 				with (obj_option_keyconfig)
 					instance_destroy()
 				
-				event_play_oneshot("event:/SFX/ui/confirm")
+				event_play_oneshot(sfx_enemyprojectile)
 				exit
 		}
 	}
@@ -63,13 +63,13 @@ else if (!reading)
 	if (key_up2 && selected > 0)
 	{
 		selected--
-		event_play_oneshot("event:/SFX/ui/step")
+		event_play_oneshot(sfx_step)
 	}
 	
 	if (key_down2 && selected < (array_length(inputs) - 1) && selected > -1)
 	{
 		selected++
-		event_play_oneshot("event:/SFX/ui/step")
+		event_play_oneshot(sfx_step)
 	}
 	
 	if (selected == -1 && (key_right2 || key_down2))
@@ -92,7 +92,7 @@ else if (!reading)
 			with (obj_option_keyconfig)
 				instance_destroy()
 			
-			event_play_oneshot("event:/SFX/ui/confirm")
+			event_play_oneshot(sfx_enemyprojectile)
 			exit
 		}
 		else

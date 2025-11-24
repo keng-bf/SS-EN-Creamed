@@ -27,7 +27,6 @@ if (obj_parent_player.state != PlayerState.actor)
 				state = PlayerState.timesup
 				sprite_index = spr_Timesup
 				image_index = 0
-				event_play_oneshot("event:/music/timesup")
 			}
 		
             

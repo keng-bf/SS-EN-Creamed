@@ -15,7 +15,7 @@ if (other.dashpadBuffer <= 0)
 		{
 			movespeed += 0.25
 			movespeed = clamp(movespeed, 12, 24)
-			event_play_multiple("event:/SFX/general/dashpad", x, y)
+			event_play_multiple(sfx_dashpad, x, y)
 			fmod_studio_event_instance_start(sndMachStart)
 			dashpadBuffer = 25
 			state = PlayerState.mach3

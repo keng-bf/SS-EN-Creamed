@@ -1,5 +1,7 @@
 scr_collision_init()
 scr_playersounds_init()
+nickname = "";
+noisewalljump = 0;
 hasSeenProgressionPrompt = false
 slipSlopeBounces = 7
 stepEffectBuffer = 0
@@ -44,7 +46,6 @@ saved_rand_anim = []
 rand_anim = []
 prevSpriteIndex = -4
 comboTitle = -4
-scr_initinput()
 scr_getinput()
 frozenState = 0
 frozenSpriteIndex = spr_null
@@ -122,6 +123,7 @@ inputBufferSlap = 0
 inputBufferJump = 8
 inputBufferSecondJump = 8
 inputBufferHighJump = 8
+punch_afterimage = 0;
 superGrabX = 0
 superGrabY = 0
 targetRoom = 0

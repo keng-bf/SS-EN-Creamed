@@ -2,7 +2,7 @@ if (DestroyedBy.object_index == obj_parent_player || DestroyedBy.object_index ==
 {
 	if (place_meeting(x - DestroyedBy.hsp, y, DestroyedBy))
 	{
-		if (DestroyedBy.state == PlayerState.mach1 || DestroyedBy.state == PlayerState.mach2)
+		if (DestroyedBy.state == PlayerState.mach2)
 		{
 			with (DestroyedBy)
 			{

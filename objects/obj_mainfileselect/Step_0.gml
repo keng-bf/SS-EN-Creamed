@@ -30,7 +30,7 @@ else if (any_input_pressed_check())
 {
 	if (image_speed != 1)
 	{
-		event_play_oneshot("event:/SFX/fileselect/curtain");
+		event_play_oneshot(sfx_curtains);
 		image_speed = 1;
 	}
 }
@@ -120,7 +120,7 @@ if (abletomove && !blockedInputs && !activated)
 		
 		if (key_right2 || -key_left2)
 		{
-			event_play_oneshot("event:/SFX/general/paperballhit");
+			event_play_oneshot(sfx_paperballhit);
 			fileDisplayPercent = 0;
 		}
 		if key_jump
@@ -133,8 +133,9 @@ if (abletomove && !blockedInputs && !activated)
 					fmod_studio_event_instance_stop(global.RoomMusic.secretMusicInst, true);
 				}
 			}
-			event_play_oneshot("event:/SFX/general/collectbig");
-			event_play_oneshot("event:/SFX/fileselect/fileselect");
+			event_play_oneshot(sfx_bigcollectget);
+            var randomfilesnd = choose(sfx_fileselect1, sfx_fileselect2, sfx_fileselect3);
+            event_play_oneshot(randomfilesnd);
 			blockedInputs = true;
 			alarm[2] = 250;
 			activated = true;

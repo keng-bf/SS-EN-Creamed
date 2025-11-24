@@ -52,7 +52,7 @@ function cutscene_lapPortal_start()
 		
 		if !instance_exists(obj_fadeoutTransition)
 		{
-			event_play_oneshot("event:/SFX/general/door")
+			event_play_oneshot(sfx_door)
 			instance_create(0, 0, obj_fadeoutTransition)
 		}
 		
@@ -91,7 +91,7 @@ function cutscene_lapPortal_middle()
 			}
 			else if (floor(portal.image_index) >= 4)
 			{
-				event_play_oneshot("event:/SFX/general/lapexit", portal.x, portal.y)
+				event_play_oneshot(sfx_lapexit, portal.x, portal.y)
 				finished = true
 			}
 		}
@@ -148,7 +148,7 @@ function cutscene_lapPortal_end()
 		}
 		
 		instance_create(0, 0, obj_lapvisual)
-		event_play_oneshot("event:/SFX/general/lap2start", x, y)
+		event_play_oneshot(sfx_lapping, x, y)
 		cutscene_event_end()
 	}
 }

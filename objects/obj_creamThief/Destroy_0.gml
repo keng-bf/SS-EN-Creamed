@@ -22,5 +22,5 @@ with (instance_create(x, y, obj_baddieDead))
 
 event_play_oneshot("event:/SFX/enemies/thiefDead", x, y)
 event_play_oneshot("event:/SFX/player/punch", x, y)
-event_play_oneshot("event:/SFX/enemies/kill", x, y)
+event_play_oneshot(sfx_killenemy, x, y)
 ds_list_add(global.SaveRoom, deadID)

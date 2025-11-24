@@ -64,7 +64,7 @@ typist.function_per_char(function()
 	{
 		fmod_studio_event_instance_stop(current_talk_inst, false)
 		fmod_studio_event_instance_release(current_talk_inst)
-		current_talk_inst = fmod_createEventInstance("event:/SFX/hub/painterGiant")
+		current_talk_inst = fmod_createEventInstance(choose(brainter1, brainter2, brainter3, brainter4, brainter5, brainter6, brainter7, brainter8), false)
 		fmod_studio_event_instance_start(current_talk_inst)
 		buffer = 0
 	}

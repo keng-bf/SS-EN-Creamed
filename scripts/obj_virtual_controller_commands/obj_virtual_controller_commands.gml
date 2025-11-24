@@ -526,28 +526,34 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 		case "noclip":
 			obj_parent_player.state = PlayerState.noclip
 			break
+		case "freeflight":
+			obj_parent_player.state = PlayerState.freeflight
+			break
+		case "give all":
+			sh_give_all()
+			break
+		case "give prank":
+			sh_give_prank()
+			break
 		case "showcollision":
 		case "showcollisions":
 			global.showcollisions = !global.showcollisions
-			event_perform_object(obj_virtual_controller_manager, ev_other, ev_room_start)
 			toggle_collision_function()
 		break
 		case "showcollision true":
 		case "showcollisions true":
 			global.showcollisions = true
-			event_perform_object(obj_virtual_controller_manager, ev_other, ev_room_start)
 			toggle_collision_function()
 		break
 		case "showcollision false":
 		case "showcollisions false":
 			global.showcollisions = false
-			event_perform_object(obj_virtual_controller_manager, ev_other, ev_room_start)
 			toggle_collision_function()
 		break
 		case "hidetile":
 		case "hidetiles":
 			global.showtiles = false
-		show_tiles_function()
+			show_tiles_function()
 		break
 		case "showtile":
 		case "showtiles":
@@ -591,7 +597,7 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 			global.showbinds = !global.showbinds
 		break
 		case "help":
-			get_string_async("Available Commands: ","showcollisions <boolean>, panic <seconds>, hidetiles, showtiles, toggletiles, character <string>, instance_set_variable <obj_> <type> <variablename> <new value>,global_set_variable <type> <variablename> <new value>,spawn <obj_> <optional distance>, togglebinds,instance_set_variable_all <obj_> <type> <variablename> <new value>, exec <filename>, savecommand <commands>")
+			get_string_async("Available Commands: ","noclip, freeflight, give all, give prank,showcollisions <boolean>, panic <seconds>, hidetiles, showtiles, toggletiles, character <string>, instance_set_variable <obj_> <type> <variablename> <new value>,global_set_variable <type> <variablename> <new value>,spawn <obj_> <optional distance>, togglebinds,instance_set_variable_all <obj_> <type> <variablename> <new value>, exec <filename>, savecommand <commands>")
 		break
 	}
 }

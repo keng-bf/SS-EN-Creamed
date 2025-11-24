@@ -8,7 +8,7 @@ if !in_saveroom()
 		if (state != PlayerState.gotkey && sprite_index != spr_player_PZ_gotKey && sprite_index != spr_player_PZ_pileDriver_jump)
 		{
 			global.ComboTime = 60
-			event_play_oneshot("event:/SFX/general/collectKey")
+			event_play_oneshot(sfx_bigcollect)
 			image_index = 0
 			
 			if (grounded)

@@ -79,5 +79,5 @@ function state_player_crouch()
 		crouchSlipAntiBuffer = 0
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.45
+	image_speed = 0.45
 }

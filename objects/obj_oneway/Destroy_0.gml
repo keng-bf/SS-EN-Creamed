@@ -10,7 +10,7 @@ if !in_saveroom()
 	}
 	
 	create_particle(random_range(bbox_left, bbox_right), random_range(bbox_top, bbox_bottom), spr_bangEffect)
-	event_play_oneshot("event:/SFX/enemies/kill")
+	event_play_oneshot(sfx_killenemy)
 	add_saveroom()
 }
 

@@ -48,7 +48,7 @@ function scr_hurtplayer(arg0 = obj_parent_player, arg1)
 					}
 				}
 				
-				event_play_oneshot("event:/SFX/player/hurt", x, y)
+				event_play_oneshot(sfx_pephurt, x, y)
 				create_particle(x, y, spr_bangEffect)
 				create_particle(x, y, spr_parryeffect)
 				state = PlayerState.hurt

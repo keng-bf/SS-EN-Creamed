@@ -3,7 +3,7 @@ function state_player_uppercut()
 	static afterimage_timer = 2
 	static petal_timer = 2
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	
 	if ((sprite_index == spr_uppercutbegin && sprite_animation_end()) || (grounded && vsp > 0))
 	{
@@ -31,7 +31,7 @@ function state_player_uppercut()
 	
 	if (grounded && vsp > 0)
 	{
-		event_play_oneshot("event:/SFX/player/step", x, y)
+		event_play_oneshot(sfx_step, x, y)
 		landAnim = true
 		movespeed = abs(movespeed)
 		movespeed = min(movespeed, 6)
@@ -60,7 +60,7 @@ function state_player_uppercut()
 		{
 			image_angle = 0
 			image_alpha = 5
-			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+			image_speed = 0.35
 			fading = true
 			vsp = -2
 			hsp = 0

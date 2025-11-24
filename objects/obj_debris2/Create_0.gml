@@ -1,4 +1,4 @@
-image_index = random_range(0, 6)
+image_index = random_range(0, image_number - 1)
 image_speed = 0
 vsp = random_range(-8, 4)
 hsp = random_range(-4, 4)

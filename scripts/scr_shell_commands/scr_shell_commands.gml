@@ -125,7 +125,7 @@ function meta_character()
 	};
 }
 
-function sh_roomcheck(arg0)
+function sh_roomcheck()
 {
 	instance_create(0, 0, obj_roomCheck)
 }
@@ -469,7 +469,7 @@ function meta_freeflight()
 	};
 }
 
-function sh_give_all(arg0)
+function sh_give_all()
 {
 	var confecti_objs = [obj_confectimallow, obj_confectichoco, obj_confecticrack, obj_confectiworm, obj_confecticandy]
 	
@@ -492,7 +492,7 @@ function meta_give_all()
 	};
 }
 
-function sh_give_prank(arg0)
+function sh_give_prank()
 {
 	var confecti_objs = [obj_confectimallow, obj_confectichoco, obj_confecticrack, obj_confectiworm, obj_confecticandy]
 	

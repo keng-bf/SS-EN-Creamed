@@ -172,7 +172,7 @@ function state_player_mach2()
 		})
 	}
 	
-	if (!grounded && sprite_index != spr_wallJumpCancelIntro && sprite_index != spr_wallJumpCancel && sprite_index != spr_airdash2 && sprite_index != spr_secondjump2 && sprite_index != spr_mach2_spinJump && sprite_index != spr_longJump_intro && sprite_index != spr_longJump && sprite_index != spr_player_PZ_bumped)
+	if (!grounded && sprite_index != spr_wallJumpCancelIntro && sprite_index != spr_wallJumpCancel && sprite_index != spr_airdash2 && sprite_index != spr_secondjump2 && sprite_index != spr_mach2_spinJump && sprite_index != spr_longJump_intro && sprite_index != spr_longJump && sprite_index != spr_player_PZ_bumped && sprite_index != spr_player_N_sidewayspin_Intro && sprite_index != spr_player_N_sidewayspin)
 		sprite_index = mach_jumpsprite
 	
 	if (sprite_animation_end())
@@ -185,10 +185,16 @@ function state_player_mach2()
 		
 		if (sprite_index == spr_airdash1)
 			sprite_index = spr_airdash2
+        
+        if (sprite_index == spr_player_N_sidewayspin_Intro)
+            sprite_index = spr_player_N_sidewayspin;
 	}
 	
 	if (grounded && sprite_animation_end() && sprite_index == spr_rollgetup)
 		sprite_index = spr_mach2
+		
+    if (grounded && (sprite_index == spr_player_N_sidewayspin || sprite_index == spr_player_N_sidewayspin_Intro))
+        sprite_index = spr_mach2;
 	
 	if (sprite_animation_end() && sprite_index == spr_longJump_intro)
 		sprite_index = spr_longJump
@@ -197,15 +203,40 @@ function state_player_mach2()
 	do_taunt(PlayerState.mach2)
 	
 	if (sprite_index == spr_rollgetup || sprite_index == spr_longJump_intro || sprite_index == spr_longJump)
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.4
+		image_speed = 0.4
 	else if (sprite_index == spr_wallJumpCancelIntro)
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 	else
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : abs(movespeed) / 15
+		image_speed = abs(movespeed) / 15
 	
 	if (grounded)
 	{
 		upsideDownJump = false
 		floatyGrab = 18
+	}
+    
+    if (!can_jump && global.playerCharacter == Characters.Noise && key_up && inputBufferJump > 0 && !key_down)
+    {
+		inputBufferJump = 0;
+		movespeed = hsp * xscale;
+		state = PlayerState.freefallprep;
+		sprite_index = spr_player_N_crusherIntro;
+		image_index = 0;
+		vsp = -16;
+		//scr_fmod_soundeffect(snd_noisedoublejump, x, y);
+    }
+	
+	if global.playerCharacter == Characters.Noise && sprite_index != spr_dive && grounded && (scr_checksuperjump() && key_jump2 || key_superjump)
+	{
+        sprite_index = spr_superjumpPrep;
+        state = PlayerState.Sjumpprep;
+        image_index = 0;
+		hsp = 0;
+		movespeed = 0;
+        /*instance_create(x, y, obj_jumpdust, 
+        {
+            playerID: id
+        });
+        vsp = min(vsp + 5, terminalVelocity);*/
 	}
 }

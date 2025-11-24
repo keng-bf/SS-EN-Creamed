@@ -21,11 +21,11 @@ function state_player_ladder()
 		if (!stepEffectBuffer--)
 		{
 			instance_create(x, y + 43, obj_puffEffect)
-			event_play_oneshot("event:/SFX/player/step", x, y)
+			event_play_oneshot(sfx_step, x, y)
 			stepEffectBuffer = 12
 		}
 		
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 	}
 	else if (key_down)
 	{

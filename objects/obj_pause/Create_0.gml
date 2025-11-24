@@ -18,7 +18,19 @@ pal = 1
 bgTileX = 0
 bgTileY = 0
 pauseBorder = lang_get_sprite(spr_newpause_border)
-pauseMusic = fmod_createEventInstance("event:/music/pause")
+pauseMusic = fmod_createEventInstance(mu_pause)
+var pause_states = [
+{
+    asset: mu_pause,
+    seek_position: 0,
+    fade_time: 0
+}, 
+{
+    asset: mu_option,
+    seek_position: 0,
+    fade_time: 0
+}];
+fmod_configure_states(pauseMusic, pause_states);
 pauseSurface = -1
 pausedSprite = undefined
 playerPauseSprite = spr_PZ_pause

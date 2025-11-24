@@ -22,7 +22,7 @@ if !in_saveroom()
 		instance_create(x, y, obj_panicchanger)
 	
 	event_play_oneshot("event:/SFX/general/escaperumble")
-	event_play_oneshot("event:/SFX/enemies/kill")
+	event_play_oneshot(sfx_killenemy)
 	scr_sleep()
 	global.ComboTime = 60
 	global.Combo++

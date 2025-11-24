@@ -35,7 +35,7 @@ with (other)
 			for (var i = 0; i < 500; i += 25)
 				create_collect_effect(other.x + irandom_range(-60, 60), other.y + irandom_range(-60, 60), undefined, 25)
 			
-			event_play_multiple("event:/SFX/general/collect", x, y)
+			event_play_multiple(sfx_collect, x, y)
 			global.Collect += 500
 			global.ComboTime = 60
 			create_small_number(x, y, 500)

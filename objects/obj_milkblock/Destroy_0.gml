@@ -4,6 +4,6 @@ if !in_saveroom()
 		sprite_index = spr_milkblock_dead
 	
 	camera_shake_add(20, 40)
-	event_play_oneshot("event:/SFX/enemies/killingblow", x, y)
+	event_play_oneshot(sfx_killingblow, x, y)
 	add_saveroom()
 }

@@ -2,7 +2,7 @@ if (global.panic || random_secret)
 {
 	with (obj_parent_player)
 	{
-		if (grounded && (!other.drop || other.drop_state == 1) && key_up && (state == PlayerState.normal || state == PlayerState.mach1 || state == PlayerState.mach2 || state == PlayerState.mach3 || state == PlayerState.Sjumpprep))
+		if (grounded && (!other.drop || other.drop_state == 1) && key_up && (state == PlayerState.normal || state == PlayerState.mach2 || state == PlayerState.mach3 || state == PlayerState.Sjumpprep))
 		{
 			targetDoor = "none"
 			var use_music = true

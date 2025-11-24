@@ -19,7 +19,7 @@ function scr_painterdemodialogue()
 	
 	ini_close()
 	var info_arr = []
-	talk_sound = "event:/SFX/hub/painterThink"
+	talk_sound = choose(painter1, painter2, painter3);
 	var dialogue_key
 	
 	if (room == hub_molasses)
@@ -44,7 +44,7 @@ function scr_painterdemodialogue()
 				dialogue_key = "demopainter_molasses_gotsecrets_b"
 				idle = spr_painteridle5
 				speak = spr_painteridle5
-				talk_sound = "event:/SFX/hub/painterThinkHappy"
+                talk_sound = choose(painter1, painter2, painter3, painter11, painter12, painter13);
 			}
 		}
 		else
@@ -53,7 +53,7 @@ function scr_painterdemodialogue()
 			idle = spr_painteridle6
 			speak = spr_painteridle6
 			array_push(info_arr, scr_getDialogIcon("INK"))
-			talk_sound = "event:/SFX/hub/painterThinkSad"
+            talk_sound = choose(painter4, painter5, painter6);
 		}
 	}
 	else if (secret_count == 0)
@@ -64,7 +64,7 @@ function scr_painterdemodialogue()
 			idle = spr_painteridle1
 			speak = spr_painteridle1
 			array_push(info_arr, scr_getDialogIcon("INK"))
-			talk_sound = "event:/SFX/hub/painterThinkAngry"
+            talk_sound = choose(painter7, painter8, painter9, painter10);
 		}
 		else
 		{
@@ -72,7 +72,7 @@ function scr_painterdemodialogue()
 			idle = spr_painteridle1
 			speak = spr_painteridle1
 			array_push(info_arr, scr_getDialogIcon("INK"))
-			talk_sound = "event:/SFX/hub/painterThinkAngry"
+            talk_sound = choose(painter7, painter8, painter9, painter10);
 		}
 	}
 	else if (secret_count > 0 && secret_count < 3)
@@ -80,7 +80,7 @@ function scr_painterdemodialogue()
 		dialogue_key = "demopainter_fewsecrets"
 		idle = spr_painteridle1
 		speak = spr_painteridle1
-		talk_sound = "event:/SFX/hub/painterThinkAngry"
+            talk_sound = choose(painter7, painter8, painter9, painter10);
 		array_push(info_arr, scr_getDialogIcon("INK"))
 	}
 	else if (secret_count < 6)
@@ -88,7 +88,7 @@ function scr_painterdemodialogue()
 		dialogue_key = "demopainter_3secrets"
 		idle = spr_painteridle2
 		speak = spr_painteridle3
-		talk_sound = "event:/SFX/hub/painterThinkAngry"
+            talk_sound = choose(painter7, painter8, painter9, painter10);
 		array_push(info_arr, scr_getDialogIcon("INK"))
 	}
 	else if (secret_count < 9)
@@ -124,14 +124,14 @@ function scr_painterdemodialogue()
 				dialogue_key = "demopainter_overtimeallsecrets"
 				idle = spr_painteridle5
 				speak = spr_painteridle5
-				talk_sound = "event:/SFX/hub/painterThinkHappy"
+                talk_sound = choose(painter1, painter2, painter3, painter11, painter12, painter13);
 			}
 			else
 			{
 				dialogue_key = "demopainter_overtimenotallsecrets"
 				idle = spr_painteridle2
 				speak = spr_painteridle3
-				talk_sound = "event:/SFX/hub/painterThinkAngry"
+                talk_sound = choose(painter7, painter8, painter9, painter10);
 				array_push(info_arr, scr_getDialogIcon("INK"))
 			}
 		}
@@ -141,14 +141,14 @@ function scr_painterdemodialogue()
 			dialogue_key = "demopainter_newyears"
 			idle = spr_painteridle_newyears
 			speak = spr_painteridle_newyears
-			talk_sound = "event:/SFX/hub/painterThinkAngry"
+            talk_sound = choose(painter7, painter8, painter9, painter10);
 		}
 		else if (current_month == 2 && current_day == 14)
 		{
 			dialogue_key = "demopainter_valentines"
 			idle = spr_painteridle2
 			speak = spr_painteridle3
-			talk_sound = "event:/SFX/hub/painterThinkSad"
+            talk_sound = choose(painter4, painter5, painter6);
 		}
 	}
 	

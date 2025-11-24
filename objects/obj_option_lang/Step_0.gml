@@ -12,7 +12,7 @@ optionSelectionH = wrap(optionSelectionH, 0, array_length(global.langFiles) - 1)
 
 if (key_slap2 || key_start2 || key_jump)
 {
-	event_play_oneshot("event:/SFX/ui/menuBack")
+	event_play_oneshot(sfx_bottlepop)
 	
 	with (obj_option)
 		option_goto(backMenu, backOption)
@@ -24,7 +24,7 @@ if (key_slap2 || key_start2 || key_jump)
 if (optionSelectionH != oldOptionSelectionH)
 {
 	inputBuffer = 2
-	event_play_oneshot("event:/SFX/ui/menuSelect")
+	event_play_oneshot(choose(sfx_menuSelect_1, sfx_menuSelect_2, sfx_menuSelect_3, sfx_menuSelect_4, sfx_menuSelect_5, sfx_menuSelect_6))
 	oldOptionSelectionH = optionSelectionH
 	var f = global.langFiles[optionSelectionH]
 	

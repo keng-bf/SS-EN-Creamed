@@ -1,0 +1,16 @@
+name = "";
+player_id = -1;
+depth = -6;
+baddieframe = 0;
+viewable = true;
+xscale = 1;
+yscale = 1;
+state = 0;
+image_index = 0;
+hurted = false;
+cutscene = false;
+pause = false;
+palcolors = ds_list_create();
+palsurf = -1;
+dsread = "";
+img_angle = 0;

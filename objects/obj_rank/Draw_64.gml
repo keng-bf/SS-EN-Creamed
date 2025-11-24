@@ -62,7 +62,7 @@ if (damage_shown)
 
 draw_set_color(c_white)
 
-if !isIL || !isSW{
+if !isIL && !isSW{
 for (var c = 0; c < array_length(confecti_sprites); c++)
 {
 	var _xx = 555 + (75 * c)

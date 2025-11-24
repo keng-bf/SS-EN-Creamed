@@ -7,7 +7,7 @@ function state_player_cotton()
 		hsp = 0
 		vsp = 0
 		movespeed = 0
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 		global.ComboFreeze = 5
 		
 		if (sprite_animation_end())
@@ -26,7 +26,7 @@ function state_player_cotton()
 		hsp = 0
 		vsp = 0
 		movespeed = 0
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 		global.ComboFreeze = 5
 		
 		if (sprite_animation_end())
@@ -163,7 +163,7 @@ function state_player_cotton()
 		image_index = 0
 		cottonJumped = 0
 		instance_create(x, y, obj_landcloud)
-		event_play_oneshot("event:/SFX/player/step", x, y)
+		event_play_oneshot(sfx_step, x, y)
 	}
 	
 	var landing_transitions = [[spr_cottonLand, spr_cottonIdle], [spr_cottonLandWalk, spr_cottonWalk]]
@@ -199,9 +199,9 @@ function state_player_cotton()
 	}
 	
 	if (sprite_index == spr_cottonWalk)
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : clamp((movespeed / 6) * 0.65, 0.35, 0.55)
+		image_speed = clamp((movespeed / 6) * 0.65, 0.35, 0.55)
 	else
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 	
 	if (sprite_index == spr_player_PZ_werecotton_spin && (place_meeting(x, y, obj_cottonsolid) || (place_meeting(x + hsp, y, obj_cottonsolid) && move == sign(hsp)) || (place_meeting(x, y + vsp, obj_cottonsolid) && move2 == sign(vsp))))
 	{

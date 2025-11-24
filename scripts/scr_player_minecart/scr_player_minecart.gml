@@ -11,7 +11,7 @@ function state_player_minecart()
 	
 	if (array_contains(_cutscene, sprite_index))
 	{
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 		hsp = 0
 		
 		if (sprite_animation_end() && sprite_index == spr_player_PZ_minecart_turn)
@@ -150,17 +150,17 @@ function state_player_minecart()
 		}
 		
 		if (sprite_index == spr_player_PZ_minecart)
-			image_speed = global.playerCharacter == Characters.Custom ? 1 : clamp(movespeed / 24, 0.35, 0.6)
+			image_speed = clamp(movespeed / 24, 0.35, 0.6)
 		else if (sprite_index == spr_player_PZ_minecart_groundpoundstart)
-			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.6
+			image_speed = 0.6
 		else if (sprite_index == spr_player_PZ_minecart_crouchstart || sprite_index == spr_player_PZ_minecart_crouchend)
-			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.5
+			image_speed = 0.5
 		else
-			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+			image_speed = 0.35
 	}
 	else
 	{
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 	}
 	
 	if (sprite_index == spr_player_PZ_minecart_groundpoundland && image_index >= 3 && key_down)
@@ -241,7 +241,7 @@ function state_player_minecart_bump()
 function state_player_minecart_launched()
 {
 	mask_index = spr_mask_minecart
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	hsp = movespeed
 	move = key_left + key_right
 	

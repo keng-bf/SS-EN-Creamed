@@ -28,7 +28,7 @@ function state_player_taunt()
 	{
 		if (tauntTimer >= 5 && superTauntCharged && key_up)
 		{
-			event_play_oneshot("event:/SFX/player/supertaunt", x, y)
+			event_play_oneshot(sfx_supertaunt, x, y)
 			image_index = 0
 			sprite_index = choose(spr_supertaunt1, spr_supertaunt2, spr_supertaunt3, spr_supertaunt4)
 		}
@@ -150,11 +150,11 @@ function state_player_taunt()
 	}
 	
 	if (sprite_index == spr_supertaunt1 || sprite_index == spr_supertaunt2 || sprite_index == spr_supertaunt3 || sprite_index == spr_supertaunt4)
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.4
+		image_speed = 0.4
 	else if (sprite_index == spr_taunt)
 	{
 		image_speed = 0
 	}
 	else
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 }

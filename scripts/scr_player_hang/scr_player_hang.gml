@@ -2,7 +2,7 @@ function state_player_hang()
 {
 	vsp = 0
 	sprite_index = spr_hanging
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	hsp = xscale * movespeed
 	
 	if (movespeed < 10)

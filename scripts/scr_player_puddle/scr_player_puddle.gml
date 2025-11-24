@@ -37,12 +37,12 @@ function state_player_puddle()
 			}
 			
 			image_index = 0
-			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+			image_speed = 0.35
 		}
 	}
 	else if (sprite_index == spr_player_PZ_slipSlide_end)
 	{
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 		movespeed = approach(movespeed, 0, 0.5)
 		player_slopeMomentum(0.75, 0)
 		
@@ -59,7 +59,7 @@ function state_player_puddle()
 	if (sprite_animation_end() && sprite_index == spr_player_PZ_slipSlide_intro)
 		image_speed = 0
 	else if (sprite_index == spr_player_PZ_fall_outOfControl)
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : clamp(movespeed / 15, 0.3, 1) * 0.6
+		image_speed = clamp(movespeed / 15, 0.3, 1) * 0.6
 	else
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 }

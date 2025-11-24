@@ -5,13 +5,13 @@ function state_player_actor()
 	if (sprite_index == spr_gotTreasure)
 	{
 		vsp = 0
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 	}
 }
 
 function state_player_titlescreen()
 {
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 }
 
 function state_player_gotkey()
@@ -57,5 +57,5 @@ function state_player_gotkey()
 			xscale = sign(move)
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 }

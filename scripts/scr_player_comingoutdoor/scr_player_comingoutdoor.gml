@@ -1,6 +1,6 @@
 function state_player_comingoutdoor()
 {
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	jumpAnim = true
 	landAnim = false
 	crouchAnim = true
@@ -14,7 +14,7 @@ function state_player_comingoutdoor()
 		if (!stepEffectBuffer--)
 		{
 			instance_create(x, y + 43, obj_puffEffect)
-			event_play_oneshot("event:/SFX/player/step", x, y)
+			event_play_oneshot(sfx_step, x, y)
 			stepEffectBuffer = 12
 		}
 	}

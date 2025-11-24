@@ -4,7 +4,7 @@ repeat (3)
 	instance_create(x, y, obj_baddieGibs)
 }
 
-event_play_oneshot("event:/SFX/enemies/kill")
+event_play_oneshot(sfx_killenemy)
 instance_create(x, y + 30, obj_bangEffect)
 camera_shake_add(3, 3)
 var dir = point_direction(xstart, ystart - 25, tgt_x, tgt_y)

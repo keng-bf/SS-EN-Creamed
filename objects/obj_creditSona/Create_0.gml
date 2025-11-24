@@ -30,7 +30,7 @@ onClick = function()
 	}
 	
 	create_particle(x, y, spr_bangEffect)
-	event_play_oneshot("event:/SFX/enemies/kill")
+	event_play_oneshot(sfx_killenemy)
 	hsp = random_range(10, 15) * sign(random_range(-1, 1))
 	vsp = random_range(-5, -10)
 }

@@ -6,5 +6,5 @@ if (room == rank_room)
 	y = clamp(y, 100, room_height - 100)
 	instance_create(x, y, obj_yogurtexeDead)
 	event_play_oneshot("event:/SFX/general/explosion", x, y)
-	event_play_oneshot("event:/SFX/player/groundpound", x, y)
+	event_play_oneshot(sfx_groundpound, x, y)
 }

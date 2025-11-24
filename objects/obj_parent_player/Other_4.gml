@@ -9,15 +9,6 @@ with (obj_coneball_timesUp)
 	y = other.y
 	image_alpha = 0
 }
-with (obj_nullball_lap)
-{
-	if !angry
-	{
-		x = other.x
-		y = other.y
-		image_alpha = 0
-	}
-}
 
 with (obj_parent_confecti)
 {

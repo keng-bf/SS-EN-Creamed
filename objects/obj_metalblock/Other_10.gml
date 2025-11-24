@@ -4,7 +4,7 @@ if (DestroyedBy.object_index == obj_parent_player || DestroyedBy.object_index ==
 	{
 		if (state == PlayerState.freefall || state == PlayerState.freefallland)
 		{
-			event_play_oneshot("event:/SFX/player/groundpound", x, y)
+			event_play_oneshot(sfx_groundpound, x, y)
 			image_index = 0
 			state = PlayerState.freefallland
 			jumpAnim = true
@@ -25,11 +25,21 @@ if (DestroyedBy.object_index == obj_parent_player || DestroyedBy.object_index ==
 			instance_create(x, y, obj_landcloud)
 			freefallstart = 0
 			image_index = 0
-			
-			if (sprite_index == spr_groundPoundfall)
-				sprite_index = spr_groundPoundland
-			else
-				sprite_index = spr_diveBombland
+            var landing_sprite_transitions = 
+			[
+				[spr_groundPoundfall, spr_groundPoundland], 
+				[spr_groundPoundstart, spr_groundPoundland], 
+				[spr_diveBombfall, spr_diveBombland], 
+				[spr_diveBombstart, spr_diveBombland], 
+				[spr_player_N_crusherFall, spr_player_N_crusherLand], 
+				[spr_player_N_crusherIntro, spr_player_N_crusherLand]
+			];
+            
+            for (var i = 0; i < array_length(landing_sprite_transitions); i++)
+            {
+                if (sprite_index == landing_sprite_transitions[i][0])
+                    sprite_index = landing_sprite_transitions[i][1];
+            }
 			
 			hsp = 0
 			vsp = 0
@@ -37,7 +47,7 @@ if (DestroyedBy.object_index == obj_parent_player || DestroyedBy.object_index ==
 		else if (state == PlayerState.superslam)
 		{
 			sprite_index = spr_piledriverland
-			event_play_oneshot("event:/SFX/player/groundpound", x, y)
+			event_play_oneshot(sfx_groundpound, x, y)
 			jumpAnim = true
 			jumpStop = false
 			image_index = 0

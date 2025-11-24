@@ -9,6 +9,10 @@ function state_player_machroll()
 	move = key_right + key_left
 	mask_index = spr_crouchmask
 	
+	if sprite_index == spr_crouchslipintro && scr_isPTCharacter()
+		sprite_index = spr_crouchslip;
+    
+	
 	if (!instance_exists(obj_puffEffect) && grounded)
 		instance_create(x, y + 43, obj_puffEffect)
 	
@@ -26,10 +30,27 @@ function state_player_machroll()
 	}
 	else if (!grounded && sprite_index != spr_dive)
 	{
-		crouchSlipBuffer = 0
-		sprite_index = spr_dive
-		fmod_studio_event_instance_start(sndDive)
-		vsp = 10
+		switch (global.playerCharacter)
+		{
+			default:
+		        crouchSlipBuffer = 0;
+		        sprite_index = spr_dive;
+		        fmod_studio_event_instance_start(sndDive);
+		        vsp = 10;
+				break;
+				
+			case Characters.Noise:
+	            sprite_index = spr_player_N_divebomb;
+	            state = PlayerState.machcancel;
+	            dir = xscale;
+	            vsp = 20;
+	            movespeed = hsp;
+	            inputBufferSlap = 0;
+	            inputBufferJump = 0;
+	            image_index = 0;
+	            exit;
+				break;
+		}
 	}
 	
 	if (sprite_index == spr_crouchslipintro || sprite_index == spr_crouchslip || sprite_index == spr_crouchslipfall)
@@ -124,9 +145,9 @@ function state_player_machroll()
 	}
 	
 	if (sprite_index == spr_crouchslip || sprite_index == spr_crouchslipfall || sprite_index == spr_crouchslipintro || sprite_index == spr_machroll || sprite_index == spr_machroll3 || sprite_index == spr_machroll3intro)
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : abs(movespeed) / 15
+		image_speed = abs(movespeed) / 15
 	else
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 	
 	if (!instance_exists(obj_chargeEffect) && sprite_index != spr_crouchslip && sprite_index != spr_crouchslipfall && sprite_index != spr_crouchslipintro && sprite_index != spr_dive && movespeed >= 12)
 	{

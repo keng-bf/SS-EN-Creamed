@@ -1,9 +1,9 @@
 function scr_enemySounds_init()
 {
-	sndCharge = fmod_createEventInstance("event:/SFX/enemies/charge")
-	sndChargeElite = fmod_createEventInstance("event:/SFX/enemies/chargeelite")
-	sndBeamAttack = fmod_createEventInstance("event:/SFX/enemies/beamAttack")
-	sndSluggyDig = fmod_createEventInstance("event:/SFX/enemies/sluggyDig")
+	sndCharge = fmod_createEventInstance(sfx_enemycharge, false)
+	sndChargeElite = fmod_createEventInstance(sfx_enemycharge, false)
+	sndBeamAttack = fmod_createEventInstance(sfx_enemybeamattack, false)
+	sndSluggyDig = fmod_createEventInstance(sfx_enemysluggydig, false)
 	mySoundArray = [sndCharge, sndChargeElite, sndBeamAttack, sndSluggyDig]
 }
 
@@ -13,7 +13,7 @@ function scr_enemySounds_release()
 	
 	for (var i = 0; i < array_length(sound_array); i++)
 	{
-		fmod_studio_event_instance_stop(sound_array[i], FMOD_STUDIO_STOP_MODE.IMMEDIATE)
+		fmod_studio_event_instance_stop(sound_array[i], FMOD_STUDIO_STOP_MODE)
 		fmod_studio_event_instance_release(sound_array[i])
 	}
 }

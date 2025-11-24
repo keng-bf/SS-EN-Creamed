@@ -31,7 +31,7 @@ function state_player_machslide()
 		})
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	landAnim = false
 	
 	if (sprite_index == spr_runskid)
@@ -45,7 +45,7 @@ function state_player_machslide()
 			state = PlayerState.run
 		}
 		
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.4
+		image_speed = 0.4
 		exit
 	}
 	

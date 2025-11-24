@@ -34,8 +34,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Peppino",
+    "path": "folders/Sprites/Character/Peppino.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -80,8 +80,8 @@
   "swatchColours": null,
   "swfPrecision": 2.525,
   "textureGroupId": {
-    "name": "Backgrounds",
-    "path": "texturegroups/Backgrounds",
+    "name": "Player",
+    "path": "texturegroups/Player",
   },
   "type": 0,
   "VTile": false,

@@ -12,5 +12,5 @@ if collect > 0
 	collect -= difference
 	global.ComboTime += difference
 	global.ComboTime = clamp(global.ComboTime, 0, 60)
-	event_play_multiple("event:/SFX/general/collect", x, y)
+	event_play_multiple(sfx_collect, x, y)
 }

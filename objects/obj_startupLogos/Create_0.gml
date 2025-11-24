@@ -5,5 +5,9 @@ logoChangeBufferMax = 100
 logoChangeBuffer = logoChangeBufferMax
 completed = false
 playedGnome = false
+if (global.modver != global.newmodver)
+{
+    show_message_async("V" + global.newmodver + " AVAILABLE");
+}
 if global.skipintro
 	room_goto_fixed(rm_mainmenu)

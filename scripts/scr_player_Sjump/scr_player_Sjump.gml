@@ -57,7 +57,7 @@ function state_player_Sjump()
 	
 	if (scr_solid(x, y + vsp) && !place_meeting(x, y + vsp, obj_transportBox) && !place_meeting(x, y + vsp, obj_metalblock) && !place_meeting(x, y + vsp, obj_destructibles) && sprite_index != spr_superjumpCancelIntro)
 	{
-		event_play_oneshot("event:/SFX/player/groundpound", x, y)
+		event_play_oneshot(sfx_groundpound, x, y)
 		sprite_index = (sprite_index == spr_superspring || sprite_index == spr_player_PZ_fall_outOfControl) ? spr_superspringLand : spr_superjumpLand
 		camera_shake_add(10, 30)
 		
@@ -75,12 +75,37 @@ function state_player_Sjump()
 	}
 	else if ((key_attack2 || inputBufferSlap > 0) && sprite_index != spr_player_PZ_fall_outOfControl && sprite_index != spr_superspring && sprite_index != spr_superjumpCancelIntro)
 	{
-		event_play_oneshot("event:/SFX/player/superjumpcancel", x, y)
-		image_index = 0
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.5
-		vsp = 0
-		sprite_index = spr_superjumpCancelIntro
-		inputBufferSlap = 0
+		if global.playerCharacter != Characters.Noise
+		{
+	        event_play_oneshot("event:/SFX/player/superjumpcancel", x, y);
+	        image_index = 0;
+	        image_speed = 0.5;
+	        vsp = 0;
+	        sprite_index = spr_superjumpCancelIntro;
+	        inputBufferSlap = 0;
+		}
+		else
+		{
+			if (move != 0)
+				xscale = move;
+            
+			inputBufferSlap = 0;
+			key_slap = false;
+			key_slap2 = false;
+			jumpstop = true;
+            
+			if (vsp > -5)
+				vsp = -5;
+            
+			state = PlayerState.mach2;
+			movespeed = 12;
+			sprite_index = spr_player_N_sidewayspin_Intro;
+            
+			with (instance_create(x, y, obj_crazyRunHoopEffect))
+				image_xscale = other.xscale;
+            
+			image_index = 0;
+		}
 	}
 	
 	if (sprite_index == spr_superjumpCancelIntro)
@@ -107,11 +132,11 @@ function state_player_Sjump()
 		}
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.5
+	image_speed = 0.5
 	
 	if (sprite_index == spr_superjumpCancelIntro)
 	{
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.55
+		image_speed = 0.55
 	}
 	else if (sprite_index != spr_superjumpCancelIntro)
 	{

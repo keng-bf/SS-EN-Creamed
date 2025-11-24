@@ -193,7 +193,7 @@ function state_player_normal()
 		image_index = 0
 	}
 	
-	if (can_jump && inputBufferJump > 0 && !key_down && (!key_attack || scr_solid(x + xscale, y, true)))
+	if (can_jump && !(global.playerCharacter == Characters.Noise && key_up) && inputBufferJump > 0 && !key_down && (!key_attack || scr_solid(x + xscale, y, true)))
 	{
 		fmod_studio_event_instance_start(sndJump)
 		sprite_index = shotgunAnim ? spr_shotgun_jump : spr_jump
@@ -232,15 +232,15 @@ function state_player_normal()
 		xscale = move
 		
 		if (movespeed < 3 && move != 0)
-			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+			image_speed = 0.35
 		else if (movespeed > 3 && movespeed < 6)
-			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.45
+			image_speed = 0.45
 		else
-			image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.6
+			image_speed = 0.6
 	}
 	else
 	{
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 	}
 	
 	if (sprite_index == spr_move_breakdance || sprite_index == spr_idle_breakdance)
@@ -262,7 +262,7 @@ function state_player_normal()
 			instance_create(x, y + 43, obj_puffEffect)
 			
 			if (!_dontStep)
-				event_play_oneshot("event:/SFX/player/step", x, y)
+				event_play_oneshot(sfx_step, x, y)
 			
 			if (sprite_index == spr_move_dance)
 				stepEffectBuffer = 8
@@ -291,4 +291,18 @@ function state_player_normal()
 	
 	if (prevSpriteIndex != sprite_index && sprite_index == spr_idle && state == PlayerState.normal)
 		image_index = 0
+		
+	if global.playerCharacter == Characters.Noise && sprite_index != spr_dive && grounded && (scr_checksuperjump() && key_jump2 || key_superjump)
+	{
+        sprite_index = spr_superjumpPrep;
+        state = PlayerState.Sjumpprep;
+        image_index = 0;
+		hsp = 0;
+		movespeed = 0;
+        /*instance_create(x, y, obj_jumpdust, 
+        {
+            playerID: id
+        });
+        vsp = min(vsp + 5, terminalVelocity);*/
+	}
 }

@@ -6,5 +6,5 @@ with (instance_create(x, y, obj_baddieDead))
 	image_xscale = other.image_xscale
 }
 
-event_play_oneshot("event:/SFX/enemies/kill")
+event_play_oneshot(sfx_killenemy)
 instance_destroy()

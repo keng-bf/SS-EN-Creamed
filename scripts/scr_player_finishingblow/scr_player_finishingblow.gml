@@ -31,7 +31,7 @@ function state_player_finishingblow()
 	{
 		vsp = -5
 		event_play_oneshot("event:/SFX/player/punch", x, y)
-		event_play_oneshot("event:/SFX/enemies/killingblow", x, y)
+		event_play_oneshot(sfx_killingblow, x, y)
 		camera_shake_add(5, 20)
 		scr_finishingBlow(baddieGrabbedID, id)
 		baddieGrabbedID = -4
@@ -56,6 +56,6 @@ function state_player_finishingblow()
 		afterimage_timer = 5
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.4
+	image_speed = 0.4
 	landAnim = false
 }

@@ -1,6 +1,6 @@
 function state_player_geyser()
 {
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	move = key_left + key_right
 	hsp = move * 5
 	

@@ -18,6 +18,9 @@ if !instance_exists(heatAfterEffectID)
 	})
 }
 
+if (grounded && vsp > 0)
+    noisewalljump = 0;
+
 if state != PlayerState.normal
 {
 	breakdanceBuffer = 0
@@ -42,6 +45,11 @@ if fireTrailBuffer <= 0
 
 if state != PlayerState.mach3 && state != PlayerState.climbwall
 	machFourMode = false
+
+if state != PlayerState.machcancel && state != PlayerState.mach3
+	noisemachcancelbuffer = 0;
+if noisemachcancelbuffer > 0
+	noisemachcancelbuffer--;
 
 var conveyor_hsp = conveyorBelt_hsp()
 
@@ -151,7 +159,34 @@ if keyParticles
 if !hurted
 	image_alpha = 1
 
-var machslide_check = sprite_index == spr_machslideboost3 || sprite_index == spr_machslideboost3Fall,killmove_states = [PlayerState.mach3, PlayerState.slipnslide, PlayerState.frostburnslide, PlayerState.frostburnnormal, PlayerState.cottondrill, PlayerState.cotton, PlayerState.cottonroll, PlayerState.cottondig, PlayerState.bottlerocket, PlayerState.machtumble2, PlayerState.minecart, PlayerState.fireass, PlayerState.grind, PlayerState.hang, PlayerState.puddle, PlayerState.doughmountspin, PlayerState.freefall, PlayerState.Sjump, PlayerState.charge, PlayerState.fling_launch, PlayerState.wallkick],bif = ((array_contains(killmove_states, state) || (state == PlayerState.machslide && machslide_check) || (state == PlayerState.run && movespeed >= 12) || (state == PlayerState.uppercut && vsp < 0) || (state == PlayerState.frostburnjump && vsp > 0) || (state == PlayerState.tumble && sprite_index != spr_tumblestart && sprite_index != spr_tumbleend) || (state == PlayerState.climbwall && verticalMovespeed > 8) || (state == PlayerState.doughmount && abs(movespeed) >= 10) || (state == PlayerState.machroll && mach3Roll > 0) || (state == PlayerState.superslam && sprite_index == spr_piledriver) || ((state == PlayerState.superslam && sprite_index == spr_piledriverIntro) && sprite_index != spr_player_PZ_werecotton_drill_h)))
+var machslide_check = sprite_index == spr_machslideboost3 || sprite_index == spr_machslideboost3Fall,
+	killmove_states = 
+	[
+		PlayerState.mach3, 
+		PlayerState.slipnslide, 
+		PlayerState.frostburnslide, 
+		PlayerState.frostburnnormal, 
+		PlayerState.cottondrill, 
+		PlayerState.cotton, 
+		PlayerState.cottonroll, 
+		PlayerState.cottondig, 
+		PlayerState.bottlerocket, 
+		PlayerState.machtumble2, 
+		PlayerState.minecart, 
+		PlayerState.fireass, 
+		PlayerState.grind, 
+		PlayerState.hang, 
+		PlayerState.puddle, 
+		PlayerState.doughmountspin, 
+		PlayerState.freefall, 
+		PlayerState.Sjump, 
+		PlayerState.charge, 
+		PlayerState.fling_launch, 
+		PlayerState.wallkick,
+		//MOD
+		PlayerState.machcancel
+	],
+	bif = ((array_contains(killmove_states, state) || (state == PlayerState.machslide && machslide_check) || (state == PlayerState.run && movespeed >= 12) || (state == PlayerState.uppercut && vsp < 0) || (state == PlayerState.frostburnjump && vsp > 0) || (state == PlayerState.tumble && sprite_index != spr_tumbleend) || (state == PlayerState.climbwall && verticalMovespeed > 8) || (state == PlayerState.doughmount && abs(movespeed) >= 10) || (state == PlayerState.machroll && mach3Roll > 0) || (state == PlayerState.superslam && sprite_index == spr_piledriver) || ((state == PlayerState.superslam && sprite_index == spr_piledriverIntro) && sprite_index != spr_player_PZ_werecotton_drill_h)))
 instakillmove = (bif ? true : false)
 
 if (state != PlayerState.jump && state != PlayerState.crouchjump) || vsp < 0
@@ -172,7 +207,7 @@ if state != PlayerState.normal
 	dashdust = 0
 }
 
-if (state != PlayerState.mach1 && state != PlayerState.jump && state != PlayerState.grabdash && state != PlayerState.normal && state != PlayerState.mach2 && state != PlayerState.mach3 && state != PlayerState.freefallprep && state != PlayerState.swingclub && state != PlayerState.cotton && state != PlayerState.cottonroll && state != PlayerState.cottondig)
+if (state != PlayerState.jump && state != PlayerState.grabdash && state != PlayerState.normal && state != PlayerState.mach2 && state != PlayerState.mach3 && state != PlayerState.freefallprep && state != PlayerState.swingclub && state != PlayerState.cotton && state != PlayerState.cottonroll && state != PlayerState.cottondig)
 	momentum = false
 
 if (state != PlayerState.mach2)

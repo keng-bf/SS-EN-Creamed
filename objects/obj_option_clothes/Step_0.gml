@@ -12,14 +12,14 @@ optionSelection = clamp(optionSelection, 0, 1)
 
 if (optionSelection != old_selection)
 {
-	event_play_oneshot("event:/SFX/ui/step")
+	event_play_oneshot(sfx_step)
 	pulseTimer = 3
 	deleteFileBuffer = 0
 }
 
 if (deleteFileBuffer >= deleteFileBufferMax)
 {
-	event_play_oneshot("event:/SFX/general/explosion", 480, 270)
+	event_play_oneshot(sfx_explosion, 480, 270)
 	ini_open("optionData.ini")
 	ini_section_delete("Palettes")
 	ini_close()
@@ -50,14 +50,14 @@ if (key_jump && optionSelection == 1)
 {
 	pulseTimer = 3
 	deleteFileBuffer = 0
-	event_play_oneshot("event:/SFX/ui/menuBack")
+	event_play_oneshot(sfx_bottlepop)
 	instance_destroy()
 	exit
 }
 
 if (key_slap2 || key_start2)
 {
-	event_play_oneshot("event:/SFX/ui/menuBack")
+	event_play_oneshot(sfx_bottlepop)
 	instance_destroy()
 	exit
 }

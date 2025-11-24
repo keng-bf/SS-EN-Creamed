@@ -1,6 +1,6 @@
 if (other.state == PlayerState.doughmount || other.state == PlayerState.doughmountspin || other.state == PlayerState.doughmountballoon)
 {
-	event_play_multiple("event:/SFX/general/collect", x, y)
+	event_play_multiple(sfx_collect, x, y)
 	create_small_number((x - sprite_xoffset) + (sprite_width / 2), (y - sprite_yoffset) + (sprite_height / 2), "10")
 	global.Collect += 10
 	global.PizzaMeter += 1

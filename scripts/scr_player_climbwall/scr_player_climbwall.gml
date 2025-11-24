@@ -1,5 +1,21 @@
 function state_player_climbwall()
 {
+	if global.playerCharacter == Characters.Noise
+	{
+		with (instance_create(x, y, obj_puffEffect))
+			sprite_index = spr_noisewalljumpeffect;
+                
+		sprite_index = spr_player_N_wallbounce;
+		state = PlayerState.machcancel;
+		dir = xscale;
+		vsp = -(17 * (1 - (noisewalljump * 0.15)));
+		noisewalljump++;
+		hsp = 0;
+		movespeed = 0;
+		image_index = 0;
+		exit;
+	}
+	
 	floatyGrab = 0
 	conveyorHsp = 0
 	hsp = xscale * movespeed
@@ -128,7 +144,7 @@ function state_player_climbwall()
 		else
 		{
 			sprite_index = spr_player_PZ_wallclimb_crash
-			event_play_oneshot("event:/SFX/player/groundpound", x, y)
+			event_play_oneshot(sfx_groundpound, x, y)
 			image_index = 0
 			state = PlayerState.ceilingCrash
 			camera_shake_add(10, 30)
@@ -203,7 +219,7 @@ function state_player_climbwall()
 		}
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.6
+	image_speed = 0.6
 	
 	if (!instance_exists(obj_puffEffect))
 		instance_create(x, y + 43, obj_puffEffect)

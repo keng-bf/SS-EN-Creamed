@@ -150,7 +150,7 @@ function cutscene_secretPortal_start()
 		hsp = 0
 		vsp = 0
 		sprite_index = spr_hurt
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 		
 		switch (other.storedState)
 		{
@@ -222,7 +222,7 @@ function cutscene_secretPortal_middle()
 			if (!global.RoomIsSecret)
 				global.RoomIsSecret = true
 			
-			event_play_oneshot("event:/SFX/general/door")
+			event_play_oneshot(sfx_door)
 			if instance_exists(obj_randomsecret)
 			{
                 with (obj_randomsecret)
@@ -312,7 +312,7 @@ function cutscene_secretPortal_end()
 	{
 		visible = true
 		isInSecretPortal = true
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 		
 		with (instance_place(x, y, obj_secretPortal))
 		{
@@ -515,7 +515,7 @@ function cutscene_backtohub_middle()
 					fakeVSP = -14
 					sprite_index = spr_player_PZ_fall_outOfControl
 					camera_shake_add(3, 3)
-					event_play_oneshot("event:/SFX/player/groundpound", x, y)
+					event_play_oneshot(sfx_groundpound, x, y)
 					create_particle(x, y + 39, spr_bangEffect)
 					create_particle(x, y, spr_landcloud)
 				}

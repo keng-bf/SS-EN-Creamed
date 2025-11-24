@@ -5,7 +5,7 @@ function state_player_victory()
 	jumpAnim = true
 	landAnim = false
 	crouchAnim = true
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	
 	if (sprite_animation_end())
 	{
@@ -17,7 +17,7 @@ function state_player_victory()
 			{
 				if (!instance_exists(obj_fadeoutTransition))
 				{
-					event_play_oneshot("event:/SFX/general/door")
+					event_play_oneshot(sfx_door)
 					instance_create(x, y, obj_fadeoutTransition)
 				}
 			}

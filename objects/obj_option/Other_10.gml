@@ -3,7 +3,7 @@ kill_sounds([activeSFX])
 var onOffToggle = ["opt_off", "opt_on"]
 var toMainPage = new option_button("opt_back", function()
 {
-	event_play_oneshot("event:/SFX/ui/menuBack")
+	event_play_oneshot(sfx_bottlepop)
 	option_goto(backMenu, backOption)
 })
 

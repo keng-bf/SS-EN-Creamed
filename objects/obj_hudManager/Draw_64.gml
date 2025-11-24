@@ -1,11 +1,10 @@
-var coneballtimesup = spr_bartimer_showtime,coneballtimesup_text = spr_null,coneballtimesup = spr_bartimer_blotchspotshowtime,coneballtimesup_text = lang_get_sprite(spr_bartimer_blotchspotshowtime_text)
-
+var coneballtimesup = global.enmode ? spr_bartimer_blotchspotshowtime : spr_bartimer_showtime
+var coneballtimesup_text = global.enmode ? lang_get_sprite(spr_bartimer_blotchspotshowtime_text) : spr_bartimer_showtime_text
 if (saveAlpha)
 {
 	saveAlpha = approach(saveAlpha, 0, 0.1)
-	var _yy = camera_get_view_height(view_camera[0]),_offset = 0,_font = draw_get_font()
+	var _yy = camera_get_view_height(view_camera[0]),_offset = 0,_font = draw_get_font(),_str_h = string_height("A")
 	draw_set_font(global.smalltimerfont)
-	var _str_h = string_height("A")
 	draw_set_font(_font)
 	
 	if (global.option_timer_type >= 2)

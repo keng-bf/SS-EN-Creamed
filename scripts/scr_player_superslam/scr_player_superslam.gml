@@ -83,7 +83,7 @@ function state_player_superslam()
 	{
 		sprite_index = spr_piledriverland
 		image_index = 0
-		event_play_oneshot("event:/SFX/player/groundpound", x, y)
+		event_play_oneshot(sfx_groundpound, x, y)
 		jumpAnim = true
 		jumpStop = false
 		hsp = 0
@@ -158,7 +158,7 @@ function state_player_superslam()
 		movespeed -= 0.1
 	
 	if (vsp < 0)
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 	else
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.5
+		image_speed = 0.5
 }

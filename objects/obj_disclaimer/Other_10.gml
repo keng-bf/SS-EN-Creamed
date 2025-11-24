@@ -1,3 +1,2 @@
-audio_stop_sound(mu_disclaimer)
-scr_sound(sfx_yes)
+event_play_oneshot(sfx_yes)
 room_goto_fixed(rm_mainmenu)

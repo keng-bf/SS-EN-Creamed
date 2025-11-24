@@ -1,6 +1,6 @@
 if !in_saveroom()
 {
-	event_play_oneshot("event:/SFX/enemies/kill")
+	event_play_oneshot(sfx_killenemy)
 	event_play_oneshot((object_index == obj_chocofrog) ? "event:/SFX/general/frogdeathbig" : "event:/SFX/general/frogdeath", x, y)
 	obj_parent_player.superTauntBuffer++
 	global.Combo++

@@ -1,5 +1,4 @@
 scr_getinput_menu()
-updateVolume()
 
 if (video_get_status() == 2)
 {

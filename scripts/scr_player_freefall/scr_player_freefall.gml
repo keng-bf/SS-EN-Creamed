@@ -96,6 +96,35 @@ function state_player_freefall()
 		image_index = 0
 		sprite_index = spr_diveBombfall
 	}
+    
+    if (sprite_index == spr_player_N_crusherIntro && sprite_animation_end())
+    {
+        image_index = 0;
+        sprite_index = spr_player_N_crusherFall;
+    }
+	
+    if (inputBufferSlap > 0 && global.playerCharacter == Characters.Noise && (sprite_index == spr_player_N_crusherFall || sprite_index == spr_player_N_crusherIntro))
+    {
+		if (move != 0)
+			xscale = move;
+            
+		inputBufferSlap = 0;
+		key_slap = false;
+		key_slap2 = false;
+		jumpstop = true;
+            
+		if (vsp > -5)
+			vsp = -5;
+            
+		state = PlayerState.mach2;
+		movespeed = 12;
+		sprite_index = spr_player_N_sidewayspin_Intro;
+            
+		with (instance_create(x, y, obj_crazyRunHoopEffect))
+			image_xscale = other.xscale;
+            
+		image_index = 0;
+    }
 	
 	if (grounded && (freeFallSmash < 10 || !place_meeting(x, y + vsp, obj_metalblock)) && !place_meeting(x, y + vsp, obj_destructibles))
 	{
@@ -111,7 +140,7 @@ function state_player_freefall()
 		}
 		else
 		{
-			event_play_oneshot("event:/SFX/player/groundpound", x, y)
+			event_play_oneshot(sfx_groundpound, x, y)
 			image_index = 0
 			state = PlayerState.freefallland
 			jumpAnim = true
@@ -145,7 +174,16 @@ function state_player_freefall()
 			
 			freefallstart = 0
 			image_index = 0
-			var landing_sprite_transitions = [[spr_groundPoundfall, spr_groundPoundland], [spr_groundPoundstart, spr_groundPoundland], [spr_player_PZ_fall_outOfControl, spr_player_PZ_freeFall_land], [spr_diveBombfall, spr_diveBombland], [spr_diveBombstart, spr_diveBombland]]
+			var landing_sprite_transitions = 
+			[
+				[spr_groundPoundfall, spr_groundPoundland], 
+				[spr_groundPoundstart, spr_groundPoundland], 
+				[spr_player_PZ_fall_outOfControl, spr_player_PZ_freeFall_land], 
+				[spr_diveBombfall, spr_diveBombland], 
+				[spr_diveBombstart, spr_diveBombland],
+				[spr_player_N_crusherFall, spr_player_N_crusherLand], 
+				[spr_player_N_crusherIntro, spr_player_N_crusherLand]
+			]
 			
 			for (var i = 0; i < array_length(landing_sprite_transitions); i++)
 			{
@@ -155,7 +193,7 @@ function state_player_freefall()
 		}
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	
 	if (freeFallSmash >= 10)
 	{

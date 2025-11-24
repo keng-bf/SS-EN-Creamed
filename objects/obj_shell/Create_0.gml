@@ -77,9 +77,7 @@ if (instance_number(object_index) > 1) {
 function open() {
 	isOpen = true;
 	keyboard_string = "";
-	if (!is_undefined(openFunction)) {
-		openFunction();
-	}
+    global.shellactivate = true;
 }
 
 /// Closes the shell

@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "Android",
   "ConfigValues": {
-    "Release": {"option_android_display_name":"SSEN: Creamed",},
+    "Release": {"option_android_display_name":"SSEN: Creamed","option_android_build_tools":"32.0.0","option_android_support_lib":"33.0.0","option_android_target_sdk":"33","option_android_compile_sdk":"33","option_android_minimum_sdk":"16",},
   },
   "option_android_application_tag_inject": "",
   "option_android_arch_arm64": true,

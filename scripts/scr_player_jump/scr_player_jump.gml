@@ -68,7 +68,7 @@ function state_player_jump()
 		jumpStop = true
 	}
 	
-	if (can_jump && inputBufferJump > 0 && !key_down && (!key_attack || scr_solid(x + xscale, y, true)))
+	if (can_jump && inputBufferJump > 0 && !key_down && !(global.playerCharacter == Characters.Noise && key_up) && (!key_attack || scr_solid(x + xscale, y, true)))
 	{
 		fmod_studio_event_instance_start(sndJump)
 		sprite_index = shotgunAnim ? spr_shotgun_jump : spr_jump
@@ -97,7 +97,7 @@ function state_player_jump()
 		image_index = 0
 		freefallstart = 0
 		instance_create(x, y, obj_landcloud)
-		event_play_oneshot("event:/SFX/player/step", x, y)
+		event_play_oneshot(sfx_step, x, y)
 		doubleJumped = false
 		floatyGrab = 18
 	}
@@ -148,12 +148,12 @@ function state_player_jump()
 	if (move != 0)
 		xscale = move
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	do_grab(PlayerState.jump)
 	
 	if (grounded && (sprite_index == spr_player_PZ_freeFall_1 || sprite_index == spr_player_PZ_freeFall_2))
 	{
-		event_play_oneshot("event:/SFX/player/groundpound", x, y)
+		event_play_oneshot(sfx_groundpound, x, y)
 		
 		with (obj_parent_enemy)
 		{
@@ -195,4 +195,15 @@ function state_player_jump()
 		state = PlayerState.mach2
 		image_index = 0
 	}
+    
+    if (!can_jump && global.playerCharacter == Characters.Noise && key_up && inputBufferJump > 0 && !key_down && !key_attack)
+    {
+		inputBufferJump = 0;
+		movespeed = hsp * xscale;
+		state = PlayerState.freefallprep;
+		sprite_index = spr_player_N_crusherIntro;
+		image_index = 0;
+		vsp = -16;
+		//scr_fmod_soundeffect(snd_noisedoublejump, x, y);
+    }
 }

@@ -10,7 +10,7 @@ if (other.state != PlayerState.actor && sprite_index == spr_lappingportal_idle &
 		sprite_index = spr_lappingportal_enter
 	}
 	
-	event_play_oneshot("event:/SFX/general/lapenter", x, y)
+	event_play_oneshot(sfx_lapenter, x, y)
 	global.ComboTime = 60
 	global.Collect += 3000
 	create_small_number(x, y, "3000")

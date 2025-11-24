@@ -1,4 +1,5 @@
 scr_collision_init()
+event_play_oneshot(mu_timesup)
 global.panic = 0
 image_speed = 0
 alarm[1] = 300

@@ -4,7 +4,7 @@ optionSelection += (key_right2 + key_left2)
 optionSelection = clamp(optionSelection, 0, 1)
 
 if (optionSelection != old_selection)
-	event_play_oneshot("event:/SFX/ui/step")
+	event_play_oneshot(sfx_step)
 
 if (key_jump)
 {

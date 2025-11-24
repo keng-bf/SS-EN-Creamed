@@ -24,7 +24,7 @@ if (!instance_exists(candyID))
 		create_radiating_particle(x, y, spr_fuckassOrb, 0, false, 7, 10, 10)
 	}
 	
-	event_play_oneshot("event:/SFX/enemies/kill")
+	event_play_oneshot(sfx_killenemy)
 	vsp = random_range(-5, -10)
 	add_saveroom()
 	hsp = sign(x - obj_parent_player.x) * random_range(10, 15)

@@ -1,6 +1,6 @@
 if !in_saveroom()
 {
-	event_play_multiple("event:/SFX/general/collect", x, y)
+	event_play_multiple(sfx_collect, x, y)
     
     if (global.cafeseconds <= global.cafesecondssmall)
     {

@@ -39,7 +39,7 @@ function state_player_charge()
 		vsp = -6
 		state = PlayerState.superslam
 		image_index = 0
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 	}
 	
 	if (inputBufferSlap > 0 || (scr_solid(x + xscale, y, true) && !place_meeting(x + xscale, y, obj_destructibles)))
@@ -52,7 +52,7 @@ function state_player_charge()
 		inputBufferSlap = 0
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.5
+	image_speed = 0.5
 	
 	if (!instance_exists(dashCloudID) && grounded)
 	{

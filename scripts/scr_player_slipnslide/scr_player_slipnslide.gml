@@ -7,7 +7,7 @@ function state_player_slipnslide()
 	hsp = xscale * movespeed
 	movespeed = approach(movespeed, 0, 0.19)
 	sprite_index = spr_slippingonice
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	
 	if (movespeed <= 0)
 	{
@@ -20,7 +20,7 @@ function state_player_slipnslide()
 	if (!grounded && vsp >= 0)
 	{
 		image_index = 0
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 		sprite_index = spr_player_PZ_slipSlide_intro
 		state = PlayerState.puddle
 		vsp = -11

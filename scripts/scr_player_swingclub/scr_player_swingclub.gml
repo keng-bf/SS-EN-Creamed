@@ -15,7 +15,7 @@ function state_player_swingclub()
 	if (floor(image_index) == (image_number - 1))
 		state = PlayerState.normal
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.4
+	image_speed = 0.4
 	
 	if (!instance_exists(obj_slidecloud) && grounded && movespeed > 4)
 		instance_create(x, y, obj_slidecloud)

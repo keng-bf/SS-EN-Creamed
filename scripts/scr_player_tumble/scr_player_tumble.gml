@@ -4,19 +4,7 @@ function state_player_tumble()
 	scr_conveyorBeltKinematics()
 	hsp = xscale * movespeed
 	move = key_left + key_right
-	
-	if (sprite_index == spr_tumblestart)
-	{
-		movespeed = approach(movespeed, 6 * xscale, 0.25)
-		hsp = movespeed
-	}
-	else
-	{
-		movespeed = approach(movespeed, 10 + (move * 2 * xscale), 0.25)
-	}
-	
-	if (sprite_index == spr_tumblestart && sprite_animation_end())
-		sprite_index = spr_tumble
+	movespeed = approach(movespeed, 10 + (move * 2 * xscale), 0.25)
 	
 	if (place_meeting_collision(x + xscale, y, Exclude.SLOPES) && !place_meeting(x + xscale, y, obj_destructibles) && !place_meeting(x + xscale, y, obj_chocofrog_tumble))
 	{
@@ -46,7 +34,7 @@ function state_player_tumble()
 		grav = 0.3
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	
 	with (create_afterimage(AfterImageType.plain, xscale))
 	{

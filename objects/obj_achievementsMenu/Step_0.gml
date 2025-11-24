@@ -21,7 +21,7 @@ if (oldV != selectV)
 }
 
 if (oldH != selectH || oldV != selectV)
-	event_play_oneshot("event:/SFX/ui/step")
+	event_play_oneshot(sfx_step)
 
 selectV = clamp(selectV, -1, maxV)
 selectH = clamp(selectH, 0, maxH)

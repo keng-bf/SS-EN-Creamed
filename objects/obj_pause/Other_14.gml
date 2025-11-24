@@ -5,7 +5,7 @@ if (room != rank_room && !is_hub())
 	global.gamePauseState = 0
 	fmod_event_setPause_all(false)
 	scr_unpause_instances(true)
-	fmod_event_stop_all(true)
+	audio_stop_all()
 	room_goto_fixed(rm_void)
 	instance_destroy(obj_fadeoutTransition)
 	instance_destroy(obj_cutsceneManager)
@@ -27,7 +27,7 @@ else if (is_hub())
 	global.gamePauseState = 0
 	fmod_event_setPause_all(false)
 	scr_unpause_instances(true)
-	fmod_event_stop_all(true)
+	audio_stop_all()
 	
 	with (obj_gametimer)
 		self.saveTime()
@@ -52,5 +52,5 @@ else if (is_hub())
 }
 else
 {
-	event_play_oneshot("event:/SFX/ui/confirm")
+	event_play_oneshot(sfx_enemyprojectile)
 }

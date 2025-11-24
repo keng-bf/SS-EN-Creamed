@@ -1,6 +1,4 @@
-var coneballtimesup = spr_bartimer_showtime
-coneballtimesup = spr_bartimer_blotchspotshowtime
-
+var coneballtimesup = global.enmode ? spr_bartimer_blotchspotshowtime : spr_bartimer_showtime
 with (HUDObject_tooltipPrompts)
 {
 	if (promptTimer > 0)
@@ -13,8 +11,7 @@ with (HUDObject_tooltipPrompts)
 		image_alpha = approach(image_alpha, 0, 0.05)
 	}
 	
-	var _fall = false
-	var timer_coneball = other.HUDObject_timer.elm_coneBall
+	var _fall = false,timer_coneball = other.HUDObject_timer.elm_coneBall
 	
 	if (timer_coneball.sprite_index == coneballtimesup && timer_coneball.image_index >= (timer_coneball.sprite_image_number - 1))
 		_fall = true

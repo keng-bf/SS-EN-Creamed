@@ -17,12 +17,7 @@ if (DestroyedBy.object_index == obj_parent_player || DestroyedBy.object_index ==
 			vsp = -4
 			machTwo = 0
 			image_index = 0
-			
-			if (state == PlayerState.mach1)
-				sprite_index = spr_canehit
-			else
-				sprite_index = choose(spr_player_PZ_blockbreak_1, spr_player_PZ_blockbreak_2, spr_player_PZ_blockbreak_3, spr_player_PZ_blockbreak_4, spr_player_PZ_blockbreak_5, spr_player_PZ_blockbreak_6, spr_player_PZ_blockbreak_7)
-			
+			sprite_index = choose(spr_player_PZ_blockbreak_1, spr_player_PZ_blockbreak_2, spr_player_PZ_blockbreak_3, spr_player_PZ_blockbreak_4, spr_player_PZ_blockbreak_5, spr_player_PZ_blockbreak_6, spr_player_PZ_blockbreak_7)
 			state = PlayerState.tackle
 		}
 	}
@@ -49,7 +44,7 @@ if (DestroyedBy.object_index == obj_parent_player || DestroyedBy.object_index ==
 				else if (state == PlayerState.superslam)
 				{
 					sprite_index = spr_piledriverland
-					event_play_oneshot("event:/SFX/player/groundpound", x, y)
+					event_play_oneshot(sfx_groundpound, x, y)
 					jumpAnim = true
 					jumpStop = false
 					image_index = 0

@@ -18,6 +18,9 @@ loadSpriteCount = sprite_get_number(spr_bodyloadbar) - 1
 imageIndexArray = array_create(loadSpriteCount + 1, 0)
 global.texturesToLoad = []
 global.loadedTextures = []
+global.modver = "1.1.1"
+global.newmodver = global.modver;
+fetch = http_get("https://pastebin.com/raw/TSsbz1vP")
 texture_debug_messages(true)
 
 enum PlayerState
@@ -53,7 +56,6 @@ enum PlayerState
 	Sjumpprep = 28,
 	crouch = 29,
 	crouchjump = 30,
-	mach1 = 31,
 	mach2 = 32,
 	mach3 = 33,
 	machslide = 34,
@@ -118,7 +120,9 @@ enum PlayerState
 	fling_launch = 93,
 	freeflight = 94,
 	burrow = 100,
-	charcherryrun = 101	
+	charcherryrun = 101,
+	
+	machcancel = 102
 }
 
 enum Characters
@@ -129,8 +133,7 @@ enum Characters
 	Coneboy = 3,
 	Peppino = 4,
 	Noise = 5,
-	Vigilante = 6,
-	Custom = 7
+	Vigilante = 6
 }
 
 enum OptionMenu

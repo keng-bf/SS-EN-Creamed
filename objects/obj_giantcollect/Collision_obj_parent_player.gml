@@ -1,5 +1,5 @@
 event_play_oneshot("event:/SFX/general/collectgiantpizza")
-event_play_multiple("event:/SFX/general/collect", x, y)
+event_play_multiple(sfx_collect, x, y)
 scr_ghostcollectible(false)
 scr_queueTVAnimation(global.TvSprPlayer_Happy, 200)
 global.Collect += 1000

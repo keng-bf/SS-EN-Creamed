@@ -63,7 +63,7 @@ if (key_slap2 || key_start2)
 {
 	if (backMenu != -4)
 	{
-		event_play_oneshot("event:/SFX/ui/menuBack")
+		event_play_oneshot(sfx_bottlepop)
 		option_goto(backMenu, backOption)
 	}
 	else
@@ -79,7 +79,7 @@ if (_total_options <= 0)
 
 if (v_move != 0)
 {
-	event_play_oneshot("event:/SFX/ui/step")
+	event_play_oneshot(sfx_step)
 	optionSelected += v_move
 	optionSelected = clamp(optionSelected, 0, _total_options - 1)
 	handle_savedoption()
@@ -95,7 +95,7 @@ switch (_option.type)
 			if (!is_undefined(_option.on_toggle))
 			{
 				if (_option.id != "opt_back")
-					event_play_oneshot("event:/SFX/ui/menuSelect")
+                    event_play_oneshot(choose(sfx_menuSelect_1, sfx_menuSelect_2, sfx_menuSelect_3, sfx_menuSelect_4, sfx_menuSelect_5, sfx_menuSelect_6));
 				
 				_option.on_toggle()
 			}
@@ -114,7 +114,7 @@ switch (_option.type)
 			
 			if (!is_undefined(_option.on_toggle))
 			{
-				event_play_oneshot("event:/SFX/ui/menuSelect")
+				event_play_oneshot(choose(sfx_menuSelect_1, sfx_menuSelect_2, sfx_menuSelect_3, sfx_menuSelect_4, sfx_menuSelect_5, sfx_menuSelect_6))
 				_option.on_toggle(_option.value)
 			}
 		}

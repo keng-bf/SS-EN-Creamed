@@ -7,7 +7,7 @@ if (global.InternalLevelName != "none")
 	
 	fmod_event_setPause_all(false)
 	scr_unpause_instances(true)
-	fmod_event_stop_all(true)
+	audio_stop_all()
 	scr_levelSet()
 	room = global.LevelFirstRoom
 	global.gamePauseState = 0
@@ -23,5 +23,5 @@ if (global.InternalLevelName != "none")
 }
 else
 {
-	event_play_oneshot("event:/SFX/ui/confirm")
+	event_play_oneshot(sfx_enemyprojectile)
 }

@@ -1,16 +1,18 @@
 function scr_playersounds_init()
 {
-	sndMach = fmod_createEventInstance("event:/SFX/player/mach")
+    sndMach1 = fmod_createEventInstance(sfx_PZ_mach1, false);
+    sndMach2 = fmod_createEventInstance(sfx_PZ_mach2, false);
+    sndMach3 = fmod_createEventInstance(sfx_PZ_mach3, false);
+    sndMach4 = fmod_createEventInstance(sfx_PZ_mach4, false);
 	sndMachStart = fmod_createEventInstance("event:/SFX/player/machStart")
 	sndGalloping = fmod_createEventInstance("event:/SFX/general/galloping")
 	sndSpinning = fmod_createEventInstance("event:/SFX/player/spin")
 	spinSoundBuffer = 0
 	sndSuplex = fmod_createEventInstance("event:/SFX/player/suplexdash")
 	sndKungFu = fmod_createEventInstance("event:/SFX/player/kungfu")
-	sndJump = fmod_createEventInstance("event:/SFX/player/jump")
-	sndFlip = fmod_createEventInstance("event:/SFX/player/flip")
-	sndWallkick = fmod_createEventInstance("event:/SFX/player/wallKick")
-	sndWallkickCancel = fmod_createEventInstance("event:/SFX/player/wallKickCancel")
+	sndJump = fmod_createEventInstance(sfx_PZ_jump, false)
+    sndWallkick = fmod_createEventInstance(sfx_wallkick, false);
+    sndWallkickCancel = fmod_createEventInstance(sfx_wallkickcancel, false);
 	sndWallkickStart = fmod_createEventInstance("event:/SFX/player/wallKickIntro")
 	sndWallkickLand = fmod_createEventInstance("event:/SFX/player/wallKickLand")
 	sndFreefall = fmod_createEventInstance("event:/SFX/player/freefall")
@@ -27,14 +29,22 @@ function scr_playersounds_init()
 	sndMinecart = fmod_createEventInstance("event:/SFX/minecart/minecart")
 	sndMinecartJump = fmod_createEventInstance("event:/SFX/minecart/jump")
 	voiceScream = fmod_createEventInstance("event:/SFX/player/voice/scream")
-	voiceCollect = fmod_createEventInstance("event:/SFX/player/voice/collect")
-	voiceTransfo = fmod_createEventInstance("event:/SFX/player/voice/transfo")
-	voiceDetransfo = fmod_createEventInstance("event:/SFX/player/voice/outtransfo")
-	voiceIdle = fmod_createEventInstance("event:/SFX/player/voice/idle")
-	voiceHurt = fmod_createEventInstance("event:/SFX/player/voice/hurt")
+    voiceCollect = fmod_createEventInstance(choose(PZvoice6, PZvoice10, PZvoice12), false);
+    voiceTransfo = fmod_createEventInstance(choose(PZvoice7, PZvoice18, PZvoice19, PZvoice20, PZvoice22), false);
+    voiceDetransfo = fmod_createEventInstance(choose(PZvoice7, PZvoice18, PZvoice19, PZvoice20, PZvoice22), false);
+    voiceIdle = fmod_createEventInstance(choose(PZvoice1, PZvoice2, PZvoice3, PZvoice4, PZvoice5, PZvoice6, PZvoice7, PZvoice8, PZvoice21), false);
+    voiceHurt = fmod_createEventInstance(choose(PZvoice14, PZvoice15, PZvoice16, PZvoice17), false);
 	transfoSound = undefined
 	oldTransfoSound = undefined
-	mySoundArray = [sndMach, sndMachStart, sndSuplex, sndKungFu, sndGalloping, sndJump, sndFlip, sndWallkick, sndWallkickCancel, sndWallkickStart, sndWallkickLand, sndFreefall, sndSuperjump, sndSuperjumpRelease, sndCottonDigging, sndMinecart, sndTumble, sndRoll, sndGrind, sndFireass, sndCrouchslide, sndRollGetUp, sndDive, sndMinecart, sndMinecartJump, voiceScream, voiceCollect, voiceTransfo, voiceDetransfo, voiceIdle, voiceHurt]
+	mySoundArray = [sndMach1, sndMach2, sndMach3, sndMach4, sndMachStart, sndSuplex, sndKungFu, sndGalloping, sndJump, sndWallkick, sndWallkickCancel, sndWallkickStart, sndWallkickLand, sndFreefall, sndSuperjump, sndSuperjumpRelease, sndCottonDigging, sndMinecart, sndTumble, sndRoll, sndGrind, sndFireass, sndCrouchslide, sndRollGetUp, sndDive, sndMinecart, sndMinecartJump, voiceScream, voiceCollect, voiceTransfo, voiceDetransfo, voiceIdle, voiceHurt]
+    
+    for (var i = 0; i < array_length(mySoundArray); i++)
+    {
+        var snd_id = mySoundArray[i];
+        
+        if (is_struct(snd_id))
+            snd_id.base_gain = 1.5;
+    }
 }
 
 function scr_playersounds()
@@ -67,15 +77,11 @@ function scr_playersounds()
 		}
 	}
 	
-	if (sprite_index == spr_tumblestart || sprite_index == spr_tumble)
+	if (sprite_index == spr_tumble)
 	{
 		if (!event_instance_isplaying(sndTumble))
 		{
-			if (sprite_index == spr_tumblestart)
-				fmod_studio_event_instance_set_parameter_by_name(sndTumble, "state", 0, true)
-			else
-				fmod_studio_event_instance_set_parameter_by_name(sndTumble, "state", 1, true)
-			
+			fmod_studio_event_instance_set_parameter_by_name(sndTumble, "state", 1, true)
 			fmod_studio_event_instance_start(sndTumble)
 		}
 	}
@@ -194,26 +200,51 @@ function scr_playersounds()
 	
 	if (saved_state == PlayerState.mach2 || saved_state == PlayerState.run || saved_state == PlayerState.mach3 || saved_state == PlayerState.climbwall)
 	{
-		if (!event_instance_isplaying(sndMach))
-			fmod_studio_event_instance_start(sndMach)
-		
-		var machsnd = 0
+        var machsnd = 0;
+        var current_mach_sound = undefined;
 		
 		if ((saved_state == PlayerState.mach2 && sprite_index == spr_mach1) || (saved_state == PlayerState.run && sprite_index == spr_mach1))
-			machsnd = 1
+        {
+            machsnd = 1;
+            current_mach_sound = sndMach1;
+        }
 		else if ((saved_state == PlayerState.mach2 && sprite_index == spr_mach2) || (saved_state == PlayerState.run && movespeed < 12) || (saved_state == PlayerState.climbwall && verticalMovespeed < 12))
-			machsnd = 2
+        {
+            machsnd = 2;
+            current_mach_sound = sndMach2;
+        }
 		else if ((saved_state == PlayerState.mach3 && sprite_index != spr_crazyrun) || saved_state == PlayerState.run || (saved_state == PlayerState.climbwall && verticalMovespeed >= 12))
-			machsnd = 3
+        {
+            machsnd = 3;
+            current_mach_sound = sndMach3;
+        }
 		else if (sprite_index == spr_crazyrun)
-			machsnd = 4
-		
-		fmod_studio_event_instance_set_paused(sndMach, false)
-		fmod_studio_event_instance_set_parameter_by_name(sndMach, "state", machsnd, true)
+        {
+            machsnd = 4;
+            current_mach_sound = sndMach4;
+        }
+        
+        if (machsnd > 0 && !event_instance_isplaying(current_mach_sound))
+            fmod_studio_event_instance_start(current_mach_sound, true);
+        
+        if (event_instance_isplaying(sndMach1) && machsnd != 1)
+            fmod_studio_event_instance_stop(sndMach1, true);
+        
+        if (event_instance_isplaying(sndMach2) && machsnd != 2)
+            fmod_studio_event_instance_stop(sndMach2, true);
+        
+        if (event_instance_isplaying(sndMach3) && machsnd != 3)
+            fmod_studio_event_instance_stop(sndMach3, true);
+        
+        if (event_instance_isplaying(sndMach4) && machsnd != 4)
+            fmod_studio_event_instance_stop(sndMach4, true);
 	}
 	else
 	{
-		fmod_studio_event_instance_stop(sndMach, true)
+        fmod_studio_event_instance_stop(sndMach1, true);
+        fmod_studio_event_instance_stop(sndMach2, true);
+        fmod_studio_event_instance_stop(sndMach3, true);
+        fmod_studio_event_instance_stop(sndMach4, true);
 	}
 	
 	for (var i = 0; i < array_length(mySoundArray); i++)

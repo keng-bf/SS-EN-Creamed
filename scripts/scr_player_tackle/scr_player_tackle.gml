@@ -28,5 +28,5 @@ function state_player_tackle()
 		}
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.5
+	image_speed = 0.5
 }

@@ -2,7 +2,7 @@ with (obj_parent_player)
 {
 	if (other.image_yscale == 1)
 	{
-		if (((key_down && !place_meeting(x, y + 1, obj_destructibles) && place_meeting(x, y + 1, other.id) && (state == PlayerState.crouch || state == PlayerState.wallkick || state == PlayerState.machroll)) || ((state == PlayerState.freefall || state == PlayerState.freefallland) && !place_meeting(x, y + 1, obj_destructibles) && place_meeting(x, y + 1, other.id))) && !instance_exists(obj_fadeoutTransition) && state != PlayerState.door && state != PlayerState.comingoutdoor)
+		if (((key_down && !place_meeting(x, y + 1, obj_destructibles) && place_meeting(x, y + 1, other.id) && (state == PlayerState.crouch || state == PlayerState.wallkick || state == PlayerState.machroll || state == PlayerState.machcancel)) || ((state == PlayerState.freefall || state == PlayerState.freefallland) && !place_meeting(x, y + 1, obj_destructibles) && place_meeting(x, y + 1, other.id))) && !instance_exists(obj_fadeoutTransition) && state != PlayerState.door && state != PlayerState.comingoutdoor)
 		{
 			with (other)
 			{

@@ -14,7 +14,7 @@ with (other.id)
 			ds_list_clear(global.BaddieRoom)
 		}
 		
-		event_play_oneshot("event:/SFX/general/door")
+		event_play_oneshot(sfx_door)
 		obj_parent_player.targetDoor = other.targetDoor
 		obj_parent_player.targetRoom = other.targetRoom
 		obj_parent_player.hallway = true

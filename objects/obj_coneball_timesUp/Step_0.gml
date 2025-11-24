@@ -35,7 +35,6 @@ if (!noConeballRoom)
 			state = PlayerState.timesup
 			sprite_index = spr_Timesup
 			image_index = 0
-			event_play_oneshot("event:/music/timesup")
 		}
 		
 		instance_destroy()

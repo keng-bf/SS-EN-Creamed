@@ -76,7 +76,7 @@ function state_player_frostburnnormal()
 		vsp = -10
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 }
 
 function state_player_frostburnslide()
@@ -176,7 +176,7 @@ function state_player_frostburnslide()
 		}
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.5
+	image_speed = 0.5
 }
 
 function state_player_frostburnjump()
@@ -261,7 +261,7 @@ function state_player_frostburnjump()
 	}
 	else
 	{
-		image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+		image_speed = 0.35
 	}
 	
 	hsp = movespeed
@@ -317,7 +317,7 @@ function state_player_frostburnjump()
 			}
 			else
 			{
-				event_play_oneshot("event:/SFX/player/groundpound", x, y)
+				event_play_oneshot(sfx_groundpound, x, y)
 				image_index = 0
 				movespeed = 0
 				state = PlayerState.frostburnstick

@@ -2,7 +2,7 @@ function state_player_fireass()
 {
 	static fire_afterimage_timer = 7
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	alarm[5] = 2
 	alarm[7] = 60
 	
@@ -124,5 +124,5 @@ function state_player_fireassdash()
 		fire_afterimagetimer = 7
 	}
 	
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.4
+	image_speed = 0.4
 }

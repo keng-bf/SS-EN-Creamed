@@ -1,6 +1,6 @@
 function state_player_bottlerocket()
 {
-	image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+	image_speed = 0.35
 	move = key_left + key_right
 	move2 = key_up - key_down
 	
@@ -77,7 +77,7 @@ function state_player_bottlerocket()
 			if (sprite_animation_end())
 			{
 				movespeed = 12
-				image_speed = global.playerCharacter == Characters.Custom ? 1 : 0.35
+				image_speed = 0.35
 				sprite_index = spr_player_PZ_bottleRocket_normal
 			}
 		}

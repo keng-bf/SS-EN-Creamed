@@ -17,7 +17,7 @@ with (other.id)
 	
 	if (!instance_exists(obj_fadeoutTransition))
 	{
-		event_play_oneshot("event:/SFX/general/door")
+		event_play_oneshot(sfx_door)
 		instance_create(x, y, obj_fadeoutTransition)
 	}
 }

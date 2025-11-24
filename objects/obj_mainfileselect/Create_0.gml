@@ -3,7 +3,7 @@ video_close()
 selectedFile = 0
 activated = false
 fileSelectHeightRatio = [0, 0, 0]
-sndEmpty = fmod_createEventInstance("event:/SFX/fileselect/emptymenu")
+sndEmpty = fmod_createEventInstance(sfx_menuemptyfile, false)
 savePath = ["saveData1_EN.ini", "saveData2_EN.ini", "saveData3_EN.ini"]
 saves_idle = [spr_titlePizzelle_exhib1, spr_titlePizzelle_exhib2, spr_titlePizzelle_exhib3]
 saves_left = [spr_titlePizzelle_exhib1l, spr_titlePizzelle_exhib2l, spr_titlePizzelle_exhib3l]

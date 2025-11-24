@@ -5,7 +5,7 @@ optionSelection = clamp(optionSelection, 0, 1)
 
 if (optionSelection != old_selection)
 {
-	event_play_oneshot("event:/SFX/ui/step")
+	event_play_oneshot(sfx_step)
 	deleteFileBuffer = 0
 }
 
@@ -14,7 +14,7 @@ if (deleteFileBuffer >= deleteFileBufferMax)
 	camera_shake_add(4, 5)
 	global.ClassicCameraShake = 4
 	global.ClassicCameraShakeAcc = 5
-	event_play_oneshot("event:/SFX/general/explosion", 480, 270)
+	event_play_oneshot(sfx_explosion, 480, 270)
 	
 	with (obj_mainfileselect)
 	{
