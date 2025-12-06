@@ -351,22 +351,7 @@ function event_play_oneshot(arg0, arg1 = x, arg2 = y, arg3 = false, arg4 = 1)
     
     if (is_undefined(arg2))
         arg2 = y;
-    
-    if (arg0 == "event:/SFX/player/wallKickLand")
-    {
-        event_play_oneshot(skateboardland, arg1, arg2, arg3, arg4);
-        event_play_oneshot(playerstep, arg1, arg2, arg3, arg4);
-        event_play_oneshot(machcancelland, arg1, arg2, arg3, arg4);
-        exit;
-    }
-    
-    if (arg0 == "event:/SFX/player/fireass")
-    {
-        event_play_oneshot(Fireass, arg1, arg2, arg3, arg4);
-        event_play_oneshot(PizelleBossIntroScream, arg1, arg2, arg3, arg4);
-        exit;
-    }
-    
+		
     var sound_to_play = arg0;
     
     if (is_undefined(arg0) || arg0 == -1 || arg0 == -4)

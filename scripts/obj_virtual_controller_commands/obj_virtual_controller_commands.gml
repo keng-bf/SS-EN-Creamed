@@ -535,6 +535,15 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 		case "give prank":
 			sh_give_prank()
 			break
+		case "debugview":
+			toggle_debugView(!global.DebugVisuals)
+			break
+		case "debugview true":
+			toggle_debugView(true)
+			break
+		case "debugview false":
+			toggle_debugView(false)
+			break
 		case "showcollision":
 		case "showcollisions":
 			global.showcollisions = !global.showcollisions
@@ -544,61 +553,61 @@ function docommand(commandstring,silentcommand = false,is_trigger = false)
 		case "showcollisions true":
 			global.showcollisions = true
 			toggle_collision_function()
-		break
+			break
 		case "showcollision false":
 		case "showcollisions false":
 			global.showcollisions = false
 			toggle_collision_function()
-		break
+			break
 		case "hidetile":
 		case "hidetiles":
 			global.showtiles = false
 			show_tiles_function()
-		break
+			break
 		case "showtile":
 		case "showtiles":
 			global.showtiles = true
 			show_tiles_function()
-		break
+			break
 		case "toggletile":
 		case "toggletiles":
 			global.showtiles = !global.showtiles
 			show_tiles_function()
-		break
+			break
 		case "character pizzelle":
 		case "character PZ":
 			scr_player_changeCharacter(obj_parent_player, Characters.Pizzelle)
-		break
+			break
 		case "character pizzano":
 		case "character PN":
 			scr_player_changeCharacter(obj_parent_player, Characters.Pizzano)
-		break
+			break
 		case "character gumbob":
 		case "character GB":
 			scr_player_changeCharacter(obj_parent_player, Characters.Gumbob)
-		break
+			break
 		case "character coneboy":
 		case "character C":
 			scr_player_changeCharacter(obj_parent_player, Characters.Coneboy)
-		break
+			break
 		case "character peppino":
 		case "character PP":
 			scr_player_changeCharacter(obj_parent_player, Characters.Peppino)
-		break
+			break
 		case "character noise":
 		case "character N":
 			scr_player_changeCharacter(obj_parent_player, Characters.Noise)
-		break
+			break
 		case "character vigilante":
 		case "character V":
 			scr_player_changeCharacter(obj_parent_player, Characters.Vigilante)
-		break
+			break
 		case "togglebinds":
 			global.showbinds = !global.showbinds
-		break
+			break
 		case "help":
-			get_string_async("Available Commands: ","noclip, freeflight, give all, give prank,showcollisions <boolean>, panic <seconds>, hidetiles, showtiles, toggletiles, character <string>, instance_set_variable <obj_> <type> <variablename> <new value>,global_set_variable <type> <variablename> <new value>,spawn <obj_> <optional distance>, togglebinds,instance_set_variable_all <obj_> <type> <variablename> <new value>, exec <filename>, savecommand <commands>")
-		break
+			get_string_async("Available Commands: ","noclip, freeflight, give all, give prank, debugview <boolean>, showcollisions <boolean>, panic <seconds>, hidetiles, showtiles, toggletiles, character <string>, instance_set_variable <obj_> <type> <variablename> <new value>,global_set_variable <type> <variablename> <new value>,spawn <obj_> <optional distance>, togglebinds,instance_set_variable_all <obj_> <type> <variablename> <new value>, exec <filename>, savecommand <commands>")
+			break
 	}
 }
 

@@ -373,7 +373,7 @@
   ],
   "parent": {
     "name": "MOUNTAIN",
-    "path": "folders/Rooms/LEVEL/MOUNTAIN.yy",
+    "path": "folders/Rooms/LEVEL/SS W2/MOUNTAIN.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

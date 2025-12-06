@@ -318,7 +318,7 @@
   ],
   "parent": {
     "name": "STEAMY",
-    "path": "folders/Rooms/LEVEL/STEAMY.yy",
+    "path": "folders/Rooms/LEVEL/SS W1/STEAMY.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

@@ -264,7 +264,7 @@ function meta_lock_camera()
 function toggle_collision_function()
 {
 	if (!variable_global_exists("showcollisionarray"))
-		global.showcollisionarray = [obj_solid, obj_slope, obj_slopePlatform, obj_platform, obj_sidePlatform, obj_cameraRegion, obj_cottonplatform, obj_creamThiefGoTrigger, obj_creamThiefTurnTrigger, obj_creamThiefJumpTrigger, obj_creamThiefGrabTrigger, obj_creamThiefLoseTrigger, obj_creamThiefTauntTrigger, obj_creamThiefBIGJump, obj_secretdestroyable, obj_secretdestroyable_Point, obj_secretdestroyable_big, obj_secret_brainBlock, obj_secretdestroyable_bigPoint, obj_secretdestroyable_metal, obj_eventtrigger, obj_parent_doortrigger, obj_doorS, obj_doorA, obj_doorB, obj_doorC, obj_doorD, obj_doorE, obj_doorP, obj_grindRail, obj_grindRail_Slope, obj_minecartRail, obj_minecartRail_Slope, obj_hangRail, obj_gnomeTNTBlock, obj_cottonsolid, obj_dirtpatch]
+		global.showcollisionarray = [obj_solid, obj_slope, obj_slopePlatform, obj_platform, obj_sidePlatform, obj_cameraRegion, obj_cottonplatform, obj_creamThiefGoTrigger, obj_creamThiefTurnTrigger, obj_creamThiefJumpTrigger, obj_creamThiefGrabTrigger, obj_creamThiefLoseTrigger, obj_creamThiefTauntTrigger, obj_creamThiefBIGJump, obj_secretdestroyable, obj_secretdestroyable_Point, obj_secretdestroyable_big, obj_secret_brainBlock, obj_secretdestroyable_bigPoint, obj_secretdestroyable_metal, obj_eventtrigger, obj_parent_doortrigger, obj_doorS, obj_doorA, obj_doorB, obj_doorC, obj_doorD, obj_doorE, obj_doorF, obj_doorP, obj_grindRail, obj_grindRail_Slope, obj_minecartRail, obj_minecartRail_Slope, obj_hangRail, obj_gnomeTNTBlock, obj_cottonsolid, obj_dirtpatch]
 	
 	var array = global.showcollisionarray
 	var length = array_length(array)
@@ -407,7 +407,7 @@ function meta_room_goto()
 	{
 		description: "Changes current room.",
 		arguments: ["<room_id>", "<door>"],
-		suggestions: [global.RoomNameList, ["N/A", "A", "B", "C", "D", "E", "P", "S"]],
+		suggestions: [global.RoomNameList, ["N/A", "A", "B", "C", "D", "E", "F", "P", "S"]],
 		argumentDescriptions: ["targetRoom", "targetDoor"]
 	};
 }

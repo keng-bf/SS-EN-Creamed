@@ -10,6 +10,7 @@ global.vkeysgridmode = false
 global.vkeysgrid_size = 16
 global.colorvkeys = true
 global.playerCharacter = Characters.Pizzelle
+global.treasureroom = rm_missing
 var _permsarray = ["android.permission.READ_MEDIA_IMAGES", "android.permission.READ_MEDIA_VIDEO", "android.permission.READ_MEDIA_AUDIO", "android.permission.MANAGE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE"];
 
 if (os_type == os_android)

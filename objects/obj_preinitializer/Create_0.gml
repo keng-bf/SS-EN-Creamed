@@ -18,9 +18,6 @@ loadSpriteCount = sprite_get_number(spr_bodyloadbar) - 1
 imageIndexArray = array_create(loadSpriteCount + 1, 0)
 global.texturesToLoad = []
 global.loadedTextures = []
-global.modver = "1.1.1"
-global.newmodver = global.modver;
-fetch = http_get("https://pastebin.com/raw/TSsbz1vP")
 texture_debug_messages(true)
 
 enum PlayerState

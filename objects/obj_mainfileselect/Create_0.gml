@@ -2,6 +2,9 @@ depth = 10
 video_close()
 selectedFile = 0
 activated = false
+global.modver = "1.4.0"
+global.newmodver = global.modver;
+fetch = http_get("https://pastebin.com/raw/TSsbz1vP")
 fileSelectHeightRatio = [0, 0, 0]
 sndEmpty = fmod_createEventInstance(sfx_menuemptyfile, false)
 savePath = ["saveData1_EN.ini", "saveData2_EN.ini", "saveData3_EN.ini"]
@@ -84,3 +87,8 @@ mouseY = 0
 lineSteps = 1
 lineWidth = 5
 loaded = true
+
+if (global.modver != global.newmodver)
+{
+    show_message_async("V" + global.newmodver + " AVAILABLE");
+}

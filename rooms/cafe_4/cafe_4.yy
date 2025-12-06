@@ -198,7 +198,7 @@
   ],
   "parent": {
     "name": "CAFE",
-    "path": "folders/Rooms/LEVEL/CAFE.yy",
+    "path": "folders/Rooms/LEVEL/SS W2/CAFE.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

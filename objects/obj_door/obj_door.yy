@@ -12,8 +12,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Door",
+    "path": "folders/Objects/Door.yy",
   },
   "parentObjectId": {
     "name": "obj_parent_door",

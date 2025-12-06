@@ -17,7 +17,6 @@
     {"name":"inst_103372","path":"rooms/steamy_secret_1/steamy_secret_1.yy",},
     {"name":"inst_103373","path":"rooms/steamy_secret_1/steamy_secret_1.yy",},
     {"name":"inst_103374","path":"rooms/steamy_secret_1/steamy_secret_1.yy",},
-    {"name":"inst_103375","path":"rooms/steamy_secret_1/steamy_secret_1.yy",},
     {"name":"inst_103376","path":"rooms/steamy_secret_1/steamy_secret_1.yy",},
     {"name":"inst_103377","path":"rooms/steamy_secret_1/steamy_secret_1.yy",},
     {"name":"inst_103378","path":"rooms/steamy_secret_1/steamy_secret_1.yy",},
@@ -87,7 +86,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_103372","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cottonsolid","path":"objects/obj_cottonsolid/obj_cottonsolid.yy",},"properties":[],"rotation":0.0,"scaleX":30.0,"scaleY":20.0,"x":1824.0,"y":672.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_103373","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":3.000002,"scaleY":6.0,"x":1952.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_103374","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_candysona","path":"objects/obj_candysona/obj_candysona.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":2112.0,"y":463.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_103375","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cottoncreator","path":"objects/obj_cottoncreator/obj_cottoncreator.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":1969.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_103376","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cultist","path":"objects/obj_cultist/obj_cultist.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2528.0,"y":489.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_103377","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":1888.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_103378","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":1920.0,},
@@ -175,7 +173,7 @@
   ],
   "parent": {
     "name": "STEAMY",
-    "path": "folders/Rooms/LEVEL/STEAMY.yy",
+    "path": "folders/Rooms/LEVEL/SS W1/STEAMY.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

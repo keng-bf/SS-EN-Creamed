@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Fmod",
-    "path": "folders/Extensions/Fmod.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }

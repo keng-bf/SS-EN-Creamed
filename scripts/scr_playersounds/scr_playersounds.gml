@@ -14,7 +14,7 @@ function scr_playersounds_init()
     sndWallkick = fmod_createEventInstance(sfx_wallkick, false);
     sndWallkickCancel = fmod_createEventInstance(sfx_wallkickcancel, false);
 	sndWallkickStart = fmod_createEventInstance("event:/SFX/player/wallKickIntro")
-	sndWallkickLand = fmod_createEventInstance("event:/SFX/player/wallKickLand")
+	sndWallkickLand = fmod_createEventInstance(sfx_wallKickLand, false)
 	sndFreefall = fmod_createEventInstance("event:/SFX/player/freefall")
 	sndSuperjump = fmod_createEventInstance("event:/SFX/player/superjump")
 	sndSuperjumpRelease = fmod_createEventInstance("event:/SFX/player/superjumprelease")
@@ -22,13 +22,12 @@ function scr_playersounds_init()
 	sndTumble = fmod_createEventInstance("event:/SFX/player/tumble")
 	sndRoll = fmod_createEventInstance("event:/SFX/player/machroll")
 	sndGrind = fmod_createEventInstance("event:/SFX/player/grind")
-	sndFireass = fmod_createEventInstance("event:/SFX/player/fireass")
+	sndFireass = fmod_createEventInstance(sfx_fireass)
 	sndCrouchslide = fmod_createEventInstance("event:/SFX/player/crouchslide")
 	sndRollGetUp = fmod_createEventInstance("event:/SFX/player/rollgetup")
 	sndDive = fmod_createEventInstance("event:/SFX/player/dive")
 	sndMinecart = fmod_createEventInstance("event:/SFX/minecart/minecart")
 	sndMinecartJump = fmod_createEventInstance("event:/SFX/minecart/jump")
-	voiceScream = fmod_createEventInstance("event:/SFX/player/voice/scream")
     voiceCollect = fmod_createEventInstance(choose(PZvoice6, PZvoice10, PZvoice12), false);
     voiceTransfo = fmod_createEventInstance(choose(PZvoice7, PZvoice18, PZvoice19, PZvoice20, PZvoice22), false);
     voiceDetransfo = fmod_createEventInstance(choose(PZvoice7, PZvoice18, PZvoice19, PZvoice20, PZvoice22), false);
@@ -36,7 +35,7 @@ function scr_playersounds_init()
     voiceHurt = fmod_createEventInstance(choose(PZvoice14, PZvoice15, PZvoice16, PZvoice17), false);
 	transfoSound = undefined
 	oldTransfoSound = undefined
-	mySoundArray = [sndMach1, sndMach2, sndMach3, sndMach4, sndMachStart, sndSuplex, sndKungFu, sndGalloping, sndJump, sndWallkick, sndWallkickCancel, sndWallkickStart, sndWallkickLand, sndFreefall, sndSuperjump, sndSuperjumpRelease, sndCottonDigging, sndMinecart, sndTumble, sndRoll, sndGrind, sndFireass, sndCrouchslide, sndRollGetUp, sndDive, sndMinecart, sndMinecartJump, voiceScream, voiceCollect, voiceTransfo, voiceDetransfo, voiceIdle, voiceHurt]
+	mySoundArray = [sndMach1, sndMach2, sndMach3, sndMach4, sndMachStart, sndSuplex, sndKungFu, sndGalloping, sndJump, sndWallkick, sndWallkickCancel, sndWallkickStart, sndWallkickLand, sndFreefall, sndSuperjump, sndSuperjumpRelease, sndCottonDigging, sndMinecart, sndTumble, sndRoll, sndGrind, sndFireass, sndCrouchslide, sndRollGetUp, sndDive, sndMinecart, sndMinecartJump, voiceCollect, voiceTransfo, voiceDetransfo, voiceIdle, voiceHurt]
     
     for (var i = 0; i < array_length(mySoundArray); i++)
     {

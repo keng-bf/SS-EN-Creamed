@@ -151,13 +151,18 @@ function cutscene_secretPortal_start()
 		vsp = 0
 		sprite_index = spr_hurt
 		image_speed = 0.35
-		
 		switch (other.storedState)
 		{
 			case PlayerState.cotton:
 			case PlayerState.cottondrill:
 			case PlayerState.cottonroll:
 				sprite_index = spr_cottonDoubleJumpFall
+				break
+				
+			case PlayerState.frostburnnormal:
+			case PlayerState.frostburnjump:
+			case PlayerState.frostburnstick:
+				sprite_index = spr_player_PZ_frostburn_fall
 				break
 			
 			default:
@@ -321,6 +326,21 @@ function cutscene_secretPortal_end()
 			appearTimer = 110
 		}
 		
+		if instance_exists(obj_randomsecret)
+		{
+			switch room
+			{
+				case steamy_secret_1:
+				case steamy_secret_2:
+				case steamy_secret_3:
+					storedState = PlayerState.cotton
+					break
+		
+				default:
+					storedState = PlayerState.normal
+					break
+			}
+		}
 		switch (other.storedState)
 		{
 			case PlayerState.cotton:
@@ -333,6 +353,18 @@ function cutscene_secretPortal_end()
 				sprite_index = spr_cottonDoubleJumpFall
 				state = PlayerState.cotton
 				groundedCot = false
+				break
+			
+			case PlayerState.frostburnnormal:
+			case PlayerState.frostburnjump:
+			case PlayerState.frostburnstick:
+				movespeed = 0
+				hsp = 0
+				vsp = -5
+				state = PlayerState.frostburnjump
+				sprite_index = spr_player_PZ_frostburn_spin
+				flash = true
+				momentum = true
 				break
 			
 			default:

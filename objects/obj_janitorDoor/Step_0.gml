@@ -23,6 +23,7 @@ with (obj_parent_player)
 			exit
 		
 		image_index = 0
+		global.treasureroom = room
 		state = PlayerState.door
 		targetDoor = other.targetDoor
 		targetRoom = other.targetRoom

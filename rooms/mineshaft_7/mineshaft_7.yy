@@ -367,7 +367,7 @@
   ],
   "parent": {
     "name": "MINESHAFT",
-    "path": "folders/Rooms/LEVEL/MINESHAFT.yy",
+    "path": "folders/Rooms/LEVEL/SS W1/MINESHAFT.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

@@ -138,7 +138,7 @@
   ],
   "parent": {
     "name": "ENTRANCE",
-    "path": "folders/Rooms/LEVEL/ENTRANCE.yy",
+    "path": "folders/Rooms/LEVEL/PT W1/ENTRANCE.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
